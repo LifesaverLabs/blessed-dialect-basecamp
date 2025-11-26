@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        affirm: {
+          DEFAULT: "hsl(var(--affirm))",
+          foreground: "hsl(var(--affirm-foreground))",
+        },
+        dissent: {
+          DEFAULT: "hsl(var(--dissent))",
+          foreground: "hsl(var(--dissent-foreground))",
+        },
+        community: {
+          DEFAULT: "hsl(var(--community))",
+          foreground: "hsl(var(--community-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
