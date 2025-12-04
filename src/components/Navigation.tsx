@@ -3,7 +3,11 @@ import { BookOpen, MessageSquare, Info } from "lucide-react";
 
 export const Navigation = () => {
   return (
-    <nav className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+    <div className="sticky top-0 z-50">
+      <div className="bg-primary text-primary-foreground text-center py-1.5 text-sm font-medium">
+        🚧 Work in Progress — Blesséd Dialect is experimental and evolving
+      </div>
+      <nav className="border-b border-border bg-card/50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <NavLink to="/" className="flex items-center gap-2 text-xl font-semibold text-foreground hover:text-primary transition-colors">
@@ -40,6 +44,7 @@ export const Navigation = () => {
           </div>
         </div>
       </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
