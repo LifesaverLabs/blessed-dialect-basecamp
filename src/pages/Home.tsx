@@ -73,7 +73,7 @@ const Home = () => {
                   Community with emphasis on calm collaboration. The superscript 5 reminds us of the exponential power
                   of collective, peaceful,{" "}
                   <a href="https://en.wikipedia.org/wiki/Five_whys">
-                    <u>"five why"</u>
+                    "<u>five why</u>"
                   </a>{" "}
                   quality-questioning toward shared human goals.
                 </p>
