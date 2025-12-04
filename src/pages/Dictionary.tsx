@@ -126,7 +126,7 @@ const Dictionary = () => {
       </div>
 
       <Sheet open={!!selectedEntry} onOpenChange={(open) => !open && setSelectedEntry(null)}>
-        <SheetContent side="bottom" className="h-[85vh]">
+        <SheetContent side="bottom" className="h-[50vh]">
           {selectedEntry && (
             <>
               <SheetHeader>
