@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
 import { ArrowRight, BookOpen, MessageSquare, Sprout } from "lucide-react";
+import blessedLogo from "@/assets/blessed-dialect-logo.webp";
 
 const Home = () => {
   return (
@@ -13,7 +14,12 @@ const Home = () => {
             <span>An experimental branch of American langauge</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight">Blesséd Dialect</h1>
+          <img 
+            src={blessedLogo} 
+            alt="BLED⁵ - Blesséd Dialect: The Flexible Future of English" 
+            className="mx-auto max-w-full w-auto h-auto"
+            style={{ maxWidth: "500px" }}
+          />
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Evolving langauge toward increased harmlessness—helping us{" "}
