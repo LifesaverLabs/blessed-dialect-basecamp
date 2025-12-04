@@ -6,7 +6,7 @@ const About = () => {
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold">About Blessed Dialect</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">About Blesséd Dialect</h1>
           <p className="text-xl text-muted-foreground">
             An experimental branch of American language, evolving toward increased harmlessness
           </p>
@@ -16,7 +16,7 @@ const About = () => {
           <div className="bg-accent/20 p-6 rounded-lg border-l-4 border-accent">
             <p className="text-lg font-semibold mb-2">⚠️ Experimental & Unstable</p>
             <p className="text-muted-foreground">
-              Blessed Dialect is a <strong>b⁵leading edge</strong> language project. It can change rapidly when human
+              Blesséd Dialect is a <strong>b⁵leading edge</strong> language project. It can change rapidly when human
               needs appear. Not all language is well-tested when introduced—it just needs to show consensus promise of
               making a meaningful difference for longevity and harmlessness.
             </p>
@@ -25,14 +25,17 @@ const About = () => {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold">Our Origin Story</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Blessed Dialect emerged from a simple question:{" "}
+              Blesséd Dialect emerged from a simple question:{" "}
               <em>Can evolving our language help us live longer, healthier lives?</em> It's an extension of the "English
               for Humans" and "American for Humans" efforts—language that serves people first.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              "Blessed" is short for <strong>Borlaug Less Ed</strong>—the state we're working toward where everyone
+              "Blesséd" is short for <strong>Borlaug Less Ed</strong>—the state we're working toward where everyone
               reaches 100-120 years, and we can finally ease our intense focus on life preservation. Until then, we must{" "}
               <strong>Borlaug more</strong> together: evolve language, culture, and systems to reduce preventable death.
+              The name "Blesséd" also intentionally⁵ alludes to the French word for past tense "wounded",{" "}
+              <a href="https://www.wordreference.com/fren/blesser">blessé</a>. This is dedicated as a langauge for the
+              wounded to help recover from and prevent further injuries.
             </p>
           </div>
         </section>
