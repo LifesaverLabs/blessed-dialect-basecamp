@@ -31,7 +31,7 @@ const sampleProposals = [
     dissents: 7,
     comments: 23,
     status: "consensus-forming",
-    reasoning: "Strong support. Maintains legibility while adding respectful nuance. Aligns with Blessed dialect goals.",
+    reasoning: "Strong support. Maintains legibility while adding respectful nuance. Aligns with Blesséd dialect goals.",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const sampleProposals = [
     dissents: 2,
     comments: 34,
     status: "adopted",
-    reasoning: "Consensus reached. Term is now part of official Blessed dialect with clear definition in dictionary.",
+    reasoning: "Consensus reached. Term is now part of official Blesséd dialect with clear definition in dictionary.",
   },
 ];
 
@@ -92,7 +92,7 @@ const Forum = () => {
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold">Calmunity⁵ Forum</h1>
             <p className="text-lg text-muted-foreground">
-              Propose, discuss, affirm, and dissent on language evolution. Every voice shapes Blessed dialect.
+              Propose, discuss, affirm, and dissent on language evolution. Every voice shapes Blesséd dialect.
             </p>
           </div>
           
@@ -107,7 +107,7 @@ const Forum = () => {
               <DialogHeader>
                 <DialogTitle>Submit a New Proposal</DialogTitle>
                 <DialogDescription>
-                  Propose changes to Blessed dialect. Focus on language that helps us Borlaug more and increases harmlessness.
+                  Propose changes to Blesséd dialect. Focus on language that helps us Borlaug more and increases harmlessness.
                 </DialogDescription>
               </DialogHeader>
               <div className="space-y-4 pt-4">

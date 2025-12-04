@@ -7,7 +7,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <NavLink to="/" className="flex items-center gap-2 text-xl font-semibold text-foreground hover:text-primary transition-colors">
-            <span className="font-serif">Blessed Dialect</span>
+            <span className="font-serif">Blesséd Dialect</span>
           </NavLink>
           
           <div className="flex items-center gap-6">
