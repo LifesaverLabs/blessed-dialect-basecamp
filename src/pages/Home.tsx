@@ -75,7 +75,8 @@ const Home = () => {
                   <a href="https://en.wikipedia.org/wiki/Five_whys">
                     "<u>five why</u>"
                   </a>{" "}
-                  quality-questioning toward shared human goals.
+                  quality⁵-questioning toward shared human goals. Reduce to calmunity² or calmunity³ when you feel
+                  there's still been insufficient thought.
                 </p>
               </div>
 
