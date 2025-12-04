@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+# Blesséd Dialect Basecamp
 
-## Project info
+An experimental branch of American langauge, evolving toward increased harmlessness and human flourishing.
 
-**URL**: https://lovable.dev/projects/38e2f0f4-e2ef-4a19-a6ed-afc98097548e
+## What is Blesséd Dialect?
 
-## How can I edit this code?
+**Blesséd Dialect** is a B⁵leading edge langauge project—unstable, rapid, and consensus-driven. We're evolving langauge to help humanity reach deep wellbeing goals: specifically, helping everyone reach the 100 and 120 year milestones by the end of this century.
 
-There are several ways of editing your application.
+The name "Blesséd" is short for **Borlaug Less Ed**—the aspirational state when we've achieved sufficient longevity that we can focus less intensively on life preservation. Until then, we must **Borlaug more** together.
 
-**Use Lovable**
+## Core Concepts
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/38e2f0f4-e2ef-4a19-a6ed-afc98097548e) and start prompting.
+- **Borlaug** (verb) - To preserve and extend life, named after Norman Borlaug whose work saved a billion and growing
+- **Calmunity⁵** - Community with emphasis on calm collaboration and exponential collective power thru (through) steady, welcome "five why" questioning in calmunity⁵ life
+- **Blesséd / Borlaug Less Ed** - The finish line when everyone reaches longevity goals (100-120 years). We have no current plans to extend life any further past 120. At 120, the primary goal would be to turn toward the relief of Borlauging less, not more. All stories have a beginning, a middle, and an end. All life must come to an end.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+This is a React + TypeScript application built with Vite, shadcn-ui, and Tailwind CSS.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js & npm ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd blessed-dialect-basecamp
 
-# Step 3: Install the necessary dependencies.
+# Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run build:dev` - Build with development mode
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build locally
 
-**Use GitHub Codespaces**
+## Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Everyone is welcome here.** This calmunity⁵ thrives on diverse perspectives and collaborative evolution.
 
-## What technologies are used for this project?
+### Ways to Contribute
 
-This project is built with:
+- **Fork freely⁵** - This dialect belongs to everyone willing to help humans flourish
+- **Branch boldly** - Experiment with new langauge features and concepts
+- **Share openly** - Your ideas, whether polished or rough, help us evolve
+- **Question deeply** - Use your "five whys" to strengthen proposals
+- **Affirm generously** - Support changes that help us Borlaug more
+- **Dissent constructively** - Push back when proposals miss the mark
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Contribution Philosophy
 
-## How can I deploy this project?
+We're building langauge that serves life itself. No contribution is too small:
 
-Simply open [Lovable](https://lovable.dev/projects/38e2f0f4-e2ef-4a19-a6ed-afc98097548e) and click on Share -> Publish.
+- Add new terms to the dictionary
+- Refine existing definitions
+- Improve the user interface
+- Fix bugs or enhance performance
+- Propose new features in issues
+- Share feedback on existing proposals
+- Document your experiences using the dialect
 
-## Can I connect a custom domain to my Lovable project?
+**There are no gatekeepers here—only collaborators.** If you see a way to make this project better serve human wellbeing and longevity, please contribute.
 
-Yes, you can!
+### How to Contribute Code
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/your-idea`)
+3. Make your changes
+4. Commit with clear messages (`git commit -m "Add new longevity-focused term"`)
+5. Push to your fork (`git push origin feature/your-idea`)
+6. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Don't worry about perfection—we're all learning and evolving together.
+
+## Technology Stack
+
+- **Vite** - Lightning-fast build tool
+- **React 18** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **shadcn-ui** - Accessible component library
+- **Tailwind CSS** - Utility-first styling
+- **React Router** - Client-side routing
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+│   ├── ui/        # shadcn-ui components
+│   └── ...        # Custom components
+├── pages/         # Route pages (Home, Dictionary, Forum, About)
+├── hooks/         # Custom React hooks
+└── lib/           # Utility functions
+```
+
+## License
+
+This project is open source and available for anyone to use, modify, and distribute. The dialect itself is a collective effort—language belongs to those who speak it.
+
+## Our Mission
+
+Blesséd Dialect is an extension of "English for Humans" and "American for Humans"—language that prioritizes people over convention. Through your contributions, we shape langauge that helps us reach deep human wellbeing.
+
+**Our goal:** Help everyone reach 100 and 120 years by the end of this century through langauge evolution that reduces harm and extends life.
+
+## Get Involved
+
+- **Explore** the Dictionary to learn existing terms
+- **Join** the Forum to propose new langauge
+- **Read** the About page to understand our mission
+- **Contribute** code, ideas, or feedback—all are equally valuable
+
+## Governance
+
+Currently, editorial rights rest with the original Blesséd author. As our calmunity⁵ grows and diversifies, governance will evolve toward consensus and quorum management by an editorial board willing to morph langauge radically⁵ for human needs.
+
+---
+
+**Welcome to the bleeding B⁵leading edge.** Together, we're creating langauge that serves life itself. Your voice matters here. 🌱
+
+*This is experimental langauge evolution—unstable, rapid, consensus-driven. Changes happen when needs appear. Not all langauge is well-tested; it just needs to show promise.*
