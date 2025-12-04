@@ -1,0 +1,22 @@
+{
+  "phrases": [
+    {
+      "id": 7,
+      "term": "Borlaug more",
+      "letter": "B",
+      "definition": "The imperative to collectively work toward extending human lifespans and reducing preventable deaths. The active phase we're currently in, before reaching the Blessed stage."
+    },
+    {
+      "id": 8,
+      "term": "Borlaug Less Éd",
+      "letter": "B",
+      "definition": "Also 'Blesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we can reduce the intensity of life-preservation efforts. The goal we're working toward."
+    },
+    {
+      "id": 9,
+      "term": "sugar overload",
+      "letter": "S",
+      "definition": "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying langauge around health behaviors that impact longevity."
+    }
+  ]
+}

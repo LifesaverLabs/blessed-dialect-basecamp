@@ -8,7 +8,10 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "add-word": "node scripts/add-word.js",
+    "add-phrase": "node scripts/add-phrase.js",
+    "validate-dict": "node scripts/validate-dictionary.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

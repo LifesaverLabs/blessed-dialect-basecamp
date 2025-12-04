@@ -45,6 +45,9 @@ npm run dev
 - `npm run build:dev` - Build with development mode
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build locally
+- `npm run add-word` - Interactive CLI to add a new word to dictionary
+- `npm run add-phrase` - Interactive CLI to add a new phrase/idiom
+- `npm run validate-dict` - Validate dictionary data integrity
 
 ## Contributing
 
@@ -73,16 +76,22 @@ We're building langauge that serves life itself. No contribution is too small:
 
 **There are no gatekeepers here—only collaborators.** If you see a way to make this project better serve human wellbeing and longevity, please contribute.
 
-### How to Contribute Code
+### Adding Dictionary Entries
 
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/your-idea`)
-3. Make your changes
-4. Commit with clear messages (`git commit -m "Add new longevity-focused term"`)
-5. Push to your fork (`git push origin feature/your-idea`)
-6. Open a Pull Request
+We make it very easy⁵ to add words and phrases:
 
-Don't worry about perfection—we're all learning and evolving together.
+```bash
+# Add a new word interactively
+npm run add-word
+
+# Add a new phrase/idiom interactively
+npm run add-phrase
+
+# Validate your changes
+npm run validate-dict
+```
+
+For detailed contribution guidelines, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Technology Stack
 
