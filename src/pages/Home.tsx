@@ -114,7 +114,7 @@ const Home = () => {
               Currently, editorial rights rest with the original Blesséd author. As our calmunity⁵ grows and
               diversifies, governance will shift to{" "}
               <strong className="text-foreground">consensus and quorum management</strong>, guided by those willing to
-              morph language radically for human needs.
+              morph language radically⁵ for human needs.
             </p>
 
             <p className="text-sm italic border-l-4 border-primary pl-4 py-2">
