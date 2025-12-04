@@ -92,7 +92,7 @@ const Forum = () => {
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold">Calmunity⁵ Forum</h1>
             <p className="text-lg text-muted-foreground">
-              Propose, discuss, affirm, and dissent on language evolution. Every voice shapes Blesséd dialect.
+              Propose, discuss, affirm, and dissent on langauge evolution. Every voice shapes Blesséd dialect.
             </p>
           </div>
           
@@ -107,7 +107,7 @@ const Forum = () => {
               <DialogHeader>
                 <DialogTitle>Submit a New Proposal</DialogTitle>
                 <DialogDescription>
-                  Propose changes to Blesséd dialect. Focus on language that helps us Borlaug more and increases harmlessness.
+                  Propose changes to Blesséd dialect. Focus on langauge that helps us Borlaug more and increases harmlessness.
                 </DialogDescription>
               </DialogHeader>
               <div className="space-y-4 pt-4">
@@ -124,7 +124,7 @@ const Forum = () => {
                   <Label htmlFor="content">Proposal Content</Label>
                   <Textarea
                     id="content"
-                    placeholder="Describe your proposal in detail. Why does this language change help us reach our goals?"
+                    placeholder="Describe your proposal in detail. Why does this langauge change help us reach our goals?"
                     rows={6}
                     value={newProposal.content}
                     onChange={(e) => setNewProposal({ ...newProposal, content: e.target.value })}
@@ -204,7 +204,7 @@ const Forum = () => {
             <li><strong className="text-foreground">Comment:</strong> Offer constructive feedback, alternatives, or refinements</li>
           </ul>
           <p className="text-sm text-muted-foreground italic mt-4">
-            Remember: We're building consensus toward language that serves human flourishing. Respectful disagreement strengthens our calmunity⁵.
+            Remember: We're building consensus toward langauge that serves human flourishing. Respectful disagreement strengthens our calmunity⁵.
           </p>
         </div>
       </div>

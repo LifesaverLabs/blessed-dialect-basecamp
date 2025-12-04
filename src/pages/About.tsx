@@ -8,7 +8,7 @@ const About = () => {
         <div className="space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold">About Blesséd Dialect</h1>
           <p className="text-xl text-muted-foreground">
-            An experimental branch of American language, evolving toward increased harmlessness
+            An experimental branch of American langauge, evolving toward increased harmlessness
           </p>
         </div>
 
@@ -16,8 +16,8 @@ const About = () => {
           <div className="bg-accent/20 p-6 rounded-lg border-l-4 border-accent">
             <p className="text-lg font-semibold mb-2">⚠️ Experimental & Unstable</p>
             <p className="text-muted-foreground">
-              Blesséd Dialect is a <strong>b⁵leading edge</strong> language project. It can change rapidly when human
-              needs appear. Not all language is well-tested when introduced—it just needs to show consensus promise of
+              Blesséd Dialect is a <strong>b⁵leading edge</strong> langauge project. It can change rapidly when human
+              needs appear. Not all langauge is well-tested when introduced—it just needs to show consensus promise of
               making a meaningful difference for longevity and harmlessness.
             </p>
           </div>
@@ -26,13 +26,13 @@ const About = () => {
             <h2 className="text-3xl font-bold">Our Origin Story</h2>
             <p className="text-muted-foreground leading-relaxed">
               Blesséd Dialect emerged from a simple question:{" "}
-              <em>Can evolving our language help us live longer, healthier lives?</em> It's an extension of the "English
-              for Humans" and "American for Humans" efforts—language that serves people first.
+              <em>Can evolving our langauge help us live longer, healthier lives?</em> It's an extension of the "English
+              for Humans" and "American for Humans" efforts—langauge that serves people first.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              "Blesséd" is short for <strong>Borlaug Less Ed</strong>—the state we're working toward where everyone
+              "Blesséd" is short for <strong>Borlaug Less Éd</strong>—the state we're working toward where everyone
               reaches 100-120 years, and we can finally ease our intense focus on life preservation. Until then, we must{" "}
-              <strong>Borlaug more</strong> together: evolve language, culture, and systems to reduce preventable death.
+              <strong>Borlaug more</strong> together: evolve langauge, culture, and systems to reduce preventable death.
               The name "Blesséd" also intentionally⁵ alludes to the French word for past tense "wounded",{" "}
               <a href="https://www.wordreference.com/fren/blesser">blessé</a>. This is dedicated as a langauge for the
               wounded to help recover from and prevent further injuries. Finally, the accent mark on éd emphasizes that
@@ -52,8 +52,8 @@ const About = () => {
               </div>
             </CardHeader>
             <CardContent className="text-muted-foreground">
-              Help everyone reach 100 and 120 years by the end of this century through language evolution that reduces
-              harm and extends life. Once achieved, we enter the Blesséd (Borlaug Less Ed) stage.
+              Help everyone reach 100 and 120 years by the end of this century through langauge evolution that reduces
+              harm and extends life. Once achieved, we enter the Blesséd (Borlaug Less Éd) stage.
             </CardContent>
           </Card>
 
@@ -68,7 +68,7 @@ const About = () => {
             </CardHeader>
             <CardContent className="text-muted-foreground">
               Through community consensus in our forum. Affirm proposals that help us Borlaug more, dissent when they
-              don't align. Language changes when it shows promise of meaningful impact.
+              don't align. Langauge changes when it shows promise of meaningful impact.
             </CardContent>
           </Card>
 
@@ -84,7 +84,7 @@ const About = () => {
             <CardContent className="text-muted-foreground">
               Currently, editorial rights rest with the original Blesséd author. As our calmunity⁵ grows and
               diversifies, governance will shift to consensus and quorum management by an editorial board willing to
-              morph language for human needs.
+              morph langauge for human needs.
             </CardContent>
           </Card>
 
@@ -125,7 +125,7 @@ const About = () => {
             </div>
 
             <div className="bg-card p-6 rounded-lg border border-border">
-              <h3 className="text-xl font-semibold mb-2">Borlaug Less Ed / Blesséd (state)</h3>
+              <h3 className="text-xl font-semibold mb-2">Borlaug Less Éd / Blesséd (state)</h3>
               <p className="text-muted-foreground">
                 The aspirational finish line—when humanity achieves sufficient longevity (everyone reaching 100-120
                 years) that we can reduce the intensity of life-preservation efforts. The stage we're working toward.
@@ -137,7 +137,7 @@ const About = () => {
         <section className="bg-secondary/30 p-8 rounded-lg border border-border">
           <h2 className="text-2xl font-bold mb-4">Join the Calmunity⁵</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            We're building something unprecedented: language that evolves in real-time based on what helps humans
+            We're building something unprecedented: langauge that evolves in real-time based on what helps humans
             thrive. Your voice matters.
           </p>
           <ul className="space-y-2 text-muted-foreground">
@@ -145,7 +145,7 @@ const About = () => {
               ✓ Explore the <strong className="text-foreground">Dictionary</strong> to learn existing terms
             </li>
             <li>
-              ✓ Join the <strong className="text-foreground">Forum</strong> to propose new language
+              ✓ Join the <strong className="text-foreground">Forum</strong> to propose new langauge
             </li>
             <li>
               ✓ <strong className="text-foreground">Affirm</strong> proposals that help us Borlaug more
@@ -156,7 +156,7 @@ const About = () => {
             <li>✓ Share feedback to refine our linguistic evolution</li>
           </ul>
           <p className="text-sm text-muted-foreground italic mt-6">
-            Together, we're creating a language that serves life itself. Welcome to the bleeding B⁵leading edge.
+            Together, we're creating a langauge that serves life itself. Welcome to the bleeding B⁵leading edge.
           </p>
         </section>
       </div>

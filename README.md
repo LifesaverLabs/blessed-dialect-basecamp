@@ -6,13 +6,13 @@ An experimental branch of American langauge, evolving toward increased harmlessn
 
 **Blesséd Dialect** is a B⁵leading edge langauge project—unstable, rapid, and consensus-driven. We're evolving langauge to help humanity reach deep wellbeing goals: specifically, helping everyone reach the 100 and 120 year milestones by the end of this century.
 
-The name "Blesséd" is short for **Borlaug Less Ed**—the aspirational state when we've achieved sufficient longevity that we can focus less intensively on life preservation. Until then, we must **Borlaug more** together.
+The name "Blesséd" is short for **Borlaug Less Éd**—the aspirational state when we've achieved sufficient longevity that we can focus less intensively on life preservation. Until then, we must **Borlaug more** together.
 
 ## Core Concepts
 
 - **Borlaug** (verb) - To preserve and extend life, named after Norman Borlaug whose work saved a billion and growing
 - **Calmunity⁵** - Community with emphasis on calm collaboration and exponential collective power thru (through) steady, welcome "five why" questioning in calmunity⁵ life
-- **Blesséd / Borlaug Less Ed** - The finish line when everyone reaches longevity goals (100-120 years). We have no current plans to extend life any further past 120. At 120, the primary goal would be to turn toward the relief of Borlauging less, not more. All stories have a beginning, a middle, and an end. All life must come to an end.
+- **Blesséd / Borlaug Less Éd** - The finish line when everyone reaches longevity goals (100-120 years). We have no current plans to extend life any further past 120. At 120, the primary goal would be to turn toward the relief of Borlauging less, not more. All stories have a beginning, a middle, and an end. All life must come to an end.
 
 ## Getting Started
 

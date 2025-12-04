@@ -9,13 +9,16 @@ import { Search } from "lucide-react";
 const dictionaryData = {
   words: [
     { id: 1, term: "Borlaug", letter: "B", definition: "To preserve and extend life, especially human life. Named after Norman Borlaug, whose agricultural innovations saved billions from starvation. Usage: 'We must Borlaug more until everyone reaches their longevity potential.'" },
-    { id: 2, term: "Blesséd", letter: "B", definition: "Short for 'Borlaug Less Ed'—the aspirational state when humanity has achieved sufficient longevity that we can focus less intensively on life preservation. The finish line for the current phase of human struggle against premature death." },
-    { id: 3, term: "Calmunity", letter: "C", definition: "Community with intentional emphasis on calm, peaceful collaboration. The superscript 5 (calmunity⁵) represents exponential collective power through non-anxious cooperation toward shared human wellbeing goals." },
+    { id: 2, term: "B⁵lesséd", letter: "B", definition: "Short for 'Borlaug Less Éd'—the aspirational state when humanity has achieved sufficient longevity that we can focus less intensively on life preservation. The finish line for the current phase of human struggle against premature death." },
+    { id: 3, term: "calmunity", letter: "C", definition: "Community with intentional emphasis on calm, peaceful collaboration. The superscript 5 (calmunity⁵) represents exponential collective power through non-anxious cooperation toward shared human wellbeing goals." },
+    { id: 4, term: "langauge", letter: "L", definition: "A deliberate respelling of 'language'. Langauge is how our 'local area network' is 'gauged' or measured and understood. We're Sapir-Whorfists; by changing our langauge we can change what thots (thoughts) are regularly occurrent and recurrent. " },
+    { id: 5, term: "thot", letter: "T", definition: "A deliberate simplified spelling of 'thought'. There's a slur against women in American this is also intended to overright. " },
+    { id: 6, term: "y¹²³⁴⁵", letter: "Y", definition: "An incremental measure of how much thinking we self-assess or socially assess in a work of STEAM or calmunication. You can be supportive of a project by calling it a valuable calmunity⁵ contribution. You can also be self-critical or critical of a plan by saying it reflects a radically¹-limited view of the world. It's up to you how you thoughtfully⁵ label the world." },
   ],
   phrases: [
-    { id: 4, term: "Borlaug more", letter: "B", definition: "The imperative to collectively work toward extending human lifespans and reducing preventable deaths. The active phase we're currently in, before reaching the Blessed stage." },
-    { id: 5, term: "Borlaug Less Ed", letter: "B", definition: "Also 'Blesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we can reduce the intensity of life-preservation efforts. The goal we're working toward." },
-    { id: 6, term: "sugar overload", letter: "S", definition: "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying language around health behaviors that impact longevity." },
+    { id: 7, term: "Borlaug more", letter: "B", definition: "The imperative to collectively work toward extending human lifespans and reducing preventable deaths. The active phase we're currently in, before reaching the Blessed stage." },
+    { id: 8, term: "Borlaug Less Éd", letter: "B", definition: "Also 'Blesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we can reduce the intensity of life-preservation efforts. The goal we're working toward." },
+    { id: 9, term: "sugar overload", letter: "S", definition: "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying langauge around health behaviors that impact longevity." },
   ],
 };
 
@@ -46,7 +49,7 @@ const Dictionary = () => {
         <div className="space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold">Dictionary</h1>
           <p className="text-lg text-muted-foreground">
-            Explore words and phrases in Blesséd Dialect—evolving language for human flourishing.
+            Explore words and phrases in Blesséd Dialect—evolving langauge for human flourishing.
           </p>
           
           <div className="relative">
