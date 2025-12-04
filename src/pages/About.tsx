@@ -52,7 +52,7 @@ const About = () => {
             </CardHeader>
             <CardContent className="text-muted-foreground">
               Help everyone reach 100 and 120 years by the end of this century through language evolution that reduces
-              harm and extends life. Once achieved, we enter the Blessed (Borlaug Less Ed) stage.
+              harm and extends life. Once achieved, we enter the Blesséd (Borlaug Less Ed) stage.
             </CardContent>
           </Card>
 
@@ -81,7 +81,7 @@ const About = () => {
               </div>
             </CardHeader>
             <CardContent className="text-muted-foreground">
-              Currently, editorial rights rest with the original Blessed author. As our calmunity⁵ grows and
+              Currently, editorial rights rest with the original Blesséd author. As our calmunity⁵ grows and
               diversifies, governance will shift to consensus and quorum management by an editorial board willing to
               morph language for human needs.
             </CardContent>
@@ -97,7 +97,7 @@ const About = () => {
               </div>
             </CardHeader>
             <CardContent className="text-muted-foreground">
-              We strive to keep Blessed dialect legible to other English and American speakers whenever possible.
+              We strive to keep Blesséd dialect legible to other English and American speakers whenever possible.
               Radical changes must balance innovation with accessibility.
             </CardContent>
           </Card>
@@ -124,7 +124,7 @@ const About = () => {
             </div>
 
             <div className="bg-card p-6 rounded-lg border border-border">
-              <h3 className="text-xl font-semibold mb-2">Borlaug Less Ed / Blessed (state)</h3>
+              <h3 className="text-xl font-semibold mb-2">Borlaug Less Ed / Blesséd (state)</h3>
               <p className="text-muted-foreground">
                 The aspirational finish line—when humanity achieves sufficient longevity (everyone reaching 100-120
                 years) that we can reduce the intensity of life-preservation efforts. The stage we're working toward.

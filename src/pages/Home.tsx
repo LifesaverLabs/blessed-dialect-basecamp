@@ -14,7 +14,7 @@ const Home = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            Blessed Dialect
+            Blesséd Dialect
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -55,7 +55,7 @@ const Home = () => {
               </div>
               
               <div className="bg-card p-8 rounded-lg border border-border shadow-sm">
-                <h3 className="text-2xl font-semibold mb-4">Borlaug Less Ed (Blessed)</h3>
+                <h3 className="text-2xl font-semibold mb-4">Borlaug Less Ed (Blesséd)</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   The aspirational finish line—when everyone has reached longevity goals, we can focus less on preservation. We're still far from this stage, but it's the guiding vision.
                 </p>
@@ -86,7 +86,7 @@ const Home = () => {
           
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
             <p>
-              Blessed Dialect is an <strong className="text-foreground">experimental, unstable branch</strong> of American language, designed to evolve rapidly as human needs emerge. We're building a linguistic framework that prioritizes harmlessness and life extension.
+              Blesséd Dialect is an <strong className="text-foreground">experimental, unstable branch</strong> of American language, designed to evolve rapidly as human needs emerge. We're building a linguistic framework that prioritizes harmlessness and life extension.
             </p>
             
             <p>
@@ -94,11 +94,11 @@ const Home = () => {
             </p>
             
             <p>
-              Currently, editorial rights rest with the original Blessed author. As our calmunity⁵ grows and diversifies, governance will shift to <strong className="text-foreground">consensus and quorum management</strong>, guided by those willing to morph language radically for human needs.
+              Currently, editorial rights rest with the original Blesséd author. As our calmunity⁵ grows and diversifies, governance will shift to <strong className="text-foreground">consensus and quorum management</strong>, guided by those willing to morph language radically for human needs.
             </p>
             
             <p className="text-sm italic border-l-4 border-primary pl-4 py-2">
-              We aim to keep Blessed dialect legible to other English and American speakers whenever possible. This is an extension of English for Humans and American for Humans—language that serves people first.
+              We aim to keep Blesséd dialect legible to other English and American speakers whenever possible. This is an extension of English for Humans and American for Humans—language that serves people first.
             </p>
           </div>
         </div>
