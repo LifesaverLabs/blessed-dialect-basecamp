@@ -35,7 +35,8 @@ const About = () => {
               <strong>Borlaug more</strong> together: evolve language, culture, and systems to reduce preventable death.
               The name "Blesséd" also intentionally⁵ alludes to the French word for past tense "wounded",{" "}
               <a href="https://www.wordreference.com/fren/blesser">blessé</a>. This is dedicated as a langauge for the
-              wounded to help recover from and prevent further injuries.
+              wounded to help recover from and prevent further injuries. Finally, the accent mark on éd emphasizes that
+              our goal is to heighten, accelerate, and add thrust to calmunity⁵ éducation.
             </p>
           </div>
         </section>
