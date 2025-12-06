@@ -1,16 +1,22 @@
 {
   "words": [
     {
-      "id": 1,
-      "term": "Borlaug",
-      "letter": "B",
-      "definition": "To preserve and extend life, especially human life. Named after Norman Borlaug, whose agricultural innovations saved billions from starvation. Usage: 'We must Borlaug more until everyone reaches their longevity potential.'"
-    },
-    {
       "id": 2,
       "term": "B⁵lesséd",
       "letter": "B",
       "definition": "Short for 'Borlaug Less Éd'—the aspirational state when humanity has achieved sufficient longevity that we can focus less intensively on life preservation. The finish line for the current phase of human struggle against premature death."
+    },
+    {
+      "id": 11,
+      "term": "Bhārat (Endonym)",
+      "letter": "B",
+      "definition": "The true primary⁵ name of the country known as India in American and King's English Dialects. Blesséd Dialect aims to transition over to endonyms for all 201-206 independent states."
+    },
+    {
+      "id": 1,
+      "term": "Borlaug",
+      "letter": "B",
+      "definition": "To preserve and extend life, especially human life. Named after Norman Borlaug, whose agricultural innovations saved billions from starvation. Usage: 'We must Borlaug more until everyone reaches their longevity potential.'"
     },
     {
       "id": 3,
@@ -35,6 +41,12 @@
       "term": "y¹²³⁴⁵",
       "letter": "Y",
       "definition": "An incremental measure of how much thinking we self-assess or socially assess in a work of STEAM or calmunication. You can be supportive of a project by calling it a valuable calmunity⁵ contribution. You can also be self-critical or critical of a plan by saying it reflects a radically¹-limited view of the world. It's up to you how thoughtfully⁵ label the world."
+    },
+    {
+      "id": 10,
+      "term": "Zhōnghuá (Endonym)",
+      "letter": "Z",
+      "definition": "The true primary⁵ name of the country known as China in American and King's English Dialects. Blesséd Dialect aims to transition over to endonyms for all 201-206 independent states with permanent population, defined borders, a functioning government, and independence in practice—even if not universally recognized, like Kosovës and Zhōnghuá Mínguó."
     }
   ]
 }
