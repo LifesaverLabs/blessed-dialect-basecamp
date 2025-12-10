@@ -14,7 +14,9 @@
 
 ## Adding Dictionary Entries
 
-We have **two easy⁵ ways** to add words and phrases to the dictionary:
+We have **two easy⁵ ways** to add words and phrases to the dictionary.
+
+**Need inspiration?** Check the [backlog of terms needing documentation](quick_notes/need-documenting.md)—a living list of Blesséd Dialect words and phrases that have been identified but not yet formally added to the dictionary. This includes terms ranging from safety terminology (krashless, semmelweis) to calendar systems (Cleanday/Gymday) to social concepts (civigion, calmpatriot) and much more. Pick any term that resonates with you and help document it!
 
 ### Method 1: Interactive CLI Scripts (Easiest)
 

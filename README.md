@@ -91,6 +91,8 @@ npm run add-phrase
 npm run validate-dict
 ```
 
+**Looking for ideas?** See the [backlog of terms needing documentation](quick_notes/need-documenting.md) for words and phrases that have been identified but not yet added to the dictionary.
+
 For detailed contribution guidelines, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Technology Stack
