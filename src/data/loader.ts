@@ -4,6 +4,7 @@ import keyboardLayoutsData from "./dictionary/keyboard-layouts.json";
 import {
   validateDictionaryData,
   validateKeyboardLayouts,
+  migrateEntry,
   type DictionaryEntry,
   type KeyboardLayout,
 } from "./schema";
@@ -19,7 +20,15 @@ export function loadDictionaryData() {
   }
 
   try {
-    cachedData = validateDictionaryData(wordsData, phrasesData);
+    // Auto-migrate entries on load if they use old schema
+    const migratedWordsData = {
+      words: (wordsData as any).words.map(migrateEntry),
+    };
+    const migratedPhrasesData = {
+      phrases: (phrasesData as any).phrases.map(migrateEntry),
+    };
+
+    cachedData = validateDictionaryData(migratedWordsData, migratedPhrasesData);
     return cachedData;
   } catch (error) {
     console.error("Dictionary data validation failed:", error);

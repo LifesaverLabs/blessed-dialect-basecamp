@@ -57,9 +57,10 @@ const DictionaryEntrySchema = z.object({
   letter: z.string().length(1).regex(/[A-Z]/),
 
   // Dual definition system - Rosetta Stone approach
-  // Both definitions are required to support bidirectional learning
-  definitionStandard: z.string().min(1), // American Standard English definition
-  definitionDialect: z.string().min(1), // Blesséd Dialekt definition (may be same as standard, or reveal deeper meaning)
+  // TODO: Make these REQUIRED (remove .optional()) once all existing entries are migrated
+  // See TODO.md for migration tracking
+  definitionStandard: z.string().min(1).optional(), // American Standard English definition
+  definitionDialect: z.string().min(1).optional(), // Blesséd Dialekt definition (may be same as standard, or reveal deeper meaning)
 
   // Usage examples - show the word in action
   usageExamples: z.array(UsageExampleSchema).optional(),
