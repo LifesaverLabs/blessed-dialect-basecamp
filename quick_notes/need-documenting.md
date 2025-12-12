@@ -1,5 +1,14 @@
 Words / Phrases that need documenting ASAP, when time becomes available
 ========================================================================
+
+✅ **COMPLETED 02024-12月12**: Dual definition system implemented!
+The dictionary schema now supports both American Standard and Blesséd Dialekt definitions side-by-side (Rosetta Stone approach), plus usage examples and harm reduction notes. See:
+- [SCHEMA_EXPANSION_SUMMARY.md](../SCHEMA_EXPANSION_SUMMARY.md)
+- [MIGRATION_GUIDE.md](../MIGRATION_GUIDE.md)
+- [EXAMPLE_ENTRY.md](../EXAMPLE_ENTRY.md)
+
+Note: Original concern about self-referentiality has been addressed through the dual-definition system. Each entry can now provide clarity in both American Standard (for bootstrapping) and Blesséd Dialekt (for integrated usage).
+
 - krashless / kar
 - semmelweis and semmelweis wright, right, and rite
 - Blesséd number system
@@ -49,7 +58,7 @@ Words / Phrases that need documenting ASAP, when time becomes available
 - færtility⁵
 - Judeochrislamhai
 - HhAÆJers / HhAÆCers / HhAÆIers / ReHhAÆBers
-- KB (knowledge base ⇌ keyboard schema lock)
+- ✅ KB (knowledge base ⇌ keyboard schema lock) - **COMPLETED 02024-12月12**: Keyboard Layout (KB) system implemented with versioning, known issues tracking, and integration with Knowledge Base. See [DICTIONARY_SYSTEM.md - Keyboard Layouts section](../DICTIONARY_SYSTEM.md#keyboard-layouts-kb-system)
 - Laboratory (State / City⁵)
 - CALM
 - Calm⁴UNism
@@ -88,9 +97,11 @@ Words / Phrases that need documenting ASAP, when time becomes available
 - Re:ward - A more calmpleat representation of the American or King's English notion of reward. A re:ward may be a primary or secondary operant conditioner like the primary reinforces like food, steep, or even ecstatic sexual intimacy⁵, but it might also be fungible monies and budgets as a secondary operant conditioner, or interpersonal re:guard, civigious or religiously principled virtue and conscience discharge as its own re:ward, or a change in the "ward" you're scoped to be privileged to serve within. For many of us, the greatest possible re:ward is being able to serve more in either a similar or different service ward, whether that's within our family⁵ or across families, within the tite boundaries of our town, where we might be able to make the most impakt, or across those borders and boundaries, if teknology⁵ trees help re:ward us like so.
 - steep: bodybrain steepening sleep. Just as tea steeps given time to rest, our bodies require a significant amount of steepening overnight. Pulling allnighters in skool is a violation of steep; it corrodes and undermines the very thing that you're seeking to attain, consolidated, steepened conscientious knowledge and wisdom. And failing to steep kills so many persons on the road from fatigued driving. While so many of us routinely do it, it's difficult at population skale to morally justify⁵ driving under a certain number of hours of steep. Sleep deprivation is a very dangerous health and safety⁵ risk. I at least hope for a more Blesséd balance of time commuting or at work versus time spent in hi-quality⁵ steep as automation progresses and a 32 hour workweek becalms more acceptably⁵ approvable and feasible in non-race industries (not in student edukation for instance).
 - designer (Buckminster Fuller definition: A designer is an emerging synthesis of artist, inventor, mechanic, objective economist and evolutionary strategist.)
-- Long Now Years: 02025 instead of 2025. We're going to be around for the long haul; let's make our dates reflect that by making room for the next 97,974 years until we reach year 99999.
-- Unambiguous dates: There are 144 days a year where MM-DD and DD-MM can get confused — all combinationts from 1-12 (1-1 to 12-12). That's superconfusing across MM-DD regions and DD-MM regions, and then add to that the variable placement of the YYYYY, which can add to the confusion in placement of certain YY shorthanded contractions. There's one other consideration on the year placement, which is whether it makes filename sorting easy on computer file systems; running YYYYY-MM月DD is much easier to sort on existing file systems than burning calculations on the "reverse notation" of DD-MM月YYYYY. So, we correct ourselves in consideration of sorting and propose YYYYY-MM月DD (instead of our previous suggestion of DD-MM月YYYYY), using the 月 "month/moon" symbol from Pǔtōnghuà (Mandarin Chinese) to demarcate, with no ambiguity, what's the MM月DD compound. This way, you'll never be confused what 1-2-25 denotes; you won't have to ask "Is that 1st February or 2nd January?" You'll know from shorthand 25-1月2 or full-date 02025-1月2 what the _exact_ date is no matter where you stand in the world, no matter who you're talking to. If you've never suffered from this confusion, you've lived a very lucky life. The CALM KB has the 月 symbol at a quick chord Option-6 at the moment; whatever KB you use, you might want to integrate 月 within as easily accessible chord. My apologies for proposing the less-sortable "reverse notation" earlier today.
-
+- ✅ Long Now Years: 02025 instead of 2025 - **COMPLETED 02024-12月12**: Implemented as standard date format throughout the system. See [PROMPT.md - Date Format Convention](../PROMPT.md)
+- ✅ Unambiguous dates (YYYYY-MM月DD format) - **COMPLETED 02024-12月12**: Adopted as standard format with 月 character for unambiguous month designation. Big-endian ordering for sortability. See [PROMPT.md](../PROMPT.md)
+- Ackselerate / ackceptance: Emphasizes the "ack" in acknowledgement steps in protocols in information science. The colaborative process of speeding up action _tremendously⁵_ by engaging in two-way, clear proposition, acceptance, and verification of proposed or necessary⁵ action. It operates on a "trust but verify⁵" model, where coupled responsible actors — whether natural like life partners or grouped organizations — accept a goal, agree roughly on how that goal will be reached, pitches in to get it done, and then, after it's done or seems done, everyone checks the quality⁵ of what happened: ackseleration doesn't happen without calm, conscientious quality⁵ assurance together as part of the final "ack" step, acknowledging work well-done. 
+- KB: _K_nowledge _B_ase and _K_ey_b_oard. They're tightly⁵ interrelated. Our ideographic 
+- A word for exercise everywhere, anywhere, to gather incidental METs thru our flows in 
 
 Additional Stubs needing more basic klarifikation
 - Race (default: refuse to interpret this as skin- or ancestry-based, instead discern physical or industrial or electoral race; your race being your next 5K or sport calmpetition, your most urgent pursuit in family⁵ or interfamily⁵ at or around work, or the civigious or political calmunity⁵ race that you're most likely to race to help full-court press). For a long time, I wrote and represented my race as Congressional Race Ohio 18 (OH-18), a diminished virtual imaged and imaginary⁵ at-large district after Ohio's population fell to 17 House seats. Let's not acknowledge in Blesséd other forms of race. If you want to ask about skin-tone, kin ancestry or klan, that's another thing, that's not race, that's skin-deep or genetic origin questioning, not a reflection or acceptable stereotype or summary of Your kareactor. And if you want to be skin-deep, please try to use the IC codes Great Britain uses or another friction layer imposed between sight and stereotype to eliminate or slow stereotype and stereotype threat and measurable implicit biases.
