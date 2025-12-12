@@ -32,20 +32,73 @@ scripts/
 
 ⚠️ **This schema is meant to evolve!** See [CONTRIBUTING.md](CONTRIBUTING.md#️-fighting-schema-lock-evolve-the-structure-itself) for how to propose schema changes. We're fighting schema lock—if you need additional fields, speak up or just add them.
 
-### Current Schema (Minimal Starting Point)
+### Dictionary Entry Schema
 
 Each entry (word or phrase) has this structure:
 
 ```typescript
 {
+  // Core identifiers
   id: number;        // Unique across ALL entries (words + phrases)
   term: string;      // The word or phrase
   letter: string;    // Single uppercase letter A-Z for alphabetical grouping
-  definition: string; // Clear explanation with usage examples
+
+  // Dual definition system - Rosetta Stone approach
+  definitionStandard: string;  // American Standard English definition
+  definitionDialect: string;   // Blesséd Dialekt definition (reveals deeper meaning)
+
+  // Optional enrichment
+  usageExamples?: UsageExample[];        // Array of usage examples with context
+  harmReductionNotes?: HarmReductionNote[];  // Safety and context warnings (1:N)
+  etymology?: string;                    // Word origin and evolution
+  pronunciation?: string;                // How to pronounce (IPA or description)
+  crossReferences?: number[];            // IDs of related entries
+  intentionalityRating?: 1|2|3|4|5;     // How deliberate is usage (1=casual, 5=highly intentional)
+  dateAdded?: string;                    // ISO date: YYYYY-MM月DD
+  contributors?: string[];               // GitHub usernames or names
+  notes?: string;                        // Any additional notes
 }
 ```
 
-**Future considerations**: etymology, pronunciation, cross-references, harm reduction notes, intentionality⁵ ratings, usage examples as separate field, etc. Don't let the current schema limit your contributions.
+### Usage Example Structure
+
+```typescript
+{
+  context: string;      // Description of the situation
+  example: string;      // The actual usage example
+  translation?: string; // Optional American Standard English equivalent
+}
+```
+
+### Harm Reduction Note Structure
+
+Critical for safety and context. **1:N relationship** - one definition can have multiple harm reduction notes, each with multiple categories:
+
+```typescript
+{
+  categories: string[];  // Array of categories (at least one required)
+  note: string;         // The harm reduction guidance
+  severity?: "info" | "caution" | "warning" | "critical";
+}
+```
+
+**Harm Reduction Categories:**
+- `life_at_stake` - Physical safety, survival concerns
+- `tissue_at_stake` - Bodily harm, health concerns
+- `essential_liberty_at_stake` - Fundamental freedoms, autonomy
+- `social_kontrakt_at_stake` - Community bonds, trust, relationships
+- `property_at_stake` - Material resources, belongings
+- `trigger_warning` - Psychological safety
+- `context_required` - Needs situational understanding
+- `potential_misinterpretation` - Easily misunderstood
+- `power_dynamics` - Hierarchical or coercive implications
+- `cultural_sensitivity` - Cultural context matters
+- `reclaimed_term` - Term with complex history of reclamation
+- `other` - Other considerations
+
+### Backward Compatibility
+
+The old `definition` field is deprecated but still supported during migration. New entries should use `definitionStandard` and `definitionDialect` instead.
 
 ### Validation Rules
 
@@ -184,6 +237,108 @@ If you later need a database:
 5. Keep validation scripts for data quality
 
 The current system makes migration easy because data is already structured and validated.
+
+## Keyboard Layouts (KB) System
+
+### Overview
+
+The Knowledge Base (KB) requires symbolic keyboards to become thermodynamically stable. Without accessible symbols, kinetic calmunication⁵ faces enormous difficulty. This system manages keyboard layouts that are more symbolic and expressive than standard keyboards without losing core functionality.
+
+### KB Data Location
+
+```
+src/data/dictionary/
+└── keyboard-layouts.json  # All keyboard layout metadata
+```
+
+### Keyboard Layout Schema
+
+```typescript
+{
+  // Identification
+  id: string;              // Unique identifier (e.g., "calm-kb-v1")
+  name: string;            // Human-readable name
+  version: string;         // Semantic versioning (e.g., "1.0.0")
+  description: string;     // What this layout provides
+
+  // Repository and downloads
+  repoUrl: string;         // GitHub or other repo for debate and evolution
+  downloadUrl?: string;    // Direct download link
+  installInstructions?: string;
+
+  // Expressiveness ratings (1-10 scale)
+  symbolicExpressiveness: number;      // How expressive vs standard KB
+  coreFunctionalityRetained: number;   // How much standard functionality preserved
+
+  // Issues and tradeoffs
+  knownIssues?: KeyboardLayoutIssue[];  // Documented problems
+  tradeoffs?: string[];                 // General tradeoff descriptions
+
+  // Metadata
+  maintainers?: string[];
+  dateCreated?: string;    // Format: YYYYY-MM月DD
+  dateUpdated?: string;    // Format: YYYYY-MM月DD
+  license?: string;
+  tags?: string[];
+}
+```
+
+### Known Issue Structure
+
+Each KB can document known problems, warnings, and tradeoffs:
+
+```typescript
+{
+  category: string;         // Type of issue (see categories below)
+  description: string;      // Detailed explanation
+  severity: "minor" | "moderate" | "major" | "blocking";
+  affectedSystems?: string[];  // e.g., ["macOS", "Linux", "Windows"]
+  workaround?: string;      // How to mitigate the issue
+}
+```
+
+**Issue Categories:**
+- `terminal_function_keys` - Problems with F1-F12, etc. in terminal apps
+- `modifier_conflicts` - Issues with Ctrl, Alt, Cmd combinations
+- `unicode_support` - Character rendering issues
+- `application_compatibility` - Specific app conflicts
+- `accessibility` - Screen reader or accessibility tool issues
+- `performance` - Lag or responsiveness problems
+- `other` - Other considerations
+
+### KB Evolution and Versioning
+
+Keyboard layouts are **versionable** and **forkable**:
+
+1. Each KB links to a GitHub repository for community debate
+2. Version numbers follow semantic versioning (MAJOR.MINOR.PATCH)
+3. Contributors can fork and evolve layouts
+4. Issues and improvements are tracked via Git
+
+### Adding a New Keyboard Layout
+
+1. Create the keyboard layout files (platform-specific)
+2. Set up a Git repository for the layout
+3. Add entry to `src/data/dictionary/keyboard-layouts.json`
+4. Document known issues, tradeoffs, and workarounds
+5. Provide installation instructions
+6. Submit PR to include in the directory
+
+### Integration with Dictionary
+
+Keyboard layouts are **conjoint** to the Knowledge Base:
+- Without symbolic access, many terms cannot be expressed
+- Layouts enable the kinetic expression essential to Blesséd Dialekt
+- The relationship is bidirectional: dictionary defines symbols, KBs provide access
+
+### Home Page Features
+
+The home page will provide:
+- **KB Browser**: View all available keyboard layouts
+- **Comparison Tool**: Compare expressiveness vs functionality ratings
+- **Issue Warnings**: See known problems before downloading
+- **Download Links**: Direct access to layout files
+- **Evolution Timeline**: See how layouts develop over time
 
 ## Why This Approach?
 

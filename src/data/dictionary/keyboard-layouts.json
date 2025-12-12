@@ -1,0 +1,49 @@
+{
+  "layouts": [
+    {
+      "id": "calm-kb-v1",
+      "name": "CALM Keyboard Layout v1",
+      "version": "1.0.0",
+      "description": "A symbolic keyboard layout designed for expressive communication in Blesséd Dialekt. Prioritizes symbolic richness and kinetic expression while maintaining core typing functionality.",
+      "repoUrl": "https://github.com/lifesaverlabs/calm-keyboard",
+      "downloadUrl": "https://github.com/lifesaverlabs/calm-keyboard/releases/latest",
+      "installInstructions": "Download the .keylayout file for macOS, .klc for Windows, or .xkb for Linux. See repo README for detailed installation instructions per platform.",
+      "symbolicExpressiveness": 9,
+      "coreFunctionalityRetained": 7,
+      "knownIssues": [
+        {
+          "category": "terminal_function_keys",
+          "description": "Function keys (F1-F12) are remapped to symbolic characters, which conflicts with terminal applications that rely on these keys for shortcuts and commands. Terminal emulators may not recognize the new mappings.",
+          "severity": "major",
+          "affectedSystems": ["macOS", "Linux", "Windows"],
+          "workaround": "Use a separate keyboard profile for terminal work, or remap terminal shortcuts to alternative key combinations. Consider using Cmd/Ctrl+Number as alternative shortcuts."
+        },
+        {
+          "category": "modifier_conflicts",
+          "description": "Some Cmd+Shift combinations produce unexpected symbols due to the enhanced symbolic layer, which can interfere with application shortcuts.",
+          "severity": "moderate",
+          "affectedSystems": ["macOS"],
+          "workaround": "Customize application shortcuts to avoid conflicts, or use Option key combinations instead."
+        },
+        {
+          "category": "unicode_support",
+          "description": "Some terminal applications and older text editors may not properly render all symbolic characters, especially superscripts and mathematical symbols.",
+          "severity": "moderate",
+          "affectedSystems": ["Linux", "Windows"],
+          "workaround": "Use a terminal with full Unicode support (e.g., iTerm2, Windows Terminal, Alacritty). Ensure font supports extended Unicode ranges."
+        }
+      ],
+      "tradeoffs": [
+        "Reduced access to traditional function keys in exchange for symbolic expressiveness",
+        "Learning curve for new symbol positions",
+        "Potential compatibility issues with legacy software",
+        "May require adjustments to existing keyboard shortcuts and muscle memory"
+      ],
+      "maintainers": ["lifesaverlabs"],
+      "dateCreated": "02024-12月01",
+      "dateUpdated": "02024-12月12",
+      "license": "MIT",
+      "tags": ["symbolic", "expressive", "blessed-dialect", "v1"]
+    }
+  ]
+}
