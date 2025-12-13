@@ -34,11 +34,18 @@ async function main() {
     process.exit(1);
   }
 
-  const definition = await question('Definition: ');
-  if (!definition.trim()) {
-    console.error('❌ Definition cannot be empty');
+  console.log('\n📖 Dual Definition System (Rosetta Stone approach):');
+  console.log('   - Standard: American Standard English definition');
+  console.log('   - Dialect: Blesséd Dialekt definition (may reveal deeper meaning)\n');
+
+  const definitionStandard = await question('Definition (Standard English): ');
+  if (!definitionStandard.trim()) {
+    console.error('❌ Standard definition cannot be empty');
     process.exit(1);
   }
+
+  const definitionDialectInput = await question(`Definition (Blesséd Dialekt) [${definitionStandard.substring(0, 40)}...]: `);
+  const definitionDialect = definitionDialectInput.trim() || definitionStandard.trim();
 
   const suggestedLetter = getFirstLetter(term);
   const letterInput = await question(`Letter [${suggestedLetter}]: `);
@@ -67,7 +74,8 @@ async function main() {
     id: nextId,
     term: term.trim(),
     letter: letter,
-    definition: definition.trim(),
+    definitionStandard: definitionStandard.trim(),
+    definitionDialect: definitionDialect,
   };
 
   // Add to words array
@@ -86,7 +94,8 @@ async function main() {
   console.log(`   ID: ${nextId}`);
   console.log(`   Term: ${term}`);
   console.log(`   Letter: ${letter}`);
-  console.log(`   Definition: ${definition.substring(0, 60)}${definition.length > 60 ? '...' : ''}`);
+  console.log(`   Definition (Standard): ${definitionStandard.substring(0, 60)}${definitionStandard.length > 60 ? '...' : ''}`);
+  console.log(`   Definition (Dialect): ${definitionDialect.substring(0, 60)}${definitionDialect.length > 60 ? '...' : ''}`);
   console.log('\n💡 Run `npm run dev` to see your changes\n');
 
   rl.close();
