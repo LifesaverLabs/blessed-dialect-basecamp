@@ -31,12 +31,14 @@ git clone <YOUR_GIT_URL>
 # Navigate to the project directory
 cd blessed-dialect-basecamp
 
-# Install dependencies
+# Install dependencies (this also sets up git hooks automatically)
 npm i
 
 # Start the development server
 npm run dev
 ```
+
+**Note:** The `npm install` command automatically configures Git hooks that validate the dictionary before each commit, ensuring data integrity across all contributors.
 
 ### Available Scripts
 
@@ -45,9 +47,14 @@ npm run dev
 - `npm run build:dev` - Build with development mode
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build locally
+- `npm run test` - Run test suite
+- `npm run test:watch` - Run tests in watch mode
+- `npm run test:ui` - Run tests with UI
 - `npm run add-word` - Interactive CLI to add a new word to dictionary
 - `npm run add-phrase` - Interactive CLI to add a new phrase/idiom
 - `npm run validate-dict` - Validate dictionary data integrity
+- `npm run precommit` - Run all pre-commit checks manually
+- `npm run setup-hooks` - Manually setup Git hooks (runs automatically on install)
 
 ## Contributing
 
@@ -87,9 +94,16 @@ npm run add-word
 # Add a new phrase/idiom interactively
 npm run add-phrase
 
-# Validate your changes
+# Validate your changes (also runs automatically before commits)
 npm run validate-dict
 ```
+
+**Quality Assurance:** Comprehensive quality checks run automatically before every commit via Git hooks:
+- **Dictionary validation** ensures all entries are properly formatted
+- **Test suite** validates schema and data integrity
+- **Build check** confirms the application compiles without errors
+
+Contributors don't need to remember to run these manually—the system automatically validates everything before each commit.
 
 **Looking for ideas?** See the [backlog of terms needing documentation](quick_notes/need-documenting.md) for words and phrases that have been identified but not yet added to the dictionary.
 

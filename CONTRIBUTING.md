@@ -30,11 +30,13 @@ npm run add-phrase
 
 The scripts will prompt you for:
 - **Term**: The word or phrase
-- **Definition**: Clear explanation of meaning and usage
+- **Definition (Standard)**: American Standard English definition
+- **Definition (Dialect)**: Blesséd Dialekt definition (may be the same or reveal deeper meaning)
 - **Letter**: First letter for alphabetical organization (auto-suggested)
 
 The script automatically:
 - Assigns a unique ID
+- Uses the dual definition system (Rosetta Stone approach)
 - Validates your entry
 - Sorts entries alphabetically
 - Formats JSON consistently
@@ -53,7 +55,8 @@ If you prefer direct editing:
   "id": 10,
   "term": "your-term",
   "letter": "Y",
-  "definition": "Clear, concise definition with usage examples."
+  "definitionStandard": "American Standard English definition",
+  "definitionDialect": "Blesséd Dialekt definition (may be same or reveal deeper meaning)"
 }
 ```
 
@@ -62,11 +65,19 @@ If you prefer direct editing:
 - `term` cannot be empty
 - `letter` must be single uppercase A-Z
 - `letter` should match first letter of `term` (ignoring superscripts)
-- `definition` cannot be empty
+- `definitionStandard` and `definitionDialect` should both be provided (Rosetta Stone approach)
+
+**Optional fields** (see [schema.ts](src/data/schema.ts) for complete list):
+- `usageExamples` - Array of usage examples with context
+- `harmReductionNotes` - Safety and context information
+- `etymology` - Word origin and evolution
+- `pronunciation` - How to pronounce (IPA or description)
+- `crossReferences` - IDs of related entries
+- And more...
 
 ### Validation
 
-Before committing, validate your changes:
+**Automatic validation** runs before every commit via Git hooks, so you don't need to remember to validate manually. However, you can run it anytime:
 
 ```bash
 npm run validate-dict
@@ -77,18 +88,51 @@ This checks for:
 - Unique IDs across all entries
 - Letter matches term's first letter
 - Valid data types and formats
+- Proper dual definition schema usage
+- Optional fields are correctly formatted
+
+**Git Hook Protection:** When you try to commit, the pre-commit hook automatically runs three quality checks:
+1. Dictionary validation (schema and data integrity)
+2. Test suite (all automated tests must pass)
+3. Build validation (app must compile successfully)
+
+If any check fails, the commit is blocked until you fix the errors. This ensures code quality and data integrity across all contributors' machines.
 
 ## Development Workflow
 
 1. **Fork** this repository
 2. **Clone** your fork locally
-3. **Create a branch**: `git checkout -b feature/your-idea`
-4. **Make changes**: Add entries, fix bugs, improve features
-5. **Validate**: Run `npm run validate-dict`
+3. **Install dependencies**: `npm install` (automatically sets up Git hooks)
+4. **Create a branch**: `git checkout -b feature/your-idea`
+5. **Make changes**: Add entries, fix bugs, improve features
 6. **Test**: Run `npm run dev` to preview changes
-7. **Commit**: Use clear commit messages
+7. **Commit**: Use clear commit messages (validation runs automatically)
 8. **Push**: Push to your fork
 9. **Pull Request**: Open a PR to the main repo
+
+**Note:** The `npm install` command automatically configures Git hooks using `npm run setup-hooks`. If hooks aren't working, you can run this command manually.
+
+## Testing
+
+We use Vitest for testing. Tests run automatically before each commit, but you can also run them manually:
+
+```bash
+# Run tests once
+npm run test
+
+# Run tests in watch mode (auto-rerun on changes)
+npm run test:watch
+
+# Run tests with UI
+npm run test:ui
+```
+
+### Writing Tests
+
+- Place tests next to the code they test (e.g., `schema.test.ts` next to `schema.ts`)
+- Use descriptive test names that explain what's being tested
+- Test both success and failure cases
+- Keep tests focused and independent
 
 ## Code Style
 
@@ -96,6 +140,7 @@ This checks for:
 - Follow existing formatting patterns
 - Run `npm run lint` before committing
 - Keep code readable and well-commented
+- Write tests for new features and bug fixes
 
 ## Dictionary Content Guidelines
 
