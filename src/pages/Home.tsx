@@ -14,9 +14,9 @@ const Home = () => {
             <span>An experimental branch of American langauge</span>
           </div>
 
-          <img 
-            src={blessedLogo} 
-            alt="BLED⁵ - Blesséd Dialect: The Flexible Future of English" 
+          <img
+            src={blessedLogo}
+            alt="BLED⁵ - Blesséd Dialect: The Flexible Future of English"
             className="mx-auto max-w-full w-auto h-auto"
             style={{ maxWidth: "500px" }}
           />
@@ -49,14 +49,14 @@ const Home = () => {
           </div>
 
           <div className="pt-6 border-t border-border/50 mt-2">
-            <a 
-              href="https://github.com/LifesaverLabs/blessed-dialect-basecamp/blob/develop/quick_notes/need-documenting.md" 
-              target="_blank" 
+            <a
+              href="https://github.com/LifesaverLabs/blessed-dialect-basecamp/blob/develop/quick_notes/need-documenting.md"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-foreground">
                 <FileText className="w-4 h-4" />
-                Initial Author Backlog
+                Initial Authors Backlog
               </Button>
             </a>
             <p className="text-sm text-muted-foreground mt-2 max-w-md mx-auto">
