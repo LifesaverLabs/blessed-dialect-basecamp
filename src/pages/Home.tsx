@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { ArrowRight, BookOpen, MessageSquare, Sprout } from "lucide-react";
+import { ArrowRight, BookOpen, MessageSquare, Sprout, FileText } from "lucide-react";
 import blessedLogo from "@/assets/blessed-dialect-logo.webp";
 
 const Home = () => {
@@ -46,6 +46,22 @@ const Home = () => {
                 Join Forum
               </Button>
             </NavLink>
+          </div>
+
+          <div className="pt-6 border-t border-border/50 mt-2">
+            <a 
+              href="https://github.com/LifesaverLabs/blessed-dialect-basecamp/blob/develop/quick_notes/need-documenting.md" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-foreground">
+                <FileText className="w-4 h-4" />
+                Initial Author Backlog
+              </Button>
+            </a>
+            <p className="text-sm text-muted-foreground mt-2 max-w-md mx-auto">
+              A large backlog of critical terms awaiting full incorporation into the Digital Dictionary⁵.
+            </p>
           </div>
         </div>
       </section>
