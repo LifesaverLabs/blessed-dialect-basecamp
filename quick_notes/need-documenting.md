@@ -1,16 +1,6 @@
 Words / Phrases that need documenting ASAP, when time becomes available
 ========================================================================
 
-✅ **COMPLETED 02024-12月12**: Dual definition system implemented!
-The dictionary schema now supports both American Standard and Blesséd Dialekt definitions side-by-side (Rosetta Stone approach), plus usage examples and harm reduction notes. See:
-- [SCHEMA_EXPANSION_SUMMARY.md](../SCHEMA_EXPANSION_SUMMARY.md)
-- [MIGRATION_GUIDE.md](../MIGRATION_GUIDE.md)
-- [EXAMPLE_ENTRY.md](../EXAMPLE_ENTRY.md)
-
-Note: Original concern about self-referentiality has been addressed through the dual-definition system. Each entry can now provide clarity in both American Standard (for bootstrapping) and Blesséd Dialekt (for integrated usage).
-
-
-- Develop a "See also" if it doesn't exist yet. I think there's a "reference" model in place, check if that meets needs and is included in word and phrase entry scripts.
 - "Good, better, best": A childhood rhyme. The traditional version can be improved: instead of the original, teach instead "Good, better, best: Never let them rest. Until the better get [better](https://www.goodreads.com/book/show/213233.Better) and the good get best." In Blesséd, we want others and our core, inners, outers, and family⁵ to launch past our achievement, performance, and happiness levels calmpetitively⁵. Rising tides raise all boats; let's make the better better and the good best. It's a natural motto for humans.
 - Nomients / Autonomes: Terms to represent the increasingly surpassingly autonomous species of nomic intelligence emerging on Earth destined, in our view, to inherit all of Mars.
 - Calment line: The age at which one has reached or surpassed the age of Jeanne Calment, the most elderly human in modern times verified by modern records, and likely the oldest person to have lived in the last 1,000 years, at least. Crossing this line comes with a proposed loss of voting rights and carries steep risks to worldwide intergenerational færtility⁵, especially as the United Nations continues to greatly underestimate the population explosion that biotechnologists are predicting with endless aggregating explosions in effective healthy modifiable lifespan in the next 50 to 100 to 250 years (see, for example, the work and dedication of the Methusaleh Foundation) without a groundwork of Calment line reasoning. Part of the notion of Blesséd is that there is a point at which we can rest from Borlauging; that there comes a point with lifespan where enough is enuf. The Calment line is what is proposed for what is enuf. There is an enormous amount of Borlauging need between here and there but the duty to overclock for human life is not uncapped or without limit. (Semi-Utopian)
@@ -189,3 +179,16 @@ Additional Stubs needing more basic klarifikation
 
 Needs Development
 - Newsletter and alerts for valuable languistic harm reductions that get proposed and adopted; it's not functional to expect people to keep polling to check the dictionary⁵; it should push out to them if they subscribe to languistic change
+
+Progress Notes
+
+✅ **COMPLETED 02024-12月12**: Dual definition system implemented!
+The dictionary schema now supports both American Standard and Blesséd Dialekt definitions side-by-side (Rosetta Stone approach), plus usage examples and harm reduction notes. See:
+- [SCHEMA_EXPANSION_SUMMARY.md](../SCHEMA_EXPANSION_SUMMARY.md)
+- [MIGRATION_GUIDE.md](../MIGRATION_GUIDE.md)
+- [EXAMPLE_ENTRY.md](../EXAMPLE_ENTRY.md)
+
+Note: Original concern about self-referentiality has been addressed through the dual-definition system. Each entry can now provide clarity in both American Standard (for bootstrapping) and Blesséd Dialekt (for integrated usage).
+
+
+- Develop a "See also" if it doesn't exist yet. I think there's a "reference" model in place, check if that meets needs and is included in word and phrase entry scripts.
