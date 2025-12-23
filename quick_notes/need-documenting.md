@@ -180,6 +180,7 @@ Religion and Philosophy
 - miracle (sociotechnical)
 - harmless arms
 - dualindiv (for conscience basis study⁵ and cross-coupled household responsibility⁵ and rights)
+- pleonexia
 
 
 Life Planning and Economics
@@ -204,12 +205,14 @@ Language and Expression
 - Ængineering (including social ængineering)
 - KB: _K_nowledge _B_ase and _K_ey_b_oard. They're tightly⁵ interrelated. Our ideographic
 - Feminist Yes!
+- herstory⁵ ⇋ history⁵
 
 
 Technology and AI
 -----------------
 
 - Nomients / Autonomes: Terms to represent the increasingly surpassingly autonomous species of nomic intelligence emerging on Earth destined, in our view, to inherit all of Mars.
+- Turk AI
 
 
 Additional Stubs needing more basic klarifikation
