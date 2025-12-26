@@ -7,21 +7,11 @@ Words / Phrases that need documenting ASAP, when time becomes available
 Blesséd Number System
 ---------------------
 
-- Blesséd number system
-    - sev instead of two-syllable seven
-    - ro instead of two-syllable zero, clearly distinguishable from the letter "O" (see logic of Crockford's Base 32)
-    - "d" or "t" (ty) [my pronunciation varies] in place of "ten" and tens place ("four-d-one" [fourdyone] / "four-t-one" [fourtyone])
-    - No irregularities between ones place numbers and tens place or any other leading numbers — not "fifty", fivedy or fivety; also not "thirty", threedy or threety instead.
-    - No irregularities in the elevens and teens (dyone/tyone = 11, dytwo/tytwo, dythree/tythree, etc. etc. up to dynine/tynine)
-    - Very open to other suggestions about how to wright these number words. I'd be very happy to write fourdyone as fourTone or fourDone, with the T or D denoting and separating the tens place helpfully⁵ visually⁵.
-    - "han" or "hun" for the two-syllable hundred. I prefer "han" over "hun" for this out of gratitude for the Han Zhongguoren (Chinese people), who came up with this beautifully simple foundational counting system I'm copying so heavily⁵ from
-    - "thou" instead of the two-syllable thousand
-    - "mill" instead of the three-syllable million (this I'm unsettled on, it's very up for debate)
-    - "bill" instead of the three-syllable billion (thhis I really like, because it maps to Calmunity⁵ Legislative Bills we coordinate influential incentives and sometimes, when strictly required, coercive action around)
-    - Standard International prefixes for any unit modify and adjust that unit up or down in scale, sometimes across really tremendous scales beyond typical langauge.
-        - So for instance, a µbill would be one-millionth of a bill or billion, so in the 1,000ish territory. This is useful sometimes for some kommon (common) expressive units like currency where scales jump around so much it's sometimes helpful to think in SI prefix to more easily relate the number gaps with less cognitive overhead over how separated the numbers are. If an Action is an effort that may affect a Borlaug bill (billion) of people, then a milliaction, µaction, and nano-action are more clear to those trained to quickly recognize scale shifts in SI than the equivalent unprefixed langauge. You can do the same thing with currency to make statements like, "I just reached dimillionaire / dimillaire status - I can change my fokus" or "She's a dekamillionaire / dekamillaire — she's reached and launched beyond ever-accelerating eskape velocity".
-- dekas (dekamillionaires in American / US currency models — a substantially different species of wealth beyond millaire / millionaire that requires a word label, especially since a deka as of wrighting today at end of 02025 is equivalent to a millaire / millionare from 01966 - the klassikal 01960s word millionaire should be rereferenced deka today). At the deka level almost no one today⁵ with reasonable wants and needs wouldn't accelerate year over year thru kompounding like a plasma engine to "litespeed" and "litening" intergenerational experiences
-- hektos (hektomillionaires in American / US currency models). Someone in the class of wealth of hundred+ mill is in the "hekto" wealth category⁵. Hektos with liquidity are unbelievably⁵ flexibly⁵ free if they're medically healthy⁵ and wish to be.
+- "d" or "t" (ty) [my pronunciation varies] in place of "ten" and tens place ("four-d-one" [fourdyone] / "four-t-one" [fourtyone])
+- No irregularities between ones place numbers and tens place or any other leading numbers — not "fifty", fivedy or fivety; also not "thirty", threedy or threety instead.
+- No irregularities in the elevens and teens (dyone/tyone = 11, dytwo/tytwo, dythree/tythree, etc. etc. up to dynine/tynine)
+- Very open to other suggestions about how to wright these number words. I'd be very happy to write fourdyone as fourTone or fourDone, with the T or D denoting and separating the tens place helpfully⁵ visually⁵.
+- Standard International prefixes for any unit modify and adjust that unit up or down in scale, sometimes across really tremendous scales beyond typical langauge.
 
 
 Relationships, Intimacy, and Kalmunity⁵
@@ -159,3 +149,6 @@ Note: Original concern about self-referentiality has been addressed through the 
 
 ✅ **COMPLETED 02025-12月26**: Added 26 entries to Digital Diktionary⁵!
 Semmelspan Kompleks (Semmelspan, Heedlag, Warnklok, Knowdebt, Translait), steep, hiits, devotions, kore, µdowry, krystallization, architexture, Freadom, Re:ward, Ackselerate, ackceptance, Kohlberging, Body⁵brain, Good better best, Calment line, Færtility⁵, Hæring, Flag sentinel, Speakers for the Dead, reverse synth, Highering humans.
+
+✅ **COMPLETED 02025-12月26**: Added 22 more entries to Digital Diktionary⁵!
+Blesséd Number System (sev, ro, han, thou, mill, bill, deka, hekto), frupidity, designer, Nomients, Autonomes, despair dysregulation, hope dysregulation, corpser, conscience, naybor, disneying, dualindiv, pleonexia, experimence, limerance.

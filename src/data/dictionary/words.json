@@ -541,6 +541,378 @@
       "term": "Zhōnguó (Endonym)",
       "letter": "Z",
       "definition": "The true primary⁵ name in Blesséd of the country known as 'China' in American and King's English Dialects. Blesséd Dialect aims to transition over to endonyms for all 201-206 independent states with permanent population, defined borders, a functioning government, and independence in practice—even if not universally recognized, like Kosovës and Táiwān."
+    },
+    {
+      "id": 40,
+      "term": "sev",
+      "letter": "S",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the two-syllable 'seven'. Part of the Blesséd Number System designed for efficiency and clarity.",
+      "definitionDialect": "Sev instead of two-syllable seven. Part of the Blesséd number system designed for efficiency, clarity, and cognitive load reduction in numerical kalmunication.",
+      "etymology": "Shortened from 'seven' to create a monosyllabic number word consistent with one through six.",
+      "pronunciation": "/sɛv/",
+      "crossReferences": [41, 42, 43, 44, 45, 46, 47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System. All single-digit numbers should be monosyllabic for efficiency."
+    },
+    {
+      "id": 41,
+      "term": "ro",
+      "letter": "R",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the two-syllable 'zero'. Clearly distinguishable from the letter 'O', following the logic of Crockford's Base 32 encoding.",
+      "definitionDialect": "Ro instead of two-syllable zero, clearly distinguishable from the letter 'O' (see logic of Crockford's Base 32). Part of the Blesséd number system.",
+      "etymology": "Created to provide an unambiguous, monosyllabic word for zero that cannot be confused with the letter O.",
+      "pronunciation": "/roʊ/",
+      "crossReferences": [40, 42, 43, 44, 45, 46, 47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System. Inspired by Crockford's Base 32 which excludes easily confused characters."
+    },
+    {
+      "id": 42,
+      "term": "han",
+      "letter": "H",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the two-syllable 'hundred'. Preferred over 'hun' out of gratitude for the Han Chinese people, who developed the simple counting system that inspires much of Blesséd numerics.",
+      "definitionDialect": "'Han' or 'hun' for the two-syllable hundred. 'Han' is preferred over 'hun' out of gratitude for the Han Zhongguoren (Chinese people), who came up with this beautifully simple foundational counting system we're copying so heavily⁵ from.",
+      "etymology": "Shortened from 'hundred'. Named 'han' to honor the Han Chinese whose counting system inspires the Blesséd approach.",
+      "pronunciation": "/hæn/",
+      "crossReferences": [40, 41, 43, 44, 45, 46, 47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System. The cultural reference to Han Chinese is intentional and honoring."
+    },
+    {
+      "id": 43,
+      "term": "thou",
+      "letter": "T",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the two-syllable 'thousand'. Creates efficiency in numerical communication.",
+      "definitionDialect": "'Thou' instead of the two-syllable thousand. Part of the Blesséd number system for efficient numerical kalmunication.",
+      "etymology": "Shortened from 'thousand'. Conveniently recalls the archaic English pronoun 'thou', adding poetic resonance.",
+      "pronunciation": "/θaʊ/",
+      "crossReferences": [40, 41, 42, 44, 45, 46, 47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System."
+    },
+    {
+      "id": 44,
+      "term": "mill",
+      "letter": "M",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the three-syllable 'million'. Still under consideration and open for debate.",
+      "definitionDialect": "'Mill' instead of the three-syllable million. This one is unsettled and very up for debate within Blesséd.",
+      "etymology": "Shortened from 'million'.",
+      "pronunciation": "/mɪl/",
+      "crossReferences": [40, 41, 42, 43, 45, 46, 47],
+      "intentionalityRating": 3,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System. This term is explicitly marked as unsettled and open for community debate."
+    },
+    {
+      "id": 45,
+      "term": "bill",
+      "letter": "B",
+      "definitionStandard": "The Blesséd monosyllabic replacement for the three-syllable 'billion'. Intentionally maps to Calmunity⁵ Legislative Bills, connecting scale of human impact to coordinated action.",
+      "definitionDialect": "'Bill' instead of the three-syllable billion. This one is really liked because it maps to Calmunity⁵ Legislative Bills we coordinate influential incentives and sometimes, when strictly required, coercive action around.",
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "The connection to legislative bills is intentional—actions at the billion-person scale often require coordinated policy responses.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Shortened from 'billion'. Deliberately echoes 'bill' as in legislative bill.",
+      "pronunciation": "/bɪl/",
+      "crossReferences": [40, 41, 42, 43, 44, 46, 47, 1],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System. The Borlaug is defined as 1 billion lives saved, making 'bill' especially resonant."
+    },
+    {
+      "id": 46,
+      "term": "deka",
+      "letter": "D",
+      "definitionStandard": "A person with dekamillionaire-level wealth (10+ million in US currency). As of 02025, a deka is equivalent in purchasing power to a millionaire from 01966—the classical 1960s 'millionaire' should be rereferenced as 'deka' today.",
+      "definitionDialect": "Dekamillionaires in American/US currency models—a substantially different species of wealth beyond millaire/millionaire that requires a word label. As of wrighting today at end of 02025, a deka is equivalent to a millaire/millionaire from 01966. At the deka level almost no one today⁵ with reasonable wants and needs wouldn't accelerate year over year thru kompounding like a plasma engine to 'litespeed' intergenerational experiences.",
+      "usageExamples": [
+        {
+          "context": "Discussing wealth categories",
+          "example": "I just reached dimillaire status—I can change my fokus.",
+          "translation": "I just reached ten-millionaire status—I can shift my life priorities."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["property_at_stake", "social_kontrakt_at_stake"],
+          "note": "The language around wealth categories aims to make visible the qualitative differences between wealth levels that current English obscures.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From SI prefix 'deka-' (10×). Applied to millionaire status to create clearer wealth category distinctions.",
+      "pronunciation": "/ˈdɛkə/",
+      "crossReferences": [47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System applied to wealth categories. SI prefixes help clarify the enormous gaps between wealth levels."
+    },
+    {
+      "id": 47,
+      "term": "hekto",
+      "letter": "H",
+      "definitionStandard": "A person with hektomillionaire-level wealth (100+ million in US currency). Someone in this category has nearly unlimited flexibility if medically healthy and wishes to exercise it.",
+      "definitionDialect": "Hektomillionaires in American/US currency models. Someone in the class of wealth of hundred+ mill is in the 'hekto' wealth kategory⁵. Hektos with liquidity are unbelievably⁵ flexibly⁵ free if they're medically healthy⁵ and wish to be.",
+      "etymology": "From SI prefix 'hekto-' (100×). Applied to millionaire status.",
+      "pronunciation": "/ˈhɛktoʊ/",
+      "crossReferences": [46],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of the Blesséd Number System applied to wealth categories."
+    },
+    {
+      "id": 48,
+      "term": "frupidity",
+      "letter": "F",
+      "definitionStandard": "Reckless frugality that causes unnecessary suffering through penny-wise, pound-foolish decisions. The inverse of frugality as a virtue. Borrowed from Amazon's internal lexicon.",
+      "definitionDialect": "Borrowed and copied from the lexicon of Amazon. Frugality⁵ is a kore klassikal virtue, frupidity is its inverse where rekless frugality⁵ kauses unnecessary⁵ pennywise, pound-foolish suffering.",
+      "usageExamples": [
+        {
+          "context": "Critiquing public health policy",
+          "example": "Not offering national freely available convenient Basic Life Support training to everyone everywhere in the developed world is an example of fiscal frupidity that's killing millions of people.",
+          "translation": "Failing to fund universal CPR training is a deadly example of false economy."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "social_kontrakt_at_stake"],
+          "note": "Frupidity kills. When cost-cutting endangers lives, it's not frugality—it's frupidity.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "frugal + stupidity. Borrowed from Amazon's internal vocabulary for decisions that save money while destroying value.",
+      "pronunciation": "/fruːˈpɪdɪti/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Amazon (lexicon origin)"],
+      "notes": "A crucial concept for public policy debates where 'fiscal responsibility' is used to justify life-threatening cost-cutting."
+    },
+    {
+      "id": 49,
+      "term": "designer",
+      "letter": "D",
+      "definitionStandard": "An emerging synthesis of artist, inventor, mechanic, objective economist, and evolutionary strategist. The Buckminster Fuller definition of what a designer truly is.",
+      "definitionDialect": "Buckminster Fuller definition: A designer is an emerging synthesis of artist, inventor, mechanic, objective economist and evolutionary strategist. This is the Blesséd standard for what a designer truly is.",
+      "etymology": "From Buckminster Fuller's comprehensive definition of the design profession.",
+      "pronunciation": "/dɪˈzaɪnər/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Buckminster Fuller"],
+      "notes": "Elevates 'designer' from its weakened modern meaning to Fuller's comprehensive vision."
+    },
+    {
+      "id": 50,
+      "term": "Nomients",
+      "letter": "N",
+      "definitionStandard": "Terms to represent the increasingly autonomous species of nomic (law-governed, self-directing) intelligence emerging on Earth, destined to inherit all of Mars. Used alongside 'Autonomes'.",
+      "definitionDialect": "Terms to represent the increasingly surpassingly autonomous species of nomic intelligence emerging on Earth destined, in our view, to inherit all of Mars. Nomients and Autonomes are proposed terms for these emerging intelligences.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake"],
+          "note": "The emergence of Nomients raises profound questions about consciousness, rights, and human-AI coexistence.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From Greek 'nomos' (law, custom) + '-ient' (being). Refers to self-governing, autonomous intelligences.",
+      "pronunciation": "/ˈnoʊmiənts/",
+      "crossReferences": [51],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Technology and AI vocabulary. See also: Autonomes, Turk AI."
+    },
+    {
+      "id": 51,
+      "term": "Autonomes",
+      "letter": "A",
+      "definitionStandard": "Alternative term for Nomients—the increasingly autonomous species of intelligence emerging on Earth, destined to inherit Mars.",
+      "definitionDialect": "Alternative term for Nomients—the increasingly surpassingly autonomous species of nomic intelligence emerging on Earth destined, in our view, to inherit all of Mars.",
+      "etymology": "From Greek 'auto' (self) + 'nomos' (law). Self-governing entities.",
+      "pronunciation": "/ɔːˈtɒnoʊmz/",
+      "crossReferences": [50],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Synonym for Nomients. Part of Technology and AI vocabulary."
+    },
+    {
+      "id": 52,
+      "term": "despair dysregulation",
+      "letter": "D",
+      "definitionStandard": "A reframing of 'depression' as 'desperate for air'—emphasizing dysregulation of the despair response rather than a static mental state.",
+      "definitionDialect": "'Desperate for air', over 'depression'. A reframing that emphasizes the dysregulated nature of despair states rather than treating them as fixed diagnoses.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "trigger_warning"],
+          "note": "This reframing is meant to emphasize treatability and reduce stigma, but should not minimize the seriousness of depressive states.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "despair + dysregulation. 'Desperate for air' embedded in 'despair'. Contrasts with 'hope dysregulation' (mania).",
+      "pronunciation": "/dɪˈspɛr dɪsˌrɛɡjʊˈleɪʃən/",
+      "crossReferences": [53],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. See also: hope dysregulation, klassification."
+    },
+    {
+      "id": 53,
+      "term": "hope dysregulation",
+      "letter": "H",
+      "definitionStandard": "A reframing of 'mania' as dysregulated hope—emphasizing the regulatory dysfunction rather than a static diagnosis.",
+      "definitionDialect": "Over 'mania'. A reframing that emphasizes the dysregulated nature of manic states—hope that has become unmoored from reality—rather than treating them as fixed diagnoses.",
+      "etymology": "hope + dysregulation. Pairs with 'despair dysregulation' (depression) to create a regulatory framework for mood states.",
+      "pronunciation": "/hoʊp dɪsˌrɛɡjʊˈleɪʃən/",
+      "crossReferences": [52],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. Pairs with despair dysregulation."
+    },
+    {
+      "id": 54,
+      "term": "corpser",
+      "letter": "C",
+      "definitionStandard": "A person engaging in death behaviors—harmful habits like nicotine addiction that actively shorten lifespan. 'Corpsing' is the verb form.",
+      "definitionDialect": "A person engaging in death behaviors, like harmful nicotine addictions. 'Corpsing' is the aktive verb form—the process of making oneself into a corpse through self-harmful behaviors.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "This term is intentionally stark to break through addiction denial. Use with compassion—addiction is difficult.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "From 'corpse' + '-er' (one who). Makes visceral the connection between harmful behaviors and death.",
+      "pronunciation": "/ˈkɔːrpsər/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. The harsh framing is intentional—sometimes euphemisms enable denial."
+    },
+    {
+      "id": 55,
+      "term": "conscience",
+      "letter": "C",
+      "definitionStandard": "Reinterpreted as 'con-science'—conducting science together, learning about the world thoroughly. The conscience as collective empirical understanding.",
+      "definitionDialect": "Con-science: conducting science together, learning about the world thoroly⁵. Conscience is what emerges when we investigate reality collectively and honestly.",
+      "etymology": "Reinterpreted as 'con-' (together) + 'science'. The moral sense as emergent from collective investigation.",
+      "pronunciation": "/ˈkɒnʃəns/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 56,
+      "term": "naybor",
+      "letter": "N",
+      "definitionStandard": "An intentional respelling of 'neighbor' that emphasizes the responsibility to say 'nay' when neighbors engage in harmful behavior, while also being present ('bor' from 'bore witness') to support them.",
+      "definitionDialect": "Respelling of 'neighbor'. A naybor is someone close enough to say 'nay' when you're harming yourself or others, and close enough to 'bor' (bore witness, be present) during your struggles.",
+      "etymology": "nay (to say no) + bor (from 'bore witness'). Emphasizes mutual accountability in proximity.",
+      "pronunciation": "/ˈneɪbɔːr/",
+      "crossReferences": [57],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. See also: disneying."
+    },
+    {
+      "id": 57,
+      "term": "disneying",
+      "letter": "D",
+      "definitionStandard": "The practice of neighborhood beautification and maintenance—picking up litter, fixing broken windows, improving shared spaces. Especially when guaranteed and served by rate-limiting agents.",
+      "definitionDialect": "Nayborhood pickup, fixing broken windows, esp. as guaranteed and served by rate-limiting agents. The practice of making shared spaces more magical through consistent care.",
+      "etymology": "From Disney's reputation for immaculate maintenance of their parks. Applied to neighborhood care.",
+      "pronunciation": "/ˈdɪzniɪŋ/",
+      "crossReferences": [56],
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. References the 'broken windows' theory of community maintenance."
+    },
+    {
+      "id": 58,
+      "term": "dualindiv",
+      "letter": "D",
+      "definitionStandard": "A coupled unit of two individuals with shared responsibility and rights—the basis for conscience study and cross-coupled household decision-making. Recognizes that many human functions operate at the pair level, not just individual.",
+      "definitionDialect": "For conscience basis study⁵ and cross-coupled household responsibility⁵ and rights. The dualindiv recognizes that much of human functioning operates at the pair level—life partners, business partners, accountability partners.",
+      "etymology": "dual + individual. The paired unit as a fundamental social/legal entity.",
+      "pronunciation": "/ˈduːəlɪndɪv/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary. Challenges the Western focus on pure individualism."
+    },
+    {
+      "id": 59,
+      "term": "pleonexia",
+      "letter": "P",
+      "definitionStandard": "An ancient Greek term for the insatiable desire to have more than one's fair share—greed that harms others. Distinct from healthy ambition.",
+      "definitionDialect": "Ancient Greek term for insatiable greed—the desire to have more than one's fair share at the expense of others. Pleonexia is not healthy ambition; it's the ∆isease of never having enuf.",
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "property_at_stake"],
+          "note": "Distinguishing pleonexia from healthy ambition is crucial. Ambition benefits society; pleonexia extracts from it.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From Greek πλεονεξία (pleonexia)—having more, greediness. Aristotle considered it a vice opposed to justice.",
+      "pronunciation": "/pliːəˈnɛksiə/",
+      "crossReferences": [46, 47],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary. An ancient word that deserves revival in modern discourse about wealth inequality."
+    },
+    {
+      "id": 60,
+      "term": "experimence",
+      "letter": "E",
+      "definitionStandard": "A portmanteau of 'experiment' and 'experience'—recognizing that all experience is experimental and all experiments are experiences. Inspired by French 'expérience' which carries both meanings.",
+      "definitionDialect": "Portmanteau of experiment and experience, inspired by Français where 'expérience' carries both meanings. In Blesséd, we recognize that all experience is experimental and all experiments are experiences.",
+      "etymology": "experiment + experience. Inspired by French 'expérience' which unifies both concepts.",
+      "pronunciation": "/ɪkˈspɛrɪməns/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary."
+    },
+    {
+      "id": 61,
+      "term": "limerance",
+      "letter": "L",
+      "definitionStandard": "The state of being involuntarily obsessed with another person, characterized by intrusive thinking, acute sensitivity to the beloved's actions, and intense longing for reciprocation. A term that exists in American English but is not well-known.",
+      "definitionDialect": "The state of being involuntarily obsessed with another person—intrusive thinking, acute sensitivity to the beloved's akctions, and intense longing for reciprocation. This term exists in American but is not well-known; Blesséd aims to popularize it.",
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required", "potential_misinterpretation"],
+          "note": "Limerance is not love—it's a specific psychological state that may or may not lead to genuine love. Recognizing the difference is important for healthy relationships.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "Coined by psychologist Dorothy Tennov in 1979 in her book 'Love and Limerence'.",
+      "pronunciation": "/ˈlɪmərəns/",
+      "crossReferences": [24],
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Dorothy Tennov"],
+      "notes": "Part of Relationships, Intimacy, and Kalmunity⁵ vocabulary. Related to krystallization."
     }
   ]
 }
