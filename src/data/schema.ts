@@ -72,7 +72,7 @@ const DictionaryEntrySchema = z.object({
   etymology: z.string().optional(), // Word origin and evolution
   pronunciation: z.string().optional(), // How to pronounce (IPA or description)
   crossReferences: z.array(z.number()).optional(), // IDs of related entries
-  intentionalityRating: z.number().int().min(1).max(5).optional(), // How intentional/deliberate is usage (1=casual, 5=highly intentional)
+  intentionalityRating: z.number().int().min(1).max(5).nullable().optional(), // How intentional/deliberate is usage (1=casual, 5=highly intentional, null=not applicable)
   dateAdded: z.string().optional(), // ISO date string
   contributors: z.array(z.string()).optional(), // GitHub usernames or names
   notes: z.string().optional(), // Any additional notes

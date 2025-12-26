@@ -195,9 +195,15 @@ async function main() {
   const etymology = await question('\n📜 Etymology (word origin): ');
   const pronunciation = await question('🔊 Pronunciation (IPA or description): ');
 
-  const intentionalityInput = await question('⭐ Intentionality Rating (1-5, where 5=highly intentional): ');
-  const intentionalityRating = parseInt(intentionalityInput.trim(), 10);
-  const validIntentionality = intentionalityRating >= 1 && intentionalityRating <= 5 ? intentionalityRating : undefined;
+  const intentionalityInput = await question('⭐ Intentionality Rating (1-5, where 5=highly intentional, or "n/a" if not applicable): ');
+  const intentionalityTrimmed = intentionalityInput.trim().toLowerCase();
+  let validIntentionality;
+  if (intentionalityTrimmed === 'n/a' || intentionalityTrimmed === 'na' || intentionalityTrimmed === 'null') {
+    validIntentionality = null; // Explicitly not applicable
+  } else {
+    const intentionalityRating = parseInt(intentionalityTrimmed, 10);
+    validIntentionality = intentionalityRating >= 1 && intentionalityRating <= 5 ? intentionalityRating : undefined;
+  }
 
   const contributorsInput = await question('👥 Contributors (comma-separated names/usernames): ');
   const contributors = contributorsInput.trim()
@@ -237,7 +243,7 @@ async function main() {
   if (etymology.trim()) newEntry.etymology = etymology.trim();
   if (pronunciation.trim()) newEntry.pronunciation = pronunciation.trim();
   if (crossReferences) newEntry.crossReferences = crossReferences;
-  if (validIntentionality) newEntry.intentionalityRating = validIntentionality;
+  if (validIntentionality !== undefined) newEntry.intentionalityRating = validIntentionality;
   newEntry.dateAdded = getCurrentDate();
   if (contributors) newEntry.contributors = contributors;
   if (notes.trim()) newEntry.notes = notes.trim();
@@ -265,7 +271,11 @@ async function main() {
   if (etymology.trim()) console.log(`   Etymology: ${etymology.substring(0, 40)}${etymology.length > 40 ? '...' : ''}`);
   if (pronunciation.trim()) console.log(`   Pronunciation: ${pronunciation}`);
   if (crossReferences) console.log(`   Cross References: ${crossReferences.join(', ')}`);
-  if (validIntentionality) console.log(`   Intentionality Rating: ${validIntentionality}/5`);
+  if (validIntentionality === null) {
+    console.log(`   Intentionality Rating: N/A`);
+  } else if (validIntentionality) {
+    console.log(`   Intentionality Rating: ${validIntentionality}/5`);
+  }
   if (contributors) console.log(`   Contributors: ${contributors.join(', ')}`);
   console.log(`   Date Added: ${newEntry.dateAdded}`);
   console.log('\n💡 Run `npm run dev` to see your changes\n');

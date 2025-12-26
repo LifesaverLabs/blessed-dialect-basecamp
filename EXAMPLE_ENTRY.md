@@ -102,6 +102,24 @@ Showing how one entry can have many harm reduction notes, each with multiple cat
 }
 ```
 
+## Example with Null Intentionality Rating
+
+For terms where intentionality rating is not applicable (e.g., borrowed terms, proper nouns, or technical terms without inherent intentionality):
+
+```json
+{
+  "id": 1002,
+  "term": "Zhōnguó",
+  "letter": "Z",
+  "definitionStandard": "The endonym for China; literally 'Middle Kingdom' or 'Central State'.",
+  "definitionDialekt": "The endonym for China; literally 'Middle Kingdom' or 'Central State'.",
+  "intentionalityRating": null,
+  "notes": "As an endonym (a place's name in its own language), intentionality rating is not applicable—this is what the people call their own nation."
+}
+```
+
+Note: `intentionalityRating: null` explicitly indicates "not applicable", which is different from omitting the field entirely (undefined/unknown).
+
 ## Migration from Old Schema
 
 Old schema entry:
