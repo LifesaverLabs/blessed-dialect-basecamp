@@ -17,6 +17,244 @@
       "term": "sugar overload",
       "letter": "S",
       "definition": "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying langauge around health behaviors that impact longevity."
+    },
+    {
+      "id": 32,
+      "term": "Good, better, best",
+      "letter": "G",
+      "definitionStandard": "A childhood rhyme reimagined: instead of the original competitive framing, teach 'Good, better, best: Never let them rest. Until the better get better and the good get best.' Encourages helping others surpass your own achievement levels.",
+      "definitionDialect": "A childhood rhyme. The traditional version can be improved: instead of the original, teach instead 'Good, better, best: Never let them rest. Until the better get better and the good get best.' In Blesséd, we want others and our core, inners, outers, and family⁵ to launch past our achievement, performance, and happiness levels calmpetitively⁵.",
+      "usageExamples": [
+        {
+          "context": "Teaching children about collaboration over competition",
+          "example": "Good, better, best: Never let them rest. Until the better get better and the good get best.",
+          "translation": "Help others improve continuously—let the good become best and the better become even better."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "The original rhyme emphasizes self-improvement in isolation. This Blesséd version emphasizes lifting others—rising tides raise all boats.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Traditional childhood rhyme, revised for Blesséd values. References Atul Gawande's book 'Better'.",
+      "crossReferences": [1],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Rising tides raise all boats; let's make the better better and the good best. It's a natural motto for humans."
+    },
+    {
+      "id": 33,
+      "term": "Calment line",
+      "letter": "C",
+      "definitionStandard": "The age at which one has reached or surpassed the age of Jeanne Calment (122 years), the most elderly human in modern verified records. Crossing this line carries proposed implications for voting rights and intergenerational fertility considerations.",
+      "definitionDialect": "The age at which one has reached or surpassed the age of Jeanne Calment, the most elderly human in modern times verified by modern records, and likely the oldest person to have lived in the last 1,000 years. Crossing this line comes with a proposed loss of voting rights and carries steep risks to worldwide intergenerational færtility⁵.",
+      "usageExamples": [
+        {
+          "context": "Discussing lifespan extension ethics",
+          "example": "Part of the notion of Blesséd is that there is a point at which we can rest from Borlauging; the Calment line is what is proposed for what is enuf.",
+          "translation": "Blesséd philosophy proposes that 122 years represents a sufficient lifespan goal—a point where we can stop pushing for more."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "social_kontrakt_at_stake"],
+          "note": "The proposed loss of voting rights after the Calment line is controversial but addresses intergenerational fairness as lifespans extend dramatically.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "The UN continues to underestimate the population explosion that biotechnologists predict with lifespan extension over the next 50-250 years. The Calment line provides ethical grounding for 'enough is enough'.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Named for Jeanne Calment (1875-1997), who lived to 122 years and 164 days—the longest verified human lifespan in modern records.",
+      "pronunciation": "/kælˈmɒnt laɪn/",
+      "crossReferences": [34],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "There is an enormous amount of Borlauging need between here and there but the duty to overclock for human life is not uncapped or without limit. (Semi-Utopian)"
+    },
+    {
+      "id": 34,
+      "term": "Færtility⁵",
+      "letter": "F",
+      "definitionStandard": "The notion that fertility should be thoughtful and fair for everyone, whatever their sex, gender, orientation, national origin, ethical race, or position in the generations. In the context of 'be fruitful and multiply', this means multiplying fractionally for sustainable growth over hundreds of thousands of future years.",
+      "definitionDialect": "The notion that fertility should be thoughtful and fair for everyone, whatever their sex, gender, orientation, national origin, ethical race, or position in the generations. In the common context of 'be fruitful and multiply', this means multiplying fractionally for growth over hundreds and thousands, tens of thousands and hundreds of thousands of future years on Earth—not floating point and not using the integers alone, but always growing, even if slowly.",
+      "usageExamples": [
+        {
+          "context": "Discussing reproductive ethics",
+          "example": "Every couple deserves the chance to have at least two rolls of the dice—anything less is inhumane.",
+          "translation": "Every couple should have the chance to try for both a boy and a girl, as parents commonly envision themselves in children of their own gender."
+        },
+        {
+          "context": "Discussing national population policy",
+          "example": "In countries that have fertility levels below national færtility⁵, there should be no ethics questioning about couples who have many births.",
+          "translation": "In countries with declining populations, large families should not face moral scrutiny."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "social_kontrakt_at_stake"],
+          "note": "Blesséd argues that conception fairly begins before fertilization, when names are picked—either by foresight or by default mode to 'Lucky' or 'Chance' for unplanned births.",
+          "severity": "info"
+        },
+        {
+          "categories": ["essential_liberty_at_stake", "context_required"],
+          "note": "There are countries today facing existential threats from neighbors running births in a 'birth arms race' seeking to win territory through demographic warfare. Deeper questions about fractional multiplicative færtility⁵ must be asked in such contexts.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "fair + fertility, with 'æ' (aesc) representing the fusion of fairness with fertility. The superscript ⁵ indicates high intentionality.",
+      "pronunciation": "/ˈfɛrtɪlɪti/",
+      "crossReferences": [33],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Explosions in lifespan could impair the ability of the seventh generation to reproduce freely—for that, see the Calment line. Nations and Peoples all have a right (and a responsibility⁵) to grow, measured in living souls birthed, berthed, or immigrated. (Semi-Utopian)"
+    },
+    {
+      "id": 35,
+      "term": "Hæring",
+      "letter": "H",
+      "definitionStandard": "A fair hearing event in which all parties—you, counterparts, and witnesses—are heard by uninvolved neutral parties and have a chance to hear from each other. All parties are required to be present, speak, hear, and dynamically interact with questioning and honest responses.",
+      "definitionDialect": "An event in which you and all counterparts and any witnesses are heard, by uninvolved neutral parties, and have a chance to hear from them as well. Your voice and understanding interacts with your counterparts in lock-and-key fashion, supportively decrypting with one another your fractional best-effort recollections of the events. You are all required to be present, speak, hear, and dynamically interact with questioning and honest and complete responses, subject to any recognized right not to self-incriminate.",
+      "usageExamples": [
+        {
+          "context": "Distinguishing true hearings from fraudulent ones",
+          "example": "'Hearings' in which only one person appears or where some parties are unquestionable do not qualify as Hærings.",
+          "translation": "A process where one party is absent or cannot be challenged is not a true fair hearing."
+        },
+        {
+          "context": "Discussing institutional failure",
+          "example": "Failing to assemble a fair Hæring can be dramatically worse than having no Hearing at all—it can be a wrecking ball to peoples' lives.",
+          "translation": "A fake hearing is worse than no hearing—it destroys lives while pretending to provide justice."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "life_at_stake"],
+          "note": "The absence of a Hæring can cause 'undecidable lack of purpose or clarity' suicidal reasoning for lack of closure. The absence of a Hæring should be a legal cause of action for tremendous punitive damages.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["power_dynamics", "context_required"],
+          "note": "In harassment cases, mutual fair realtime privacy right layer decryption is required—memory is fundamentally unreliable and must be tested both separately and in coupled states.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From 'hearing' with 'æ' (aesc) representing fairness and the 'ashes to ashes' mutual examination of Adam with Eve, Eve with Adam.",
+      "pronunciation": "/ˈhɛərɪŋ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The author has been through a fraudulent 'Hearing' that wasn't a Hæring—where the Innocenter was never heard, let alone compassionately questioned or challenged interactively."
+    },
+    {
+      "id": 36,
+      "term": "Flag sentinel",
+      "letter": "F",
+      "definitionStandard": "A 'sentinel event' experience where a person suffering tremendous despair can report to any registered flag sentinel or mandatory reporter and burn a national flag ritualistically, signifying they are beyond themselves with desperation. The burning triggers a suicidality investigation and support response.",
+      "definitionDialect": "A 'sentinel event' experience where a person who is suffering tremendous despair can report to any registered flag sentinel or mandatory reporter and burn a national flag ritualistically, signifying that they are beyond themselves with desperation over how to solve a critical or emergency problem in their lives. The burning of a flag is a formal sentinel event distress kall.",
+      "usageExamples": [
+        {
+          "context": "Describing the system",
+          "example": "On the burning of a flag, the sentinel suicidality⁵ investigator calmunity⁵ goes into action to triage, stabilize, and investigate what's happening in that person's biopsychosocial circumstances.",
+          "translation": "When someone burns a flag as a distress signal, trained responders provide immediate crisis support and investigate the underlying causes."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "trigger_warning"],
+          "note": "This concept addresses suicide prevention through a ritualized distress signal. The system aims to provide paths toward happy recovery for those in crisis.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "flag (national symbol) + sentinel (medical term for serious adverse events that signal systemic problems). Repurposes flag burning from protest to distress signal.",
+      "crossReferences": [37],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "(Utopian) See also: Speakers for the Dead"
+    },
+    {
+      "id": 37,
+      "term": "Speakers for the Dead",
+      "letter": "S",
+      "definitionStandard": "Supportive investigators appointed whenever a flag sentinel event is triggered—either through early warning flag burning or through a suspected despair-related death. They report honestly on what went wrong in the person's biopsychosocial environment, speaking candidly rather than in positive eulogies.",
+      "definitionDialect": "Whenever a flag sentinel event gets triggered, either thru an early warning flag burning or, in an utter catastrophe, thru the suspekted despaired death of a soul in the kalmunity⁵ (most obviously, any suicide), a Speaker for the Dead should be appointed to serve as a supportive investigator, to share a report on what's going wrong or what went wrong in that person's biopsychosocial environment.",
+      "usageExamples": [
+        {
+          "context": "Describing the role",
+          "example": "The Speakers for the Dead will not always speak in positive eulogies; their principal focus should be honest and candid about the social mileau that led to the person's death-wish or death.",
+          "translation": "Speakers for the Dead prioritize truth over comfort—they report honestly on what caused the crisis, even if it embarrasses survivors."
+        },
+        {
+          "context": "Discussing prevention",
+          "example": "A lot of these Speaker for the Dead reports may best be CCed back to the affected parties' elementary⁵, middle skool, and hi skool koalition systems to help ankor prevention in édukation.",
+          "translation": "Reports should be shared with educational institutions to enable early prevention."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "trigger_warning", "social_kontrakt_at_stake"],
+          "note": "Speakers for the Dead may say things that embarrass, guilt, or burden those who remain living. Their goal is to prevent the next flag sentinel event through deeper calmunity⁵ candor about individual, dualindiv, and system responsibility.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Inspired by Orson Scott Card's book 'Speaker for the Dead'. Adapted for suicide prevention and crisis investigation.",
+      "pronunciation": "/ˈspiːkərz fɔːr ðə dɛd/",
+      "crossReferences": [36],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Orson Scott Card (inspiration)"],
+      "notes": "(Utopian) Inspired by the initial author's own painful experiences not being heard, handled, or allowed to translate insight into systemic peer prevention. The goal is to study the balance of institutional, social, and religious forces that periodically pin people into hopeless situations."
+    },
+    {
+      "id": 38,
+      "term": "reverse synth",
+      "letter": "R",
+      "definitionStandard": "The process of reverse synthesizing a life plan or any complex creation, working backward from the target goal to the present state rather than only forward. Originally from chemistry's reverse synthesis in 'theory of change' planning.",
+      "definitionDialect": "The process of reverse synthesizing a life or anything else you face or are konsidering creating or synthesizing. Originally⁵ from the planning process of reverse synthesis in the 'theory of change', kemistry⁵ (chemistry⁵), where you work backwards from where you want to go, your target, back to your source or present state, and not just forwards.",
+      "usageExamples": [
+        {
+          "context": "Prenuptial planning",
+          "example": "If a prenup needs to be decided early enuf for your choice of partner to change, why not reposition the prenup in reverse synthesis to pre-proposal?",
+          "translation": "Work backward from marriage to realize that prenup discussions should happen before engagement, not after."
+        },
+        {
+          "context": "Life planning advice",
+          "example": "Reverse synth is extremely highly encouraged for any major life action or decision, especially major gates like career training, job placement, engagement, and marriage.",
+          "translation": "Always plan major life decisions by working backward from your goal."
+        }
+      ],
+      "etymology": "From reverse synthesis in organic chemistry—the technique of working backward from target molecule to available starting materials.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The proposed Pre30 site is driven by the impulse to help assist with smoothing all the important pitfalls and difficulties of reverse synth 'working backward' backward engagement and dating planning logic."
+    },
+    {
+      "id": 39,
+      "term": "Highering humans",
+      "letter": "H",
+      "definitionStandard": "A model of hiring that aims to heighten and elevate humans everywhere humans ought to be—education, craftsmanship, creativity, service industries, crisis care. Emphasizes collaborative placement across organizations to put candidates where they're best suited.",
+      "definitionDialect": "Model of hiring where we try to heighten and higher humans everywhere humans ought to be, like education, craftswomanship, creativity⁵, all layers of service from food service to housing placement, crisis care, and other fields that require a human touch, and we colaborate across entity definitions on placing candidates where they're better suited with reasonable and responsible speed.",
+      "usageExamples": [
+        {
+          "context": "Describing the philosophy",
+          "example": "We colaborate across entity definitions on placing candidates where they're better suited, even and especially if that means giving people a list of calmpetitors.",
+          "translation": "Organizations should help candidates find the right fit, even if that means recommending competitors."
+        }
+      ],
+      "etymology": "higher (to elevate) + hiring. A pun emphasizing that hiring should raise people up, not just fill positions.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. Challenges the competitive, siloed approach to hiring."
     }
   ]
 }

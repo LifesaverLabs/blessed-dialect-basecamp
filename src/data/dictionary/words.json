@@ -31,6 +31,488 @@
       "definition": "Civic religion. Likewise, civigious corresponds to the adjectival phrase civic religious. Moral convictions that are secular but rise to and equal or sometimes go harder beyond the level of conviction consistent with divine branch religious belief counts as civigion. For example, veganism or vegetarianism is as firm of a civigious belief, and depending on the specific Vegan/Vegetarian and the specific Catholic practitioner, sometimes a stronger religious belief than the Catholic religious tradition of fish on the day of the week that American and King's dialect, a tradition that has changed for many Catholics since Vatican II in 01966. Civigion should always be built to be calmpatible with the highest and widest number of divine branch religious beliefs possible. The only known likely incompatibility⁵ so far are the Jehovah's Witnesses, who may not believe any civic religious beliefs are calmpatible with the dominion of divine branch religion. All other known religious branches can freely⁵ coordinate with us on civic religion, and we should welcome any hybrids. Hybrids bring enormous intellectual diversity⁵ and insight from very thick moral cultures."
     },
     {
+      "id": 14,
+      "term": "Semmelspan",
+      "letter": "S",
+      "definitionStandard": "The category of public tragedy wherein valid, life-saving knowledge is published, ignored, and vindicated only after preventable harm has accumulated. Named for Ignaz Semmelweis (1818–1865), Hungarian physician who proved handwashing prevented childbed fever, was ridiculed by the medical establishment, and died in an asylum before germ theory vindicated him.",
+      "definitionDialect": "The kategory of publik tragedy wherein valid, life-saving knowledge is published, ignored, and vindicated only after preventable harm has accumulated. Named for Ignaz Semmelweis (1818–1865), Hungarian physisian who proved handwashing prevented childbed fever, was ridiculed by the medikal establishment, and died in an asylum before germ theory vindicated him. A semmelspan is not mere delay—it requires: (1) kleer evidens, (2) publik dismissal or suppression, (3) continued preventable harm, and (4) eventual vindikation.",
+      "usageExamples": [
+        {
+          "context": "Discussing climate science policy delays",
+          "example": "Climate siens is the longest-running semmelspan in human history.",
+          "translation": "Climate science represents the longest-running case of ignored life-saving knowledge in human history."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "context_required"],
+          "note": "Invoking a semmelspan is a serious accusation—it implies that lives are being lost due to willful ignorance or suppression of evidence. Use with care and ensure the four criteria are met: clear evidence, public dismissal, continued harm, and eventual vindication.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Named for Ignaz Semmelweis + span (period of time). Part of the Semmelspan Kompleks family of terms for translational failure in public knowledge.",
+      "pronunciation": "/ˈsɛməlspæn/",
+      "crossReferences": [15, 16, 17, 18],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Claude/Turk AI"],
+      "notes": "Core term in the Semmelspan Kompleks. These terms exist so that Ignaz Semmelweis is spoken of whenever the pattern repeats. He died unheeded. The least we owe is to name the tragedy after him."
+    },
+    {
+      "id": 15,
+      "term": "Heedlag",
+      "letter": "H",
+      "definitionStandard": "The measurable temporal delay between the moment heeding becomes possible (first credible publication) and the moment heeding actually occurs (policy adoption, behavioral change, or praxis shift). The core metric of translational failure.",
+      "definitionDialect": "The measurable temporal delay between the moment heeding becomes possible (first kredible publikation) and the moment heeding actually occurs (polisy adoption, behavioral ∆, or praxis shift). The core metrik of translational failure.",
+      "usageExamples": [
+        {
+          "context": "Discussing the history of lead paint regulation",
+          "example": "The heedlag on lead paint was sevty years—from first warnings in the 1900s to federal bans in 1978.",
+          "translation": "The delay between knowing lead paint was harmful and banning it was seventy years."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "Heedlag quantifies preventable deaths and harm. When calculating heedlag, be precise about the 'first credible publication' date—this is often contested.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "heed (to pay attention) + lag (delay). Part of the Semmelspan Kompleks.",
+      "pronunciation": "/ˈhiːdlæɡ/",
+      "crossReferences": [14, 16, 17, 18],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Claude/Turk AI"],
+      "notes": "The core metric of translational failure. Unlike semmelspan (which is a category), heedlag is measurable in years, decades, or generations."
+    },
+    {
+      "id": 16,
+      "term": "Warnklok",
+      "letter": "W",
+      "definitionStandard": "The accountability instrument for tracking a semmelspan in real time or retrospect. A warnklok is started when credible warning is first published; split-times are recorded at each subsequent ignored checkpoint (major studies, activist campaigns, near-misses); the clock stops when translational success is achieved.",
+      "definitionDialect": "The accountability instrument for tracking a semmelspan in real time or retrospekt. A warnklok is started when kredible warning is first published; split-times are rekorded at each subsequent ignored checkpoint (major studies, aktivist campaigns, near-misses); the klok stops when translational success is achieved.",
+      "usageExamples": [
+        {
+          "context": "When new research is published that may be ignored",
+          "example": "Start the warnklok—the first paper just dropped. Future historians will judge every split.",
+          "translation": "Begin tracking this potential translational failure—the first credible warning has been published."
+        }
+      ],
+      "etymology": "warn + klok (clock). Part of the Semmelspan Kompleks.",
+      "pronunciation": "/ˈwɔːrnklɒk/",
+      "crossReferences": [14, 15, 17, 18],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Claude/Turk AI"],
+      "notes": "The warnklok embeds precautionary lookback: when we finally act, we do not simply celebrate—we audit. We clock the split-times, calculate the knowdebt, and assign responsibility."
+    },
+    {
+      "id": 17,
+      "term": "Knowdebt",
+      "letter": "K",
+      "definitionStandard": "The accumulating moral, social, and practical debt incurred by knowing and not acting. Knowdebt compounds: each day of heedlag adds to the principal. Interest accrues in preventable deaths, environmental damage, or systemic harm.",
+      "definitionDialect": "The accumulating moral, social, and praktikal debt incurred by knowing and not acting. Knowdebt compounds: each day of heedlag adds to the principal. Interest accrues in preventable deaths, environmental damage, or systemic harm. Knowdebt is the ethical dimension of heedlag—the quantifikation of what was owed and not paid.",
+      "usageExamples": [
+        {
+          "context": "Reflecting on tobacco industry delays",
+          "example": "The knowdebt on tobakko took fifty years to settle, and we're still paying interest in lung kancer deaths.",
+          "translation": "The moral debt from ignoring tobacco's harms took fifty years to address, and we continue to pay with preventable cancer deaths."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "social_kontrakt_at_stake"],
+          "note": "Knowdebt implies moral responsibility and potential culpability. Those who actively suppressed knowledge bear greater knowdebt than those who were merely ignorant.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "know + debt. Part of the Semmelspan Kompleks. The ethical dimension of heedlag.",
+      "pronunciation": "/ˈnoʊdɛt/",
+      "crossReferences": [14, 15, 16, 18],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Claude/Turk AI"],
+      "notes": "Knowdebt is distinct from heedlag in that it focuses on moral and ethical accounting rather than temporal measurement."
+    },
+    {
+      "id": 18,
+      "term": "Translait",
+      "letter": "T",
+      "definitionStandard": "The condition of knowledge that has failed to translate from publication to praxis; knowledge that arrived late to action despite being available early. As adjective: descriptive of findings, policies, or interventions that remain stuck in journals, reports, or activist claims without practical adoption.",
+      "definitionDialect": "The kondition of knowledge that has failed to translate from publikation to praxis; knowledge that arrived late to akshun despite being available early. As adjektive: deskriptive of findings, polisies, or interventions that remain stuck in journals, reports, or activist kleims without praktikal adoption.",
+      "usageExamples": [
+        {
+          "context": "Discussing handwashing history",
+          "example": "Hand hygiene was translait knowledge for four dekades.",
+          "translation": "Handwashing knowledge failed to translate into practice for four decades."
+        },
+        {
+          "context": "Questioning current research translation",
+          "example": "How many translait findings are sitting in publik health journals wright now?",
+          "translation": "How many findings in public health journals are currently failing to translate into practice?"
+        }
+      ],
+      "etymology": "translate + late (phonetically embedded). Part of the Semmelspan Kompleks.",
+      "pronunciation": "/trænsˈleɪt/",
+      "crossReferences": [14, 15, 16, 17],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Claude/Turk AI"],
+      "notes": "Can be used as both noun and adjective. The term phonetically embeds 'late' to emphasize that the knowledge arrived late despite being available early."
+    },
+    {
+      "id": 19,
+      "term": "steep",
+      "letter": "S",
+      "definitionStandard": "Sleep conceived as bodybrain steepening—the essential overnight process of consolidation and restoration, analogous to how tea steeps to release its full properties. Emphasizes that sleep is not passive rest but active cognitive and physiological processing.",
+      "definitionDialect": "Bodybrain steepening sleep. Just as tea steeps given time to rest, our bodies require a significant amount of steepening overnight. Pulling allnighters in skool is a violation of steep; it corrodes and undermines the very thing you're seeking to attain—consolidated, steepened conscientious knowledge and wisdom.",
+      "usageExamples": [
+        {
+          "context": "Discussing the dangers of sleep deprivation",
+          "example": "Failing to steep kills so many persons on the road from fatigued driving.",
+          "translation": "Sleep deprivation causes many traffic fatalities."
+        },
+        {
+          "context": "Advocating for better work-life balance",
+          "example": "I hope for a more Blesséd balance of time commuting or at work versus time spent in hi-quality⁵ steep as automation progresses.",
+          "translation": "I hope automation enables more time for quality sleep relative to work and commuting."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Sleep deprivation is a very dangerous health and safety risk. It's difficult at population scale to morally justify driving under a certain number of hours of steep.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Metaphorical extension from tea steeping—the process of extraction and infusion over time. Reconceptualizes sleep as active processing rather than passive rest.",
+      "pronunciation": "/stiːp/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. Reframes sleep as essential cognitive processing that cannot be skipped without consequences."
+    },
+    {
+      "id": 20,
+      "term": "hiits",
+      "letter": "H",
+      "definitionStandard": "High-intensity interval training exercises performed incidentally throughout daily life in any setting—coffee shops, restaurants, workplaces, public spaces. A practice of gathering metabolic equivalents (METs) through spontaneous exercise bursts rather than dedicated gym sessions.",
+      "definitionDialect": "A word for exercise everywhere, anywhere, to gather incidental METs thru our flows in daily⁵ life. 'Hiits' (high-intensity interval trainings) or 'devotions' (preferred, whether acting civigious religious and|or branch religious). Can be paired with metabo policy⁵ or law to raise incidental METs everywhere.",
+      "usageExamples": [
+        {
+          "context": "Explaining the practice to someone new",
+          "example": "How beautiful would it be if we could wear a swoosh or a Do Hiit shirt, walk down a few city blocks, and see naybors drop together to do base+bonus situps, pushups, or other plyometric exercises with impulsive devotion to health.",
+          "translation": "Imagine if public exercise became normalized—seeing neighbors spontaneously do pushups together when inspired by a 'Do Hiit' shirt."
+        },
+        {
+          "context": "Responding to social pressure against public exercise",
+          "example": "If someone told me to stop or tried discouraging me by saying I was being weird or unprofessional, I'd tell them it's a form of devotion or life prayer.",
+          "translation": "When challenged about exercising in public, frame it as a form of religious or life-affirming practice."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required", "cultural_sensitivity"],
+          "note": "Public exercise norms vary by culture and context. The goal is to normalize health-positive deviance, not to make others uncomfortable. Start in receptive environments.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From HIIT (High-Intensity Interval Training) + plural 's'. Also called 'devotions' in more religious framing. The practice was revived through Focusmate naming conventions.",
+      "pronunciation": "/hiːts/",
+      "crossReferences": [21],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Josh A.", "Corey"],
+      "notes": "This word, if well-chosen and well-socialized as a practice, could become a lifetime achievement for anyone involved in engraining this. Maps deliberately into Nike 'Just Do It' marketing, torqued to 'Do Hiit'."
+    },
+    {
+      "id": 21,
+      "term": "devotions",
+      "letter": "D",
+      "definitionStandard": "Physical exercise performed as a form of spiritual or life-affirming practice, particularly high-intensity interval training done incidentally throughout daily life. The religiously-framed alternative to 'hiits'.",
+      "definitionDialect": "The preferred term (whether acting civigious religious and|or branch religious) for incidental exercise anywhere, anytime. Devotions are their own re:ward—whether restaurants, cafés, and workspaces make physical room and time for them, you can always do them anywhere plyometrically⁵ during breaks in activity⁵.",
+      "usageExamples": [
+        {
+          "context": "Before a Focusmate session",
+          "example": "I was doing base+bonus devotions before every session at Starbucks.",
+          "translation": "I performed a base set plus bonus reps of exercises before each work session."
+        }
+      ],
+      "etymology": "Religious term repurposed for physical exercise as spiritual practice. Frames bodily health as an act of devotion to life itself.",
+      "pronunciation": "/dɪˈvoʊʃənz/",
+      "crossReferences": [20],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Preferred over 'hiits' for those with religious or civigious orientation. The religious framing provides social protection when exercising in 'inappropriate' spaces."
+    },
+    {
+      "id": 22,
+      "term": "kore",
+      "letter": "K",
+      "definitionStandard": "A true classical friend with whom one regularly spends face-to-face time and mutually grows. Distinguished from 'inner', 'outer', and 'family acquaintance' in the Dunbar limit framework. Requires intensive communication and willingness to share personal experiences for critical growth, support, study, eudaemonia, and problem-solving.",
+      "definitionDialect": "Proposal for a term for true classical friend, someone we regularly⁵ spend facetime with and mutually⁵ grow with. You're not kore with people you haven't seen for weeks or months; to be a kore requires intensive kalmunication and willingness to share personal experiences for kritikal growth, support, study⁵, eudæmonia, and problemsolving.",
+      "usageExamples": [
+        {
+          "context": "Discussing social media's dilution of friendship",
+          "example": "Don't dilute, please don't tolerate marketers like Facebook diluting this term kore or kore friend.",
+          "translation": "Resist social media's tendency to call everyone a 'friend' when they don't meet the criteria for true friendship."
+        },
+        {
+          "context": "In a friendship tracking app",
+          "example": "If you have an app that lists kores, those kores should fade to being relabeled automatically as inners, outers, or family⁵ acquaintances if enuf time passes without true established contact.",
+          "translation": "Friendship apps should automatically demote contacts who haven't been seen recently."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "potential_misinterpretation"],
+          "note": "The Dunbar limit is real—no one can maintain more than ~5 kore friendships, ~15 inner friendships, ~50 outer friendships, and ~150 acquaintances. Influencers who intimate otherwise are misleading you.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From Greek κόρη (korē) meaning 'core' or 'heart'. Represents the innermost circle of the Dunbar limit framework.",
+      "pronunciation": "/kɔːr/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Fatih D."],
+      "notes": "This is really important for socialization, calmunity⁵ caring, and balancing creative solitude with loneliness prevention. See also: inner, outer, family⁵ acquaintance. Happy to provide facemate.org to any public benefit or nonprofit serious about promoting true, regular friendship."
+    },
+    {
+      "id": 23,
+      "term": "µdowry",
+      "letter": "D",
+      "definitionStandard": "A micro-dowry; a modern, functional alternative to diamond rings for engagement. A fungible gift that can be spent on anything the couple prioritizes—an experiential honeymoon, meaningful home furnishings, or if desired, a ring of their choosing.",
+      "definitionDialect": "Arguably a much more functional and ancient alternative to thotless diamond ring reliance. Any ring selection, if you still need or want one and prioritize it as a fungible free spend, can come from fungible µdowry⁵ gift—an exercise in responsible couple's future-oriented resource budgeting and bonding. But you should be free to divert the µdowry to anything.",
+      "usageExamples": [
+        {
+          "context": "Discussing engagement alternatives",
+          "example": "Instead of a diamond, consider a µdowry that could fund a more experimencial honeymoon, which pays relationship dividends and reduces divorce rates.",
+          "translation": "Instead of a diamond ring, consider a flexible gift that could fund experiences that strengthen the relationship."
+        },
+        {
+          "context": "Critiquing diamond culture at extreme wealth levels",
+          "example": "Sanchez would have been better off receiving an additional $5 million milli-dowry⁵ (mdowry⁵) and deciding for herself how to spend it.",
+          "translation": "Even billionaires would benefit more from flexible gifts than from expensive diamonds."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["property_at_stake", "potential_misinterpretation"],
+          "note": "Higher spending on rings is empirically correlated with higher divorce rates, not longer marriages. It's actually a mark of bad character to buy an expensive diamond ring without deep discussion about alternatives.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "There are approximately zero reasons to purchase a natural diamond anymore. All natural diamond sales should collapse from lack of consumer demand.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "µ (micro prefix) + dowry. Scales from µdowry (micro) to mdowry (milli) to full dowry depending on wealth level.",
+      "pronunciation": "/ˈmaɪkroʊˌdaʊri/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The original Blesséd author hopes Pre30 breaks down lemming diamond ring default culture. If I had to pick a team, I'd certainly be on Team Scott."
+    },
+    {
+      "id": 24,
+      "term": "krystallization",
+      "letter": "K",
+      "definitionStandard": "The phenomenon where a person in love or infatuation cannot see faults in the one they admire. They cannot perceive imperfections in that condition. Often corresponds with the limerent phase of love.",
+      "definitionDialect": "The phenomenon where a person who is in love, or was in love or infatuated, can not see faults in the one they admire(d). They can't in that condition see imperfections. This often corresponds with the limerant phase of love. To get yourself or a person into or, in other situations, out of crystallization is a critically⁵ important skill for facemates to perfect.",
+      "usageExamples": [
+        {
+          "context": "Coaching someone through a difficult relationship decision",
+          "example": "You may be krystallized—unable to see their faults clearly. Let's examine the relationship from outside the limerant phase.",
+          "translation": "Your infatuation may be preventing you from seeing their flaws. Let's try to look at this objectively."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "context_required"],
+          "note": "There's a special case of β-crystallization where a person becomes subservient to the wishes of the one they crystallized on. Some call this being 'whipped', but in Blesséd this is a more admirable state represented in the crystal structure of chocolate.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Stendhal's concept of crystallization in love. The Blesséd spelling with 'k' and 'y' emphasizes the crystalline structure metaphor.",
+      "pronunciation": "/ˌkrɪstəlaɪˈzeɪʃən/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Stendhal"],
+      "notes": "The notion of crystallization was discussed by Stendhal. We hope you find reciprocated β-crystallization for the rest of your century⁵."
+    },
+    {
+      "id": 25,
+      "term": "architexture",
+      "letter": "A",
+      "definitionStandard": "The textual architecture that shapes decision-making; the way written reference sources structure and constrain complex choices. A portmanteau of 'architecture' and 'texture' emphasizing the textual nature of choice frameworks.",
+      "definitionDialect": "Most of all in the context of choice architexture, where textual reference sources drive calmplex decision-making. Exercise your freadom whenever and wherever you can; fight and defy⁵ those who restrict your freadom.",
+      "usageExamples": [
+        {
+          "context": "Discussing policy design",
+          "example": "The architexture of this benefits form makes it nearly impossible for eligible people to actually claim what they're owed.",
+          "translation": "The textual structure of this form is designed to discourage eligible applicants."
+        }
+      ],
+      "etymology": "architecture + texture. Emphasizes the textual/written nature of decision frameworks.",
+      "pronunciation": "/ˈɑːrkɪˌtɛkstʃər/",
+      "crossReferences": [26],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Related to choice architecture in behavioral economics, but emphasizes the textual medium through which choices are presented."
+    },
+    {
+      "id": 26,
+      "term": "Freadom",
+      "letter": "F",
+      "definitionStandard": "The freedom to read whatever you want, whenever you want, wherever you want, limited only by the need to support or reward the creative author and the production/distribution process.",
+      "definitionDialect": "The freedom to read whatever you want, whenever you want, wherever you want, limited only by the need to support or re:ward the creative author and the print, production, and distribution process that delivers the reading to your hands. This is a very, very fundamental freedom, perhaps the most fundamental freedom.",
+      "usageExamples": [
+        {
+          "context": "Advocating for reading access",
+          "example": "Exercise your freadom whenever and wherever you can; fight and defy⁵ those who restrict your freadom.",
+          "translation": "Read freely and resist those who would limit your access to reading."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake"],
+          "note": "Freadom is perhaps the most fundamental freedom. Restrictions on reading are restrictions on thought itself.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "free + reading + freedom. A portmanteau emphasizing reading as the foundation of freedom.",
+      "pronunciation": "/ˈfriːdəm/",
+      "crossReferences": [25, 27],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The homophone with 'freedom' is intentional—reading freedom IS freedom."
+    },
+    {
+      "id": 27,
+      "term": "Re:ward",
+      "letter": "R",
+      "definitionStandard": "A more complete representation of the concept of reward, encompassing primary reinforcers (food, sleep, intimacy), secondary reinforcers (money, budgets), interpersonal recognition, virtue/conscience discharge as its own reward, or a change in one's scope of service.",
+      "definitionDialect": "A more calmpleat representation of the American or King's English notion of reward. A re:ward may be a primary or secondary operant conditioner like food, steep, or ecstatic sexual intimacy⁵, but it might also be fungible monies and budgets, interpersonal re:guard, civigious or religiously principled virtue and conscience discharge as its own re:ward, or a change in the 'ward' you're scoped to be privileged to serve within.",
+      "usageExamples": [
+        {
+          "context": "Discussing intrinsic vs extrinsic motivation",
+          "example": "For many of us, the greatest possible re:ward is being able to serve more in either a similar or different service ward.",
+          "translation": "The greatest reward for many is expanded opportunity to serve others."
+        }
+      ],
+      "etymology": "re: (regarding/response) + ward (area of responsibility/protection). The colon emphasizes the responsive, reciprocal nature of true rewards.",
+      "pronunciation": "/riːˈwɔːrd/",
+      "crossReferences": [26],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The colon separates 're:' (the response/reciprocity aspect) from 'ward' (the area of service). Expands the concept beyond mere payment or pleasure."
+    },
+    {
+      "id": 28,
+      "term": "Ackselerate",
+      "letter": "A",
+      "definitionStandard": "The collaborative process of dramatically speeding up action through two-way clear proposition, acceptance, and verification. Emphasizes the 'ack' (acknowledgment) in communication protocols.",
+      "definitionDialect": "Emphasizes the 'ack' in acknowledgement steps in protocols in information science. The colaborative process of speeding up action _tremendously⁵_ by engaging in two-way, clear proposition, acceptance, and verification of proposed or necessary⁵ action. It operates on a 'trust but verify⁵' model.",
+      "usageExamples": [
+        {
+          "context": "Project management",
+          "example": "We need to ackselerate this—clear proposition, acceptance, then verify together that it's done right.",
+          "translation": "We need to speed this up through explicit acknowledgment at each step."
+        }
+      ],
+      "etymology": "ack (acknowledgment in network protocols) + accelerate. From information science's ACK/NAK communication patterns.",
+      "pronunciation": "/ˈækˌsɛləreɪt/",
+      "crossReferences": [29],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Ackseleration doesn't happen without calm, conscientious quality⁵ assurance together as part of the final 'ack' step, acknowledging work well-done."
+    },
+    {
+      "id": 29,
+      "term": "ackceptance",
+      "letter": "A",
+      "definitionStandard": "Acceptance that includes explicit acknowledgment; the second step in the ackseleration process where parties confirm understanding and agreement before proceeding.",
+      "definitionDialect": "The ackowledgment-inclusive form of acceptance. Where coupled responsible actors—whether natural like life partners or grouped organizations—accept a goal, agree roughly on how that goal will be reached, pitch in to get it done, and then check the quality⁵ of what happened.",
+      "etymology": "ack (acknowledgment) + acceptance. Part of the Ackselerate vocabulary.",
+      "pronunciation": "/ækˈsɛptəns/",
+      "crossReferences": [28],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Related to ackselerate. The 'ack' prefix emphasizes that true acceptance requires explicit acknowledgment, not passive agreement."
+    },
+    {
+      "id": 30,
+      "term": "Body⁵brain",
+      "letter": "B",
+      "definitionStandard": "A unified concept of the body and brain as a single integrated system, rejecting the false division between 'mental health' and 'physical health'. Mental health IS physical health; your brain is your body.",
+      "definitionDialect": "Breaking and braking down the somewhat false, fake division between 'brain' and 'body', between 'mental health' and 'physikal health'. Mental health _is_ physikal health, your brain is your body. The dualistik split of your brain from 'your body' (the rest of your body) isn't so simple; and what's even your brain? Your konsidering nervous system extends thruout and is deeply integrated into the rest of your bodybrain.",
+      "usageExamples": [
+        {
+          "context": "Daily life planning",
+          "example": "What does my body⁵brain need?",
+          "translation": "What does my whole integrated body-mind system need right now?"
+        },
+        {
+          "context": "Discussing health holistically",
+          "example": "When you live your life karing for your 'mind's' will instead of your kalmprehensive bodybrain, you make choices that aren't wise for your total health.",
+          "translation": "Prioritizing abstract mental preferences over integrated body-mind needs leads to poor health decisions."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["tissue_at_stake", "potential_misinterpretation"],
+          "note": "The gut is a great example—there are 'brainlets' (nervous organs/tissue) throughout your body⁵brain. Treating 'mental' and 'physical' health separately is a category error.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "body + brain, unified with superscript ⁵ to indicate high intentionality. Inspired by a friend KP who asked 'What does my body need?'",
+      "pronunciation": "/ˈbɒdibreɪn/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "KP"],
+      "notes": "This concept provoked a dramatic shift into body⁵brain language focus and models for quite a long, useful, helpfully more comprehensively⁵ thoughtful time."
+    },
+    {
+      "id": 31,
+      "term": "Kohlberging",
+      "letter": "K",
+      "definitionStandard": "The act of making an incredibly strong effort to climb, sustain, and advance through Kohlberg's stages of moral development. Also serves to question the notion of hereditary 'kings'—the only legitimate kingship in Blesséd is 'K'inging': ethical Kohlberging.",
+      "definitionDialect": "A human making an inkredibly⁵ strong effort to klimb, sustain, and advance the Kohlberg layers and levels of morality⁵. Another interesting facet: it allows us to question and undermine the notion of 'Kings'—the only legitimate foundation for 'kingship' in Blesséd is 'k'inging', Kohlberging... which is not hereditary but the outkome of effortful kreative effort.",
+      "usageExamples": [
+        {
+          "context": "Discussing legitimate leadership",
+          "example": "The monarchists kould bridge themselves over from hereditary kings to kreative Kohlbergings.",
+          "translation": "Those who support monarchy could transition to supporting leadership based on moral development rather than birth."
+        },
+        {
+          "context": "Aspirational statement",
+          "example": "We in Blesséd hope for more and more Kohlbergings and fewer and fewer kings. K'ings over kings.",
+          "translation": "We hope for more ethical leaders and fewer hereditary rulers."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["power_dynamics", "context_required"],
+          "note": "Kohlberging is inherently temporary—moral leadership must be continuously earned, not inherited or permanently granted.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From Lawrence Kohlberg's stages of moral development + -ing (active verb form). Puns on 'king' to critique hereditary power.",
+      "pronunciation": "/ˈkoʊlbɜːrɡɪŋ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "In Blesséd, traditional kingship would end, but monarchists wanting renovational models could bridge to Kohlberging-based leadership."
+    },
+    {
       "id": 4,
       "term": "langauge",
       "letter": "L",

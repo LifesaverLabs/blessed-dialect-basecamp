@@ -183,6 +183,7 @@ export function checkDuplicateIds(
 export function validateLetterMatches(entry: DictionaryEntry): boolean {
   const firstLetter = entry.term
     .replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹]+/, "") // Remove leading superscripts
+    .replace(/^[µμ]/, "") // Remove leading micro/mu prefix (Greek µ and μ)
     .charAt(0)
     .toUpperCase();
 

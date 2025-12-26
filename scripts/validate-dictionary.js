@@ -8,8 +8,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 function getFirstLetter(term) {
-  // Remove leading superscripts
-  const cleaned = term.replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹]+/, '');
+  // Remove leading superscripts and metric prefixes
+  const cleaned = term
+    .replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹]+/, '') // Remove leading superscripts
+    .replace(/^[µμ]/, ''); // Remove leading micro/mu prefix (Greek µ and μ)
   return cleaned.charAt(0).toUpperCase();
 }
 
