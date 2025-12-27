@@ -9,6 +9,7 @@ import {
   getKeyboardLayouts,
   getKeyboardLayoutById,
   getKeyboardLayoutsByTag,
+  getEntriesByDate,
 } from './loader';
 
 /**
@@ -261,6 +262,48 @@ describe('Data Loader', () => {
         expect(typeof phrase.letter).toBe('string');
         expect(phrase.letter).toMatch(/^[A-Z]$/);
       });
+    });
+  });
+
+  // ============================================
+  // ENTRIES BY DATE
+  // ============================================
+  describe('getEntriesByDate', () => {
+    it('should return entries sorted by date (newest first)', () => {
+      const entries = getEntriesByDate();
+      expect(Array.isArray(entries)).toBe(true);
+
+      // Verify sorting (newest first)
+      for (let i = 1; i < entries.length; i++) {
+        const prevDate = entries[i - 1].dateAdded;
+        const currDate = entries[i].dateAdded;
+        if (prevDate && currDate) {
+          expect(prevDate >= currDate).toBe(true);
+        }
+      }
+    });
+
+    it('should only return entries with dateAdded field', () => {
+      const entries = getEntriesByDate();
+      entries.forEach(entry => {
+        expect(entry.dateAdded).toBeDefined();
+      });
+    });
+
+    it('should respect limit parameter', () => {
+      const limit5 = getEntriesByDate(5);
+      const limit10 = getEntriesByDate(10);
+      const noLimit = getEntriesByDate();
+
+      expect(limit5.length).toBeLessThanOrEqual(5);
+      expect(limit10.length).toBeLessThanOrEqual(10);
+      expect(noLimit.length).toBeGreaterThanOrEqual(limit10.length);
+    });
+
+    it('should return fewer entries if limit exceeds available', () => {
+      const entries = getEntriesByDate(1000);
+      const all = getEntriesByDate();
+      expect(entries.length).toBe(all.length);
     });
   });
 

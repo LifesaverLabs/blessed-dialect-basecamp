@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Dictionary from "./pages/Dictionary";
 import Forum from "./pages/Forum";
 import About from "./pages/About";
+import Timeline from "./pages/Timeline";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/dictionary" element={<Dictionary />} />
           <Route path="/forum" element={<Forum />} />
           <Route path="/about" element={<About />} />
+          <Route path="/timeline" element={<Timeline />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

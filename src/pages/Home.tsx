@@ -1,9 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { ArrowRight, BookOpen, MessageSquare, Sprout, FileText } from "lucide-react";
+import { ArrowRight, BookOpen, MessageSquare, Sprout, FileText, Calendar } from "lucide-react";
 import blessedLogo from "@/assets/blessed-dialect-logo.webp";
+import { getEntriesByDate, getPhrases } from "@/data/loader";
 
 const Home = () => {
+  const latestEntries = getEntriesByDate(10);
+  const phraseIds = new Set(getPhrases().map(p => p.id));
+  const isPhrase = (id: number) => phraseIds.has(id);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -113,6 +118,51 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Latest Words/Phrases */}
+      {latestEntries.length > 0 && (
+        <section className="container mx-auto px-4 py-20">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex items-center gap-3">
+                <Calendar className="w-6 h-6 text-primary" />
+                <h2 className="text-3xl md:text-4xl font-bold">Latest Additions</h2>
+              </div>
+              <NavLink to="/timeline">
+                <Button variant="outline" size="sm" className="gap-2">
+                  View Full Timeline
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </NavLink>
+            </div>
+
+            <div className="space-y-3">
+              {latestEntries.map((entry) => (
+                <NavLink key={entry.id} to="/dictionary">
+                  <div className="p-4 rounded-lg bg-card border border-border hover:border-primary/50 hover:bg-accent/50 transition-colors cursor-pointer">
+                    <div className="flex items-start gap-3">
+                      <span className="text-xs px-2 py-0.5 rounded bg-secondary text-secondary-foreground shrink-0">
+                        {isPhrase(entry.id) ? "phrase" : "word"}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-baseline gap-2 flex-wrap">
+                          <h3 className="font-medium">{entry.term}</h3>
+                          {entry.dateAdded && (
+                            <span className="text-xs text-muted-foreground">{entry.dateAdded}</span>
+                          )}
+                        </div>
+                        <p className="text-sm text-muted-foreground truncate mt-1">
+                          {entry.definitionStandard || entry.definition}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </NavLink>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Mission Statement */}
       <section className="container mx-auto px-4 py-20">

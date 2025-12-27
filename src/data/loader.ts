@@ -85,3 +85,30 @@ export function getKeyboardLayoutsByTag(tag: string): KeyboardLayout[] {
     (layout) => layout.tags?.includes(tag) ?? false
   );
 }
+
+// Get entries sorted by date added (newest first)
+// Date format is Long Now: YYYYY-MM月DD (e.g., "02025-12月26")
+export function getEntriesByDate(limit?: number): DictionaryEntry[] {
+  const allEntries = getAllEntries();
+
+  // Filter to entries with dateAdded and sort by date (newest first)
+  const entriesWithDates = allEntries
+    .filter((entry) => entry.dateAdded)
+    .sort((a, b) => {
+      // Parse Long Now date format: YYYYY-MM月DD
+      const parseDate = (dateStr: string): Date => {
+        const match = dateStr.match(/^(\d{5})-(\d{1,2})月(\d{2})$/);
+        if (!match) return new Date(0);
+        const [, year, month, day] = match;
+        // Convert Long Now year (02025) to standard year (2025)
+        const standardYear = parseInt(year, 10);
+        return new Date(standardYear, parseInt(month, 10) - 1, parseInt(day, 10));
+      };
+
+      const dateA = parseDate(a.dateAdded!);
+      const dateB = parseDate(b.dateAdded!);
+      return dateB.getTime() - dateA.getTime(); // Newest first
+    });
+
+  return limit ? entriesWithDates.slice(0, limit) : entriesWithDates;
+}

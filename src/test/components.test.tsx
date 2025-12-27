@@ -10,6 +10,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Dictionary from '../pages/Dictionary';
 import Forum from '../pages/Forum';
+import Timeline from '../pages/Timeline';
 import NotFound from '../pages/NotFound';
 import { Navigation } from '../components/Navigation';
 import { NavLink } from '../components/NavLink';
@@ -812,6 +813,172 @@ describe('Component Tests', () => {
       // Input should be in the document and be an input element
       expect(searchInput).toBeInTheDocument();
       expect(searchInput.tagName.toLowerCase()).toBe('input');
+    });
+  });
+
+  // ============================================
+  // HOME PAGE - LATEST ADDITIONS
+  // ============================================
+  describe('Home Page - Latest Additions', () => {
+    it('should render Latest Additions section', () => {
+      render(
+        <RouterWrapper>
+          <Home />
+        </RouterWrapper>
+      );
+      expect(screen.getByText('Latest Additions')).toBeInTheDocument();
+    });
+
+    it('should render View Full Timeline button', () => {
+      render(
+        <RouterWrapper>
+          <Home />
+        </RouterWrapper>
+      );
+      expect(screen.getByText('View Full Timeline')).toBeInTheDocument();
+    });
+
+    it('should have Timeline link with correct href', () => {
+      render(
+        <RouterWrapper>
+          <Home />
+        </RouterWrapper>
+      );
+      const timelineButton = screen.getByText('View Full Timeline');
+      const link = timelineButton.closest('a');
+      expect(link).toHaveAttribute('href', '/timeline');
+    });
+
+    it('should display word/phrase badges', () => {
+      render(
+        <RouterWrapper>
+          <Home />
+        </RouterWrapper>
+      );
+      // Should have at least one word or phrase badge
+      const wordBadges = screen.queryAllByText('word');
+      const phraseBadges = screen.queryAllByText('phrase');
+      expect(wordBadges.length + phraseBadges.length).toBeGreaterThan(0);
+    });
+
+    it('should display entry dates', () => {
+      render(
+        <RouterWrapper>
+          <Home />
+        </RouterWrapper>
+      );
+      // Look for Long Now date format (YYYYY-MM月DD)
+      const datePattern = /\d{5}-\d{1,2}月\d{2}/;
+      const textContent = document.body.textContent || '';
+      expect(datePattern.test(textContent)).toBe(true);
+    });
+  });
+
+  // ============================================
+  // TIMELINE PAGE
+  // ============================================
+  describe('Timeline Page', () => {
+    it('should render page title', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      expect(screen.getByText('Dictionary⁵ Timeline')).toBeInTheDocument();
+    });
+
+    it('should render subtitle', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      expect(screen.getByText('Reverse chronological list of all entries by date added')).toBeInTheDocument();
+    });
+
+    it('should render Back to Home button', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      expect(screen.getByText('Back to Home')).toBeInTheDocument();
+    });
+
+    it('should have Back to Home link with correct href', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      const backButton = screen.getByText('Back to Home');
+      const link = backButton.closest('a');
+      expect(link).toHaveAttribute('href', '/');
+    });
+
+    it('should display entries with dates', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      // Should show at least one date header (Long Now format)
+      const datePattern = /\d{5}-\d{1,2}月\d{2}/;
+      const textContent = document.body.textContent || '';
+      expect(datePattern.test(textContent)).toBe(true);
+    });
+
+    it('should display word/phrase badges', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      const wordBadges = screen.queryAllByText('word');
+      const phraseBadges = screen.queryAllByText('phrase');
+      expect(wordBadges.length + phraseBadges.length).toBeGreaterThan(0);
+    });
+
+    it('should display stats about entries', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+      // Should show "X entries with dates" and "Y unique dates"
+      expect(screen.getByText(/entries with dates/)).toBeInTheDocument();
+      expect(screen.getByText(/unique dates/)).toBeInTheDocument();
+    });
+
+    it('should have clickable entry buttons', () => {
+      render(
+        <TestWrapper>
+          <Timeline />
+        </TestWrapper>
+      );
+
+      // Find entry buttons (entries are rendered as buttons)
+      const entryButtons = screen.getAllByRole('button');
+      // Should have at least "Back to Home" button plus some entry buttons
+      expect(entryButtons.length).toBeGreaterThan(0);
+    });
+  });
+
+  // ============================================
+  // TIMELINE ROUTING
+  // ============================================
+  describe('Timeline Routing', () => {
+    it('should render Timeline on "/timeline" route', () => {
+      render(
+        <MemoryRouter initialEntries={['/timeline']}>
+          <QueryClientProvider client={new QueryClient()}>
+            <TooltipProvider>
+              <Timeline />
+            </TooltipProvider>
+          </QueryClientProvider>
+        </MemoryRouter>
+      );
+      expect(screen.getByText('Dictionary⁵ Timeline')).toBeInTheDocument();
     });
   });
 });
