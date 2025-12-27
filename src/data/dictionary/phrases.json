@@ -255,6 +255,422 @@
       "dateAdded": "02025-12月26",
       "contributors": ["lifesaverlabs"],
       "notes": "Part of Civigion, Government, and Society vocabulary. Challenges the competitive, siloed approach to hiring."
+    },
+    {
+      "id": 96,
+      "term": "Take 10",
+      "letter": "T",
+      "definitionStandard": "A structured pause or timeout technique for de-escalation in tense situations, especially in intimate or relational contexts. Allows parties to cool down before continuing a difficult conversation.",
+      "definitionDialect": "A structured pause or timeout technique for de-eskalation in tense situations, especially in intimate or relational contexts. Allows parties to cool down before continuing a difficult konversation. Part of a broader toolkit for maintaining healthy kommunikation in relationships.",
+      "usageExamples": [
+        {
+          "context": "During a heated argument",
+          "example": "Let's Take 10 before we say something we'll regret.",
+          "translation": "Let's pause for ten minutes to calm down before continuing this conversation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "context_required"],
+          "note": "Take 10 should be mutually agreed upon—one party cannot unilaterally impose silence on another. The pause is for cooling down, not stonewalling.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From 'take ten' meaning take a ten-minute break. Formalized as a relational de-escalation protocol.",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 97,
+      "term": "safewords and sagewords",
+      "letter": "S",
+      "definitionStandard": "Safewords are words or signals that immediately stop an activity; sagewords (∱agewords) are fully-integrated age words that provide guidance and calibration during intimate or intense activities without stopping them entirely.",
+      "definitionDialect": "Safewords are words or signals that immediately stop an activity; sagewords (∱agewords) are fully-integrated age words that provide guidance and kalibration during intimate or intense activities without stopping them entirely. Together they form a consent kommunikation system.",
+      "usageExamples": [
+        {
+          "context": "Explaining consent boundaries",
+          "example": "A safeword stops everything; a sageword adjusts the intensity or direction.",
+          "translation": "Safewords halt; sagewords calibrate."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake", "context_required"],
+          "note": "Both safewords and sagewords must be respected immediately. Ignoring either is a serious consent violation.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "safeword (established BDSM term) + sageword (sage = wise counsel, ∱ as integral symbol representing fully-integrated).",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 98,
+      "term": "Bedroom Ref",
+      "letter": "B",
+      "definitionStandard": "A trusted third party who can be called upon for wellness checks or to arbitrate consent conflicts in intimate contexts. Like a referee ensuring fair play.",
+      "definitionDialect": "A trusted third party who can be called upon for wellness checks or to arbitrate consent konflikts in intimate kontexts. Like a referee ensuring fair play. Part of a broader SRE (sexual⁵ reliability⁵ engineering) framework.",
+      "usageExamples": [
+        {
+          "context": "Setting up relationship safety structures",
+          "example": "Before moving in together, they agreed on who their Bedroom Ref would be.",
+          "translation": "They identified a trusted person who could be called if either felt unsafe."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake", "power_dynamics"],
+          "note": "The Bedroom Ref must be genuinely neutral and trusted by both parties. Selection should not be coerced.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Bedroom + Referee. Extends the sports concept of neutral arbitration to intimate contexts.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "(Utopian) Part of comprehensive consent infrastructure."
+    },
+    {
+      "id": 99,
+      "term": "Bedroom CPR",
+      "letter": "B",
+      "definitionStandard": "Bedroom Consent Primary Response—an emergency protocol for responding to consent emergencies in intimate contexts. Analogous to medical CPR as a first-response intervention.",
+      "definitionDialect": "Bedroom Consent Primary Response—an emergency protokol for responding to consent emergencies in intimate kontexts. Analogous to medical CPR as a first-response intervention. Emphasizes that consent violations are emergencies requiring immediate structured response.",
+      "usageExamples": [
+        {
+          "context": "Training on consent response",
+          "example": "Just as everyone should know CPR, everyone should know Bedroom CPR protocols.",
+          "translation": "Consent emergency response should be as widely taught as medical first aid."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake", "trigger_warning"],
+          "note": "This addresses sexual assault prevention and response. The framing as 'CPR' emphasizes the life-or-death stakes of consent violations.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "CPR (Cardiopulmonary Resuscitation) repurposed as Consent Primary Response. Both are emergency first-response protocols.",
+      "crossReferences": [98],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "(Utopian) Part of SRE framework."
+    },
+    {
+      "id": 100,
+      "term": "SRE - sexual⁵ reliability⁵ engineering",
+      "letter": "S",
+      "definitionStandard": "Applying reliability engineering principles to intimate contexts—building systems, protocols, and practices that make consent violations structurally less likely, just as software SRE prevents system failures.",
+      "definitionDialect": "Applying reliability engineering principles to intimate kontexts—building systems, protokols, and praktices that make consent violations strukturally less likely, just as software SRE prevents system failures. Systematic safety engineering for relationships.",
+      "usageExamples": [
+        {
+          "context": "Discussing relationship safety infrastructure",
+          "example": "SRE asks: what systems can we build so that failures become structurally impossible rather than relying on individual vigilance?",
+          "translation": "Design relationships with safety baked in, not bolted on."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake", "context_required"],
+          "note": "SRE is not about surveillance or control—it's about mutual safety infrastructure. All parties must consent to the systems themselves.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From Site Reliability Engineering (Google's discipline for maintaining system uptime), applied to intimate safety.",
+      "crossReferences": [97, 98, 99],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Borrows from tech industry practices of building reliable systems."
+    },
+    {
+      "id": 101,
+      "term": "stubborn/αpe/Rαpe spectrum",
+      "letter": "S",
+      "definitionStandard": "A gradient describing consent dynamics: stubbornness (persisting despite reluctance) exists on a spectrum that can escalate to αpe (animalistic persistence) and Rαpe (criminal violation). Recognizes that consent issues exist on a continuum.",
+      "definitionDialect": "A gradient describing consent dynamics: stubbornness (persisting despite reluktance) exists on a spektrum that can eskalate to αpe (animalistik persistence) and Rαpe (kriminal violation). Recognizes that consent issues exist on a kontinuum, not as a binary.",
+      "usageExamples": [
+        {
+          "context": "Discussing consent calibration",
+          "example": "Understanding the stubborn/αpe/Rαpe spectrum helps people recognize when persistence has crossed a line.",
+          "translation": "There's a gradient from annoying persistence to criminal assault—recognizing where you are on it matters."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake", "trigger_warning", "context_required"],
+          "note": "This term addresses rape and sexual assault directly. The spectrum framing is meant to help people recognize early warning signs, not to minimize serious violations.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["reclaimed_term", "potential_misinterpretation"],
+          "note": "The α (alpha) symbol is used deliberately to reference both the Greek letter and 'alpha male' culture that can normalize aggressive persistence.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "stubborn + ape (animalistic) + rape, with Greek α used to connect the terms and reference 'alpha' culture.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Sensitive but necessary vocabulary for consent education."
+    },
+    {
+      "id": 102,
+      "term": "apology⁵ rites",
+      "letter": "A",
+      "definitionStandard": "Formal rituals of apology with both corrective and preventive dimensions. Not just saying sorry, but structured processes that repair harm and prevent recurrence.",
+      "definitionDialect": "Formal rituals of apology with both corrective and preventive dimensions. Not just saying sorry, but struktured processes that repair harm and prevent rekurrence. The superscript ⁵ indicates full intentionality—these are not kasual apologies.",
+      "usageExamples": [
+        {
+          "context": "After a relational harm",
+          "example": "The apology⁵ rite included acknowledgment, repair, and a concrete prevention plan.",
+          "translation": "The formal apology process involved admitting wrong, making amends, and committing to specific changes."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "power_dynamics"],
+          "note": "Apology⁵ rites should not be coerced. Both parties must genuinely engage for the rite to be meaningful.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "apology + rite (ritual). The ⁵ indicates maximum intentionality in Blesséd notation.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 103,
+      "term": "ring or thing",
+      "letter": "R",
+      "definitionStandard": "A philosophy resisting thoughtless diamond ring lemming culture—questioning why engagement must involve expensive diamond rings when other meaningful symbols (like an amethyst hearthstone) could serve the same purpose more thoughtfully.",
+      "definitionDialect": "A philosophy resisting thotless diamond ring lemming kulture—questioning why engagement must involve expensive diamond rings when other meaningful symbols (like an amethyst hearthstone) could serve the same purpose more thoughtfully⁵. Encourages couples to choose their own meaningful tokens.",
+      "usageExamples": [
+        {
+          "context": "Discussing engagement planning",
+          "example": "Instead of defaulting to a diamond, they discussed ring or thing and chose an amethyst hearthstone that represented their shared values.",
+          "translation": "Rather than buying a diamond ring by default, they chose a meaningful symbol together."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["property_at_stake", "social_kontrakt_at_stake"],
+          "note": "The diamond industry has manufactured expectations that burden couples financially. This is an invitation to think critically, not a judgment of those who choose diamonds.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "ring (traditional engagement symbol) or thing (any alternative meaningful object). Challenges De Beers marketing that made diamonds 'mandatory.'",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 104,
+      "term": "Leftover men and women",
+      "letter": "L",
+      "definitionStandard": "Terms for unmarried adults past the typical age of marriage in their culture. Borrowed from Chinese 剩女 (shèngnǚ, 'leftover women'). Used to discuss demographic imbalances and marriage market dynamics.",
+      "definitionDialect": "Terms for unmarried adults past the typical age of marriage in their kulture. Borrowed from Chinese 剩女 (shèngnǚ, 'leftover women') and its male kompanion term. Used to diskuss demographic imbalances and marriage market dynamics without judgment.",
+      "usageExamples": [
+        {
+          "context": "Discussing demographic trends",
+          "example": "The leftover men phenomenon in China reflects the one-child policy's gender imbalance consequences.",
+          "translation": "There are millions of men who cannot find partners due to sex-selective policies."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity", "potential_misinterpretation", "social_kontrakt_at_stake"],
+          "note": "These terms can be pejorative in their original contexts. Blesséd uses them analytically to discuss demographic realities, not to shame unmarried people.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From Chinese 剩男 (shèngnán, leftover men) and 剩女 (shèngnǚ, leftover women).",
+      "intentionalityRating": 3,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 105,
+      "term": "good/tasty dikotomy⁵",
+      "letter": "G",
+      "definitionStandard": "The strict distinction between 'good' (healthy, beneficial) and 'tasty' (pleasurable but potentially harmful). Resists the slippage where 'tasty' foods get called 'good' despite being unhealthy.",
+      "definitionDialect": "The strikt distinction between 'good' (healthy, beneficial) and 'tasty' (pleasurable but potentially harmful). Resists the slippage where 'tasty' foods get called 'good' despite being unhealthy. Be kritical of abuse where 'good' gets used to mean 'tasty.'",
+      "usageExamples": [
+        {
+          "context": "Discussing food choices",
+          "example": "That cake is tasty, not good. Let's be precise.",
+          "translation": "The cake is delicious but not healthy—don't confuse the two."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["tissue_at_stake", "potential_misinterpretation"],
+          "note": "Language shapes behavior. Calling unhealthy foods 'good' normalizes harmful eating patterns.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "good + tasty + dichotomy, with Blesséd spelling (dikotomy) and superscript ⁵ for intentionality.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 106,
+      "term": "soldier suffrage and shot social kontrakt",
+      "letter": "S",
+      "definitionStandard": "The principle that soldiers should vote before serving and that any student required to receive vaccinations ('shots') should also have voting rights. Connects duty to participate in society with the right to shape it.",
+      "definitionDialect": "The prinsiple that soldiers should vote before serving—if you can die for your kountry, you should shape its direction first. Similarly, any student required to receive vaccinations ('shots') should also have voting rights. Konnects duty to participate in society with the right to shape it.",
+      "usageExamples": [
+        {
+          "context": "Discussing voting age",
+          "example": "If teens can be mandated to get shots for school, they should be able to vote on the policies that mandate them.",
+          "translation": "Mandatory civic duties should come with civic rights."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "social_kontrakt_at_stake"],
+          "note": "This is a proposal for expanding suffrage, not a criticism of vaccination requirements.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "soldier suffrage (traditional argument for lowering voting age) + shot (vaccination) social contract.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "(Utopian Civics) Teen voting guarantees linked to civic responsibilities."
+    },
+    {
+      "id": 107,
+      "term": "123 (Utopian) / 112 (Imminent)",
+      "letter": "O",
+      "definitionStandard": "Emergency numbers: 123 is the proposed utopian universal emergency number (easier for children and panicked adults); 112 is the current European emergency number already functional in many countries.",
+      "definitionDialect": "Emergency numbers: 123 is the proposed utopian universal emergency number (easier for children and panicked adults to remember and dial); 112 is the kurrent European emergency number already funktional in many countries and an imminent improvement over fragmented national systems.",
+      "usageExamples": [
+        {
+          "context": "Discussing emergency services",
+          "example": "112 works across Europe now; 123 would be even simpler if we could achieve global coordination.",
+          "translation": "We have a pan-European number already; a global one could be even simpler."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "Knowing emergency numbers saves lives. 112 works in all EU countries and many others.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "123 (simple ascending sequence) proposed; 112 (European standard since 1991).",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "112 is already imminent/achieved; 123 remains utopian."
+    },
+    {
+      "id": 108,
+      "term": "Days of Week (Utopian)",
+      "letter": "D",
+      "definitionStandard": "Proposed renaming of weekdays to reflect their purpose: Cleanday (cleaning), Gymday (exercise), Friendsday (social connection), Restday (rest), Bestday (personal best). Removes pagan deity references and adds intentional meaning.",
+      "definitionDialect": "Proposed renaming of weekdays to reflekt their purpose: Cleanday (cleaning), Gymday (exercise), Friendsday (social konnection), Restday (rest), Bestday (personal best). Removes pagan deity references and adds intentional meaning to how we name our days.",
+      "usageExamples": [
+        {
+          "context": "Discussing the calendar",
+          "example": "Why honor Woden and Thor when we could have Cleanday and Bestday?",
+          "translation": "Our day names could inspire action rather than honoring forgotten gods."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity"],
+          "note": "This is a utopian proposal, not a criticism of current naming conventions. Change would require broad consensus.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Clean/Gym/Friends/Rest/Best + day, replacing Tuesday/Wednesday/Thursday/etc.",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "(Utopian) Part of broader language reform proposals."
+    },
+    {
+      "id": 109,
+      "term": "Feminist Yes!",
+      "letter": "F",
+      "definitionStandard": "An enthusiastic consent framework emphasizing that consent should be an active, enthusiastic 'yes' rather than the absence of 'no'. Associated with FeministYes.org.",
+      "definitionDialect": "An enthusiastic konsent framework emphasizing that konsent should be an aktive, enthusiastic 'yes' rather than the absence of 'no'. The exklamation mark is essential—it's not just 'yes' but 'Yes!' Assokiated with FeministYes.org.",
+      "usageExamples": [
+        {
+          "context": "Consent education",
+          "example": "Feminist Yes! means looking for enthusiasm, not just compliance.",
+          "translation": "True consent is eager participation, not mere acquiescence."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "life_at_stake", "context_required"],
+          "note": "Enthusiastic consent is the gold standard. Anything less requires careful examination of power dynamics and context.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Feminist + Yes! (with exclamation). Part of enthusiastic consent movement.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 110,
+      "term": "The Four Lifesaver Labs Laws",
+      "letter": "T",
+      "definitionStandard": "Modified Asimov robot laws for AI and human ethics: (1) Preserve human life, (2) Prevent human harm, (3) Extend human capability, (4) Respect human autonomy—with each law taking precedence over those below it.",
+      "definitionDialect": "Modified Asimov robot laws for AI and human ethics. Asimov's Overrides adapted for the Nomient age: (1) Preserve human life, (2) Prevent human harm, (3) Extend human capability, (4) Respekt human autonomy—with each law taking precedence over those below it.",
+      "usageExamples": [
+        {
+          "context": "AI ethics discussion",
+          "example": "Under the Four Laws, an AI must prevent harm (Law 2) even if it means overriding a human command (Law 4).",
+          "translation": "The hierarchy ensures safety takes precedence over obedience."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake"],
+          "note": "These laws are proposals for AI development ethics, building on Asimov's fictional framework with practical modifications.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Based on Isaac Asimov's Three Laws of Robotics, extended and adapted for contemporary AI development.",
+      "crossReferences": [83],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Isaac Asimov (inspiration)"]
+    },
+    {
+      "id": 111,
+      "term": "friend⁵",
+      "letter": "F",
+      "definitionStandard": "A reclaimed and deepened understanding of friendship, with duty to mutual improvement. Organized in concentric circles: kore (core inner circle), inner, outer, and family⁵. Resists Facebook's dilution of the term.",
+      "definitionDialect": "A reklaimed and deepened understanding of friendship, with duty⁵ to mutual improvement. Organized in koncentrik circles: kore (core inner circle), inner, outer, and family⁵. Actively resists Facebook's 'friend' valence destruction and the loosening of the term's primary meaning.",
+      "usageExamples": [
+        {
+          "context": "Discussing relationship categories",
+          "example": "She's in my kore—not just a friend, but someone I'm duty-bound to help improve and be improved by.",
+          "translation": "My innermost circle of friends have mutual obligations of growth."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "potential_misinterpretation"],
+          "note": "Facebook has degraded 'friend' to mean 'acquaintance' or 'contact.' Blesséd seeks to restore its weight and obligation.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From Old English frēond (one who loves). Superscript ⁵ indicates intentional, high-commitment friendship.",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Still seeking a better word post-Facebook meaning destruction."
     }
   ]
 }

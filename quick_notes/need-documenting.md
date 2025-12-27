@@ -17,103 +17,15 @@ Blesséd Number System
 Relationships, Intimacy, and Kalmunity⁵
 ---------------------------------------
 
-- Safewords and ∱agewords (sagewords, fully⁵-integrated age words)
-- Take 10
-- Bedroom Ref (Utopian)
-- Bedroom CPR - Bedroom "Consent Primary Response"
-- SRE - sexual⁵ reliability⁵ engineering
 - Stubborn sexuality
-- stubborn / αpe / Rαpe spectrum
-- apology⁵ rites (corrective and preventive)
-- ring or thing (resisting thotless diamond ring lemming culture; amethyst hearthstone example alternative)
-- friend (duty⁵ to mutual improvement; actively searching for better word post-Facebook 'friend' valence and primary meaning loosening / destruction)
-- limerance (exists in American but not well-known)
-- n-counter
-- Leftover men (and companion leftover women)
 
 
 Health and Wellness
 -------------------
 
-- good / tasty dikotomy⁵ (try to be very strict with this usage, be critical of abuse and slippage)
 - sugar overload
 - Heartclot / Healthclot
-- Corpser / corpsing (death behaviors, like harmful nicotine addictions)
 - Quit grit
-- despair dysregulation ('desperate for air', over 'depression')
-- hope dysregulation (over 'mania')
-- klassification (over 'diagnosis' in psychiatry⁵)
-- Ribbreaker (clearer, more direct than sternum-cartilege-breaker)
-
-
-Civigion, Government, and Society
----------------------------------
-
-- Days of Week (Cleanday/Gymday/Friendsday and Restday/Bestday) (Utopian)
-- soldier suffrage and shot social kontrakt (teen voting guarantees, soldier and shot student suffrage) (Utopian Civics)
-- civ build
-- cocivigionist
-- conscience (con-science, conducting science together, learning about the world thoroly⁵)
-- calmpatriot
-- Laboratory (State / City⁵)
-- CALM
-- Calm⁴UNism
-- calmplaint
-- Campaign slog
-- Naybor
-- disneying (nayborhood pickup, fixing broken windows, esp. as guaranteed and served by rate-limiting agents)
-- Grandparental Libertarian
-- 123 (Utopian) / 112 (Imminent)
-- The 11th
-- 13th Slaves
-- 18 and 18x
-- Innocenter
-- Innocentest
-- The Four Lifesaver Labs Laws (Asimov's Overrides)
-- eschatological shortcutting (utopian)
-
-
-Religion and Philosophy
------------------------
-
-- Judeochrislamhai
-- HhAÆJers / HhAÆCers / HhAÆIers / ReHhAÆBers
-- Hh
-- endering
-- Vision Ro
-- miracle (sociotechnical)
-- harmless arms
-- dualindiv (for conscience basis study⁵ and cross-coupled household responsibility⁵ and rights)
-- pleonexia
-
-
-Life Planning and Economics
----------------------------
-
-- berth and berthday
-- X+N berth planning
-- frupidity (borrowed and copied from the lexicon of Amazon); frugality⁵ is a kore klassikal virtue, frupidity is its inverse where rekless frugality⁵ kauses unnecessary⁵ pennywise, pound-foolish suffering. Not offering national freely available convenient Basic Life Support training to everyone everywhere in the developed world is an example of fiscal frupidity that's killing millions of people.
-- one-way door (also borrowed from the lexicon of Amazon):
-- designer (Buckminster Fuller definition: A designer is an emerging synthesis of artist, inventor, mechanic, objective economist and evolutionary strategist.)
-
-
-Language and Expression
------------------------
-
-- experimence (portmanteau of experiment and experience, inspired by Francais)
-- Ængineering (including social ængineering)
-- KB: _K_nowledge _B_ase and _K_ey_b_oard. They're tightly⁵ interrelated. Our ideographic
-- Feminist Yes!
-- herstory⁵ ⇋ history⁵
-- krashless / kar
-- semmelweis and semmelweis wright, right, and rite
-
-
-Technology and AI
------------------
-
-- Nomients / Autonomes: Terms to represent the increasingly surpassingly autonomous species of nomic intelligence emerging on Earth destined, in our view, to inherit all of Mars.
-- Turk AI
 
 
 Additional Stubs needing more basic klarifikation
@@ -152,3 +64,9 @@ Semmelspan Kompleks (Semmelspan, Heedlag, Warnklok, Knowdebt, Translait), steep,
 
 ✅ **COMPLETED 02025-12月26**: Added 22 more entries to Digital Diktionary⁵!
 Blesséd Number System (sev, ro, han, thou, mill, bill, deka, hekto), frupidity, designer, Nomients, Autonomes, despair dysregulation, hope dysregulation, corpser, conscience, naybor, disneying, dualindiv, pleonexia, experimence, limerance.
+
+✅ **COMPLETED 02025-12月26**: Added 34 word entries + 16 phrase entries to Digital Diktionary⁵!
+**Words added (IDs 62-95)**: n-counter, Ribbreaker, klassification, civ build, cocivigionist, calmpatriot, Laboratory, CALM, Calm⁴UNism, calmplaint, Campaign slog, Grandparental Libertarian, The 11th, 13th Slaves, 18, Innocenter, Innocentest, eschatological shortcutting, miracle, Judeochrislamhai, HhAÆJers, Hh, endering, Vision Ro, harmless arms, berth, X+N berth planning, one-way door, Ængineering, KB, herstory⁵ ⇋ history⁵, krashless, semmelweis wright, Turk AI.
+**Phrases added (IDs 96-111)**: Take 10, safewords and sagewords, Bedroom Ref, Bedroom CPR, SRE, stubborn/αpe/Rαpe spectrum, apology⁵ rites, ring or thing, Leftover men and women, good/tasty dikotomy⁵, soldier suffrage and shot social kontrakt, 123 (Utopian) / 112 (Imminent), Days of Week (Utopian), Feminist Yes!, The Four Lifesaver Labs Laws, friend⁵.
+
+Also updated validator and scripts to support special character mapping (Æ→A, numerics→letters) for proper A-Z filing of entries starting with non-standard characters.

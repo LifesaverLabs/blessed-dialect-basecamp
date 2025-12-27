@@ -181,11 +181,25 @@ export function checkDuplicateIds(
 
 // Validate that letter matches first letter of term (accounting for special characters)
 export function validateLetterMatches(entry: DictionaryEntry): boolean {
-  const firstLetter = entry.term
+  let firstLetter = entry.term
     .replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹]+/, "") // Remove leading superscripts
     .replace(/^[µμ]/, "") // Remove leading micro/mu prefix (Greek µ and μ)
     .charAt(0)
     .toUpperCase();
+
+  // Map special characters and numbers to A-Z letters for filing
+  const charMap: Record<string, string> = {
+    'Æ': 'A', 'Ä': 'A', 'Å': 'A', 'À': 'A', 'Á': 'A', 'Â': 'A', 'Ã': 'A',
+    'Ö': 'O', 'Ø': 'O', 'Ò': 'O', 'Ó': 'O', 'Ô': 'O', 'Õ': 'O',
+    'Ü': 'U', 'Ù': 'U', 'Ú': 'U', 'Û': 'U',
+    'Ç': 'C', 'Ñ': 'N', 'ß': 'S',
+    '0': 'O', '1': 'O', '2': 'T', '3': 'T', '4': 'F', '5': 'F',
+    '6': 'S', '7': 'S', '8': 'E', '9': 'N',
+  };
+
+  if (charMap[firstLetter]) {
+    firstLetter = charMap[firstLetter];
+  }
 
   return firstLetter === entry.letter;
 }

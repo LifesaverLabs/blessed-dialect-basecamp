@@ -913,6 +913,555 @@
       "dateAdded": "02025-12月26",
       "contributors": ["lifesaverlabs", "Dorothy Tennov"],
       "notes": "Part of Relationships, Intimacy, and Kalmunity⁵ vocabulary. Related to krystallization."
+    },
+    {
+      "id": 62,
+      "term": "n-counter",
+      "letter": "N",
+      "definitionStandard": "An encounter where an individual or dualindiv meets another person and engages in interactions meant to reinforce virtue and mitigate vice—including encouragement, validation, and when necessary, countering harmful impulses.",
+      "definitionDialect": "Any experiense where a single individual or dualindiv meets another person in an 'encounter' and engages in a range of interaktions meant to reinforce and reward virtue and mitigate or derail vice, inkluding not only enkouragement and validation but also, at times, doing them the great favor of kountering their worser impulses whether we're kuzins, outers, naybors, inners, or kores.",
+      "etymology": "n (any number of) + counter (to oppose) + encounter. The encounter where we count on each other to counter harmful behavior.",
+      "pronunciation": "/ˈɛnkaʊntər/",
+      "crossReferences": [56, 22],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Relationships, Intimacy, and Kalmunity⁵ vocabulary. Reflects the Blesséd emphasis on mutual accountability in relationships."
+    },
+    {
+      "id": 63,
+      "term": "Ribbreaker",
+      "letter": "R",
+      "definitionStandard": "A term for proper CPR that may break ribs—emphasizing this is expected and acceptable to save lives. Clearer and more direct than 'sternum-cartilage-breaker'.",
+      "definitionDialect": "Proper CPR that may break ribs—emphasizing this is expected and akceptable to save lives. Clearer and more direkt than 'sternum-kartilage-breaker'. If you're doing CPR and you're not risking breaking ribs, you're probably not kompressing hard enuf.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "Broken ribs heal. Dead people don't. The fear of breaking ribs should never prevent someone from performing CPR.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "rib + breaker. Direct, visceral term for the reality of effective CPR.",
+      "pronunciation": "/ˈrɪbbreɪkər/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. Addresses a common barrier to bystander CPR—fear of causing harm."
+    },
+    {
+      "id": 64,
+      "term": "klassification",
+      "letter": "K",
+      "definitionStandard": "A proposed replacement for 'diagnosis' in psychiatry, reflecting greater epistemic modesty about the reliability of psychiatric categories compared to other medical fields.",
+      "definitionDialect": "A shift to the term klassifikation in psychiatrik diagnosis would reflekt greater epistemik modesty⁵—an appresiation that the siense of psykiatry hasn't advanced far enuf to be as deeply diagnostikally reliable as many other fields of medisine. Klassifikations in psykiatry are messy kategories that kan arise from a variety of environmental, sosial, institutional, kareakter, traumatik or genetik kauses or kontributions.",
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required", "potential_misinterpretation"],
+          "note": "This is not anti-psychiatry—it's epistemic humility. Psychiatric categories are useful but should not be treated with the same certainty as, say, a broken bone.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "German 'Klassifikation' emphasizing categorization rather than definitive diagnosis.",
+      "pronunciation": "/ˌklæsɪfɪˈkeɪʃən/",
+      "crossReferences": [52, 53],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Health and Wellness vocabulary. Related to despair dysregulation and hope dysregulation."
+    },
+    {
+      "id": 65,
+      "term": "civ build",
+      "letter": "C",
+      "definitionStandard": "The process of building and improving civilization through deliberate civic action—infrastructure, institutions, culture, and governance.",
+      "definitionDialect": "The prosess of building and improving sivilization thru deliberate sivik akction—infrastrukture, institutions, kulture, and governanse. Every generation has the duty to leave a better sivilization for the next.",
+      "etymology": "civilization + build. May also reference the Civilization strategy games which simulate this process.",
+      "pronunciation": "/sɪv bɪld/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 66,
+      "term": "cocivigionist",
+      "letter": "C",
+      "definitionStandard": "Someone who shares your civic religious (civigious) beliefs—a fellow believer in the principles of civigion.",
+      "definitionDialect": "Someone who shares your sivik religious (sivigious) beliefs—a fellow believer in the prinsiples of sivigion. Your cocivigionists are your kalmpanions in sivik faith.",
+      "etymology": "co- (together) + civigion + -ist (one who believes/practices).",
+      "pronunciation": "/koʊsɪˈvɪdʒənɪst/",
+      "crossReferences": [13],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. See also: civigion."
+    },
+    {
+      "id": 67,
+      "term": "calmpatriot",
+      "letter": "C",
+      "definitionStandard": "A patriot whose love extends to humanity and Earth as a whole, not just one nation. Expresses patriotism through calm, thoughtful action rather than aggression or nationalism.",
+      "definitionDialect": "A patriot whose love extends to humanity and Earth as a whole, not just one nation. Expresses patriotism thru kalm, thortful akction rather than aggression or nationalism. We are all kalmpatriots of Earth.",
+      "etymology": "calm + patriot. Patriotism expressed through calm global citizenship.",
+      "pronunciation": "/ˈkɑːmˌpeɪtriət/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 68,
+      "term": "Laboratory",
+      "letter": "L",
+      "definitionStandard": "States or cities conceived as 'laboratories of democracy'—places to test policies before national adoption. The federalist principle that local experimentation benefits the whole.",
+      "definitionDialect": "States or sities konseived as 'laboratories of demokracy'—places to test polisies before national adoption. The federalist prinsiple that lokal experimentation benefits the whole. What works in one laboratory kan be adopted by others.",
+      "etymology": "From Justice Brandeis's famous description of states as 'laboratories of democracy'.",
+      "pronunciation": "/ˈlæbrəˌtɔːri/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Louis Brandeis"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 69,
+      "term": "CALM",
+      "letter": "C",
+      "definitionStandard": "A beautifully diverse polysemic acronym central to Blesséd philosophy. Multiple meanings intentionally overlap and reinforce each other.",
+      "definitionDialect": "A beautifully⁵ diverse polysemik akronym sentral to Blesséd filosofy. Multiple meanings intentionally overlap and reinforce each other. The kalm at the kenter of all we do.",
+      "etymology": "Polysemic acronym with many intentional meanings that reinforce the central philosophy of calm, thoughtful action.",
+      "pronunciation": "/kɑːm/",
+      "crossReferences": [70],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. See also: Calm⁴UNism."
+    },
+    {
+      "id": 70,
+      "term": "Calm⁴UNism",
+      "letter": "C",
+      "definitionStandard": "A system of economics and political science providing an off-ramp from communism into social capitalism. Values contract, kalmunity, the covenant of suffrage, constitutionalism, collaboration, capitol, capital, century lifespan goals, and children.",
+      "definitionDialect": "A system of ekonomiks and politikal siense that provides an off-ramp from kommunism into a form of sosial kapitalism that values and priorities kontrakt, kalmunity⁵, the kovenant of suffrage, konstitutionalism, kolaboration, kapitol, kapital, minimal century⁵ lifespan goals, and children. Aiming/assuring/adjusting life/liberty⁵/love over moments/minutes/months/millenia with movements toward milestones and monuments.",
+      "usageExamples": [
+        {
+          "context": "Describing the system",
+          "example": "Calm⁴UNism is also a unity⁵ movement meant to stitch together peoples thru the exchange of moral sentiments that okurs thru civigion, kommerse, and the kasting of ballots.",
+          "translation": "Calm⁴UNism unifies people through civic religion, commerce, and democratic participation."
+        }
+      ],
+      "etymology": "CALM (polysemic acronym) + UN (unity/United Nations) + -ism. A calm approach to unity and governance.",
+      "pronunciation": "/ˈkɑːmjuːnɪzəm/",
+      "crossReferences": [69, 13],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. (Semi-Utopian)"
+    },
+    {
+      "id": 71,
+      "term": "calmplaint",
+      "letter": "C",
+      "definitionStandard": "A way to register grievances calmly and constructively with the goal of improving systems rather than just venting frustration.",
+      "definitionDialect": "A way to register grievances kalmly⁵ and konstruktively⁵ with the goal of improving systems we n-kounter toward greater KALM/CALM. A kalmplaint seeks resolution, not just expression.",
+      "etymology": "calm + complaint. A complaint delivered and received with calm, constructive intent.",
+      "pronunciation": "/ˈkɑːmˌpleɪnt/",
+      "crossReferences": [69],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 72,
+      "term": "Campaign slog",
+      "letter": "C",
+      "definitionStandard": "The exhausting, grueling work of political campaigning—the 'slog' that candidates and volunteers endure.",
+      "definitionDialect": "The exhausting, grueling work of politikal kampaining—the 'slog' that kandidates and volunteers endure. The kampaign slog is where demokracy happens in the trenches.",
+      "etymology": "campaign + slog (tedious, exhausting work). Emphasizes the reality of democratic participation.",
+      "pronunciation": "/kæmˈpeɪn slɒɡ/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 73,
+      "term": "Grandparental Libertarian",
+      "letter": "G",
+      "definitionStandard": "A political philosophy of making governmental policy decisions as if overseeing adult grandchildren—respecting autonomy while not hesitating to intervene when they veer into seriously self-injurious behavior.",
+      "definitionDialect": "Making desisions regarding governmental polisy⁵ as you would seek to intervene in the lives of your fully adult or adolescent grandchildren—respekting their autonomy⁵ while not hesitating to apply torque and force if they do anything so self-injurious as to, for instance, turn into a korpser and get addikted to nikotine.",
+      "usageExamples": [
+        {
+          "context": "Policy discussion",
+          "example": "Almost no grandparents would support their grandchildren having the option of smoking sigarettes or playing brain-damaging kollision sports when harmless alternatives exist.",
+          "translation": "A grandparental libertarian would restrict truly harmful choices while respecting autonomy in most matters."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "life_at_stake"],
+          "note": "This is not nanny-state paternalism—it's the targeted intervention a loving grandparent would make only when grandchildren veer dangerously off course.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "grandparental (perspective of grandparents) + libertarian. Liberty with loving limits.",
+      "pronunciation": "/ˌɡrændpəˈrɛntəl lɪbərˈtɛəriən/",
+      "crossReferences": [54],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 74,
+      "term": "The 11th",
+      "letter": "T",
+      "definitionStandard": "A reference to Henri Barbusse's story 'The 11th'—the tragedy of turning away the patient just beyond service capacity, often when more capacity actually exists. The constant dilemma for essential services organizations.",
+      "definitionDialect": "A reference to the Henri Barbusse story 'The 11th', describing the horrible reality⁵ of turning the sufferer or patient just beyond the servise kapasity⁵ away, often when there's aktually more kapasity⁵ to serve. It's a konstant dilemma for any essential servises organization that must assert a paywall to assure its own solvensy⁵, kontinuity⁵, and survival without stretching itself too thin.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "The 11th is the person we fail when we draw lines. Every organization faces this dilemma, but we must constantly work to serve more 11ths.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From Henri Barbusse's short story about the horror of turning away the 11th patient when capacity is 10.",
+      "pronunciation": "/ðə ɪˈlɛvənθ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Henri Barbusse"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 75,
+      "term": "13th Slaves",
+      "letter": "O",
+      "definitionStandard": "A reference to the 13th Amendment's exception that allows slavery in relationship to conviction—or pre-conviction while held for bond or security. Those enslaved through the criminal justice system.",
+      "definitionDialect": "A reference to the way the 13th Amendment karries a kritikal exception and exemption that still allows slavery in the United States in relationship to a konviktion or, for many detainees, prekonviktion while held for bond or sekurity, guarantee of appearanse, or fear of flight reasons.",
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "life_at_stake"],
+          "note": "The 13th Amendment did not fully abolish slavery—it created an exception for the incarcerated. This is not a historical artifact but an ongoing reality.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "13th (Amendment) + Slaves. Those still legally subject to involuntary servitude under the Constitution.",
+      "pronunciation": "/θɜːrˈtiːnθ sleɪvz/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary."
+    },
+    {
+      "id": 76,
+      "term": "18",
+      "letter": "O",
+      "definitionStandard": "The number 18, associated with life and the duty to preserve life in Hebrew (Evereet), because the word for 'Chai' (life) numerologically equals 18. Any multiple of 18 (1x, 2x, 3x = 18, 36, 54) carries this life-embracing meaning.",
+      "definitionDialect": "The number 18 is assosiated with life and the duty to preserve and serve life in Evereet (Hebrew), because the word for 'Chai' numerologikally equates to 18. Any multiple of 18 that's 1x, 2x, or 3x of 18 (meaning 18, 36, or 54) also kan karry this implied life-embrasing meaning.",
+      "etymology": "From Hebrew gematria where חי (chai, 'life') = 8 + 10 = 18.",
+      "pronunciation": "/eɪˈtiːn/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. The life-affirming significance of 18."
+    },
+    {
+      "id": 77,
+      "term": "Innocenter",
+      "letter": "I",
+      "definitionStandard": "The person formally referred to as the 'victim'—whose role is to center the presumption of innocence while also calling it into question based on their experiences with the Innocentest. Their fundamental innocence is assumed but can be questioned if evidence suggests culpability.",
+      "definitionDialect": "A better name for the person formally typikally referred to as the viktim. It's the innocenter's job to center the presumption of innocense but also to call it into question on the basis of their experienses or experimences with the innocentest. The innocenter's fundamental innocence in the matter is a foundational assumption of investigation but kan at times be questioned when there's evidence of some degree of kulpability.",
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "context_required"],
+          "note": "The innocenter and innocentest must interact dynamically whenever humanly feasible for a full appreciation of what occurred to be evident.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "innocence + -er (one who). One who centers innocence in the investigation.",
+      "pronunciation": "/ˈɪnəsəntər/",
+      "crossReferences": [78],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. See also: Innocentest."
+    },
+    {
+      "id": 78,
+      "term": "Innocentest",
+      "letter": "I",
+      "definitionStandard": "The person carrying the strong presumption of innocence who has been accused or is being investigated. While honored with presumption of innocence, their innocence is 'tested' to see if it holds. Their innocence is also centered by the Innocenter.",
+      "definitionDialect": "A person who karries the strong presumption of innocense but who has been akused or is being investigated for something. While we honor them with the presumption of innocense, we also 'test' the innocen_test_ to see if their innocense is klear or not, and whether it kan be shown, to the appropriate burden of proof, that they are responsible or guilty.",
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake"],
+          "note": "Even in rare cases where action is self-evident from abundant physical evidence, the innocenter and innocentest must interact dynamically for full appreciation of what occurred.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "innocence + -test (to be tested). One whose innocence is being tested.",
+      "pronunciation": "/ˈɪnəsəntɛst/",
+      "crossReferences": [77],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Civigion, Government, and Society vocabulary. See also: Innocenter."
+    },
+    {
+      "id": 79,
+      "term": "eschatological shortcutting",
+      "letter": "E",
+      "definitionStandard": "A collaborative process between religious traditions to find harmless mechanisms to satisfy utopian goals of divine religious eschatology without the presaged suffering or conflict.",
+      "definitionDialect": "A kolaborative prosess between branch religious traditions to find highly harmless mekanisms to satisfy most of the utopian goals of divigious (divine religious) eschatology⁵ without any of the presaged horrible suffering or konflikt. Religious visions, prophesies, or mythologies kan be konsidered gently⁵ while working on sivilizational build projekts to shortkut toward stable, kalm utopias kreated thru diverse kalmunity⁵ arranged socioteknikal mirakles.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "cultural_sensitivity"],
+          "note": "This approach respects religious beliefs while seeking to achieve their positive goals through peaceful, collaborative means rather than apocalyptic conflict.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "eschatology (study of end times) + shortcutting. Finding shortcuts to paradise without the apocalypse.",
+      "pronunciation": "/ˌɛskətəˈlɒdʒɪkəl ˈʃɔːrtkʌtɪŋ/",
+      "crossReferences": [80],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary. (Utopian)"
+    },
+    {
+      "id": 80,
+      "term": "miracle",
+      "letter": "M",
+      "definitionStandard": "A sociotechnical miracle—an outcome achieved through social and technical coordination that appears miraculous but is engineered through human collaboration rather than divine intervention.",
+      "definitionDialect": "A socioteknikal mirakle—an outkome achieved thru sosial and teknikal koordination that appears mirakuluos but is ængineered thru human kolaboration rather than divine intervention. We kan make mirakles happen thru kalmunity⁵ akction.",
+      "etymology": "From Latin 'miraculum' (wonder), reconceived as achievable through human coordination.",
+      "pronunciation": "/ˈmɪrəkəl/",
+      "crossReferences": [79],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 81,
+      "term": "Judeochrislamhai",
+      "letter": "J",
+      "definitionStandard": "A term unifying the four major Abrahamic traditions: Judaism, Christianity, Islam, and Bahá'í. Emphasizes their shared heritage and common ground.",
+      "definitionDialect": "A term unifying the four major Abrahamik traditions: Judaism, Christianity, Islam, and Bahá'í. Emphasizes their shared heritage and kommon ground. We are all children of Abraham.",
+      "etymology": "Judeo- (Jewish) + Christ- (Christian) + Islam + -hai (Bahá'í).",
+      "pronunciation": "/ˌdʒuːdioʊˌkrɪsˈlɑːmhaɪ/",
+      "crossReferences": [82, 83],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 82,
+      "term": "HhAÆJers",
+      "letter": "H",
+      "definitionStandard": "Followers of the Jewish Abrahamic tradition within the Hh (Harmless/Helpful) framework. Part of a naming system for religious groups emphasizing harmlessness.",
+      "definitionDialect": "Followers of the Jewish Abrahamik tradition within the Hh (Harmless/Helpful) framework. HhAÆ = Harmless/Helpful Abrahamik Æthics. J = Jewish.",
+      "etymology": "Hh (Harmless/Helpful) + AÆ (Abrahamic Æthics) + J (Jewish) + -ers (followers).",
+      "pronunciation": "/ˈhɑːeɪdʒərz/",
+      "crossReferences": [81, 83],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary. See also: HhAÆCers, HhAÆIers, ReHhAÆBers."
+    },
+    {
+      "id": 83,
+      "term": "Hh",
+      "letter": "H",
+      "definitionStandard": "A polysemic reference with many meanings: 'Harmless hands', 'Hippocratic homes', 'Harmless/healthy hints', 'Helpful hearths', 'Hopeful hearts', and more—all connecting to harmless, helpful community.",
+      "definitionDialect": "A polysemik reference to 'Harmless hands', 'Hippokratik homes', 'Harmless/healthy⁵ hints', 'Helpful hearths', 'Hopeful hearts', and many more permutations and meanings that konnekt back to harmless, helpful, hinting kalmunity⁵.",
+      "etymology": "H + h creating a polysemic symbol with many harmless/helpful meanings.",
+      "pronunciation": "/eɪtʃ eɪtʃ/",
+      "crossReferences": [82],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 84,
+      "term": "endering",
+      "letter": "E",
+      "definitionStandard": "Using unconventional tactics, education, and design to achieve total victory over a threat to the species or community. From Ender Wiggin in 'Ender's Game'—fixing problems 'once and for all' with evolutionarily definitive solutions.",
+      "definitionDialect": "The experiense of using unkonventional taktiks, ædukation and édukation to seek to achieve total viktory⁵ over a threat to the spesies or the lokal kalmunities or kountry⁵ we serve. Endering requires laser fokus on ending every root, proximate, primary, secondary, and tertiary kause of a problem with super-robust evolutionarily⁵ definitive designs and solutions that seek to fix such problems 'once and for all'.",
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Endering is not for the morally unambitious—it requires extraordinary commitment to permanent, comprehensive solutions.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Ender Wiggin in Orson Scott Card's 'Ender's Game' + -ing. To end a problem completely.",
+      "pronunciation": "/ˈɛndərɪŋ/",
+      "crossReferences": [37],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Orson Scott Card (inspiration)"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 85,
+      "term": "Vision Ro",
+      "letter": "V",
+      "definitionStandard": "A 'Vision Zero' concept using 'ro' (the Blesséd word for zero)—the goal of zero deaths or harm in a given domain, such as traffic fatalities or workplace injuries.",
+      "definitionDialect": "A 'Vision Zero' konsept using 'ro' (the Blesséd word for zero)—the goal of ro deaths or harm in a given domain, such as traffik fatalities or workplace injuries. Vision Ro is the aspiration of total safety⁵.",
+      "etymology": "Vision Zero (Swedish traffic safety concept) + ro (Blesséd for zero).",
+      "pronunciation": "/ˈvɪʒən roʊ/",
+      "crossReferences": [41],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 86,
+      "term": "harmless arms",
+      "letter": "H",
+      "definitionStandard": "Non-lethal weapons designed to subdue without killing. Weapons that can protect without causing permanent harm.",
+      "definitionDialect": "Non-lethal weapons designed to subdue without killing. Weapons that kan protekt without kausing permanent harm. Harmless arms for harmless hands.",
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "Even 'non-lethal' weapons can cause harm or death. The goal is harm reduction, not elimination of all risk.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "harmless + arms (weapons). Weapons designed to minimize harm.",
+      "pronunciation": "/ˈhɑːrmləs ɑːrmz/",
+      "crossReferences": [83],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Religion and Philosophy vocabulary."
+    },
+    {
+      "id": 87,
+      "term": "berth",
+      "letter": "B",
+      "definitionStandard": "In the context of adoption, the day a child is brought into their adoptive family. A 'berthday' is this adoption anniversary, distinguished from 'birthday' (genetic birth).",
+      "definitionDialect": "A term for adoptions and adoptive families wherein a 'berthday' is the day you were berthed/brought into your adoptive family⁵. Distinkwished from 'birthday' (genetik birth).",
+      "etymology": "From nautical 'berth' (a place or position). The position one takes in an adoptive family.",
+      "pronunciation": "/bɜːrθ/",
+      "crossReferences": [88],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Life Planning and Economics vocabulary."
+    },
+    {
+      "id": 88,
+      "term": "X+N berth planning",
+      "letter": "X",
+      "definitionStandard": "The process of young couples planning upfront to have X genetic births plus N adoptive berths—conscientious family planning that includes both biological and adopted children.",
+      "definitionDialect": "The prosess of young kouples planning upfront konsientiously⁵ to have X births and N berths: X genetik births plus N alloparental adoptive berths. Responsible family⁵ planning that inkorporates both biologikal and adopted children.",
+      "etymology": "X (number of births) + N (number of berths/adoptions) + planning.",
+      "pronunciation": "/ɛks plʌs ɛn bɜːrθ ˈplænɪŋ/",
+      "crossReferences": [87],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Life Planning and Economics vocabulary."
+    },
+    {
+      "id": 89,
+      "term": "one-way door",
+      "letter": "O",
+      "definitionStandard": "A decision that cannot be easily reversed, requiring more deliberation before proceeding. Borrowed from Amazon's decision-making framework.",
+      "definitionDialect": "A desision that kannot be easily reversed—requiring more deliberation before proseeding. Borrowed from Amazon's desision-making framework. Kontrast with two-way doors (easily reversible desisions).",
+      "etymology": "From Amazon's internal vocabulary for irreversible decisions.",
+      "pronunciation": "/wʌn weɪ dɔːr/",
+      "crossReferences": [48],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs", "Amazon (lexicon origin)"],
+      "notes": "Part of Life Planning and Economics vocabulary."
+    },
+    {
+      "id": 90,
+      "term": "Ængineering",
+      "letter": "A",
+      "definitionStandard": "Engineering that is both ethical (Æ) and social—engineering social systems and not just technical ones, with ethical considerations built in from the start.",
+      "definitionDialect": "Ængineering inkluding sosial ængineering. Engineering that is both ethikal (Æ) and sosial—engineering sosial systems and not just teknikal ones, with ethikal konsiderations built in from the start.",
+      "etymology": "Æ (aesc, representing ethics/aesthetics) + engineering.",
+      "pronunciation": "/ˈeɪndʒɪˌnɪərɪŋ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary."
+    },
+    {
+      "id": 91,
+      "term": "KB",
+      "letter": "K",
+      "definitionStandard": "A dual-meaning abbreviation: Knowledge Base and Keyboard. The two are tightly interrelated—our ideographic input systems shape our knowledge systems.",
+      "definitionDialect": "KB: _K_nowledge _B_ase and _K_ey_b_oard. They're tightly⁵ interrelated. Our ideografik input systems shape our knowledge systems, and our knowledge systems shape what we kan type.",
+      "etymology": "K (Knowledge/Key) + B (Base/board). Intentional dual meaning.",
+      "pronunciation": "/keɪ biː/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary."
+    },
+    {
+      "id": 92,
+      "term": "herstory⁵ ⇋ history⁵",
+      "letter": "H",
+      "definitionStandard": "The understanding that we need everyone's stories—not just his stories but also her stories, integrated through dynamic interaction. Applies across and within genders.",
+      "definitionDialect": "In the nature of any understanding of the past, we need to gather everyone's stories: not just his stories but also her stories, and integrate them together thru interaktion between herstory⁵ and history⁵. This isn't meant to be a gendered konsept—it applies akross genders and within the same gender. We kan't rely on his story without getting her story and letting them dynamikally⁵ interakt.",
+      "etymology": "her + story (herstory, feminist coinage) ⇋ his + story (history). Bidirectional interaction.",
+      "pronunciation": "/ˈhɜːrstɔːri ˈhɪstəri/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary."
+    },
+    {
+      "id": 93,
+      "term": "krashless",
+      "letter": "K",
+      "definitionStandard": "Entirely autonomous vehicles designed to prevent crashes and exceed by a wide margin the performance of typical human drivers.",
+      "definitionDialect": "Entirely autonomous kars that are designed to prevent krashes and exseed by a very wide margin the performanse of typikal human drivers. Krashless kars for Vision Ro.",
+      "etymology": "crash + -less (without), with Blesséd 'k' spelling.",
+      "pronunciation": "/ˈkræʃləs/",
+      "crossReferences": [85],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary."
+    },
+    {
+      "id": 94,
+      "term": "semmelweis wright",
+      "letter": "S",
+      "definitionStandard": "The responsibility to write warnings about better harmless practices as Semmelweis did, the right to express such warnings, and our obligation to wright (set right) the world through the Semmelweis rite—such as Open Semmelweis Letters.",
+      "definitionDialect": "Those three aspekts: the responsibility⁵ to write warnings about better harmless praktises like Semmelweis did, the right to express such warnings even in a shrill tone if merited, and our obligation to wright the world like Semmelweis did thru the Semmelweis rite, such as by writing Open Semmelweis Letters to industries or bodies or individuals who kan akt to reduse heedlag and terminate a Semmelspan.",
+      "etymology": "Semmelweis + wright (maker/worker) / write / right / rite. All four homophone meanings apply.",
+      "pronunciation": "/ˈsɛməlvaɪs raɪt/",
+      "crossReferences": [14, 15, 16, 17, 18],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Language and Expression vocabulary. See: Semmelspan Kompleks."
+    },
+    {
+      "id": 95,
+      "term": "Turk AI",
+      "letter": "T",
+      "definitionStandard": "Hybrid intelligence that includes human elements, like the original Mechanical Turk chess automaton. AI systems that incorporate human judgment and oversight.",
+      "definitionDialect": "Hybrid intelligense that inkludes human elements, like the original Mechanical Turk chess automaton. AI systems that inkorporate human judgment and oversight. The Turk reminds us that 'AI' often has humans behind it.",
+      "etymology": "From the Mechanical Turk (18th-century fake chess automaton) + AI. Human-machine hybrids.",
+      "pronunciation": "/tɜːrk eɪ aɪ/",
+      "crossReferences": [50, 51],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "Part of Technology and AI vocabulary. See also: Nomients, Autonomes."
     }
   ]
 }
