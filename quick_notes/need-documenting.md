@@ -23,7 +23,6 @@ Relationships, Intimacy, and Kalmunity⁵
 Health and Wellness
 -------------------
 
-- sugar overload
 - Heartclot / Healthclot
 - Quit grit
 
