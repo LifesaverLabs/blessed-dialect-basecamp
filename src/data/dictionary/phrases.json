@@ -4,19 +4,50 @@
       "id": 7,
       "term": "Borlaug more",
       "letter": "B",
-      "definition": "The imperative to collectively work toward extending human lifespans and reducing preventable deaths. The active phase we're currently in, before reaching the Blessed stage."
+      "definitionStandard": "The imperative to collectively work toward extending human lifespans and reducing preventable deaths. The active phase we're currently in, before reaching the Blessed stage.",
+      "definitionDialect": "The imperative to kollectively work toward extending human lifespans and reducing preventable deaths. The aktive phase we're kurrently in, before reaching the B⁵lesséd stage. We must Borlaug more until everyone reaches their longevity potential.",
+      "usageExamples": [
+        {
+          "context": "Rallying for life-preservation efforts",
+          "example": "We must Borlaug more until everyone reaches their longevity potential.",
+          "translation": "We must work harder to save and extend lives."
+        }
+      ],
+      "etymology": "Borlaug (to preserve life) + more (intensifier). The call to action before reaching B⁵lesséd.",
+      "crossReferences": [1, 2],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
     },
     {
       "id": 8,
       "term": "Borlaug Less Éd",
       "letter": "B",
-      "definition": "Also 'Blesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we can reduce the intensity of life-preservation efforts. The goal we're working toward."
+      "definitionStandard": "Also 'Blesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we can reduce the intensity of life-preservation efforts. The goal we're working toward.",
+      "definitionDialect": "Also 'B⁵lesséd'. The future state when humanity has achieved sufficient progress in longevity (everyone reaching 100-120 years) that we kan reduce the intensity of life-preservation efforts. The goal we're working toward. The finish line for the kurrent phase of human struggle against premature death.",
+      "etymology": "Borlaug + Less + Éd (educated/completed). The goal state where we can ease our efforts.",
+      "crossReferences": [1, 2],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The long form of B⁵lesséd. The dialect is named for this aspiration."
     },
     {
       "id": 9,
       "term": "sugar overload",
       "letter": "S",
-      "definition": "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying langauge around health behaviors that impact longevity."
+      "definitionStandard": "A condition of excessive refined sugar consumption leading to metabolic dysfunction and reduced lifespan. Part of Blesséd dialect's focus on identifying language around health behaviors that impact longevity.",
+      "definitionDialect": "A kondition of excessive refined sugar konsumption leading to metabolik dysfunktion and reduced lifespan. Part of Blesséd dialekt's fokus on identifying langauge around health behaviors that impakt longevity.",
+      "harmReductionNotes": [
+        {
+          "categories": ["tissue_at_stake", "life_at_stake"],
+          "note": "Excessive sugar consumption is linked to diabetes, heart disease, and reduced lifespan. This term names the problem clearly.",
+          "severity": "warning"
+        }
+      ],
+      "intentionalityRating": 4,
+      "dateAdded": "02025-12月26",
+      "contributors": ["lifesaverlabs"]
     },
     {
       "id": 32,
