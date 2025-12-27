@@ -25,6 +25,12 @@ const UsageExampleSchema = z.object({
   translation: z.string().optional(), // Optional American Standard English equivalent
 });
 
+// Contributor schema - supports both simple names and detailed contribution stories
+const ContributorSchema = z.object({
+  name: z.string().min(1), // Contributor name (person, org, or handle)
+  story: z.string().optional(), // Optional story about how they contributed
+});
+
 // Harm reduction notes - critical safety and context information
 // Can have multiple categories per note (1:N relationship between definition and notes)
 const HarmReductionNoteSchema = z.object({
@@ -74,7 +80,7 @@ const DictionaryEntrySchema = z.object({
   crossReferences: z.array(z.number()).optional(), // IDs of related entries
   intentionalityRating: z.number().int().min(1).max(5).nullable().optional(), // How intentional/deliberate is usage (1=casual, 5=highly intentional, null=not applicable)
   dateAdded: z.string().optional(), // ISO date string
-  contributors: z.array(z.string()).optional(), // GitHub usernames or names
+  contributors: z.array(z.union([z.string(), ContributorSchema])).optional(), // Names or detailed contributor objects with stories
   notes: z.string().optional(), // Any additional notes
 
   // BACKWARD COMPATIBILITY: Keep old definition field as optional for migration period
@@ -141,6 +147,7 @@ export const KeyboardLayoutsSchema = z.object({
 
 // TypeScript types derived from schemas
 export type UsageExample = z.infer<typeof UsageExampleSchema>;
+export type Contributor = z.infer<typeof ContributorSchema>;
 export type HarmReductionNote = z.infer<typeof HarmReductionNoteSchema>;
 export type DictionaryEntry = z.infer<typeof DictionaryEntrySchema>;
 export type WordsData = z.infer<typeof WordsSchema>;

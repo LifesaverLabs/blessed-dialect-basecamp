@@ -272,8 +272,18 @@
       "crossReferences": [21],
       "intentionalityRating": 5,
       "dateAdded": "02025-12月26",
-      "contributors": ["lifesaverlabs", "Josh A.", "Corey"],
-      "notes": "This word, if well-chosen and well-socialized as a practice, could become a lifetime achievement for anyone involved in engraining this. Maps deliberately into Nike 'Just Do It' marketing, torqued to 'Do Hiit'."
+      "contributors": [
+        "lifesaverlabs",
+        {
+          "name": "Josh A.",
+          "story": "Came up with this idea with Nobody⁵ on Focusmate when Nobody⁵ was doing base+bonus devotions before every session, originally thanks to a Focusmate bleader on this."
+        },
+        {
+          "name": "Cory Spinks",
+          "story": "Co-created this concept after Josh A. in between collaborative Starbucks Focusmate sessions, helping to crystallize the practice into lan/gauge."
+        }
+      ],
+      "notes": "This word, if well-chosen and well-socialized as a practice, could become a lifetime achievement for anyone involved in engraining this. Maps deliberately into Nike 'Just Do It' marketing, torqued to 'Do Hiit'. The practice was started in Nobody⁵'s own life by his father many years ago in airports, and was revived and upregulated tremendously⁵ through a Focusmate naming convention I imitated from another member who labeled their name as '<My name> (make me do 10+ situps+pushups)' - Nobody⁵ adopted this which upregulated preventative incidental exercise (devotions / do hiits) so much that it became a core practice worth codifying in langauge."
     },
     {
       "id": 21,
@@ -293,8 +303,18 @@
       "crossReferences": [20],
       "intentionalityRating": 5,
       "dateAdded": "02025-12月26",
-      "contributors": ["lifesaverlabs"],
-      "notes": "Preferred over 'hiits' for those with religious or civigious orientation. The religious framing provides social protection when exercising in 'inappropriate' spaces."
+      "contributors": [
+        "lifesaverlabs",
+        {
+          "name": "Josh A.",
+          "story": "Came up with this idea with Nobody⁵ on Focusmate and at a Starbucks where Nobody⁵ was doing base+bonus devotions before every session."
+        },
+        {
+          "name": "Cory Spinks",
+          "story": "Co-created this concept alongside Josh A. during collaborative Focusmate sessions, helping to crystallize the practice into language."
+        }
+      ],
+      "notes": "Preferred over 'hiits' for those with religious or civigious orientation. The religious framing provides social protection when exercising in 'inappropriate' spaces. The practice was started in Nobody⁵'s own life by his father many years ago in airports, and was revived and upregulated tremendously⁵ through a Focusmate naming convention I imitated from another member who labeled their name as '<My name> (make me do 10+ situps+pushups)' - Nobody⁵ adopted this which upregulated preventative incidental exercise (devotions / do hiits) so much that it became a core practice worth codifying in langauge."
     },
     {
       "id": 22,

@@ -394,8 +394,17 @@ describe('Dictionary Data - Comprehensive Integrity Tests', () => {
         if (entry.contributors) {
           expect(Array.isArray(entry.contributors)).toBe(true);
           entry.contributors.forEach(contributor => {
-            expect(typeof contributor).toBe('string');
-            expect(contributor.trim()).not.toBe('');
+            // Contributors can be either strings or objects with name and optional story
+            if (typeof contributor === 'string') {
+              expect(contributor.trim()).not.toBe('');
+            } else {
+              expect(typeof contributor).toBe('object');
+              expect(typeof contributor.name).toBe('string');
+              expect(contributor.name.trim()).not.toBe('');
+              if (contributor.story !== undefined) {
+                expect(typeof contributor.story).toBe('string');
+              }
+            }
           });
         }
       });

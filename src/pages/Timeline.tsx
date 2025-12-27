@@ -4,7 +4,17 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 import { ArrowLeft, Calendar, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getEntriesByDate, getWords, getPhrases } from "@/data/loader";
-import type { DictionaryEntry } from "@/data/schema";
+import type { DictionaryEntry, Contributor } from "@/data/schema";
+
+// Helper to get contributor name (handles both string and object formats)
+const getContributorName = (contributor: string | Contributor): string => {
+  return typeof contributor === 'string' ? contributor : contributor.name;
+};
+
+// Helper to check if contributor has a story
+const hasContributorStory = (contributor: string | Contributor): contributor is Contributor => {
+  return typeof contributor === 'object' && !!contributor.story;
+};
 
 const Timeline = () => {
   const [selectedEntry, setSelectedEntry] = useState<DictionaryEntry | null>(null);
@@ -192,6 +202,23 @@ const Timeline = () => {
                   </div>
                 )}
 
+                {/* Contributors */}
+                {selectedEntry.contributors && selectedEntry.contributors.length > 0 && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">Contributors</h4>
+                    <div className="space-y-2">
+                      {selectedEntry.contributors.map((contributor, idx) => (
+                        <div key={idx} className={hasContributorStory(contributor) ? "pl-3 border-l-2 border-primary/30" : ""}>
+                          <span className="font-medium text-sm">{getContributorName(contributor)}</span>
+                          {hasContributorStory(contributor) && (
+                            <p className="text-xs text-muted-foreground mt-0.5">{contributor.story}</p>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {/* Metadata Footer */}
                 <div className="flex flex-wrap gap-4 text-xs text-muted-foreground pt-4 border-t border-border">
                   {selectedEntry.intentionalityRating !== undefined && selectedEntry.intentionalityRating !== null && (
@@ -199,9 +226,6 @@ const Timeline = () => {
                   )}
                   {selectedEntry.dateAdded && (
                     <span>Added: {selectedEntry.dateAdded}</span>
-                  )}
-                  {selectedEntry.contributors && selectedEntry.contributors.length > 0 && (
-                    <span>Contributors: {selectedEntry.contributors.join(', ')}</span>
                   )}
                 </div>
               </div>
