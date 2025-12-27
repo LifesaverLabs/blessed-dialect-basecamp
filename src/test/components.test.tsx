@@ -532,6 +532,58 @@ describe('Component Tests', () => {
         expect(screen.getAllByText('Borlaug').length).toBeGreaterThan(1);
       });
     });
+
+    it('should display Share Link button in drawer', async () => {
+      render(
+        <TestWrapper>
+          <Dictionary />
+        </TestWrapper>
+      );
+
+      // Click an entry to open drawer
+      const borlaugButton = screen.getByText('Borlaug');
+      fireEvent.click(borlaugButton);
+
+      // Wait for drawer and check for Share Link button
+      await vi.waitFor(() => {
+        expect(screen.getByText('Share Link')).toBeInTheDocument();
+      });
+    });
+
+    it('should open entry from URL query parameter', () => {
+      // Render with entry query param
+      render(
+        <MemoryRouter initialEntries={['/dictionary?entry=borlaug']}>
+          <QueryClientProvider client={new QueryClient()}>
+            <TooltipProvider>
+              <Dictionary />
+            </TooltipProvider>
+          </QueryClientProvider>
+        </MemoryRouter>
+      );
+
+      // Drawer should be open with Borlaug
+      expect(screen.getAllByText('Borlaug').length).toBeGreaterThan(1);
+    });
+
+    it('should handle phrase URLs correctly', async () => {
+      // Render with a phrase query param (using hyphenated slug)
+      render(
+        <MemoryRouter initialEntries={['/dictionary?entry=borlaug-more']}>
+          <QueryClientProvider client={new QueryClient()}>
+            <TooltipProvider>
+              <Dictionary />
+            </TooltipProvider>
+          </QueryClientProvider>
+        </MemoryRouter>
+      );
+
+      // Wait for the drawer to open with the phrase
+      await vi.waitFor(() => {
+        // Should find "Borlaug more" in the sheet title (note lowercase 'm')
+        expect(screen.getAllByText('Borlaug more').length).toBeGreaterThan(0);
+      });
+    });
   });
 
   // ============================================
