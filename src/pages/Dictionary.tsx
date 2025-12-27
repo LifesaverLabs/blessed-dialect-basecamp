@@ -4,10 +4,23 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Search, Check, Link } from "lucide-react";
+import { Search, Check, Link, ExternalLink, Video, FileText, Book, Headphones, Wrench, Users, MoreHorizontal } from "lucide-react";
 import { getWords, getPhrases, getAllEntries } from "@/data/loader";
-import type { DictionaryEntry, Contributor } from "@/data/schema";
+import type { DictionaryEntry, Contributor, Reference } from "@/data/schema";
 import { toast } from "sonner";
+import { MarkdownText } from "@/components/MarkdownText";
+
+// Map reference types to icons
+const referenceTypeIcons: Record<string, React.ReactNode> = {
+  video: <Video className="w-4 h-4" />,
+  article: <FileText className="w-4 h-4" />,
+  paper: <FileText className="w-4 h-4" />,
+  book: <Book className="w-4 h-4" />,
+  podcast: <Headphones className="w-4 h-4" />,
+  tool: <Wrench className="w-4 h-4" />,
+  community: <Users className="w-4 h-4" />,
+  other: <MoreHorizontal className="w-4 h-4" />,
+};
 
 // Load dictionary data from JSON files
 const dictionaryData = {
@@ -264,25 +277,25 @@ const Dictionary = () => {
                     {selectedEntry.definitionStandard && (
                       <div>
                         <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Standard English</h4>
-                        <p className="text-base leading-relaxed">{selectedEntry.definitionStandard}</p>
+                        <MarkdownText className="text-base leading-relaxed">{selectedEntry.definitionStandard}</MarkdownText>
                       </div>
                     )}
                     {selectedEntry.definitionDialect && selectedEntry.definitionDialect !== selectedEntry.definitionStandard && (
                       <div>
                         <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Blesséd Dialekt</h4>
-                        <p className="text-base leading-relaxed">{selectedEntry.definitionDialect}</p>
+                        <MarkdownText className="text-base leading-relaxed">{selectedEntry.definitionDialect}</MarkdownText>
                       </div>
                     )}
                   </div>
                 ) : selectedEntry.definition ? (
-                  <p className="text-base leading-relaxed">{selectedEntry.definition}</p>
+                  <MarkdownText className="text-base leading-relaxed">{selectedEntry.definition}</MarkdownText>
                 ) : null}
 
                 {/* Etymology */}
                 {selectedEntry.etymology && (
                   <div>
                     <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Etymology</h4>
-                    <p className="text-sm leading-relaxed italic">{selectedEntry.etymology}</p>
+                    <MarkdownText className="text-sm leading-relaxed italic">{selectedEntry.etymology}</MarkdownText>
                   </div>
                 )}
 
@@ -293,10 +306,10 @@ const Dictionary = () => {
                     <div className="space-y-3">
                       {selectedEntry.usageExamples.map((example, idx) => (
                         <div key={idx} className="pl-3 border-l-2 border-primary/30">
-                          <p className="text-xs text-muted-foreground mb-1">{example.context}</p>
+                          <MarkdownText className="text-xs text-muted-foreground mb-1">{example.context}</MarkdownText>
                           <p className="text-sm italic">"{example.example}"</p>
                           {example.translation && (
-                            <p className="text-xs text-muted-foreground mt-1">→ {example.translation}</p>
+                            <MarkdownText className="text-xs text-muted-foreground mt-1">{`→ ${example.translation}`}</MarkdownText>
                           )}
                         </div>
                       ))}
@@ -326,7 +339,7 @@ const Dictionary = () => {
                               </span>
                             ))}
                           </div>
-                          <p>{note.note}</p>
+                          <MarkdownText>{note.note}</MarkdownText>
                         </div>
                       ))}
                     </div>
@@ -337,7 +350,36 @@ const Dictionary = () => {
                 {selectedEntry.notes && (
                   <div>
                     <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Notes</h4>
-                    <p className="text-sm leading-relaxed">{selectedEntry.notes}</p>
+                    <MarkdownText className="text-sm leading-relaxed">{selectedEntry.notes}</MarkdownText>
+                  </div>
+                )}
+
+                {/* References */}
+                {selectedEntry.references && selectedEntry.references.length > 0 && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">References</h4>
+                    <div className="space-y-2">
+                      {selectedEntry.references.map((ref, idx) => (
+                        <a
+                          key={idx}
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-start gap-3 p-3 rounded-lg border border-border hover:border-primary/50 hover:bg-accent/50 transition-colors"
+                        >
+                          <span className="text-primary mt-0.5">
+                            {referenceTypeIcons[ref.type || 'other'] || <ExternalLink className="w-4 h-4" />}
+                          </span>
+                          <div className="flex-1 min-w-0">
+                            <span className="font-medium text-sm">{ref.title}</span>
+                            {ref.description && (
+                              <p className="text-xs text-muted-foreground mt-0.5">{ref.description}</p>
+                            )}
+                          </div>
+                          <ExternalLink className="w-3 h-3 text-muted-foreground shrink-0 mt-1" />
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 )}
 

@@ -31,6 +31,23 @@ const ContributorSchema = z.object({
   story: z.string().optional(), // Optional story about how they contributed
 });
 
+// Reference/link schema - for external resources, videos, articles, etc.
+const ReferenceSchema = z.object({
+  title: z.string().min(1), // Display title for the link
+  url: z.string().url(), // The URL (must be valid)
+  description: z.string().optional(), // Optional description of what the link contains
+  type: z.enum([
+    "video", // YouTube, Vimeo, etc.
+    "article", // Blog posts, news articles
+    "paper", // Academic papers, research
+    "book", // Books, ebooks
+    "podcast", // Audio content
+    "tool", // Software, apps, utilities
+    "community", // Forums, Discord, social media
+    "other", // Catch-all
+  ]).optional(),
+});
+
 // Harm reduction notes - critical safety and context information
 // Can have multiple categories per note (1:N relationship between definition and notes)
 const HarmReductionNoteSchema = z.object({
@@ -81,7 +98,8 @@ const DictionaryEntrySchema = z.object({
   intentionalityRating: z.number().int().min(1).max(5).nullable().optional(), // How intentional/deliberate is usage (1=casual, 5=highly intentional, null=not applicable)
   dateAdded: z.string().optional(), // ISO date string
   contributors: z.array(z.union([z.string(), ContributorSchema])).optional(), // Names or detailed contributor objects with stories
-  notes: z.string().optional(), // Any additional notes
+  notes: z.string().optional(), // Any additional notes - supports markdown including [links](url)
+  references: z.array(ReferenceSchema).optional(), // External links, videos, articles, etc.
 
   // BACKWARD COMPATIBILITY: Keep old definition field as optional for migration period
   definition: z.string().optional(), // DEPRECATED: Use definitionStandard and definitionDialect instead
@@ -148,6 +166,7 @@ export const KeyboardLayoutsSchema = z.object({
 // TypeScript types derived from schemas
 export type UsageExample = z.infer<typeof UsageExampleSchema>;
 export type Contributor = z.infer<typeof ContributorSchema>;
+export type Reference = z.infer<typeof ReferenceSchema>;
 export type HarmReductionNote = z.infer<typeof HarmReductionNoteSchema>;
 export type DictionaryEntry = z.infer<typeof DictionaryEntrySchema>;
 export type WordsData = z.infer<typeof WordsSchema>;

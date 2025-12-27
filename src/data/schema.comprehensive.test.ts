@@ -434,6 +434,216 @@ describe('Schema Validation - Comprehensive Tests', () => {
       const result = validateWords(validData);
       expect(result.words[0].contributors).toEqual([]);
     });
+
+    it('should accept contributor objects with name and story', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          contributors: [
+            'simple-contributor',
+            { name: 'Contributor Name', story: 'How they contributed' },
+          ],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].contributors).toHaveLength(2);
+      expect(result.words[0].contributors![0]).toBe('simple-contributor');
+      expect(result.words[0].contributors![1]).toEqual({
+        name: 'Contributor Name',
+        story: 'How they contributed',
+      });
+    });
+
+    it('should accept contributor objects without story', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          contributors: [{ name: 'Just a Name' }],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].contributors![0]).toEqual({ name: 'Just a Name' });
+    });
+
+    it('should reject contributor objects without name', () => {
+      const invalidData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          contributors: [{ story: 'Story without name' }],
+        }],
+      };
+      expect(() => validateWords(invalidData)).toThrow();
+    });
+  });
+
+  // ============================================
+  // REFERENCES SCHEMA
+  // ============================================
+  describe('References Schema', () => {
+    it('should accept valid references array', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            title: 'Example Video',
+            url: 'https://www.youtube.com/watch?v=abc123',
+            description: 'A helpful video',
+            type: 'video',
+          }],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].references).toHaveLength(1);
+      expect(result.words[0].references![0].title).toBe('Example Video');
+      expect(result.words[0].references![0].type).toBe('video');
+    });
+
+    it('should accept references without optional fields', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            title: 'Minimal Reference',
+            url: 'https://example.com',
+          }],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].references![0].title).toBe('Minimal Reference');
+      expect(result.words[0].references![0].description).toBeUndefined();
+      expect(result.words[0].references![0].type).toBeUndefined();
+    });
+
+    it('should accept all reference types', () => {
+      const types = ['video', 'article', 'paper', 'book', 'podcast', 'tool', 'community', 'other'];
+      types.forEach(type => {
+        const validData = {
+          words: [{
+            id: 1,
+            term: 'test',
+            letter: 'T',
+            definitionStandard: 'A test word',
+            references: [{
+              title: `${type} reference`,
+              url: 'https://example.com',
+              type,
+            }],
+          }],
+        };
+        const result = validateWords(validData);
+        expect(result.words[0].references![0].type).toBe(type);
+      });
+    });
+
+    it('should reject references with invalid URL', () => {
+      const invalidData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            title: 'Bad URL',
+            url: 'not-a-valid-url',
+          }],
+        }],
+      };
+      expect(() => validateWords(invalidData)).toThrow();
+    });
+
+    it('should reject references without title', () => {
+      const invalidData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            url: 'https://example.com',
+          }],
+        }],
+      };
+      expect(() => validateWords(invalidData)).toThrow();
+    });
+
+    it('should reject references without url', () => {
+      const invalidData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            title: 'No URL',
+          }],
+        }],
+      };
+      expect(() => validateWords(invalidData)).toThrow();
+    });
+
+    it('should reject invalid reference type', () => {
+      const invalidData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [{
+            title: 'Invalid Type',
+            url: 'https://example.com',
+            type: 'invalid_type',
+          }],
+        }],
+      };
+      expect(() => validateWords(invalidData)).toThrow();
+    });
+
+    it('should accept empty references array', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].references).toEqual([]);
+    });
+
+    it('should accept multiple references', () => {
+      const validData = {
+        words: [{
+          id: 1,
+          term: 'test',
+          letter: 'T',
+          definitionStandard: 'A test word',
+          references: [
+            { title: 'Video', url: 'https://youtube.com/watch?v=123', type: 'video' },
+            { title: 'Article', url: 'https://medium.com/article', type: 'article' },
+            { title: 'Book', url: 'https://amazon.com/book', type: 'book' },
+          ],
+        }],
+      };
+      const result = validateWords(validData);
+      expect(result.words[0].references).toHaveLength(3);
+    });
   });
 
   // ============================================

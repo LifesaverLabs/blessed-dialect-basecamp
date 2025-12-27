@@ -451,6 +451,49 @@ describe('Dictionary Data - Comprehensive Integrity Tests', () => {
   });
 
   // ============================================
+  // REFERENCES VALIDATION
+  // ============================================
+  describe('References Validation', () => {
+    it('should have valid references when present', () => {
+      allEntries.forEach(entry => {
+        if (entry.references) {
+          expect(Array.isArray(entry.references)).toBe(true);
+          entry.references.forEach(ref => {
+            expect(typeof ref.title).toBe('string');
+            expect(ref.title.trim()).not.toBe('');
+            expect(typeof ref.url).toBe('string');
+            expect(ref.url).toMatch(/^https?:\/\//);
+            if (ref.description !== undefined) {
+              expect(typeof ref.description).toBe('string');
+            }
+            if (ref.type !== undefined) {
+              expect(['video', 'article', 'paper', 'book', 'podcast', 'tool', 'community', 'other']).toContain(ref.type);
+            }
+          });
+        }
+      });
+    });
+
+    it('should have at least one entry with references (bleader)', () => {
+      const entriesWithReferences = allEntries.filter(
+        e => e.references && e.references.length > 0
+      );
+      expect(entriesWithReferences.length).toBeGreaterThan(0);
+    });
+
+    it('should have bleader entry with Jensen Huang video reference', () => {
+      const bleader = allEntries.find(e => e.term === 'bleader');
+      expect(bleader).toBeDefined();
+      expect(bleader?.references).toBeDefined();
+      expect(bleader?.references?.length).toBeGreaterThan(0);
+      const jensenRef = bleader?.references?.find(r => r.title.includes('Jensen Huang'));
+      expect(jensenRef).toBeDefined();
+      expect(jensenRef?.type).toBe('video');
+      expect(jensenRef?.url).toContain('youtube.com');
+    });
+  });
+
+  // ============================================
   // SORTING VALIDATION (INFORMATIONAL)
   // ============================================
   describe('Sorting Validation', () => {

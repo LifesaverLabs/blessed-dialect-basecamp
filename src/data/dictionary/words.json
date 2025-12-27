@@ -24,6 +24,48 @@
       "notes": "Part of the endonym transition project. Respecting what peoples call themselves."
     },
     {
+      "id": 112,
+      "term": "bleader",
+      "letter": "B",
+      "definitionStandard": "A person, dual-individual, or organization who works and struggles on or near the Borlaug scale, especially in pushing the envelope of what's sustainably possible in a community. One who has likely arrived there through ample doses of pain, suffering, and adversity.",
+      "definitionDialect": "A person, dualindiv, or organization who/that works and struggles on or near the Borlaug skale, espesially in pushing the envelope of what's sustainably possible in a kalmunity⁵. One who has likely gotten there thru ample doses of pain, suffering, and adversity⁵.",
+      "usageExamples": [
+        {
+          "context": "Describing someone working at scale to save lives",
+          "example": "The Focusmate anon who started the 'Make me do pushups' naming convention is a bleader—they bled for an idea that could help millions normalize exercise devotions.",
+          "translation": "Someone who sacrificed and struggled to pioneer a practice that could benefit many is a bleader."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Being a bleader is not about suffering for its own sake, but about the transformative growth that comes through genuine struggle toward life-preserving goals.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "A portmanteau with dual meaning: 'blessed' + 'leader' (one who leads toward blessed outcomes) and 'bleed' + 'leader' (one who bleeds/struggles while leading). Both meanings are intentional—bleaders are blessed in their mission yet bleed in their service.",
+      "pronunciation": "/ˈbliːdər/",
+      "crossReferences": [1, 20, 21],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月27",
+      "contributors": [
+        "lifesaverlabs",
+        {
+          "name": "Focusmate anon",
+          "story": "The anonymous Focusmate user who pioneered the 'Make me do 10+ situps+pushups' naming convention, inspiring the formalization of exercise devotions and the creation of this term to describe those who struggle at scale for human flourishing."
+        }
+      ],
+      "notes": "This word emerged while struggling to properly describe the Focusmate anon who may have started the practice of exercise devotions that Blesséd Dialect seeks to formalize and popularize until it's strange not seeing devotions daily in everyday all-world settings.",
+      "references": [
+        {
+          "title": "Jensen Huang on Pain, Suffering, and Greatness",
+          "url": "https://www.youtube.com/watch?v=5FDdW0dcsco",
+          "description": "NVIDIA CEO Jensen Huang's exhortation to accept, appreciate, and grow through adversity—a core principle of what makes a bleader.",
+          "type": "video"
+        }
+      ]
+    },
+    {
       "id": 1,
       "term": "Borlaug",
       "letter": "B",

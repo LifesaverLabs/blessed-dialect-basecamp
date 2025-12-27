@@ -7,6 +7,8 @@ Words / Phrases that need documenting ASAP, when time becomes available
 Blesséd Number System
 ---------------------
 
+- spasetime / spacetime: How we spark, in one word, skeduling a datetime (date and time) and space for an essential face-to-face. "Let's set a spacetime" rides on our best understanding of physiks and konnekts us meaningfully⁵ in an intersektion of the real world. With kore friends, we very, very strongly⁵ rekommend periodic spasetime / spacetime, where we see our kores at the same time at least each week, or if it's nesessary⁵ each fortnite, staying, deepening, and steepening the virtues of our kores. We strongly suggest the kalmunity⁵ try to build find facetime (find fasetime), a spacetime-bound and -triggered model of rich proxemic periodik kore, periodik inner, and sporadik outer friendship, driven by folded mapping and skedules on an interaktive kalendrikal and mapped kube/hyperkube, expanding the serendipity surface of tribe kalmunity⁵ kontakt.
+- tribe / Tribe: tribe is your kore, inner, outer, naybor, and role model kalmunity⁵. Your Tribe is your larger people, inkorporating the diversity⁵ of the kuzins you proximately⁵ serve. Lokalism and nationalism are a kommon model of Tribe. So is root, trunk, and branch religiosity⁵ whether defined by a civigious and/or divigious race.
 - "d" or "t" (ty) [my pronunciation varies] in place of "ten" and tens place ("four-d-one" [fourdyone] / "four-t-one" [fourtyone])
 - No irregularities between ones place numbers and tens place or any other leading numbers — not "fifty", fivedy or fivety; also not "thirty", threedy or threety instead.
 - No irregularities in the elevens and teens (dyone/tyone = 11, dytwo/tytwo, dythree/tythree, etc. etc. up to dynine/tynine)
