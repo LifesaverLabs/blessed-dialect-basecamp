@@ -1,4 +1,5 @@
 import { NavLink } from "@/components/NavLink";
+import { DialectToggle } from "@/components/DialectToggle";
 import { BookOpen, MessageSquare, Info } from "lucide-react";
 
 export const Navigation = () => {
@@ -45,6 +46,8 @@ export const Navigation = () => {
                 <Info className="w-4 h-4" />
                 <span>About</span>
               </NavLink>
+
+              <DialectToggle />
             </div>
           </div>
         </div>

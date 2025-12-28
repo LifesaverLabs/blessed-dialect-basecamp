@@ -4,11 +4,12 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Search, Check, Link, ExternalLink, Video, FileText, Book, Headphones, Wrench, Users, MoreHorizontal } from "lucide-react";
+import { Search, Check, Link, ExternalLink, Video, FileText, Book, Headphones, Wrench, Users, MoreHorizontal, Languages } from "lucide-react";
 import { getWords, getPhrases, getAllEntries } from "@/data/loader";
-import type { DictionaryEntry, Contributor, Reference } from "@/data/schema";
+import type { DictionaryEntry, Contributor } from "@/data/schema";
 import { toast } from "sonner";
 import { MarkdownText } from "@/components/MarkdownText";
+import { useDialect } from "@/contexts/DialectContext";
 
 // Map reference types to icons
 const referenceTypeIcons: Record<string, React.ReactNode> = {
@@ -74,8 +75,23 @@ const Dictionary = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeTab, setActiveTab] = useState("words");
   const [copied, setCopied] = useState(false);
+  const { dialectMode, toggleDialectMode } = useDialect();
 
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+  // Helper to get definition based on dialect mode
+  const getDefinition = (entry: DictionaryEntry) => {
+    if (dialectMode === 'blessed') {
+      return entry.definitionDialect || entry.definitionStandard || entry.definition || '';
+    } else {
+      return entry.definitionStandard || entry.definitionDialect || entry.definition || '';
+    }
+  };
+
+  // Helper to get dialect label
+  const getDialectLabel = () => {
+    return dialectMode === 'blessed' ? 'Blesséd Dialekt' : 'American Standard';
+  };
 
   const currentData = activeTab === "words" ? dictionaryData.words : dictionaryData.phrases;
 
@@ -271,25 +287,24 @@ const Dictionary = () => {
               </SheetHeader>
 
               <div className="space-y-6 pt-4">
-                {/* Dual Definition System */}
-                {(selectedEntry.definitionStandard || selectedEntry.definitionDialect) ? (
-                  <div className="space-y-4">
-                    {selectedEntry.definitionStandard && (
-                      <div>
-                        <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Standard English</h4>
-                        <MarkdownText className="text-base leading-relaxed">{selectedEntry.definitionStandard}</MarkdownText>
-                      </div>
-                    )}
-                    {selectedEntry.definitionDialect && selectedEntry.definitionDialect !== selectedEntry.definitionStandard && (
-                      <div>
-                        <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-1">Blesséd Dialekt</h4>
-                        <MarkdownText className="text-base leading-relaxed">{selectedEntry.definitionDialect}</MarkdownText>
-                      </div>
+                {/* Definition with Dialect Toggle */}
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide">{getDialectLabel()}</h4>
+                    {(selectedEntry.definitionStandard && selectedEntry.definitionDialect && selectedEntry.definitionStandard !== selectedEntry.definitionDialect) && (
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={toggleDialectMode}
+                        className="gap-2 text-xs h-7"
+                      >
+                        <Languages className="w-3 h-3" />
+                        Switch to {dialectMode === 'blessed' ? 'American' : 'Blesséd'}
+                      </Button>
                     )}
                   </div>
-                ) : selectedEntry.definition ? (
-                  <MarkdownText className="text-base leading-relaxed">{selectedEntry.definition}</MarkdownText>
-                ) : null}
+                  <MarkdownText className="text-base leading-relaxed">{getDefinition(selectedEntry)}</MarkdownText>
+                </div>
 
                 {/* Etymology */}
                 {selectedEntry.etymology && (

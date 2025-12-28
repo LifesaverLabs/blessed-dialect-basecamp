@@ -3,6 +3,7 @@ import { render, screen, fireEvent, within } from '@testing-library/react';
 import { BrowserRouter, MemoryRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { TooltipProvider } from '@/components/ui/tooltip';
+import { DialectProvider } from '@/contexts/DialectContext';
 
 // Components
 import App from '../App';
@@ -36,15 +37,21 @@ const TestWrapper = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <MemoryRouter>{children}</MemoryRouter>
-      </TooltipProvider>
+      <DialectProvider>
+        <TooltipProvider>
+          <MemoryRouter>{children}</MemoryRouter>
+        </TooltipProvider>
+      </DialectProvider>
     </QueryClientProvider>
   );
 };
 
 const RouterWrapper = ({ children }: { children: React.ReactNode }) => (
-  <MemoryRouter>{children}</MemoryRouter>
+  <DialectProvider>
+    <TooltipProvider>
+      <MemoryRouter>{children}</MemoryRouter>
+    </TooltipProvider>
+  </DialectProvider>
 );
 
 describe('Component Tests', () => {
@@ -555,9 +562,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/dictionary?entry=borlaug']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Dictionary />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Dictionary />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -571,9 +580,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/dictionary?entry=borlaug-more']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Dictionary />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Dictionary />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -760,9 +771,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Home />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Home />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -773,9 +786,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/dictionary']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Dictionary />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Dictionary />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -786,9 +801,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/forum']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Forum />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Forum />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -799,9 +816,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/about']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <About />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <About />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );
@@ -1024,9 +1043,11 @@ describe('Component Tests', () => {
       render(
         <MemoryRouter initialEntries={['/timeline']}>
           <QueryClientProvider client={new QueryClient()}>
-            <TooltipProvider>
-              <Timeline />
-            </TooltipProvider>
+            <DialectProvider>
+              <TooltipProvider>
+                <Timeline />
+              </TooltipProvider>
+            </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
       );

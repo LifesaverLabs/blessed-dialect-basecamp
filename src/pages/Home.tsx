@@ -3,11 +3,22 @@ import { NavLink } from "@/components/NavLink";
 import { ArrowRight, BookOpen, MessageSquare, Sprout, FileText, Calendar } from "lucide-react";
 import blessedLogo from "@/assets/blessed-dialect-logo.webp";
 import { getEntriesByDate, getPhrases } from "@/data/loader";
+import { useDialect } from "@/contexts/DialectContext";
 
 const Home = () => {
   const latestEntries = getEntriesByDate(10);
   const phraseIds = new Set(getPhrases().map(p => p.id));
   const isPhrase = (id: number) => phraseIds.has(id);
+  const { dialectMode } = useDialect();
+
+  // Helper to get definition based on dialect mode
+  const getDefinition = (entry: { definitionDialect?: string; definitionStandard?: string; definition?: string }) => {
+    if (dialectMode === 'blessed') {
+      return entry.definitionDialect || entry.definitionStandard || entry.definition || '';
+    } else {
+      return entry.definitionStandard || entry.definitionDialect || entry.definition || '';
+    }
+  };
 
   return (
     <div className="min-h-screen">
@@ -152,7 +163,7 @@ const Home = () => {
                           )}
                         </div>
                         <p className="text-sm text-muted-foreground truncate mt-1">
-                          {entry.definitionStandard || entry.definition}
+                          {getDefinition(entry)}
                         </p>
                       </div>
                     </div>
