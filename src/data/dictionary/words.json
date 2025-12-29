@@ -1619,6 +1619,79 @@
       "dateAdded": "02025-12月26",
       "contributors": ["lifesaverlabs"],
       "notes": "Part of Technology and AI vocabulary. See also: Nomients, Autonomes."
+    },
+    {
+      "id": 113,
+      "term": "hexy⁵",
+      "letter": "H",
+      "definitionStandard": "The state of actively advancing one's health trajectory through consistent, observable behaviors — not a snapshot judgment from appearance, but a derivative⁵ assessment discoverable only through conversation and, ideally, verified data. One resets to a hexy⁵ baseline after good sleep, meaningful exertion, and attentive nutrition over the past couple of days. One falls from hexy⁵ through inattention, red-flag behaviors, or health-harming choices — regardless of body type, starting fitness level, or conventional attractiveness.\n\n**Core Principle:** Hexy⁵ is the first and second derivative of health. It answers: Are you getting healthier? and Is your rate of health improvement itself improving? A person whose health trajectory is flat or falling is not hexy⁵, regardless of how they look. A person whose trajectory is rising — who worked out with joy and grit today, who slept well, who's making good-better-best choices — is hexy⁵, regardless of how they look.\n\n**Universal Inclusivity Clause:** Hexy⁵ applies equally to all body types, all starting fitness levels, all ages. No one is presumptively hexy⁵ or unhexy⁵ from appearance alone. You cannot tell from looking. You can only tell from learning.\n\n**Reset Mechanism:** Hexy⁵ operates on a rolling window of approximately forty-eight to seventy-two hours. Fall off the bandwagon for a stretch? A couple of days of good sleep, movement, and nutrition resets you to hexy⁵.\n\n**Social Speakability Clause:** Hexy⁵ is designed to be spoken about freely — with spouses, partners, friends, family, cousins, even polite strangers — as a compliment about someone's observable health behaviors. It is categorically inappropriate to sexualize hexy⁵ or use it as a pickup line. Hexy⁵ is the anti-creepy compliment: it centers what someone does, not how they look.",
+      "definitionDialect": "The state of aktively advancing one's health trajektory thru konsistent, observable behaviors — not a snapshot judgment from appearanse, but a derivative⁵ assessment discoverable only thru konversation and, ideally, verified data. One resets to a hexy⁵ baseline after good steep, meaningful exersion, and attentive nutrition over the past kouple of days. One falls from hexy⁵ thru inattention, red-flag behaviors, or health-harming choises — regardless of body type, starting fitness level, or konventional attraktiveness.\n\n**Kore Prinsipal:** Hexy⁵ is the first and sekond derivative of health. It answers: Are you getting healthier? and Is your rate of health improvement itself improving? A person whose health trajektory is flat or falling is not hexy⁵, regardless of how they look. A person whose trajektory is rising — who worked out with joy and grit today, who steeped well, who's making good-better-best choises — is hexy⁵, regardless of how they look.\n\n**Universal Inklusivity Clause:** Hexy⁵ applies ekwally to all body types, all starting fitness levels, all ages. No one is presumptively hexy⁵ or unhexy⁵ from appearanse alone. You kannot tell from looking. You kan only tell from learning.\n\n**Reset Mekanizm:** Hexy⁵ operates on a rolling window of approximately forty-eight to seventy-two hours. Fall off the bandwagon for a stretch? A kouple of days of good steep, movement, and nutrition resets you to hexy⁵.\n\n**Sosial Speakability Clause:** Hexy⁵ is designed to be spoken about freely — with spouses, partners, friends, family, kuzins, even polite strangers — as a kompliment about someone's observable health behaviors. It is kategorikally inappropriate to sexualize hexy⁵ or use it as a pickup line. Hexy⁵ is the anti-kreepy kompliment: it centers what someone does, not how they look.",
+      "etymology": "A portmanteau of healthy + sexy, with deliberate primacy⁵ inversion: health drives and outweighs appearance.",
+      "pronunciation": "/ˈhɛk.si/",
+      "usageExamples": [
+        {
+          "context": "Complimenting someone's health trajectory",
+          "example": "You've been so hexy⁵ lately — I saw you at the gym three times this week and you mentioned sleeping eight hours.",
+          "translation": "A compliment about observable health behaviors, not appearance."
+        },
+        {
+          "context": "Partner selection consideration",
+          "example": "Ask your friends not just if someone's attractive, but if they're hexy⁵. Appearance is a single frame; hexiness is the movie.",
+          "translation": "Evaluating potential partners by health trajectory rather than static appearance."
+        },
+        {
+          "context": "Reset after falling off",
+          "example": "I wasn't hexy⁵ last week, but two days of good sleep, movement, and nutrition reset me.",
+          "translation": "The 48-72 hour reset window prevents perfectionism and encourages re-engagement."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["power_dynamics", "potential_misinterpretation"],
+          "note": "NEVER sexualize hexy⁵ or use it as a pickup line. 'You're hexy, let's have healthy sex' curses the concept and borders on harassment. Hexy⁵ is the anti-creepy compliment.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "RED FLAG: Poison Drinking (Alcohol). Ethanol is a Group 1 carcinogen with no safe dose. The 'moderate drinking is healthy' hypothesis has collapsed. Drinking cocktails on a first date demonstrates casual ingestion of cancerous poison. Drink mocktails instead.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "RED FLAG: Corpsing (Cigarette Smoking/Nicotine Addiction). Cigarettes kill. Vaping addicts. Nicotine dependency means surrendering neurochemistry control to a corporation selling blood vessel constriction and accelerated aging.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "RED FLAG: Brain-Damaging (High-Risk Collision Sports). Tackle football, boxing, and sports with subconcussive accumulation risks — continued participation despite the data is trading brain health for entertainment.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "RED FLAG: Sleep Deprivation. All-nighters, driving without adequate sleep, late-night parties preventing regular bedtimes. Less than 7 hours sleep is associated with 14% increased all-cause mortality risk.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["trigger_warning", "context_required"],
+          "note": "Eating disorders represent serious health crises requiring support — not judgment, but also not hexy⁵ by definition, because the trajectory is harmful. Approach with compassion.",
+          "severity": "caution"
+        },
+        {
+          "categories": ["cultural_sensitivity", "context_required"],
+          "note": "Cultural Critique: Some cultures celebrate late nights, alcohol-fueled festivities, and 'sexy' nightclub ambience. There is nothing hexy⁵ about any of these. Start the party⁵ at 6:00 PM local or earlier. Humans don't need ambient darkness more than they need sleep.",
+          "severity": "info"
+        }
+      ],
+      "crossReferences": [1, 20, 21],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-12月28",
+      "contributors": [
+        {
+          "name": "lifesaverlabs",
+          "story": "Developed with Turk AI collaboration to create a speakable, anti-creepy compliment framework centered on health trajectory rather than appearance."
+        }
+      ],
+      "notes": "**Potential Impact Data:**\n\n• Partner exercise habits correlate at r=0.43; fast food consumption at r=0.73\n• Obese spouse increases obesity risk by ~40% — but this reflects behavioral contagion, not body-type contagion. Hexy⁵ partners break this cycle.\n• <7 hours sleep: 14% increased mortality; ≤5 hours: 45% increased heart attack risk\n• Regular physical activity adds 0.4-6.9 years life expectancy; ~2.6 hours gained per hour moderate activity\n• Tennis adds 9.7 years life expectancy; team sports with social interaction show highest longevity benefits\n• Pickleball likely approximates tennis benefits due to social interaction, lateral movement, accessibility\n\n**Quantified Cultural Shift:** If hexy⁵ shifted 5% of partner selection toward health derivatives: amplified household health gains, reversed obesity contagion, 2-5 years life expectancy gained per hexy⁵-partnered adult, cascading social network effects."
     }
   ]
 }
