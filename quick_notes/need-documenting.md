@@ -7,7 +7,7 @@ Words / Phrases that need documenting ASAP, when time becomes available
 Blesséd Number System
 ---------------------
 
-
+- diverting: the essence of funny⁵, 'divertido', from Español
 - akrasia: weakness of will, from Elleniká (Greek)
 - hunger shopping: The experimence of shopping for groceries hungry. Expect to come home with far more empty calories, treats, and junk food.
 - frameshift ærror: From genetics, a situation where the frame of analysis on a problem is shifted in such a way so as to produce nonsense after that frame mutation. Understanding this problem has wideranging implications. For instance, in every kind of investigation under policy⁵ or law, the absence of a fair and free HÆRING between all parties with a consequential stake in the matter can shift the social analytic frame and cause so much frameshift error that the outcomes and inferences from the investigation represent or turn into utter nonsense for lack of well-framed, answerable questions or robust, full-memory⁵ adaptive responses. There are many other cases of frameshift error, like when we're missing an important insight that, when that frame is corrected, subsequent transcription and translation leads to paradigmatic positive shifts in outcomes.  That's why it's so important to get everyone together in a room to talk about failures and how to remediate the past and solve and prevent them in the future.
