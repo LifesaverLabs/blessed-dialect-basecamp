@@ -1779,6 +1779,83 @@
           "type": "article"
         }
       ]
+    },
+    {
+      "id": 115,
+      "term": "JKTE / JCTE",
+      "letter": "J",
+      "definitionStandard": "Juvenile Chronic Traumatic Encephalopathy. A prodromal classification for brain damage in youth caused by subconcussive impacts in collision sports, diagnosable through periodic helmet accelerometer measurements mapped against established human anatomical limits and longitudinal player trends toward CTE. Unlike traditional CTE diagnosis which requires post-mortem dissection, JCTE is classifiable immediately based on participation in sports with measured subconcussive force levels. Even one game of tackle football during brain development qualifies for JCTE Stage 1 classification. High-velocity tackle sports like American football and ice hockey should be retired from school sports curricula under JCTE logic. The physics of subconcussive accumulation cannot be 'fixed' with better padding or rule changes—the sport itself is the problem.",
+      "definitionDialect": "Juvenile Kronik Traumatik Ensefalopathy. A prodromal klassifikation for brain damage in youth kaused by subkunkussive impakts in kollision sports, diagnosable thru periodik helmet akselerometer measurements mapped against established human anatomik limits and longitudinal player trends toward CTE. Unlike traditional CTE diagnosis which requires post-mortem dissektion, JKTE is klassifiable immediately based on partisipation in sports with measured subkunkussive forse levels. Even one game of takle football during brain development qualifies for JKTE Stage 1 klassifikation. High-velosity⁵ takle sports like American football and ise hockey should be retired from skool sports kurrikulums under JKTE logik. The fisiks of subkunkussive akkumulation kannot be 'fixed' with better padding or rule changes—the sport itself is the problem.",
+      "usageExamples": [
+        {
+          "context": "School board meeting about youth sports",
+          "example": "Under JKTE klassifikation, every child on that tackle football team already has Stage 1 brain damage. We're not waiting for dissection to prove what accelerometers already show.",
+          "translation": "The JCTE framework allows us to classify brain injury risk immediately based on participation, not post-mortem findings."
+        },
+        {
+          "context": "Parental decision about youth sports",
+          "example": "I'm not signing my kid up for JKTE Stage 1. Flag football develops the same skills without the neurodegenerative disease.",
+          "translation": "Parents can use JCTE classification to make informed decisions about collision sport participation."
+        },
+        {
+          "context": "Policy advocacy",
+          "example": "We've given tackle football a decade to fix itself. The physics fail every time. JKTE logic says: save the baby, throw out the bathwater.",
+          "translation": "JCTE provides a framework for retiring dangerous sports rather than endlessly attempting to reform them."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "SUBCONCUSSIVE ACCUMULATION IS THE MECHANISM: CTE doesn't require diagnosed concussions. Repeated subconcussive impacts—routine in tackle football and ice hockey—cause cumulative brain damage. Helmet accelerometer data proves this happens in every game, every practice.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "DEVELOPING BRAINS ARE MORE VULNERABLE: Youth brains are still developing. Exposing children to subconcussive impacts during this critical period is signing them up for a neurodegenerative disease. The adult CTE research understates youth risk.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["social_kontrakt_at_stake", "essential_liberty_at_stake"],
+          "note": "INFORMED CONSENT IS IMPOSSIBLE FOR MINORS: Children cannot meaningfully consent to brain damage. Parents and school boards making this decision for them are violating the child's future autonomy and cognitive liberty.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["context_required", "cultural_sensitivity"],
+          "note": "CULTURAL RESISTANCE IS EXPECTED: American football is deeply embedded in US culture. Expect pushback. The response is: cultural tradition doesn't justify child brain damage. We retired child labor; we can retire child brain injury sports.",
+          "severity": "info"
+        },
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "WORLD FOOTBALL (SOCCER) REFORM: Heading in soccer also causes subconcussive damage. JKTE logic recommends retiring heading until adulthood—the sport would still be 'the beautiful game' if heading became a yellow card. Pro leagues should model head health, not head injury.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "Juvenile (youth) + Chronic (ongoing) + Traumatic (injury-caused) + Encephalopathy (brain disease). Modeled on CTE (Chronic Traumatic Encephalopathy) but shifted to a prodromal, living-patient classification framework rather than post-mortem diagnosis. The Blesséd spelling (JKTE) uses 'Kronik' and 'Traumatik' following standard K-for-C substitution, plus 'Ensefalopathy' for phonetic consistency.",
+      "pronunciation": "/ˌdʒeɪ.keɪ.tiː.ˈiː/ or /ˌdʒeɪ.siː.tiː.ˈiː/",
+      "crossReferences": [113, 114],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": [
+        {
+          "name": "lifesaverlabs",
+          "story": "Formalized to provide actionable classification for youth brain injury risk that doesn't require waiting for post-mortem dissection to prove what physics and accelerometer data already demonstrate."
+        }
+      ],
+      "notes": "**JKTE/JCTE Staging:**\n\n• **Stage 1**: Any participation in tackle collision sports during brain development (typically before age 25). Single-game exposure qualifies.\n• **Stage 2**: Extended participation (season or more) with documented subconcussive exposure patterns.\n\n**Key Insight**: Traditional CTE diagnosis requires dissection—meaning we only confirm brain damage after death. JKTE/JCTE shifts to prodromal classification based on exposure, allowing intervention during life.\n\n**The Physics Problem**: Tackle football has had decades to 'fix' itself with better helmets, rule changes, and protocols. It fails every time because the fundamental physics of high-velocity collision sports cannot be made safe for developing brains. The sport is the problem, not the implementation.\n\n**Alternative Sports**: Flag football develops the same athletic skills, teamwork, and strategic thinking without brain damage. There is no skill in tackle football that requires brain injury to learn.\n\n**Research Timeline**: This has been known with sufficient specificity to act since at least Summer 2014—over a decade ago. Every year of delay is another cohort of children with preventable brain damage.",
+      "references": [
+        {
+          "title": "League of Denial: The NFL's Concussion Crisis",
+          "url": "https://www.youtube.com/watch?v=OeC7v4ayrF4",
+          "description": "PBS Frontline documentary exposing the NFL's long denial of CTE science and the systematic cover-up of brain injury risks in football.",
+          "type": "video"
+        },
+        {
+          "title": "Youth Football and Brain Development",
+          "url": "https://www.youtube.com/watch?v=QXn-okL2rfs",
+          "description": "May 2022 presentation on subconcussive impact accumulation in youth football and the case for retiring tackle sports from school curricula.",
+          "type": "video"
+        }
+      ]
     }
   ]
 }
