@@ -23,6 +23,7 @@ Blesséd Number System
 - No irregularities in the elevens and teens (dyone/tyone = 11, dytwo/tytwo, dythree/tythree, etc. etc. up to dynine/tynine)
 - Very open to other suggestions about how to wright these number words. I'd be very happy to write fourdyone as fourTone or fourDone, with the T or D denoting and separating the tens place helpfully⁵ visually⁵.
 - Standard International prefixes for any unit modify and adjust that unit up or down in scale, sometimes across really tremendous scales beyond typical langauge.
+- idiotes: someone not fit for publik mode & speech. Ex: nobody⁵ lagging over 30 days on the build of the drone coverage map proposal.
 
 
 Relationships, Intimacy, and Kalmunity⁵
