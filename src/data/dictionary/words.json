@@ -1856,6 +1856,444 @@
           "type": "video"
         }
       ]
+    },
+    {
+      "id": 116,
+      "term": "akrasia",
+      "letter": "A",
+      "definitionStandard": "Weakness of will; acting against one's better judgment. From Greek philosophy, akrasia describes the state of knowing what is right or beneficial yet failing to do it—not from ignorance, but from insufficient willpower or self-control. Aristotle considered it 'incontinence,' a lack of adequate mastery to ward off the passions. Modern psychology recognizes akrasia in phenomena like procrastination, addiction, and hyperbolic discounting (preferring smaller immediate rewards over larger delayed ones). Unlike vice, the akratic person knows their action is wrong while doing it.",
+      "definitionDialect": "Weakness of will; akting against one's better judgment. From Elleniká (Greek) philosophy, akrasia describes the state of knowing what is rite or benefisial yet failing to do it—not from ignoranse, but from insuffisient willpower or self-kontrol. Aristotle konsidered it 'inkontinense,' a lak of adequate mastery to ward off the passions. Modern psykology rekoknizes akrasia in phenomena like prokrastination, addikcion, and hyperbolik diskounting (preferring smaller immediate rewards over larger delayed ones). Unlike vise, the akratik person knows their aktion is wrong while doing it.",
+      "usageExamples": [
+        {
+          "context": "Describing procrastination",
+          "example": "I know I should start this projekt, but akrasia keeps me srolling instead.",
+          "translation": "I know what I should do but lack the willpower to do it."
+        },
+        {
+          "context": "Health behavior",
+          "example": "Eating the kake while knowing it harms my health trajektory—pure akrasia.",
+          "translation": "Acting against my known best interests due to weakness of will."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required", "potential_misinterpretation"],
+          "note": "Akrasia is not an excuse—it's a diagnosis. Naming the pattern is the first step toward building systems, habits, and environmental designs that reduce reliance on willpower alone.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Greek ἀκρασία (akrasia), from ἀ- (a-, 'without') + κράτος (kratos, 'power, strength'). Literally 'lack of command over oneself.' Central concept in Aristotelian ethics and Platonic dialogue.",
+      "pronunciation": "/əˈkreɪ.ʒə/ or /əˈkreɪ.zi.ə/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Psychological Research:**\n\n• Hyperbolic delay discounting—preferring smaller, sooner rewards over larger, later ones—is a core mechanism of akrasia\n• The 'ego depletion' model of willpower has come under question; highly self-controlled individuals may experience 'motivational harmony' rather than constant resistance\n• Intertemporal bargaining and personal rules can counter akratic tendencies\n• Akrasia rarely appears in psychology literature by name, but maps to concepts like 'self-regulation failure' and 'intention-action gap'",
+      "references": [
+        {
+          "title": "Weakness of Will (Stanford Encyclopedia of Philosophy)",
+          "url": "https://plato.stanford.edu/entries/weakness-will/",
+          "description": "Comprehensive philosophical overview of akrasia from ancient Greek thought through contemporary debate.",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "term": "diverting",
+      "letter": "D",
+      "definitionStandard": "The essence of being funny; that which entertains, amuses, and redirects attention pleasurably. Borrowed from Spanish 'divertido' (fun, amusing, entertaining). In Blesséd, 'diverting' replaces 'funny' to capture the fuller sense of amusement as redirection—turning minds from worry toward joy, from stress toward play. Something diverting diverts you from the mundane toward delight.",
+      "definitionDialect": "The essense of being funny⁵; that which entertains, amuses, and redirekts attention pleasurably. Borrowed from Español 'divertido' (fun, amusing, entertaining). In Blesséd, 'diverting' replases 'funny' to kapture the fuller sense of amusement as redirektion—turning minds from worry toward joy, from stress toward play. Something diverting diverts you from the mundane toward delite.",
+      "usageExamples": [
+        {
+          "context": "Describing entertainment",
+          "example": "That show was incredibly diverting—I forgot all my worries for two hours.",
+          "translation": "The show was so amusing it redirected my attention away from stress."
+        },
+        {
+          "context": "Complimenting humor",
+          "example": "You're one of the most diverting people I know.",
+          "translation": "You're genuinely funny in a way that brings joy."
+        }
+      ],
+      "etymology": "From Spanish 'divertido' (fun, entertaining), from Latin 'divertere' (to turn aside, to divert). The Spanish captures both 'fun' and 'diverting' in one word. English lost this unity; Blesséd restores it.",
+      "pronunciation": "/dɪˈvɜːtɪŋ/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "English 'funny' has become ambiguous—it can mean 'amusing' or 'strange/suspicious' ('that's funny...'). 'Diverting' reclaims unambiguous positivity while honoring the Spanish insight that amusement is fundamentally about beneficial redirection of attention."
+    },
+    {
+      "id": 118,
+      "term": "hunger shopping",
+      "letter": "H",
+      "definitionStandard": "The experience of shopping for groceries while hungry, leading to significantly increased purchases of high-calorie, low-nutrition foods. A predictable cognitive bias where immediate physiological state overrides long-term health goals. The antidote is simple: eat before shopping, or shop from a pre-made list that was created while satiated.",
+      "definitionDialect": "The experimence of shopping for groseries while hungry, leading to signifikantly inkreased purchases of high-kalorie, low-nutrition foods. A prediktable kognitive bias where immediate physiologikal state overrides long-term health goals. The antidote is simple: eat before shopping, or shop from a pre-made list that was kreated while satiated.",
+      "usageExamples": [
+        {
+          "context": "Self-awareness about poor food choices",
+          "example": "I came home with chips, cookies, and ice cream. Classic hunger shopping.",
+          "translation": "I made unhealthy purchases because I shopped while hungry."
+        },
+        {
+          "context": "Advising someone",
+          "example": "Never hunger shop—eat first, or you'll spend 64% more on junk.",
+          "translation": "Always eat before grocery shopping to avoid impulse purchases."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["tissue_at_stake", "context_required"],
+          "note": "Hunger shopping is a reliable path to dietary failure. The solution is systemic: schedule shopping after meals, use delivery with pre-set lists, or employ the 24-hour rule for unplanned food purchases.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "Compound of 'hunger' + 'shopping.' Describes a well-documented psychological phenomenon where acute hunger state biases purchasing decisions toward calorie-dense foods.",
+      "pronunciation": "/ˈhʌŋɡər ˈʃɒpɪŋ/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Research Data:**\n\n• Hunger causes a 64% increase in non-food impulse purchases—demonstrating that hunger affects all purchasing, not just food\n• Food and groceries make up 70% of impulse purchases in physical stores\n• Impulse buying accounts for up to 62% of grocery sales revenue (up to 80% in some product categories)\n• The average consumer spends $282/month on impulse buys ($3,381/year as of 2024)\n• 88% of parents report their children influence impulse buying at grocery stores\n\n**Prevention Strategies:**\n1. Eat a meal or substantial snack before shopping\n2. Shop from a pre-written list created while satiated\n3. Use grocery delivery to avoid store environment entirely\n4. Apply 24-hour waiting period to unplanned food purchases",
+      "references": [
+        {
+          "title": "Impulse Buying Statistics (2025)",
+          "url": "https://capitaloneshopping.com/research/impulse-buying-statistics/",
+          "description": "Comprehensive statistics on impulse buying behavior, including the hunger effect on purchasing.",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "term": "frameshift ærror",
+      "letter": "F",
+      "definitionStandard": "A situation where the analytical frame applied to a problem is shifted in such a way that subsequent reasoning produces nonsense—borrowed from genetics where a frameshift mutation causes the reading frame to shift, producing entirely different (and usually nonfunctional) proteins. In social contexts, frameshift errors occur when investigations, policies, or decisions proceed without fair hearings between all stakeholders, causing the analytical frame to shift and produce conclusions that are meaningless or harmful. The correction requires getting everyone together to reframe the problem properly.",
+      "definitionDialect": "A situation where the analytik frame applied to a problem is shifted in such a way that subsequent reasoning produses nonsense—borrowed from genetiks where a frameshift mutation kauses the reading frame to shift, produsing entirely different (and usually nonfunkshonal) proteins. In sosial konteksts, frameshift ærrors okkur when investigations, polisies, or desisions proseed without fær HÆRINGS between all stakeholders, kausing the analytik frame to shift and produse konklusions that are meaningless or harmful. The korrektion requires getting everyone together to reframe the problem properly.",
+      "usageExamples": [
+        {
+          "context": "Describing a flawed investigation",
+          "example": "Without hearing from the affected families, the entire inquiry suffered a frameshift ærror—their konklusions were nonsense.",
+          "translation": "The investigation's conclusions were meaningless because key stakeholders weren't included."
+        },
+        {
+          "context": "Positive paradigm shift",
+          "example": "When we finally understood the missing insight, the frameshift korrektion transformed our entire approch.",
+          "translation": "Correcting our analytical frame led to dramatically better outcomes."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "essential_liberty_at_stake"],
+          "note": "Frameshift errors in policy or law can cause immense harm by producing conclusions that appear logical within the shifted frame but are utterly disconnected from reality. The solution is always inclusive hearings with all affected parties.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From genetics: a frameshift mutation inserts or deletes nucleotides not in multiples of three, shifting the reading frame and producing entirely different amino acid sequences. Extended metaphorically to any situation where an analytical frame shift produces nonsense conclusions.",
+      "pronunciation": "/ˈfreɪmʃɪft ˈɛrər/",
+      "crossReferences": [29],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "The genetic metaphor is precise: just as a single nucleotide insertion can render an entire gene nonfunctional, a single missing perspective or excluded stakeholder can render an entire investigation meaningless. The Æ in 'ærror' signals both the Blesséd dialect and the connection to HÆRING (fair hearing)."
+    },
+    {
+      "id": 120,
+      "term": "violens",
+      "letter": "V",
+      "definitionStandard": "The use of physical coercive force to achieve goals instead of logic, consent, and other nonviolent forms of incentives and disincentives. Violence carries with it a 'lens'—a way of seeing the world that affects all who use it and can pass down generations and spread laterally to others. One goal of Blesséd is to deprecate the lens of violence at every stage of life while maintaining legitimate community security through authorized agents (police, military, in extreme cases public health authorities).",
+      "definitionDialect": "The use of physikal koersive forse to achieve goals instead of logik, konsent, and other nonviolent forms of (dis)insentives. Violens karries with it a 'lens'—a way of seeing the world that affekts all who use it and kan pass down generations and spread laterally to others. One goal of Blesséd is to deprekate the lens of violens at every stage of life while maintaining legitimate kalmunity⁵ sekurity⁵ thru authorized agents (polise, military⁵, in ekstreme kases publik health authorities).",
+      "usageExamples": [
+        {
+          "context": "Describing parental discipline",
+          "example": "Korporal punishment isn't disipline—it's violens, and it teaches children the violens lens.",
+          "translation": "Physical punishment teaches children that force is an acceptable way to get what you want."
+        },
+        {
+          "context": "State monopoly on violence",
+          "example": "Only the state reserves and exersises violens legitimately, per Weber. Parents don't karry that rite.",
+          "translation": "The legitimate use of force is reserved for the state, not private individuals including parents."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake", "essential_liberty_at_stake"],
+          "note": "The 'lens of violence' is intergenerational: children who experience violence are more likely to use it as adults and support it for their own children. Breaking this cycle requires intervention at every stage.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "Blesséd does not advocate pacifism. Authorized use of force for community security remains necessary. The goal is deprecating violence as a first resort and especially eliminating it from child-rearing.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Violence + lens. The spelling 'violens' emphasizes that violence is not just an act but a lens—a way of perceiving the world where physical force is a legitimate tool for achieving goals.",
+      "pronunciation": "/ˈvaɪələns/ (standard pronunciation, spelling emphasizes the 'lens' concept)",
+      "crossReferences": [121],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Research on Intergenerational Violence:**\n\n• Meta-analysis of 50 years of research (160,000+ children): the more children are spanked, the more likely they are to exhibit aggression, mental health problems, and anti-social behavior\n• 27/27 studies found corporal punishment associated with increased child aggression\n• Adults who were spanked as children are more likely to support physical punishment for their own children—the 'lens' passes down\n• Most child physical abuse occurs in the context of punishment—corporal punishment carries inherent escalation risk\n• UNICEF: 1.2 billion children globally subjected to corporal punishment annually; 63% of children aged 2-4 experience regular physical punishment\n\n**Weber's Insight:** Max Weber defined the state as the entity with a monopoly on legitimate violence. Blesséd extends this: parents do not share in this monopoly.",
+      "references": [
+        {
+          "title": "More Harm Than Good: Scientific Research on Corporal Punishment",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8386132/",
+          "description": "Comprehensive summary of research on intended and unintended effects of corporal punishment on children.",
+          "type": "paper"
+        },
+        {
+          "title": "WHO Fact Sheet: Corporal Punishment and Health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+          "description": "World Health Organization overview of health impacts of corporal punishment.",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "term": "korporal request",
+      "letter": "K",
+      "definitionStandard": "A call for a trained community member ('Korporal') to intervene in situations involving parental corporal punishment. Korporals are trained on the research literature to understand that corporal punishment is ineffective and harmful in virtually all cases. The goal is to accelerate the social change that took Nordic countries decades to achieve—ending corporal punishment through community support and education rather than purely punitive enforcement.",
+      "definitionDialect": "A kall for a trained kalmunity⁵ member ('Korporal') to intervene in situations involving parental korporal punishment. Korporals are trained on the research lit neutrally⁵ rather than anekdotally to understand that korporal punishment is ineffektive and harmful in virtually all kases. The goal is to ackselerate the sosial change that took Nordik kountries dekades to achieve—ending korporal punishment thru kalmunity⁵ support and edukation rather than purely punitive enforement.",
+      "usageExamples": [
+        {
+          "context": "Child calling for help",
+          "example": "The child used Naybor SOS to make a korporal request, and a trained Korporal arrived to talk with the family.",
+          "translation": "A trained community member responded to help de-escalate and educate about alternatives to physical punishment."
+        },
+        {
+          "context": "Community training",
+          "example": "Bekoming a Korporal requires training on the research showing korporal punishment fails in essentially all kases.",
+          "translation": "Korporal training is based on scientific evidence, not anecdotes."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Even in societies that have banned corporal punishment, enforcement is weak. Korporal requests fill the gap with trained community intervention that educates rather than simply punishes parents.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "The expected outcome is a 10% reduction in violence by changing the 'lens' through which youth see the world—from one where physical force is normalized to one where it is deprecated.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Korporal (one with authority regarding corporal/bodily matters) + request. The term reclaims 'corporal' from 'corporal punishment' to mean 'one who protects bodies from punishment.'",
+      "pronunciation": "/ˈkɔːpərəl rɪˈkwest/",
+      "crossReferences": [120],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Research Supporting Korporal Intervention:**\n\n• 13 of 15 studies (87%) found corporal punishment associated with WORSE child behavior, not better\n• 12/12 studies found corporal punishment associated with increased child mental health problems\n• 10/10 studies found corporal punishment linked to increased physical abuse\n• No study has found that physical punishment enhances developmental health\n\n**The Nordic Model:**\nSweden banned corporal punishment in 1979; other Nordic countries followed. The shift required decades of education and cultural change. Korporal requests aim to accelerate this process through trained community intervention."
+    },
+    {
+      "id": 122,
+      "term": "konseptual parent",
+      "letter": "K",
+      "definitionStandard": "A person who has thought deeply about bringing children into the world and takes parenting responsibility seriously, even before having biological or adopted children. The shift from non-parent to conceptual parent can be marked by choosing names for future children and developing a model of grandparental libertarianism. In some religious traditions (e.g., Judaism), life begins not at fertilization but at this concrete intergenerational thinking and 'parental imprint.' Conceptual parents and grandparents may exist 5+ years before traditional parenthood.",
+      "definitionDialect": "A person who has thot deeply about bringing children into the world and takes parenting responsibility⁵ seriously, even before having biologikal or adopted children. The shift from non-parent to konseptual parent kan be marked by choosing names for future children and developing a model of grandparental libertarianism. In some religious traditions (e.g., HhÆÅJ Judaism), life begins not at fertilization but at this konkrete intergenerational thinking and 'parental imprint.' Konseptual parents and grandparents may eksist 5+ years before traditional parenthood.",
+      "usageExamples": [
+        {
+          "context": "Describing someone planning for children",
+          "example": "She's been a konseptual parent for three years—she's already chosen names and thought through her parenting filosofy.",
+          "translation": "She has been seriously preparing for parenthood long before having children."
+        },
+        {
+          "context": "Policy advocacy",
+          "example": "Konseptual parents deserve legal standing to argue for the welfare of their konseived children—including klimat polisy.",
+          "translation": "People planning for future children should have a voice in policies that will affect those children."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "The concept of 'life begins at conception' has multiple valid interpretations across religious traditions. In some, conception is the mental/intentional act of planning for children, not fertilization. This reframing can bridge seemingly irreconcilable positions.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Conceptual (existing in thought/plan) + parent. Acknowledges that parenting begins with serious intention and preparation, not just biological events.",
+      "pronunciation": "/kɒnˈseptʃuəl ˈpeərənt/",
+      "crossReferences": [77],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Religious Traditions:**\nIn Hebrew (Evereet), the language ties the choice of names to the imbuement, imprint, and reincarnation of souls. The 'parental imprint' attached to provisional naming is a concrete marker of becoming a conceptual parent.\n\n**Legal Implications:**\nBlesséd argues that conceptual parents should have specific legal rights in arguing for the welfare of their conceived children—particularly in long-term policy matters like climate, currency systems, and intergenerational justice."
+    },
+    {
+      "id": 123,
+      "term": "spasetime",
+      "letter": "S",
+      "definitionStandard": "Scheduling a specific date, time, and physical space for an essential face-to-face meeting. 'Let's set a spacetime' invokes physics terminology to emphasize that meaningful human connection requires intersection in both space and time—not just asynchronous digital communication. For core friends, weekly or biweekly spacetimes are strongly recommended to maintain relationship depth.",
+      "definitionDialect": "Skeduling a spesifik date, time, and physikal spase for an essential fase-to-fase meeting. 'Let's set a spasetime' invokes fisiks terminology to emphasize that meaningful⁵ human konnection requires intersektion in both spase and time—not just asynchonous digital kalmunication. For kore friends, weekly or biweekly spasetimes are strongly⁵ rekommended to maintain relationship depth.",
+      "usageExamples": [
+        {
+          "context": "Scheduling with a close friend",
+          "example": "We haven't had a spasetime in three weeks—let's set one for Saturday at the park.",
+          "translation": "We need to schedule an in-person meeting at a specific time and place."
+        },
+        {
+          "context": "Emphasizing physical presence",
+          "example": "Video kalls aren't spasetime. Real konnection requires sharing actual spase.",
+          "translation": "Digital communication doesn't substitute for physical co-presence."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Social isolation increases mortality risk by 26-32%. Regular spacetimes with core friends are not optional social niceties—they are health interventions with measurable impact on longevity.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Space + time, invoking Einstein's spacetime continuum. Just as events in physics require both spatial and temporal coordinates, meaningful human encounters require scheduling both where and when.",
+      "pronunciation": "/ˈspeɪstaɪm/",
+      "crossReferences": [124, 38],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Health Research on Face-to-Face Contact:**\n\n• Social isolation has a 29% increased likelihood of mortality (OR 1.29); loneliness 26% (OR 1.26); living alone 32% (OR 1.32)\n• Being socially connected increases odds of survival by 50% (meta-analysis of 148 studies)\n• Social isolation/loneliness associated with 50% increased dementia risk, 30% increased stroke/heart disease risk\n• 1 in 3 US adults report feeling lonely; 1 in 4 report lacking social/emotional support\n\n**Recommendation:**\nWeekly spacetimes with core (5 people) and sympathy group (15 people). At minimum, biweekly. Beyond this, relationship quality degrades measurably."
+    },
+    {
+      "id": 124,
+      "term": "tribe",
+      "letter": "T",
+      "definitionStandard": "Your complete social network across all layers: core (5 closest), inner (15 sympathy group), outer (50 affinity group), and neighbor (150 full active network). Your Tribe (capitalized) is your larger people—incorporating the diversity of cousins you proximately serve, whether defined by locality, nation, or religious/civic tradition.",
+      "definitionDialect": "Your komplete sosial network akross all layers: kore (5 klosest), inner (15 sympathy group), outer (50 affinity group), and naybor (150 full aktive network). Your Tribe (kapitalized) is your larger people—inkorporating the diversity⁵ of kuzins you proximately⁵ serve, whether defined by lokality, nation, or religious/civik tradition.",
+      "usageExamples": [
+        {
+          "context": "Describing social network",
+          "example": "My tribe is healthy—I have spasetime with my kore weekly and my inners monthly.",
+          "translation": "My social network is well-maintained across all layers."
+        },
+        {
+          "context": "Larger identity",
+          "example": "My Tribe is the diaspora, but my tribe is here in this kalmunity.",
+          "translation": "I identify with a larger people but maintain close local relationships."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "The lowercase 'tribe' refers to personal social networks (Dunbar layers). The capitalized 'Tribe' refers to larger identity groups. Both are important for human flourishing but serve different functions.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Latin 'tribus' (division of the Roman people). Extended through Dunbar's research to describe the layered structure of human social networks.",
+      "pronunciation": "/traɪb/",
+      "crossReferences": [123, 38, 50],
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Dunbar's Layered Model (5-15-50-150):**\n\n• **Core (5)**: Support clique—closest relationships, highest trust, ~40% of social time\n• **Inner (15)**: Sympathy group—not as close but critical for wellbeing, another ~20% of social time\n• **Outer (50)**: Affinity group—useful connections, less emotional closeness\n• **Neighbor (150)**: Full active network—maximum stable social relationships\n\n**Hunter-Gatherer Evidence:**\nThe community level in hunter-gatherer societies consistently clusters around 150, supporting Dunbar's cognitive limit hypothesis.\n\n**Time Investment:**\nWe devote ~2/3 of social time to just 15 people. Quality matters more than quantity beyond this core group."
+    },
+    {
+      "id": 125,
+      "term": "idiotes",
+      "letter": "I",
+      "definitionStandard": "Someone not fit for public mode and speech; a private person who fails to engage with civic responsibilities. From Greek ἰδιώτης (idiōtēs), meaning 'private citizen' as opposed to one engaged in public affairs. In Blesséd, an idiotes is someone who lags on civic duties—for example, someone more than 30 days behind on their contributions to a community project they committed to.",
+      "definitionDialect": "Someone not fit for publik mode and speech; a private person who fails to engage with civik responsibilities⁵. From Elleniká ἰδιώτης (idiōtēs), meaning 'private sitizen' as opposed to one engaged in publik affairs. In Blesséd, an idiotes is someone who lags on civik duties—for example, someone more than 30 days behind on their kontributions to a kalmunity⁵ projekt they kommitted to.",
+      "usageExamples": [
+        {
+          "context": "Describing civic disengagement",
+          "example": "Anyone lagging 30+ days on the drone coverage map proposal is behaving like an idiotes.",
+          "translation": "Failure to meet civic commitments marks one as disengaged from public life."
+        },
+        {
+          "context": "Self-critique",
+          "example": "I've been an idiotes about voting in lokal elektions—time to re-engage.",
+          "translation": "I've neglected my civic duties and need to correct that."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "The English word 'idiot' derives from idiotes but has shifted to mean 'stupid person.' The original Greek meaning was 'private person'—one who doesn't participate in public life. Blesséd reclaims the original meaning.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From Greek ἰδιώτης (idiōtēs), from ἴδιος (idios, 'one's own, private'). In ancient Athens, an idiotes was a private citizen who didn't engage in public affairs—considered a failure of citizenship, not intelligence.",
+      "pronunciation": "/ɪdiˈoʊtiːz/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Etymology Note:**\nThe shift from 'private citizen' to 'stupid person' reflects a fascinating semantic evolution. The Athenians considered engagement in public life so essential that someone who remained purely private was by definition deficient as a citizen. Modern usage has lost this civic dimension entirely, reducing 'idiot' to mere intellectual insult."
+    },
+    {
+      "id": 126,
+      "term": "sage vs age",
+      "letter": "S",
+      "definitionStandard": "The principle that wisdom (sage) can be cultivated at any age through deliberate practice. Youth—children, adolescents, young adults, and the middle-aged—can become sages by undertaking sagacious behaviors: reading books and thoughtful articles, engaging at higher levels of Bloom's taxonomy (analysis, synthesis, evaluation, creation), studying and practicing ethical action, discussing the world with love of wisdom (philosophy), and more. Age alone does not confer wisdom; sage status is earned through sustained intellectual and moral development.",
+      "definitionDialect": "The prinsiple that wisdom (sage) kan be kultivated at any age thru deliberate praktise. Youth—children, adolesents, young adults, and the middle-aged—kan bekome sages by undertaking sagasious behaviors: reading books and thortful artikles, engaging at higher levels of Bloom's taxonomy (analysis, synthesis, evaluation, kreation), studying and praktising ethikal aktion, diskussing the world with love of wisdom (filosofy), and more. Age alone does not konfer wisdom; sage status is earned thru sustained intellektual and moral development.",
+      "usageExamples": [
+        {
+          "context": "Encouraging youth development",
+          "example": "Sage vs age means a 16-year-old who reads widely and thinks deeply kan earn sage status—it's not reserved for elders.",
+          "translation": "Wisdom is achievable through practice at any age, not just with years."
+        },
+        {
+          "context": "Describing the path to wisdom",
+          "example": "She's working on sage vs age—Bloom's taxonomy, philosophy diskussions, daily reading. Building toward sage.",
+          "translation": "She is actively cultivating wisdom through deliberate intellectual practice."
+        },
+        {
+          "context": "Self-motivation",
+          "example": "I kan't just wait to get older and hope wisdom comes. Sage vs age means I have to earn it now.",
+          "translation": "Wisdom requires active cultivation, not passive aging."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Sage vs age is not about diminishing respect for elders—many elders are genuine sages who have earned wisdom through decades of practice. The point is that the path to sage is open to all ages, and youth should be encouraged to walk it.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Sage (wise person, from Latin 'sapere' = to taste, to be wise) contrasted with age (chronological years). The near-rhyme emphasizes that these are related but distinct concepts—age provides opportunity for wisdom, but wisdom requires active cultivation.",
+      "pronunciation": "/seɪdʒ vɜːsəs eɪdʒ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Path to Sage (Bloom's Taxonomy Framework):**\n\n1. **Remember/Understand**: Read books, articles, listen to thoughtful discourse\n2. **Apply**: Practice ethical action in daily life\n3. **Analyze**: Break down complex problems, identify assumptions\n4. **Evaluate**: Develop judgment about what is good, true, beautiful\n5. **Create**: Synthesize wisdom into original contributions\n\n**Philosophy (Love of Wisdom):**\nThe Greek 'philosophia' literally means love of wisdom. Sage vs age encourages this love at every life stage—wisdom-seeking is not a late-life activity but a lifelong practice that can begin in childhood."
+    },
+    {
+      "id": 127,
+      "term": "skin swatch",
+      "letter": "S",
+      "definitionStandard": "An objective color measurement of an individual's skin tone, taken at birth or during routine medical/administrative encounters (primary care, driver's license renewal). Replaces subjective racial categories with precise color codes. More specific values are always preferred: Pantone color labels (most specific, memorable), CMYK/RGB values (precise numerical), then Fitzpatrick scale or Identity Codes (less specific but still useful). Serves three purposes: (1) precise color matching for medical dermatology, (2) accurate data collection without racial stereotyping, and (3) a deliberate friction layer between visual appearance and social categorization that slows implicit bias.",
+      "definitionDialect": "An objektive kolor measurement of an individual's skin tone, taken at birth or during routine medikal/administrative enkounters (primary kare, driver's lisense renewal). Replases subjektive rasial kategories with presise kolor kodes. More spesifik values are always preferred: Pantone kolor labels (most spesifik, memorable), CMYK/RGB values (presise numerikal), then Fitzpatrick skale or Identity Kodes (less spesifik but still useful). Serves three purposes: (1) presise kolor matching for medikal dermatology⁵, (2) akkurate data kollektion without rasial stereotyping, and (3) a deliberate friktion layer between visual appearanse and sosial kategorization that slows implisit bias.",
+      "usageExamples": [
+        {
+          "context": "Medical context with high specificity",
+          "example": "The dermatologist rekorded my skin swatch as Pantone 728 C—much more presise than 'Fitzpatrick IV.'",
+          "translation": "Pantone color codes provide the highest precision for medical and administrative purposes."
+        },
+        {
+          "context": "Administrative replacement for race",
+          "example": "Instead of asking 'race,' the form asked for my skin swatch—I gave RGB(182, 142, 108) from my last klinik visit.",
+          "translation": "Objective color codes replace subjective racial categories on forms."
+        },
+        {
+          "context": "Preference hierarchy",
+          "example": "If you don't have your Pantone, give CMYK. If not that, RGB. Fitzpatrick or IC kodes are a fallbak.",
+          "translation": "More specific measurements are preferred, with categorical scales as backup."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity", "context_required"],
+          "note": "Skin swatch is not 'colorblindness'—it acknowledges that skin color exists and has medical/social relevance. The goal is replacing imprecise racial categories with precise color measurement, reducing stereotype threat while retaining useful information.",
+          "severity": "info"
+        },
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "Some may object that this 'reduces people to skin color.' The response: racial categories already do this, but imprecisely and with heavy stereotype baggage. Skin swatch provides precision without prejudice.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "Skin (outer covering) + swatch (color sample, from fabric industry). Borrows the precision of fabric/paint color matching for human skin tone classification.",
+      "pronunciation": "/skɪn swɒtʃ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Specificity Hierarchy (most to least preferred):**\n\n1. **Pantone Kolor Labels**: Most specific and memorable (e.g., 'Pantone 728 C'). Pantone's SkinTone Guide includes 110 shades. Easy to remember and communicate.\n2. **CMYK Values**: Cyan-Magenta-Yellow-Key (black) percentages. Precise for print reproduction.\n3. **RGB Values**: Red-Green-Blue numerical values (0-255 each). Precise for digital contexts.\n4. **Fitzpatrick Scale**: Types I-VI based on UV response. Useful for dermatology but less precise for identity purposes.\n5. **Identity Codes (IC)**: Categorical codes used in Great Britain. Better than racial categories but less precise than color values.\n\n**Implementation:**\n• Capture at birth with standardized lighting/equipment\n• Update at routine encounters (primary care, DMV)\n• Include timestamp—skin tone changes with sun exposure, aging, medical conditions\n\n**Friction Layer Function:**\nThe cognitive step required to match actual skin color to a precise code disrupts automatic racial categorization. More specific values = more friction = less stereotyping."
     }
   ]
 }
