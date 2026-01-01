@@ -1692,6 +1692,93 @@
         }
       ],
       "notes": "**Potential Impact Data:**\n\n• Partner exercise habits correlate at r=0.43; fast food consumption at r=0.73\n• Obese spouse increases obesity risk by ~40% — but this reflects behavioral contagion, not body-type contagion. Hexy⁵ partners break this cycle.\n• <7 hours sleep: 14% increased mortality; ≤5 hours: 45% increased heart attack risk\n• Regular physical activity adds 0.4-6.9 years life expectancy; ~2.6 hours gained per hour moderate activity\n• Tennis adds 9.7 years life expectancy; team sports with social interaction show highest longevity benefits\n• Pickleball likely approximates tennis benefits due to social interaction, lateral movement, accessibility\n\n**Quantified Cultural Shift:** If hexy⁵ shifted 5% of partner selection toward health derivatives: amplified household health gains, reversed obesity contagion, 2-5 years life expectancy gained per hexy⁵-partnered adult, cascading social network effects."
+    },
+    {
+      "id": 114,
+      "term": "motorbike",
+      "letter": "M",
+      "definitionStandard": "Any two- or three-wheeled vehicle with motor assistance capable of exceeding 25 km/h (15.5 mph), regardless of marketing terminology. The term 'e-bike' obscures the danger of motor-powered vehicles by evoking benign associations (email, e-books). Vehicles marketed as 'e-bikes' that exceed the EU EPAC/pedelec threshold of 25 km/h motor cutoff are motorbikes and should be regulated as such—requiring registration, insurance, helmets, and age restrictions. Class 2 and Class 3 'e-bikes' in the US (throttle-operated or motor-assisted to 28 mph) are motorbikes. Only true pedelecs with motor cutoff at 25 km/h qualify as bicycles.",
+      "definitionDialect": "Any two- or three-wheeled vehickle with motor assistanse kapable of ekseeding 25 km/h (15.5 mph), regardless of marketing terminology. The term 'e-bike' obskures the danger of motor-powered vehickles by evoking benign assosiations (email, e-books). Vehickles marketed as 'e-bikes' that ekseed the EU EPAC/pedelec threshold of 25 km/h motor cutoff are motorbikes and should be regulated as such—requiring registration, insuranse, helmets, and age restrikcions. Klass 2 and Klass 3 'e-bikes' in the US (throttle-operated or motor-assisted to 28 mph) are motorbikes. Only true pedelecs with motor kutoff at 25 km/h qualify as bisikles.",
+      "usageExamples": [
+        {
+          "context": "Correcting misleading marketing terminology",
+          "example": "That's not an e-bike, it's a motorbike—it goes 28 mph on throttle alone.",
+          "translation": "The vehicle's speed capability classifies it as a motorbike, not a bicycle, regardless of branding."
+        },
+        {
+          "context": "Policy discussion with manufacturers",
+          "example": "Segway Ninebot, your KickScooter exceeds 25 km/h—under Blesséd terminology, that's a motorbike requiring appropriate safety⁵ regulations.",
+          "translation": "Manufacturers should classify their products honestly based on speed capability, not marketing appeal."
+        },
+        {
+          "context": "Parental guidance",
+          "example": "Before buying your teen a 'scooter,' check the top speed—if it exceeds 25 km/h, you're buying them a motorbike.",
+          "translation": "Parents should understand the true risk profile of motor-assisted vehicles marketed to youth."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "KINETIC ENERGY SCALES EXPONENTIALLY: At 25 km/h (15.5 mph), kinetic energy is E. At 45 km/h (28 mph), kinetic energy is 3.24E—a 224% increase. The '11% fatality rate on injurious crash' statistic applies to motor-speed impacts. This isn't about being cautious; it's physics.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["life_at_stake", "context_required"],
+          "note": "HELMET NON-NEGOTIABLE: Amelia Stafford's traumatic brain injury occurred on a short ride where 'wearing a helmet didn't occur to anyone.' Blood came from her ears. Any motorbike ride without a helmet is gambling with brain injury.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["essential_liberty_at_stake", "social_kontrakt_at_stake"],
+          "note": "YOUTH SPEED LIMITER DEFEAT: Of approximately half-dozen Florida youth with e-scooters surveyed, almost all had modified or defeated speed limiters. Parental oversight and tamper-resistant speed governance are essential for youth motorbike access.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["potential_misinterpretation", "cultural_sensitivity"],
+          "note": "MARKETING DECEPTION: 'E-bike' terminology deliberately exploits benign tech associations (email, e-books) to make dangerous motor vehicles seem as safe as bicycles. This linguistic sleight-of-hand contributes to preventable injuries and deaths.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "EMERGENCY OVERRIDE CONSIDERATION: A locked 25 km/h limit might be overridden in genuine emergencies (Naybor SOS, PulsePoint emergency). However, without tamper-proof, well-integrated emergency authorization systems, default to the safe speed ceiling.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Motor + bike. The term reclaims honest classification for motor-assisted two-wheeled vehicles that marketing has euphemistically rebranded as 'e-bikes' or 'electric scooters.' In Blesséd, if it has a motor that can exceed bicycle speeds, it's a motorbike—no exceptions for branding.",
+      "pronunciation": "/ˈmoʊtərˌbaɪk/",
+      "crossReferences": [113],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月01",
+      "contributors": [
+        {
+          "name": "lifesaverlabs",
+          "story": "Formalized after recognizing the urgent need for clear regulatory language when communicating with device manufacturers like Segway Ninebot about youth safety."
+        },
+        {
+          "name": "Amelia Stafford",
+          "story": "Survivor of traumatic brain injury from an 'e-bike' crash. Her story, documented in the New York Times, illustrates the real-world consequences of marketing euphemisms for motor vehicles."
+        },
+        {
+          "name": "Bob Mittelstaedt",
+          "story": "Proposed the 'throttle device' terminology distinction—vehicles operable entirely by throttle without pedaling should not be called bikes."
+        },
+        {
+          "name": "David Darlington",
+          "story": "New York Times journalist whose November 2025 article 'E-Bikes, Accidents, Safety, Legislation' provided crucial documentation of the crisis."
+        },
+        {
+          "name": "John Maa",
+          "story": "Contributor to safety advocacy around e-bike regulation."
+        }
+      ],
+      "notes": "**Regulatory Framework (EU Standard):**\n\n• **Pedelec/EPAC (≤25 km/h)**: Motor assists only while pedaling, cuts off at 25 km/h. Treated as a bicycle. No registration, insurance, or helmet required in most jurisdictions.\n• **Speed Pedelec (25-45 km/h)**: L-category moped classification. Requires registration, insurance, helmet, often age restrictions.\n• **US Classes**: Class 1 (pedal-assist to 20 mph), Class 2 (throttle to 20 mph), Class 3 (pedal-assist to 28 mph). Classes 2 and 3 are motorbikes under Blesséd classification.\n\n**The 25 km/h Threshold:**\nThis isn't arbitrary—it's the approximate maximum speed a fit cyclist can sustain on flat ground. Beyond this, you're operating at motor speeds, not bicycle speeds, with corresponding kinetic energy and injury risk.\n\n**Precautionary⁵ Principle:**\nGovernor Newsom's 4-year study is too slow. The physics won't change. We need immediate reclassification of motor vehicles as motorbikes and corresponding safety requirements.\n\n**Throttle Vice vs. Throttle Device:**\nPer Bob Mittelstaedt: Vehicles operable entirely by throttle (no pedaling required) are 'throttle devices.' When used to avoid healthy exertion on a pedal bicycle, they become 'throttle vices.' Most US 'e-scooters' are throttle devices/vices, not bicycles.",
+      "references": [
+        {
+          "title": "E-Bikes: A Play on Words That Obscures Danger",
+          "url": "https://www.nytimes.com/2025/11/30/magazine/e-bikes-accidents-safety-legislation-california.html",
+          "description": "David Darlington's comprehensive New York Times investigation into e-bike safety, legislation, and the case of Amelia Stafford's traumatic brain injury.",
+          "type": "article"
+        }
+      ]
     }
   ]
 }
