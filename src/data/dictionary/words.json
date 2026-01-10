@@ -2294,6 +2294,169 @@
       "dateAdded": "02025-01月01",
       "contributors": ["lifesaverlabs"],
       "notes": "**Specificity Hierarchy (most to least preferred):**\n\n1. **Pantone Kolor Labels**: Most specific and memorable (e.g., 'Pantone 728 C'). Pantone's SkinTone Guide includes 110 shades. Easy to remember and communicate.\n2. **CMYK Values**: Cyan-Magenta-Yellow-Key (black) percentages. Precise for print reproduction.\n3. **RGB Values**: Red-Green-Blue numerical values (0-255 each). Precise for digital contexts.\n4. **Fitzpatrick Scale**: Types I-VI based on UV response. Useful for dermatology but less precise for identity purposes.\n5. **Identity Codes (IC)**: Categorical codes used in Great Britain. Better than racial categories but less precise than color values.\n\n**Implementation:**\n• Capture at birth with standardized lighting/equipment\n• Update at routine encounters (primary care, DMV)\n• Include timestamp—skin tone changes with sun exposure, aging, medical conditions\n\n**Friction Layer Function:**\nThe cognitive step required to match actual skin color to a precise code disrupts automatic racial categorization. More specific values = more friction = less stereotyping."
+    },
+    {
+      "id": 128,
+      "term": "grue",
+      "letter": "G",
+      "definitionStandard": "A safeword indicating a dangerous consent violation—situations where even apparent consent cannot make an action safe or legal. Signals that what seems like a 'green light' is actually a mix of green (go) and blue (police caution/danger), creating a color that some languages and cultures don't distinguish. Used in intimate contexts to flag activities that carry inherent legal or physical danger regardless of consent, such as erotic asphyxiation or certain aggressive sexual acts. When someone calls 'grue,' all activity must stop immediately.",
+      "definitionDialect": "A safeword indikating a dangerous konsent violation—situations where even apparent konsent kannot make an aktion safe or legal. Signals that what seems like a 'green light' is aktually a mix of green (go) and blue (polise kaution/danger), kreating a kolor that some langauges and kultures don't distinguish. Used in intimate kontexts to flag aktivities that karry inherent legal or physikal danger regardless of konsent, such as erotik asphyxiation or sertain aggressive sexual akts. When someone kalls 'grue,' all aktivy must stop immediately.",
+      "usageExamples": [
+        {
+          "context": "Intimate safety communication",
+          "example": "If your partner ever suggests something that could cause serious harm even with consent, call 'grue' to signal this isn't just uncomfortable—it's kategorikally dangerous.",
+          "translation": "Grue is stronger than a standard safeword; it indicates the proposed activity is inherently risky."
+        },
+        {
+          "context": "Educational context",
+          "example": "The sex educator explained: 'Yellow means slow down, red means stop, but grue means this whole kategory of aktion is off the table—konsent doesn't make it safe.'",
+          "translation": "Grue addresses a gap in standard safeword systems for inherently dangerous activities."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake"],
+          "note": "Grue addresses situations where consent alone cannot protect you—activities that carry inherent risk of death, serious injury, or legal consequences regardless of stated permission. Examples include erotic asphyxiation (which has caused deaths even in 'consensual' scenarios), aggressive heterosexual penetration that risks injury, and other acts where the line between consent and assault becomes dangerously blurred.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required", "power_dynamics"],
+          "note": "The grue/green/blue ambiguity exists because some situations that feel 'green-lighted' by a partner are simultaneously 'blue-lighted' by law, medicine, or mortality. Just because someone says yes doesn't mean the activity is safe or legal.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Portmanteau of 'green' + 'blue'. In some languages and color classification systems, green and blue are not distinguished (called 'grue' in linguistic anthropology). Here it indicates a dangerous blending of 'green light' (go/consent) and 'blue light' (police/caution/danger)—a situation that looks like consent but carries inherent danger.",
+      "pronunciation": "/ɡruː/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月09",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Part of the Key Safeword Library⁵**\n\nGrue fills a gap in standard traffic-light safeword systems (green/yellow/red). Those systems assume all activities can be made safe with proper consent and communication. Grue acknowledges that some activities remain dangerous regardless of consent—the 'green' of consent and the 'blue' of danger are inseparably mixed.\n\n**When to use grue:**\n- Partner suggests erotic asphyxiation or breath play\n- Request for aggressive acts that could cause injury\n- Any situation where 'I consent' wouldn't be a legal defense\n- Activities with significant mortality risk even when performed 'correctly'\n\n**Color theory note:** The linguistic phenomenon of 'grue' (languages that use one word for green-blue) is well-documented in anthropology. This safeword borrows that concept to name a similarly ambiguous zone where safety and danger are linguistically and practically confused.",
+      "isAdult": true
+    },
+    {
+      "id": 129,
+      "term": "graylight",
+      "letter": "G",
+      "definitionStandard": "A safeword indicating a gray zone—uncertainty about whether to proceed. Sits between green (go) and red (stop), signaling 'I'm not sure about this.' Used in intimate contexts when something feels off but isn't clearly wrong, when you need time to think, or when the situation is ambiguous. Graylight pauses action without the finality of a full stop, creating space for communication and clarification.",
+      "definitionDialect": "A safeword indikating a gray zone—unsertainty about whether to proseed. Sits between green (go) and red (stop), signaling 'I'm not sure about this.' Used in intimate kontexts when something feels off but isn't klearly wrong, when you need time to think, or when the situation is ambiguous. Graylight pauses aktion without the finality of a full stop, kreating spase for kommunikation and klarifikation.",
+      "usageExamples": [
+        {
+          "context": "Intimate communication",
+          "example": "They said 'graylight' and we paused to talk through what was making them hesitant.",
+          "translation": "Graylight creates a communication pause without emergency stopping."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Graylight is for uncertainty, not danger. If you feel unsafe, use a full stop word. Graylight should lead to conversation and clarification, not resumed activity without discussion.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Gray (uncertain, mixed, between black and white) + light (as in traffic light signal). Named for the undefined zone between green and red.",
+      "pronunciation": "/ɡreɪlaɪt/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月09",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Part of the Key Safeword Library⁵**\n\nGraylight fills the gap between 'everything is fine' (green) and 'stop everything' (red). In traffic light safeword systems, yellow typically means 'slow down' but graylight specifically means 'I don't know how I feel—let's pause and figure it out.'\n\n**When to use graylight:**\n- Something feels off but you can't articulate why\n- You need time to check in with yourself\n- The situation is ambiguous and needs clarification\n- You're not ready to commit to 'yes' or 'no'",
+      "isAdult": true
+    },
+    {
+      "id": 130,
+      "term": "man:go",
+      "letter": "M",
+      "definitionStandard": "A safeword that sounds like a playful command ('man, go!') but signals 'we need to leave this situation.' Used for social or intimate extraction—getting out of uncomfortable situations without drawing attention. The colon in the spelling distinguishes it from the fruit. Partners who hear 'man:go' know to create an exit strategy.",
+      "definitionDialect": "A safeword that sounds like a playful kommand ('man, go!') but signals 'we need to leave this situation.' Used for sosial or intimate extrakshun—getting out of unkomfortable situations without drawing attention. The kolon in the spelling distinguishes it from the fruit. Partners who hear 'man:go' know to kreate an exit strategy.",
+      "usageExamples": [
+        {
+          "context": "Intimate extraction signal",
+          "example": "When things were heading somewhere she wasn't comfortable, she whispered 'man:go' and her partner understood immediately.",
+          "translation": "The word sounds natural but signals a need to change direction or exit."
+        },
+        {
+          "context": "Social situation",
+          "example": "At the party, she mentioned how much she was kraving man:go lassi—her partner knew they needed to leave.",
+          "translation": "Any natural-sounding use of the word signals a need to exit."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Man:go is for discomfort, not danger. If you feel unsafe, use a stronger safeword or leave immediately. This safeword assumes you can wait for a graceful exit.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Phonetic play on 'mango' (the fruit) that sounds like 'man, go!' (a command to leave). Spelled with colon to distinguish from the fruit and signal its safeword function.",
+      "pronunciation": "/mænɡoʊ/",
+      "intentionalityRating": 3,
+      "dateAdded": "02025-01月09",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Part of the Key Safeword Library⁵**\n\nMan:go solves the problem of signaling 'I want to exit' without being obvious. It's designed to be undetectable to outsiders while clear to those who know the code.\n\n**How to use man:go:**\n- Work it into natural conversation\n- Use it as a casual reference\n- Partners must agree beforehand what it means",
+      "isAdult": true
+    },
+    {
+      "id": 131,
+      "term": "triforce no",
+      "letter": "T",
+      "definitionStandard": "An emphatic three-part refusal (stop stop stop / no no no), named after the Triforce from Nintendo's Legend of Zelda series—three triangles forming a greater whole. Signals a complete, final, non-negotiable rejection. The triple repetition ensures the message cannot be misheard as playful resistance or hesitation. When you hear triforce no, the matter is closed.",
+      "definitionDialect": "An emfatik three-part refusal (stop stop stop / no no no), named after the Triforce from Nintendo's Legend of Zelda series—three triangles forming a greater whole. Signals a komplete, final, non-negotiable rejektion. The triple repetition ensures the message kannot be misheard as playful resistanse or hesitation. When you hear triforce no, the matter is klozed.",
+      "usageExamples": [
+        {
+          "context": "Clear boundary setting",
+          "example": "When asked again after already declining, they responded with triforce no: 'No, no, no—this isn't happening.'",
+          "translation": "The triple repetition signals finality."
+        },
+        {
+          "context": "Parenting context",
+          "example": "The parent used triforce no when the child kept asking: 'Stop stop stop. We're not getting ice cream, and asking again won't change that.'",
+          "translation": "Can be used in any context requiring unambiguous finality."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake"],
+          "note": "Triforce no must always be respected immediately. Anyone who continues after a triforce no is demonstrating coercive behavior. Document and escalate if boundaries are violated.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Named after the Triforce artifact in Nintendo's Legend of Zelda series—three golden triangles representing Power, Wisdom, and Courage. The tripled 'no' forms a similarly powerful whole. (Nintendo, we love you, please support, please don't sue.)",
+      "pronunciation": "/ˈtraɪfɔːrs noʊ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月09",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Part of the Key Safeword Library⁵**\n\nTriforce no solves the problem of ambiguous refusals. In some contexts, a single 'no' can be interpreted as playful resistance or hesitation. Triforce no eliminates this ambiguity—three repetitions signal absolute finality.\n\n**The components:**\n- First no: Initial refusal\n- Second no: Confirmation this isn't playful\n- Third no: Absolute finality\n\n**Cultural note:** The Zelda reference adds memorable iconography—the three triangles of the Triforce are instantly recognizable to many."
+    },
+    {
+      "id": 132,
+      "term": "skramble",
+      "letter": "S",
+      "definitionStandard": "An emergency safeword meaning 'get out now, immediately.' Signals that the current situation has become dangerous and requires instant evacuation—no negotiation, no explanation, just leave. Used in contexts ranging from physical danger to discovering a situation has become legally compromising. The scrambled spelling (k instead of c) marks it as part of the Blesséd safeword system.",
+      "definitionDialect": "An emergensy safeword meaning 'get out now, immediately.' Signals that the kurrent situation has bekome dangerous and requires instant evakuation—no negotiation, no explanation, just leave. Used in kontexts ranging from fysikal danger to diskuvering a situation has bekome legally kompromising. The skrambled spelling (k instead of c) marks it as part of the Blesséd safeword system.",
+      "usageExamples": [
+        {
+          "context": "Emergency extraction",
+          "example": "The moment I realized what was happening, I texted my friend one word: 'skramble.' She knew to come get me immediately.",
+          "translation": "Skramble means 'emergency extraction needed now.'"
+        },
+        {
+          "context": "Sekret enforcement",
+          "example": "If anyone ever uses skramble, we don't ask questions—we just help them get out and ask questions later when they're safe.",
+          "translation": "The word triggers immediate action without requiring explanation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake"],
+          "note": "Skramble is the nuclear option—use it only when you genuinely need immediate extraction. False alarms erode trust in the system. But never hesitate to use it when truly needed; better to over-call than under-call when safety is at stake.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "From 'scramble' (to move urgently and awkwardly) with Blesséd 'k' spelling. Also implies 'scrambled'—the communication is encrypted, meant only for those in the know.",
+      "pronunciation": "/skræmbəl/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月09",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Part of the Key Safeword Library⁵**\n\nSkramble is the highest-severity safeword—it means 'extract me now, no questions asked.' The 'sekret enforcement' aspect means that those who receive skramble are bound to act immediately without requiring justification.\n\n**Protocol when someone calls skramble:**\n1. Stop everything\n2. Facilitate their immediate exit\n3. Do not ask why until they're safe\n4. Do not reveal to others why they left\n5. Check in later when they're ready to talk\n\n**When to use skramble:**\n- Physical danger present or imminent\n- Situation has become legally compromising\n- Discovered something that requires immediate exit\n- Any moment when waiting even briefly could cause harm"
     }
   ]
 }

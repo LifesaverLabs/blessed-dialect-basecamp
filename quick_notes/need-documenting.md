@@ -6,7 +6,7 @@ Words / Phrases that need documenting ASAP, when time becomes available
 
 Additional Blesséd words / phrases
 -----------------------------------
-- key safeword library⁵: grue, graylight, man:go, stop stop / no no and Zelda's triforce no (stop stop stop / no no no)[Nintendo please support don't sue], red light, skramble (get out now, skrambled sekret enforcement)
+- key safeword library⁵: grue, graylight, man:go, stop stop / no no and Zelda's triforce no (stop stop stop / no no no)[Nintendo we love you, please support, please don't sue; reach us please, we're happy to talk kulture and change], red light, skramble (get out now, skrambled sekret enforcement)
 - Suggestion æmergent from Claude session on nikotine adiktion: "finankal" konsequences. Bridges the notion of "finanse" and "kalendar" or "kalorie". Maybe there's another dekomposition too in finan-k-al, like finan-kalm-all. Must think of this more; it would be really valuable to story⁵ and spacetime periodikally⁵ finankal planning. Like the lesson that "financial" planning has no meaning if it's not kalendared and kalming to all involved. I'm struggling to find and story⁵ the other "kal" (kalorie) konnektion I kould imagine teachers making but that's perhaps for lack of kreative imagination.
 - mortal library⁵: see mortallibrary.org when launched. Drug resisdænce.
 - resisdænce: A choreographed resistance that any part of a kouple kan engage in, or that the pair together as a dualindiv kan perform and enjoy⁵. Reformats resistance as a social dance, which is more konsistent with our natures.

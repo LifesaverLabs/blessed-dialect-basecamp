@@ -10,6 +10,8 @@ import type { DictionaryEntry, Contributor } from "@/data/schema";
 import { toast } from "sonner";
 import { MarkdownText } from "@/components/MarkdownText";
 import { useDialect } from "@/contexts/DialectContext";
+import { useAgeVerification } from "@/contexts/AgeVerificationContext";
+import { Lock } from "lucide-react";
 
 // Map reference types to icons
 const referenceTypeIcons: Record<string, React.ReactNode> = {
@@ -24,9 +26,14 @@ const referenceTypeIcons: Record<string, React.ReactNode> = {
 };
 
 // Load dictionary data from JSON files
+const allWords = getWords();
+const allPhrases = getPhrases();
+
+// Separate adult content from general content
 const dictionaryData = {
-  words: getWords(),
-  phrases: getPhrases(),
+  words: allWords.filter(entry => !entry.isAdult),
+  phrases: allPhrases.filter(entry => !entry.isAdult),
+  adult: [...allWords, ...allPhrases].filter(entry => entry.isAdult),
 };
 
 // Create a URL-safe slug from a term
@@ -76,6 +83,7 @@ const Dictionary = () => {
   const [activeTab, setActiveTab] = useState("words");
   const [copied, setCopied] = useState(false);
   const { dialectMode, toggleDialectMode } = useDialect();
+  const { isAgeVerified, setShowVerificationModal } = useAgeVerification();
 
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -93,7 +101,11 @@ const Dictionary = () => {
     return dialectMode === 'blessed' ? 'Blesséd Dialekt' : 'American Standard';
   };
 
-  const currentData = activeTab === "words" ? dictionaryData.words : dictionaryData.phrases;
+  const currentData = activeTab === "words"
+    ? dictionaryData.words
+    : activeTab === "phrases"
+      ? dictionaryData.phrases
+      : dictionaryData.adult;
 
   const filteredData = currentData.filter(entry =>
     entry.term.toLowerCase().includes(searchQuery.toLowerCase())
@@ -109,7 +121,12 @@ const Dictionary = () => {
 
   // Check if entry is a phrase
   const isPhrase = (entry: DictionaryEntry): boolean => {
-    return dictionaryData.phrases.some(p => p.id === entry.id);
+    return allPhrases.some(p => p.id === entry.id);
+  };
+
+  // Check if entry is adult content
+  const isAdultContent = (entry: DictionaryEntry): boolean => {
+    return entry.isAdult === true;
   };
 
   // Handle URL-based entry selection on mount and URL changes
@@ -118,16 +135,27 @@ const Dictionary = () => {
     if (entryParam) {
       const entry = findEntryBySlug(entryParam);
       if (entry) {
-        setSelectedEntry(entry);
-        // Switch to correct tab if needed
-        if (isPhrase(entry)) {
-          setActiveTab('phrases');
+        // Check if entry is adult content
+        if (isAdultContent(entry)) {
+          if (isAgeVerified) {
+            setSelectedEntry(entry);
+            setActiveTab('adult');
+          } else {
+            // Don't show adult content if not verified
+            setShowVerificationModal(true);
+          }
         } else {
-          setActiveTab('words');
+          setSelectedEntry(entry);
+          // Switch to correct tab if needed
+          if (isPhrase(entry)) {
+            setActiveTab('phrases');
+          } else {
+            setActiveTab('words');
+          }
         }
       }
     }
-  }, [searchParams]);
+  }, [searchParams, isAgeVerified]);
 
   // Update URL when entry is selected
   const handleSelectEntry = (entry: DictionaryEntry) => {
@@ -186,10 +214,20 @@ const Dictionary = () => {
           </div>
         </div>
 
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full max-w-md grid-cols-2">
+        <Tabs value={activeTab} onValueChange={(value) => {
+            if (value === "adult" && !isAgeVerified) {
+              setShowVerificationModal(true);
+            } else {
+              setActiveTab(value);
+            }
+          }} className="w-full">
+          <TabsList className="grid w-full max-w-lg grid-cols-3">
             <TabsTrigger value="words">Words</TabsTrigger>
             <TabsTrigger value="phrases">Phrases & Idioms</TabsTrigger>
+            <TabsTrigger value="adult" className="gap-1.5">
+              {!isAgeVerified && <Lock className="w-3 h-3" />}
+              Adult
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="words" className="space-y-8 mt-8">
@@ -254,6 +292,60 @@ const Dictionary = () => {
                 </div>
               );
             })}
+          </TabsContent>
+
+          <TabsContent value="adult" className="space-y-8 mt-8">
+            {!isAgeVerified ? (
+              <div className="text-center py-12 space-y-4">
+                <Lock className="w-12 h-12 mx-auto text-muted-foreground" />
+                <h3 className="text-xl font-semibold">Age Verification Required</h3>
+                <p className="text-muted-foreground max-w-md mx-auto">
+                  This section contains adult content related to intimate relationships, sexuality, and safewords.
+                  Please verify your age to continue.
+                </p>
+                <Button onClick={() => setShowVerificationModal(true)}>
+                  Verify Age
+                </Button>
+              </div>
+            ) : (
+              <>
+                {dictionaryData.adult.length === 0 ? (
+                  <div className="text-center py-12 text-muted-foreground">
+                    <p>No adult entries yet. Check back soon.</p>
+                  </div>
+                ) : (
+                  alphabet.map(letter => {
+                    const entries = getEntriesByLetter(letter);
+                    const hasEntries = hasEntriesForLetter(letter);
+
+                    return (
+                      <div key={letter} id={`letter-${letter}`} className="space-y-4">
+                        <h2
+                          className={`text-3xl font-bold ${hasEntries ? 'text-primary cursor-pointer hover:text-primary/80' : 'text-muted-foreground/40'}`}
+                          onClick={() => hasEntries && document.getElementById(`entries-${letter}`)?.scrollIntoView({ behavior: 'smooth' })}
+                        >
+                          {letter}
+                        </h2>
+
+                        {hasEntries && (
+                          <div id={`entries-${letter}`} className="grid gap-3 pl-4">
+                            {entries.map(entry => (
+                              <button
+                                key={entry.id}
+                                onClick={() => handleSelectEntry(entry)}
+                                className="text-left p-4 rounded-lg border border-border bg-card hover:bg-accent hover:border-accent transition-all"
+                              >
+                                <span className="font-semibold text-lg">{entry.term}</span>
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })
+                )}
+              </>
+            )}
           </TabsContent>
         </Tabs>
       </div>

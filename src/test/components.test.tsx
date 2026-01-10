@@ -4,6 +4,7 @@ import { BrowserRouter, MemoryRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { DialectProvider } from '@/contexts/DialectContext';
+import { AgeVerificationProvider } from '@/contexts/AgeVerificationContext';
 
 // Components
 import App from '../App';
@@ -38,9 +39,11 @@ const TestWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <QueryClientProvider client={queryClient}>
       <DialectProvider>
-        <TooltipProvider>
-          <MemoryRouter>{children}</MemoryRouter>
-        </TooltipProvider>
+        <AgeVerificationProvider>
+          <TooltipProvider>
+            <MemoryRouter>{children}</MemoryRouter>
+          </TooltipProvider>
+        </AgeVerificationProvider>
       </DialectProvider>
     </QueryClientProvider>
   );
@@ -48,9 +51,11 @@ const TestWrapper = ({ children }: { children: React.ReactNode }) => {
 
 const RouterWrapper = ({ children }: { children: React.ReactNode }) => (
   <DialectProvider>
-    <TooltipProvider>
-      <MemoryRouter>{children}</MemoryRouter>
-    </TooltipProvider>
+    <AgeVerificationProvider>
+      <TooltipProvider>
+        <MemoryRouter>{children}</MemoryRouter>
+      </TooltipProvider>
+    </AgeVerificationProvider>
   </DialectProvider>
 );
 
@@ -563,9 +568,11 @@ describe('Component Tests', () => {
         <MemoryRouter initialEntries={['/dictionary?entry=borlaug']}>
           <QueryClientProvider client={new QueryClient()}>
             <DialectProvider>
-              <TooltipProvider>
-                <Dictionary />
-              </TooltipProvider>
+              <AgeVerificationProvider>
+                <TooltipProvider>
+                  <Dictionary />
+                </TooltipProvider>
+              </AgeVerificationProvider>
             </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
@@ -581,9 +588,11 @@ describe('Component Tests', () => {
         <MemoryRouter initialEntries={['/dictionary?entry=borlaug-more']}>
           <QueryClientProvider client={new QueryClient()}>
             <DialectProvider>
-              <TooltipProvider>
-                <Dictionary />
-              </TooltipProvider>
+              <AgeVerificationProvider>
+                <TooltipProvider>
+                  <Dictionary />
+                </TooltipProvider>
+              </AgeVerificationProvider>
             </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
@@ -787,9 +796,11 @@ describe('Component Tests', () => {
         <MemoryRouter initialEntries={['/dictionary']}>
           <QueryClientProvider client={new QueryClient()}>
             <DialectProvider>
-              <TooltipProvider>
-                <Dictionary />
-              </TooltipProvider>
+              <AgeVerificationProvider>
+                <TooltipProvider>
+                  <Dictionary />
+                </TooltipProvider>
+              </AgeVerificationProvider>
             </DialectProvider>
           </QueryClientProvider>
         </MemoryRouter>
@@ -867,7 +878,7 @@ describe('Component Tests', () => {
       );
 
       const tabs = screen.getAllByRole('tab');
-      expect(tabs.length).toBe(2);
+      expect(tabs.length).toBe(3); // Words, Phrases, Adult
       tabs.forEach(tab => {
         expect(tab.textContent).toBeTruthy();
       });
