@@ -2457,6 +2457,44 @@
       "dateAdded": "02025-01月09",
       "contributors": ["lifesaverlabs"],
       "notes": "**Part of the Key Safeword Library⁵**\n\nSkramble is the highest-severity safeword—it means 'extract me now, no questions asked.' The 'sekret enforcement' aspect means that those who receive skramble are bound to act immediately without requiring justification.\n\n**Protocol when someone calls skramble:**\n1. Stop everything\n2. Facilitate their immediate exit\n3. Do not ask why until they're safe\n4. Do not reveal to others why they left\n5. Check in later when they're ready to talk\n\n**When to use skramble:**\n- Physical danger present or imminent\n- Situation has become legally compromising\n- Discovered something that requires immediate exit\n- Any moment when waiting even briefly could cause harm"
+    },
+    {
+      "id": 133,
+      "term": "family⁵",
+      "letter": "F",
+      "definitionStandard": "A family unit operating at the highest level of intentional mutual development, organized in concentric circles (kore, inner, outer, family⁵ acquaintances) with duties of mutual improvement. The superscript ⁵ indicates full commitment to questioning, growth, and moral development without artificial constraints on inquiry. Distinguished from 'family' (lowercase, no superscript) which refers to basic family structure without the intentional development commitment.",
+      "definitionDialect": "A family unit operating at the highest level of intentional mutual development, organized in koncentrik circles (kore, inner, outer, family⁵ akquaintanses) with duties⁵ of mutual improvement. The superskript ⁵ indikates full kommitment to questioning, growth, and moral development without artifisial konstraints on inquiry. Distinguished from 'family' (lowercase, no superskript) which refers to basik family strukture without the intentional development kommitment.",
+      "usageExamples": [
+        {
+          "context": "Describing relationship depth",
+          "example": "We're not just family—we're family⁵. We kall each other out, push each other to grow, and never let komfort trump truth.",
+          "translation": "Family⁵ involves mutual accountability and development obligations."
+        },
+        {
+          "context": "Distinguishing commitment levels",
+          "example": "My nuclear family is family⁴ at best—we love each other but avoid hard conversations. I'm working on reaching family⁵.",
+          "translation": "Family⁵ is an aspirational standard, not automatically achieved."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "social_kontrakt_at_stake"],
+          "note": "Some family units cannot claim family⁵ status: specifically, those enclosed behind a 'sovereign censorship firewall' that prevents them from asking hard questions in directions the government with reserved use of violent force doesn't want them to go. The Rossiya family⁴ and Zhongguo family⁴ live under dangerously suppressive censorship regimes that prevent talk about how insane it is to position to attack Taiwan or Ukraiyna, or prevent Kurin-like revolutionary⁵ thresholds that might terminate the reign of Unlimited Autokrat Xi or Unlimited Executioner Putin.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "Family⁵ status requires the freedom to question everything—including the state. Families living under authoritarian censorship regimes cannot reach ⁵ status until those barriers are removed. This is not a judgment of the families themselves, but of the systems constraining their discourse.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Family (from Latin 'familia') + superscript ⁵ (indicating highest intentionality rating). The ⁵ designation is shared with other Blesséd terms (friend⁵, duty⁵, calmunity⁵) to indicate maximum thoughtfulness and commitment.",
+      "pronunciation": "/ˈfæməli faɪv/",
+      "crossReferences": [111],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月13",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Konzentrik Circles:**\n- **Kore**: Innermost circle—those with deepest mutual development obligations\n- **Inner**: Close relationships with significant development duties\n- **Outer**: Extended network with lighter but real obligations\n- **Family⁵ acquaintances**: Distant connections within the family⁵ framework\n\n**Barriers to Family⁵ Status:**\n\nNot all families can claim family⁵ status. Those enclosed behind sovereign censorship firewalls—where the state prevents questioning in directions it doesn't want—are limited to family⁴ or lower. Rossiya (Russia) and Zhongguo (China) exemplify this: their regimes suppress discourse about the insanity of positioning to attack Ukraine or Taiwan, and prevent revolutionary thresholds that might end unlimited autocratic rule.\n\n**See also:** [TearDownThisFirewall.org](https://TearDownThisFirewall.org) for stories of barriers in the free marketplace for moral conviction.\n\n**Family⁵ vs family:**\n- family⁵: Intentional mutual development, freedom to question everything\n- family: Basic family structure without development commitment or freedom guarantees"
     }
   ]
 }
