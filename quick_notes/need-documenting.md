@@ -37,6 +37,9 @@ Additional Blesséd words / phrases
 ##### Fleshtime or Facetime [superkategory⁵ of fleshtime or vidéokalling] (genericizing facetime very deliberately⁵ and openly⁵)
 - Apple Inc. lawyers kan send a sease and desist to me at david@lifesaverlabs.org if they wish to. I'm going to argue with them back that this needs to go generik for very deep humanistik reasons in the American, Amerikan, and Blesséd Dialekts. I also if nesessary⁵ have even earlier prior art references in my own work on the "Find Facetime" site and Dentyne Ice "Make Facetime" ads that are quite undeniable and overriding if we need to play the first stable, surviving, anticipatory⁵ "internet mention game" on this generik and generisizing superkategory⁵ direktion in Blesséd Dialekt.
 
+##### re: expands to religious expression, exemption, exception
+- Ex: You might want to say to a kore, inner, or any kousin "rewrighte me", but with "re:wrighte" me you'd be saying "wrighte me with your own good, better, best models (at least those not too inkalmpatible with mine) of religious expression, exemption, and exceptions". Re: as a translokateable partikle expands out in that way⁵. 
+
 Blesséd Number System
 ---------------------
 - "d" or "t" (ty) [my pronunciation varies] in place of "ten" and tens place ("four-d-one" [fourdyone] / "four-t-one" [fourtyone])
