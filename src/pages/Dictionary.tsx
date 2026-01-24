@@ -29,11 +29,11 @@ const referenceTypeIcons: Record<string, React.ReactNode> = {
 const allWords = getWords();
 const allPhrases = getPhrases();
 
-// Separate adult content from general content
+// Separate adolescent content from general content
 const dictionaryData = {
-  words: allWords.filter(entry => !entry.isAdult),
-  phrases: allPhrases.filter(entry => !entry.isAdult),
-  adult: [...allWords, ...allPhrases].filter(entry => entry.isAdult),
+  words: allWords.filter(entry => !entry.isAdolescent),
+  phrases: allPhrases.filter(entry => !entry.isAdolescent),
+  adolescent: [...allWords, ...allPhrases].filter(entry => entry.isAdolescent),
 };
 
 // Create a URL-safe slug from a term
@@ -105,7 +105,7 @@ const Dictionary = () => {
     ? dictionaryData.words
     : activeTab === "phrases"
       ? dictionaryData.phrases
-      : dictionaryData.adult;
+      : dictionaryData.adolescent;
 
   const filteredData = currentData.filter(entry =>
     entry.term.toLowerCase().includes(searchQuery.toLowerCase())
@@ -124,9 +124,9 @@ const Dictionary = () => {
     return allPhrases.some(p => p.id === entry.id);
   };
 
-  // Check if entry is adult content
-  const isAdultContent = (entry: DictionaryEntry): boolean => {
-    return entry.isAdult === true;
+  // Check if entry is adolescent content
+  const isAdolescentContent = (entry: DictionaryEntry): boolean => {
+    return entry.isAdolescent === true;
   };
 
   // Handle URL-based entry selection on mount and URL changes
@@ -135,13 +135,13 @@ const Dictionary = () => {
     if (entryParam) {
       const entry = findEntryBySlug(entryParam);
       if (entry) {
-        // Check if entry is adult content
-        if (isAdultContent(entry)) {
+        // Check if entry is adolescent content
+        if (isAdolescentContent(entry)) {
           if (isAgeVerified) {
             setSelectedEntry(entry);
-            setActiveTab('adult');
+            setActiveTab('adolescent');
           } else {
-            // Don't show adult content if not verified
+            // Don't show adolescent content if not verified
             setShowVerificationModal(true);
           }
         } else {
@@ -215,7 +215,7 @@ const Dictionary = () => {
         </div>
 
         <Tabs value={activeTab} onValueChange={(value) => {
-            if (value === "adult" && !isAgeVerified) {
+            if (value === "adolescent" && !isAgeVerified) {
               setShowVerificationModal(true);
             } else {
               setActiveTab(value);
@@ -224,9 +224,9 @@ const Dictionary = () => {
           <TabsList className="grid w-full max-w-lg grid-cols-3">
             <TabsTrigger value="words">Words</TabsTrigger>
             <TabsTrigger value="phrases">Phrases & Idioms</TabsTrigger>
-            <TabsTrigger value="adult" className="gap-1.5">
+            <TabsTrigger value="adolescent" className="gap-1.5">
               {!isAgeVerified && <Lock className="w-3 h-3" />}
-              Adult
+              Adolescent
             </TabsTrigger>
           </TabsList>
 
@@ -294,13 +294,13 @@ const Dictionary = () => {
             })}
           </TabsContent>
 
-          <TabsContent value="adult" className="space-y-8 mt-8">
+          <TabsContent value="adolescent" className="space-y-8 mt-8">
             {!isAgeVerified ? (
               <div className="text-center py-12 space-y-4">
                 <Lock className="w-12 h-12 mx-auto text-muted-foreground" />
                 <h3 className="text-xl font-semibold">Age Verification Required</h3>
                 <p className="text-muted-foreground max-w-md mx-auto">
-                  This section contains adult content related to intimate relationships, sexuality, and safewords.
+                  This section contains adolescent content related to intimate relationships, sexuality, and safewords.
                   Please verify your age to continue.
                 </p>
                 <Button onClick={() => setShowVerificationModal(true)}>
@@ -309,9 +309,9 @@ const Dictionary = () => {
               </div>
             ) : (
               <>
-                {dictionaryData.adult.length === 0 ? (
+                {dictionaryData.adolescent.length === 0 ? (
                   <div className="text-center py-12 text-muted-foreground">
-                    <p>No adult entries yet. Check back soon.</p>
+                    <p>No adolescent entries yet. Check back soon.</p>
                   </div>
                 ) : (
                   alphabet.map(letter => {

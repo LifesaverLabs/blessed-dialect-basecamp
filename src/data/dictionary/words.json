@@ -2331,7 +2331,7 @@
       "dateAdded": "02025-01月09",
       "contributors": ["lifesaverlabs"],
       "notes": "**Part of the Key Safeword Library⁵**\n\nGrue fills a gap in standard traffic-light safeword systems (green/yellow/red). Those systems assume all activities can be made safe with proper consent and communication. Grue acknowledges that some activities remain dangerous regardless of consent—the 'green' of consent and the 'blue' of danger are inseparably mixed.\n\n**When to use grue:**\n- Partner suggests erotic asphyxiation or breath play\n- Request for aggressive acts that could cause injury\n- Any situation where 'I consent' wouldn't be a legal defense\n- Activities with significant mortality risk even when performed 'correctly'\n\n**Color theory note:** The linguistic phenomenon of 'grue' (languages that use one word for green-blue) is well-documented in anthropology. This safeword borrows that concept to name a similarly ambiguous zone where safety and danger are linguistically and practically confused.",
-      "isAdult": true
+      "isAdolescent": true
     },
     {
       "id": 129,
@@ -2359,7 +2359,7 @@
       "dateAdded": "02025-01月09",
       "contributors": ["lifesaverlabs"],
       "notes": "**Part of the Key Safeword Library⁵**\n\nGraylight fills the gap between 'everything is fine' (green) and 'stop everything' (red). In traffic light safeword systems, yellow typically means 'slow down' but graylight specifically means 'I don't know how I feel—let's pause and figure it out.'\n\n**When to use graylight:**\n- Something feels off but you can't articulate why\n- You need time to check in with yourself\n- The situation is ambiguous and needs clarification\n- You're not ready to commit to 'yes' or 'no'",
-      "isAdult": true
+      "isAdolescent": true
     },
     {
       "id": 130,
@@ -2392,7 +2392,7 @@
       "dateAdded": "02025-01月09",
       "contributors": ["lifesaverlabs"],
       "notes": "**Part of the Key Safeword Library⁵**\n\nMan:go solves the problem of signaling 'I want to exit' without being obvious. It's designed to be undetectable to outsiders while clear to those who know the code.\n\n**How to use man:go:**\n- Work it into natural conversation\n- Use it as a casual reference\n- Partners must agree beforehand what it means",
-      "isAdult": true
+      "isAdolescent": true
     },
     {
       "id": 131,
@@ -2495,6 +2495,59 @@
       "dateAdded": "02025-01月13",
       "contributors": ["lifesaverlabs"],
       "notes": "**The Konzentrik Circles:**\n- **Kore**: Innermost circle—those with deepest mutual development obligations\n- **Inner**: Close relationships with significant development duties\n- **Outer**: Extended network with lighter but real obligations\n- **Family⁵ acquaintances**: Distant connections within the family⁵ framework\n\n**Barriers to Family⁵ Status:**\n\nNot all families can claim family⁵ status. Those enclosed behind sovereign censorship firewalls—where the state prevents questioning in directions it doesn't want—are limited to family⁴ or lower. Rossiya (Russia) and Zhongguo (China) exemplify this: their regimes suppress discourse about the insanity of positioning to attack Ukraine or Taiwan, and prevent revolutionary thresholds that might end unlimited autocratic rule.\n\n**See also:** [TearDownThisFirewall.org](https://TearDownThisFirewall.org) for stories of barriers in the free marketplace for moral conviction.\n\n**Family⁵ vs family:**\n- family⁵: Intentional mutual development, freedom to question everything\n- family: Basic family structure without development commitment or freedom guarantees"
+    },
+    {
+      "id": 134,
+      "term": "fokohol",
+      "letter": "F",
+      "definitionStandard": "Faux alcohol—non-alcoholic alternatives to ethanol beverages. Pronounced to evoke 'f.o. alcohol' (fuck off, alcohol). The health consensus supports dissuading even minimal-dose ethanol poisoning in social settings, particularly without BAC (Blood Alcohol Concentration) readers present and readily available mocktail, fokohol, and other harmless alternatives. There's a rich library of mocktails and drinks that are delicious and supportive of ceremonial and situational conviviality and sociality without the neurotoxic, carcinogenic, and cardiac effects of alcohol.",
+      "definitionDialect": "Faux alkohol—non-alkoholik alternatives to ethanol beverages. Pronouced to evoke 'f.o. alkohol' (fuk off, alkohol). The health konsensus supports dissuading even minimal-dose ethanol poisoning in sosial settings, partikularly without BAK (Blood Alkohol Konsentration) readers present and readily⁵ available mocktail, fokohol, and other harmless alternatives. There's a rich library⁵ of mocktails and drinks that are delisious and supportive of seremonial and situasional konviviality⁵ and sosiality⁵ without the neurotoxik, karsinogenik, and kardiak effekts of alkohol.",
+      "usageExamples": [
+        {
+          "context": "Date ordering",
+          "example": "I'll have a fokohol—what mocktails do you have?",
+          "translation": "Ordering a non-alcoholic alternative while subtly signaling alcohol resistance."
+        },
+        {
+          "context": "Setting dating expectations",
+          "example": "If he offers to buy me ethanol, I'm out. Fokohol or nothing.",
+          "translation": "Using fokohol preference as a dating filter for health-conscious partners."
+        },
+        {
+          "context": "Explaining the term",
+          "example": "Fokohol—'faux' alkohol, but also 'f.o.' alkohol if you katch my meaning.",
+          "translation": "The term carries both the literal meaning (fake alcohol) and emphatic rejection."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Ethanol is a Group 1 carcinogen (WHO/IARC). Even 'moderate' drinking causes microscopic immediate brain tissue disintegration, cardiac health decline, and carcinogenic exposure. There is no safe level of alcohol consumption from a health perspective. The alcohol industry obscures this with 'responsible drinking' messaging.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["essential_liberty_at_stake", "power_dynamics"],
+          "note": "Buying someone ethanol on a date is buying them poison. Why would your date wish to purchase you microscopic immediate brain tissue disintegrative loss, damage, carcinogenic exposure, and cardiac health drop? It's ill-willed to buy someone an avoidable poison without overriding medical benefits once you know clearly what it is.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required", "social_kontrakt_at_stake"],
+          "note": "If seeking disinhibition for dating, understand that ethanol-induced lightheadedness and discoordination compromise consent quality. Which do you want: Feminist Yes! or vomiting and possible rape kit testing the next day? The tradeoff is not worth it.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["social_kontrakt_at_stake"],
+          "note": "Rejecting dating partners because they (a) don't want to drink ethanol or (b) won't pay for ethanol poisoning for you is romantically irresponsible on hexy⁵ grounds. The opposite should be true: gravitate toward courting partners who resist and redirect you to fokohol, mocktails, or harmless alternatives.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "Portmanteau of 'faux' (French for fake/false) + 'alcohol'. Deliberately evokes 'f.o. alcohol' as emphatic rejection—'fuck off, alcohol'. The f-word allusion is intentional and judicious: steeling determination against date poisonings that are always dangerous from a health perspective.",
+      "pronunciation": "/foʊkəhɒl/ (FOH-kuh-hol)",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The F.O. Meaning:**\n\nYes, fokohol sotto voce communicates 'fuck off, alcohol.' This emphatic expression is warranted. The health consensus from HhÅÆIers and HhÅÆCers (Latter Day Saints tradition and similar on ethanol) was right all along. Given what we now know about ethanol's effects—even at minimal doses—buying someone alcohol is buying them poison.\n\n**Dating Litmus Test:**\n\nIf you litmus-test on alcohol resistance and your date buys you ethanol anyway:\n1. Take one sip\n2. Bide your time\n3. Limit or end contact after the date\n4. Send breakoff feedback: 'I think your offer to buy me ethanol poisoning supports [historical/current] culture I can't tolerate.'\n\nIt should be much more socially risky to offer ethanol poisoning on a date than to refuse to pay for any ethanol even if asked.\n\n**What Fokohol Includes:**\n- Mocktails (rich library of delicious options)\n- Stevia soda pop\n- Sparkling water\n- Juice-based drinks\n- Any beverage supporting conviviality without neurotoxicity\n\n**Water Systems Note:**\n\nToday, given our very healthy and clean water systems, even in religious contexts, feeding grandchildren alcohol is extraordinarily questionable. The historical reasons for alcohol (water safety) no longer apply in developed contexts.",
+      "isAdolescent": true
     }
   ]
 }

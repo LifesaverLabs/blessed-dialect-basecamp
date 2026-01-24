@@ -878,7 +878,7 @@ describe('Component Tests', () => {
       );
 
       const tabs = screen.getAllByRole('tab');
-      expect(tabs.length).toBe(3); // Words, Phrases, Adult
+      expect(tabs.length).toBe(3); // Words, Phrases, Adolescent
       tabs.forEach(tab => {
         expect(tab.textContent).toBeTruthy();
       });

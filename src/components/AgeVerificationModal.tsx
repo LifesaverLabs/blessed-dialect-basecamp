@@ -79,7 +79,7 @@ export function AgeVerificationModal() {
           <DialogTitle>Age Verification Required</DialogTitle>
           <DialogDescription className="space-y-2">
             <p>
-              The Adult Sektion contains content related to intimate relationships,
+              The Adolescent Sektion contains content related to intimate relationships,
               sexuality, and safewords that require age-appropriate access.
             </p>
             <p>

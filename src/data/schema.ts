@@ -104,8 +104,8 @@ const DictionaryEntrySchema = z.object({
   // BACKWARD COMPATIBILITY: Keep old definition field as optional for migration period
   definition: z.string().optional(), // DEPRECATED: Use definitionStandard and definitionDialect instead
 
-  // Adult content flag - requires age verification (14+) to view
-  isAdult: z.boolean().optional(), // true = requires age verification, false/undefined = general audience
+  // Adolescent content flag - requires age verification (10+) to view
+  isAdolescent: z.boolean().optional(), // true = requires age verification, false/undefined = general audience
 });
 
 // Keyboard Layout (KB) Schema
