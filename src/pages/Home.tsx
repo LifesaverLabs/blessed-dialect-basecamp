@@ -7,16 +7,16 @@ import { useDialect } from "@/contexts/DialectContext";
 
 const Home = () => {
   const latestEntries = getEntriesByDate(10);
-  const phraseIds = new Set(getPhrases().map(p => p.id));
+  const phraseIds = new Set(getPhrases().map((p) => p.id));
   const isPhrase = (id: number) => phraseIds.has(id);
   const { dialectMode } = useDialect();
 
   // Helper to get definition based on dialect mode
   const getDefinition = (entry: { definitionDialect?: string; definitionStandard?: string; definition?: string }) => {
-    if (dialectMode === 'blessed') {
-      return entry.definitionDialect || entry.definitionStandard || entry.definition || '';
+    if (dialectMode === "blessed") {
+      return entry.definitionDialect || entry.definitionStandard || entry.definition || "";
     } else {
-      return entry.definitionStandard || entry.definitionDialect || entry.definition || '';
+      return entry.definitionStandard || entry.definitionDialect || entry.definition || "";
     }
   };
 
@@ -44,7 +44,7 @@ const Home = () => {
             <strong className="text-foreground">
               <b>B</b>orlaug <b>less éd</b>
             </strong>
-            .
+            , i.e. finally be <b>Blesséd</b>. .
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
@@ -158,13 +158,9 @@ const Home = () => {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-2 flex-wrap">
                           <h3 className="font-medium">{entry.term}</h3>
-                          {entry.dateAdded && (
-                            <span className="text-xs text-muted-foreground">{entry.dateAdded}</span>
-                          )}
+                          {entry.dateAdded && <span className="text-xs text-muted-foreground">{entry.dateAdded}</span>}
                         </div>
-                        <p className="text-sm text-muted-foreground truncate mt-1">
-                          {getDefinition(entry)}
-                        </p>
+                        <p className="text-sm text-muted-foreground truncate mt-1">{getDefinition(entry)}</p>
                       </div>
                     </div>
                   </div>
