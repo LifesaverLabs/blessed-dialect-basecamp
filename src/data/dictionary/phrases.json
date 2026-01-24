@@ -702,6 +702,350 @@
       "dateAdded": "02025-12月26",
       "contributors": ["lifesaverlabs"],
       "notes": "Still seeking a better word post-Facebook meaning destruction."
+    },
+    {
+      "id": 148,
+      "term": "safeword library⁵",
+      "letter": "S",
+      "definitionStandard": "The collection of key safewords in Blesséd for intimate and social contexts: grue (green+blue danger zone), graylight (uncertainty pause), man:go (extraction signal), triforce no (emphatic triple refusal), red light (full stop), and skramble (emergency extraction). Each word serves a specific function in navigating consent and safety.",
+      "definitionDialect": "The kollektion of key safewords in Blesséd for intimate and sosial kontexts: grue (green+blue danger zone), graylight (unsertainty pause), man:go (extrakshun signal), triforce no (emfatik triple refusal), red light (full stop), and skramble (emergensy extrakshun). Each word serves a spesifik funktion in navigating konsent and safety⁵.",
+      "usageExamples": [
+        {
+          "context": "Teaching consent vocabulary",
+          "example": "Do you know the safeword library⁵? Grue, graylight, man:go, triforce no, and skramble?",
+          "translation": "Checking if someone knows the standard consent/safety vocabulary."
+        },
+        {
+          "context": "Relationship setup",
+          "example": "Before we go further, let's review the safeword library⁵ together.",
+          "translation": "Establishing shared safety vocabulary at relationship milestones."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "essential_liberty_at_stake"],
+          "note": "The safeword library⁵ provides a complete vocabulary for navigating intimate situations safely. Each word has a specific purpose: grue (dangerous territory), graylight (need to pause/talk), man:go (need to exit gracefully), triforce no (absolute refusal), skramble (emergency exit).",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Library (collection of resources) + safeword (word signaling boundaries) + ⁵ (highest intentionality). A systematized collection of safety vocabulary.",
+      "pronunciation": "/ˈseɪfwɜrd ˈlaɪbrəri faɪv/",
+      "crossReferences": [128, 129, 130, 131, 132],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Key Safewords:**\n\n1. **grue** - Green+blue danger zone. For activities that remain dangerous regardless of consent.\n2. **graylight** - Uncertainty pause. 'I'm not sure—let's talk.'\n3. **man:go** - Graceful extraction signal. Sounds like 'mango' but means 'we need to leave.'\n4. **triforce no** - Triple refusal (no no no / stop stop stop). Unambiguous finality.\n5. **red light** - Full stop. Standard traffic-light system endpoint.\n6. **skramble** - Emergency extraction. 'Get out now, no questions asked.'\n\n**Nintendo Note:**\n\nTriforce no references the Triforce from Nintendo's Legend of Zelda series. Nintendo, we love you—please support, please don't sue. Reach us; we're happy to talk culture and change.",
+      "isAdolescent": true
+    },
+    {
+      "id": 149,
+      "term": "mortal library⁵",
+      "letter": "M",
+      "definitionStandard": "A comprehensive collection of resources for drug resistance and harm reduction. See mortallibrary.org when launched. Addresses substances that carry mortality risk: nicotine, alcohol, opioids, and other addictive compounds. The 'mortal' in the name acknowledges that these substances can and do kill.",
+      "definitionDialect": "A komprehensive kollektion of resources for drug resisdænce and harm redukshun. See mortallibrary.org when launched. Addresses substanses that karry mortality risk: nikotine, alkohol, opioids, and other addiktive kompounds. The 'mortal' in the name akknowledges that these substanses kan and do kill.",
+      "usageExamples": [
+        {
+          "context": "Seeking help",
+          "example": "Check the mortal library⁵ for resources on quitting nicotine.",
+          "translation": "Directing someone to drug resistance resources."
+        },
+        {
+          "context": "Education",
+          "example": "The mortal library⁵ teaches drug resisdænce—choreographed resistance to addictive substances.",
+          "translation": "Educational resource for substance avoidance."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "The substances covered by the mortal library⁵ carry significant mortality risk. The library provides resistance strategies, not judgment, for those seeking to avoid or quit these substances.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Mortal (subject to death) + library (collection of resources) + ⁵ (highest intentionality). Named to emphasize the life-or-death stakes of addiction.",
+      "pronunciation": "/ˈmɔrtəl ˈlaɪbrəri faɪv/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "references": [
+        {
+          "title": "Mortal Library (coming soon)",
+          "url": "https://mortallibrary.org",
+          "description": "Comprehensive drug resistance resources",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "term": "sekond base stop",
+      "letter": "S",
+      "definitionStandard": "For systems built to prevent sexual violence, the last possible moment when a newly sexually active couple stops at second base and gets an SRE (Sexual Resisdænce Edukation) seatbelt in place. The checkpoint before proceeding further with someone new—ensuring both parties have safety vocabulary, boundaries established, and consent clearly confirmed.",
+      "definitionDialect": "For systems built to prevent high-voltage sexual violenzes, that last possible moment when a newly sexually aktive kouple stops at sekond base and gets an SRE seatbelt in plase. The checkpoynt before proseeding further with someone new—ensuring both parties have safety⁵ vokabulary, boundaries established, and konsent klearly konfirmed.",
+      "usageExamples": [
+        {
+          "context": "Relationship education",
+          "example": "At the sekond base stop, make sure you've got safewords established before going further.",
+          "translation": "Using second base as a checkpoint for safety establishment."
+        },
+        {
+          "context": "Consent checkpoint",
+          "example": "We hit the sekond base stop and talked through our safeword library⁵ before continuing.",
+          "translation": "Natural pause point for consent and safety confirmation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "life_at_stake"],
+          "note": "The sekond base stop provides a natural checkpoint for establishing consent infrastructure. Before proceeding beyond second base with someone new, ensure you have safewords, boundaries, and clear consent.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Second base (baseball metaphor for intimate progression) + stop (checkpoint). Creates a mandatory pause for safety establishment.",
+      "pronunciation": "/ˈsekənd beɪs stɒp/",
+      "crossReferences": [148, 105],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**What to Establish at Sekond Base Stop:**\n\n1. Safeword vocabulary (from the safeword library⁵)\n2. Physical boundaries and limits\n3. SRE seatbelt (Sexual Resisdænce Edukation framework)\n4. Explicit consent confirmation\n\n**Better Earlier:**\n\n'Open Safeword, Open Sesame'—it's better to establish safety vocabulary even earlier than sekond base, but this serves as the last reasonable checkpoint before more intimate activity.",
+      "isAdolescent": true
+    },
+    {
+      "id": 151,
+      "term": "patron reversal",
+      "letter": "P",
+      "definitionStandard": "The misdescription of patrons as 'clients' or 'donors,' particularly in legal and political contexts. Lawyers don't have clients—they have patrons (those whose payment materially affects their priorities). Politicians don't have donors—anyone giving enough to affect their decision-making is a patron. The reversal obscures who actually holds influence.",
+      "definitionDialect": "The misdeskripsion of patrons as 'klients' or 'donors,' partikularly in legal and politikal kontexts. Lawyers don't have klients—they have patrons (those whose payment materially affekts their priorities). Politicians don't have donors—anyone giving enuf to affekt their desision-making is a patron. The reversal obskures who aktually holds influense.",
+      "usageExamples": [
+        {
+          "context": "Political analysis",
+          "example": "Don't call them donors—that's patron reversal. Anyone giving $250+ to a politician is their patron.",
+          "translation": "Correcting the euphemistic mislabeling of major contributors."
+        },
+        {
+          "context": "Legal context",
+          "example": "The attorney's patron—not 'client'—is the one paying enough to shape their priorities.",
+          "translation": "Lawyers' relationships with major payers are patronage, not client service."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "power_dynamics"],
+          "note": "Patron reversal obscures power dynamics. When politicians call patrons 'donors' and lawyers call patrons 'clients,' it hides who actually holds influence over their decisions.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Patron (one who provides support/funding with expectation of influence) + reversal (calling it something else). Documents the linguistic trick of mislabeling patronage.",
+      "pronunciation": "/ˈpeɪtrən rɪˈvɜrsəl/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Examples of Patron Reversal:**\n\n- Politicians calling major contributors 'donors' instead of patrons\n- Lawyers calling paying parties 'clients' instead of patrons\n- Lobbyists calling their funders 'stakeholders' instead of patrons\n\n**Notable Patrons (USAT):**\n- Right: Elon Musk\n- Left: Alex and George Soros\n\n**Tongtie Connection:**\n\nPatrons traditionally aim to 'tongtie' (tongue-tie) those they fund—controlling what employees and representatives can say without provoking counterreaction. See tongtie.us.\n\n**NRA Example:**\n\nThe NRA as patron has tongtied gun stores, preventing adoption of fingerprint and face ID technology on handguns. BioFire was 'gunshy' about registering products in New Jersey due to this patronage pressure."
+    },
+    {
+      "id": 152,
+      "term": "fleshtime / facetime",
+      "letter": "F",
+      "definitionStandard": "A supercategory for interpersonal connection: fleshtime (in-person, physical presence) or facetime (video calling). Deliberately genericizes 'FaceTime' (Apple trademark) for humanistic reasons—the concept of face-to-face interaction predates and transcends any single company's branding. The supercategory acknowledges both physical and video-mediated connection as valuable.",
+      "definitionDialect": "A superkategory⁵ for interpersonal konnektion: fleshtime (in-person, fysikal presense) or facetime (vidéokalling). Deliberately⁵ generisizes 'FaceTime' (Apple trademark) for humanistik reasons—the konsept of faise-to-faise interaktion predates and transends any single kompany's branding. The superkategory⁵ akknowledges both fysikal and vidéo-mediated konnektion as valuable.",
+      "usageExamples": [
+        {
+          "context": "Scheduling",
+          "example": "Can we get some fleshtime this week, or should we just facetime?",
+          "translation": "Asking whether to meet in person or via video call."
+        },
+        {
+          "context": "Relationship maintenance",
+          "example": "Long-distance requires regular facetime, but fleshtime is irreplaceable for building deep bonds.",
+          "translation": "Both forms of connection have value; physical presence is uniquely powerful."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity", "social_kontrakt_at_stake"],
+          "note": "This deliberate genericization of 'facetime' is intentional. Apple Inc. lawyers can send cease and desist to team@lifesaverlabs.org, but the argument will be made that this term needs to go generic for deep humanistic reasons.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Flesh (physical body) + time / Face (visual presence) + time. Fleshtime emphasizes physical co-presence; facetime genericizes video calling. Prior art exists in 'Find Facetime' and Dentyne Ice 'Make Facetime' ads.",
+      "pronunciation": "/ˈfleʃtaɪm/ or /ˈfeɪstaɪm/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Trademark Note:**\n\nApple Inc. trademarked 'FaceTime' for their video calling service. This entry deliberately genericizes the term for humanistic reasons. Prior art references include 'Find Facetime' websites and Dentyne Ice 'Make Facetime' advertising campaigns.\n\n**The Supercategory:**\n\n- **Fleshtime**: In-person, physical presence interaction\n- **Facetime**: Video-mediated face-to-face interaction\n\nBoth are valuable; fleshtime is irreplaceable for certain bonds, but facetime bridges distance."
+    },
+    {
+      "id": 153,
+      "term": "Blesséd Number System",
+      "letter": "B",
+      "definitionStandard": "A regularized number naming system eliminating English irregularities. Uses 'd' or 't' (ty) for tens place: 'fourdyone' (41), 'fivedy-three' (53). Eliminates irregular teens: 'dyone/tyone' (11), 'dytwo' (12), etc. Eliminates irregular tens: 'threedy' not 'thirty', 'fivedy' not 'fifty'. Maintains standard international prefixes (deka-, hekto-, etc.) for scale.",
+      "definitionDialect": "A regularized number naming system eliminating English irregularities. Uses 'd' or 't' (ty) for tens plase: 'fourdyone' (41), 'fivedy-three' (53). Eliminates irregular teens: 'dyone/tyone' (11), 'dytwo' (12), etc. Eliminates irregular tens: 'threedy' not 'thirty', 'fivedy' not 'fifty'. Maintains standard international prefixes (deka-, hekto-, etc.) for skale.",
+      "usageExamples": [
+        {
+          "context": "Counting",
+          "example": "Dyone, dytwo, dythree... dynine, twody, twodyone...",
+          "translation": "11, 12, 13... 19, 20, 21 in regularized form."
+        },
+        {
+          "context": "Clear communication",
+          "example": "The total is fivedy-sev dollars and threedy-ro cents.",
+          "translation": "57 dollars and 32 cents, using regularized number words."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "The Blesséd Number System may confuse those unfamiliar with it. Context and patience required when introducing these regularized forms.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Systematic regularization of English number words to eliminate exceptions. 'd' or 't' replaces 'ten/teen/-ty' for consistency; all compound numbers follow the same pattern.",
+      "pronunciation": "Varies by number",
+      "crossReferences": [14, 15, 16, 17, 18, 19, 20, 21],
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Regularization Examples:**\n\n| Standard | Blesséd |\n|----------|----------|\n| eleven | dyone/tyone |\n| twelve | dytwo/tytwo |\n| thirteen | dythree |\n| twenty | twody/twoty |\n| thirty | threedy |\n| forty-one | fourdyone |\n| fifty | fivedy |\n\n**Alternative Spellings:**\n\nOpen to writing fourTone or fourDone with capital T/D to visually separate tens place.\n\n**Scale Prefixes:**\n\nStandard international prefixes (deka-, hekto-, kilo-, mega-, giga-, etc.) still apply for unit scaling."
+    },
+    {
+      "id": 154,
+      "term": "stubborn sexuality⁰¹",
+      "letter": "S",
+      "definitionStandard": "Sexual orientation or desire that persists despite social pressure, conversion attempts, or personal wishes to change it. The superscript ⁰¹ indicates low intentionality—stubborn sexuality is something that happens to people rather than something chosen. Acknowledges that sexual orientation is resistant to deliberate modification.",
+      "definitionDialect": "Sexual orientation or desire that persists despite sosial pressure, konversion attempts, or personal wishes to change it. The superskript ⁰¹ indikates low intentionality—stubborn sexuality is something that happens to people rather than something chosen. Akknowledges that sexual orientation is resistant to deliberate modifikation.",
+      "usageExamples": [
+        {
+          "context": "Discussing orientation",
+          "example": "My sexuality is stubborn—conversion therapy didn't change it, and I've accepted that.",
+          "translation": "Acknowledging that sexual orientation resists deliberate change."
+        },
+        {
+          "context": "Compassionate framing",
+          "example": "Stubborn sexuality⁰¹ isn't a choice—the low intentionality rating reflects that.",
+          "translation": "Using the term to emphasize the non-volitional nature of orientation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "cultural_sensitivity"],
+          "note": "Conversion therapy attempts to change stubborn sexuality cause significant harm without achieving their stated goals. Sexual orientation's stubbornness is well-documented; accepting rather than fighting it is healthier.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Stubborn (resistant to change) + sexuality. The ⁰¹ superscript indicates minimal intentionality—this is not a choice but an inherent characteristic.",
+      "pronunciation": "/ˈstʌbərn ˌsɛkʃuˈælɪti/",
+      "intentionalityRating": 1,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "isAdolescent": true
+    },
+    {
+      "id": 155,
+      "term": "quit grit",
+      "letter": "Q",
+      "definitionStandard": "The determination and perseverance required to quit an addictive behavior or substance. Inverts the usual meaning of 'grit' (perseverance to continue) to acknowledge that quitting often requires more grit than continuing. Applied to nicotine, alcohol, gambling, and other addictions where the default is easier than change.",
+      "definitionDialect": "The determination and perseveranse required to quit an addiktive behavior or substanse. Inverts the usual meaning of 'grit' (perseveranse to kontinue) to akknowledge that quitting often requires more grit than kontinuing. Applied to nikotine, alkohol, gambling, and other addiktions where the default is easier than change.",
+      "usageExamples": [
+        {
+          "context": "Addiction recovery",
+          "example": "Quitting smoking takes serious quit grit—it's harder than any marathon.",
+          "translation": "Acknowledging the difficulty of cessation."
+        },
+        {
+          "context": "Supporting someone",
+          "example": "You've got quit grit—every day without nicotine is a victory.",
+          "translation": "Praising the perseverance required to maintain abstinence."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Quit grit reframes quitting as requiring strength, not weakness. Society often frames addiction as weakness; quit grit acknowledges that cessation requires more perseverance than continuing.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Quit (cease) + grit (perseverance, determination). Combines two concepts to honor the difficulty of cessation.",
+      "pronunciation": "/kwɪt ɡrɪt/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 156,
+      "term": "thoughtfulness ranges",
+      "letter": "T",
+      "definitionStandard": "The spectrum of deliberation appropriate to different situations, indicated by superscript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep philosophizing; kalmunity²³⁴ operates on established authority. Sometimes final justifications¹ are nonarguable. The appropriate thoughtfulness range depends on what's at stake and how much time is available for deliberation.",
+      "definitionDialect": "The spektrum of deliberation appropriate to different situations, indikated by superskript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep filosofizing; kalmunity²³⁴ operates on established authority²³⁴. Sometimes final justifikations¹ are nonarguable. The appropriate thortfulness range depends on what's at stake and how much time is available for deliberation.",
+      "usageExamples": [
+        {
+          "context": "Decision-making",
+          "example": "This is a thoughtfulness⁴⁵ decision—take time to philosophize before acting.",
+          "translation": "Some decisions warrant deep deliberation."
+        },
+        {
+          "context": "Emergency response",
+          "example": "In emergencies, thoughtfulness¹² is enough—act on established protocols.",
+          "translation": "Not all situations allow or require deep philosophizing."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Applying high thoughtfulness ranges (⁴⁵) to situations requiring quick action can be harmful. Applying low ranges (¹²) to situations deserving deliberation can also cause harm. Match the range to the context.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Thoughtfulness (quality of careful consideration) + ranges (spectrum of levels). The numeric superscripts provide shorthand for expected deliberation depth.",
+      "pronunciation": "/ˈθɔtfəlnəs reɪndʒɪz/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Scale:**\n\n- **¹**: Final, nonarguable—act on established principle\n- **²³**: Working authority—defer to expertise/tradition\n- **³⁴**: Considered—deliberate but trust precedent\n- **⁴⁵**: Deep philosophizing—question foundations\n- **⁵**: Maximum intentionality—examine everything\n\n**When to Use Which:**\n\nShort-acting needs often require lower thoughtfulness ranges. Life-changing decisions warrant higher ranges. The art is matching the range to the situation."
+    },
+    {
+      "id": 157,
+      "term": "better life, better death",
+      "letter": "B",
+      "definitionStandard": "An ethical framework for hunting, herding, and fishing where: (1) the lethal method is more painless and quick than the death the organism would likely face in the wild, (2) as much of the organism is used as possible, and (3) the organism lived a better life than it would have in nature. Distinguishes ethical wild hunting from problematic farmed fishing/meat production.",
+      "definitionDialect": "An ethikal framework for hunting, herding, and fishing where: (1) the lethal method is more painless and quik than the death the organism would likely fase in the wild, (2) as much of the organism is used as possible, and (3) the organism lived a better life than it would have in nature. Distinguishes ethikal wild hunting from problematik farmed fishing/meat produkshun.",
+      "usageExamples": [
+        {
+          "context": "Ethical hunting",
+          "example": "This deer hunt meets better life, better death standards—quick kill, full use, natural population.",
+          "translation": "Hunting that accelerates death humanely from natural populations."
+        },
+        {
+          "context": "Critiquing factory farming",
+          "example": "Farmed fish can't claim better death—there's no natural death distribution to compare against.",
+          "translation": "Factory farming creates life solely to end it; no 'better death' comparison exists."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "context_required"],
+          "note": "Better life, better death cannot apply to factory-farmed animals—their life wouldn't have existed without artificial mechanisms, so there's no natural death distribution to improve upon. This framework only applies to wild or naturally-integrated populations.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["cultural_sensitivity"],
+          "note": "In Jewish tradition, kashrut focuses only on the death method, not the animal's life conditions. Magen Tzedek certification attempts to address this gap by considering the animal's whole life.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Better (improved) + life/death. Frames ethical animal use as requiring improvement over nature in both life conditions and death method.",
+      "pronunciation": "/ˈbetər laɪf ˈbetər deθ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Ethics Gap:**\n\nWild hunting/fishing accelerates death but matches the organism to a natural death distribution. Factory farming manufactures life specifically to end it—like 'giving birth in an antiseptic laboratory only to kill the baby.' The comparison is fundamentally different.\n\n**Kashrut Limitation:**\n\nTraditional Jewish kashrut only examines the killing stroke. An animal can be treated horribly its entire life and still be 'kosher' if killed correctly. Magen Tzedek certification attempts to address this by considering the animal's whole life.\n\n**Price Question:**\n\nWould families pay a 'better life, better death' premium? At equal cost, the choice is easy. As prices rise, families start breaking away from this commitment—an uncomfortable but real economic consideration.",
+      "references": [
+        {
+          "title": "Magen Tzedek",
+          "url": "https://en.wikipedia.org/wiki/Magen_Tzedek",
+          "description": "Certification addressing animal welfare beyond just kosher slaughter",
+          "type": "article"
+        }
+      ]
     }
   ]
 }

@@ -2548,6 +2548,430 @@
       "contributors": ["lifesaverlabs"],
       "notes": "**The F.O. Meaning:**\n\nYes, fokohol sotto voce communicates 'fuck off, alcohol.' This emphatic expression is warranted. The health consensus from HhÅÆIers and HhÅÆCers (Latter Day Saints tradition and similar on ethanol) was right all along. Given what we now know about ethanol's effects—even at minimal doses—buying someone alcohol is buying them poison.\n\n**Dating Litmus Test:**\n\nIf you litmus-test on alcohol resistance and your date buys you ethanol anyway:\n1. Take one sip\n2. Bide your time\n3. Limit or end contact after the date\n4. Send breakoff feedback: 'I think your offer to buy me ethanol poisoning supports [historical/current] culture I can't tolerate.'\n\nIt should be much more socially risky to offer ethanol poisoning on a date than to refuse to pay for any ethanol even if asked.\n\n**What Fokohol Includes:**\n- Mocktails (rich library of delicious options)\n- Stevia soda pop\n- Sparkling water\n- Juice-based drinks\n- Any beverage supporting conviviality without neurotoxicity\n\n**Water Systems Note:**\n\nToday, given our very healthy and clean water systems, even in religious contexts, feeding grandchildren alcohol is extraordinarily questionable. The historical reasons for alcohol (water safety) no longer apply in developed contexts.",
       "isAdolescent": true
+    },
+    {
+      "id": 135,
+      "term": "finankal",
+      "letter": "F",
+      "definitionStandard": "A portmanteau bridging 'finance' with 'calendar' and 'calm'. Financial planning has no meaning if it's not calendared and calming to all involved. The 'k' spelling signals intentionality and connects to the Blesséd practice of spacetime periodical planning—financial decisions must be scheduled, reviewed, and calming rather than anxiety-inducing.",
+      "definitionDialect": "A portmanteau bridging 'finanse' with 'kalendar' and 'kalm'. Finankal planning has no meaning if it's not kalendared and kalming to all involved. The 'k' spelling signals intentionality and konnekts to the Blesséd praktise of spasetime periodikally⁵ planning—finankal desisions must be scheduled, reviewed, and kalming rather than anxiety-indusing.",
+      "usageExamples": [
+        {
+          "context": "Family budgeting",
+          "example": "Let's do our finankal review this Sunday—get it on the kalendar so it's not stressful.",
+          "translation": "Scheduling financial discussions reduces anxiety and ensures they happen."
+        },
+        {
+          "context": "Teaching financial literacy",
+          "example": "Finankal thinking means your budget isn't just numbers—it's kalendared and kalm.",
+          "translation": "True financial planning integrates scheduling and emotional regulation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Financial anxiety is real and harmful. Finankal planning acknowledges that money discussions must be scheduled (kalendared) and approached with calm to be effective. Surprise financial conversations often fail.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Portmanteau of 'finance' + 'calendar' + 'calm'. The 'k' spelling connects to Blesséd orthography while emphasizing the kalendar and kalm components essential to healthy financial planning.",
+      "pronunciation": "/fɪˈnænkəl/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 136,
+      "term": "resisdænce",
+      "letter": "R",
+      "definitionStandard": "A choreographed resistance that any part of a couple can engage in, or that the pair together as a dualindiv can perform and enjoy. Reformats resistance as a social dance, which is more consistent with our natures. Resistance becomes not just opposition but a coordinated, practiced, even beautiful movement between partners navigating boundaries and consent.",
+      "definitionDialect": "A koreographed resistanse that any part of a kouple kan engage in, or that the pair together as a dualindiv kan perform and enjoy⁵. Reformats resistanse as a sosial danse, which is more konsistent with our natures. Resistanse bekomes not just opposition but a koördinated, praktised, even beautiful movement between partners navigating boundaries and konsent.",
+      "usageExamples": [
+        {
+          "context": "Intimate relationship dynamics",
+          "example": "We've practiced our resisdænce—when one of us needs to slow down, the other knows the steps.",
+          "translation": "Couples can develop choreographed patterns for navigating boundaries."
+        },
+        {
+          "context": "Teaching consent",
+          "example": "Resisdænce isn't awkward rejection—it's a dance you both learn together.",
+          "translation": "Reframing resistance as dance removes stigma and promotes practice."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "power_dynamics"],
+          "note": "Resisdænce reframes resistance from confrontation to coordination. This linguistic shift can help couples practice boundary-setting as a shared skill rather than an adversarial act.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Resistance + dance (with æ ligature). The 'dænce' component emphasizes that resistance in relationships can be graceful and coordinated rather than awkward and adversarial.",
+      "pronunciation": "/rɪˈzɪsdæns/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "isAdolescent": true
+    },
+    {
+      "id": 137,
+      "term": "Marathon / M.",
+      "letter": "M",
+      "definitionStandard": "A gender-neutral honorific appellation for a person in professional or personal contexts, replacing gendered titles like Mr./Ms./Mrs. that require knowledge of gender or marital status. 'M.' or 'Marathon' attaches to the notion that each person is running their own lifelong moral marathon. Example: 'Marathon Clayman' instead of 'Mr. Clayman'. Respects and honors the person's marathoning nature and work without presuming gender or marital status.",
+      "definitionDialect": "A gender-neutral honorifik appelation for a person in professional or personal kontexts, replasing gendered titles like Mr./Ms./Mrs. that require knowledge of gender or marital status. 'M.' or 'Marathon' attaches to the notion that each person is running their own lifelong moral marathon. Example: 'Marathon Klayman' instead of 'Mr. Klayman'. Respekts and honors the person's marathoning nature and work without presuming gender or marital status.",
+      "usageExamples": [
+        {
+          "context": "Professional correspondence",
+          "example": "Dear Marathon Johnson, thank you for your letter regarding...",
+          "translation": "Addressing someone respectfully without assuming gender or marital status."
+        },
+        {
+          "context": "Personal preference",
+          "example": "Please call me Marathon Clayman, not Mr. Clayman.",
+          "translation": "Individuals can request this honorific to avoid gendered titles."
+        },
+        {
+          "context": "Abbreviated form",
+          "example": "M. Smith will be presenting the quarterly report.",
+          "translation": "The abbreviated form works like Mr./Ms. but is gender-neutral."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "cultural_sensitivity"],
+          "note": "Gender-neutral honorifics reduce the awkwardness of addressing people whose gender or marital status is unknown, and respect those who prefer not to disclose this information.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From 'marathon' (the 26.2-mile race, from the Greek legend). Chosen because life is a moral marathon—each person is running their own long-distance journey toward growth and flourishing.",
+      "pronunciation": "/ˈmærəθɒn/ or /ɛm/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Spousal Naming:**\n\nWhen couples marry, the author suggests a five-option pseudorandom generator for last name selection:\n1. Partner A's name (e.g., Smith)\n2. Partner B's name (e.g., Clayman)\n3. A-B hyphenated (Smith-Clayman)\n4. B-A hyphenated (Clayman-Smith)\n5. Portmanteau (Smithman or Clayith—though some combinations work better than others)\n\nAll options would then be spelled according to Blesséd standards (e.g., Klayman)."
+    },
+    {
+      "id": 138,
+      "term": "wonderbar",
+      "letter": "W",
+      "definitionStandard": "An expression celebrating hitting a wondrous, amazing level—even if it's just the standard bar you set for yourself. From German 'wunderbar' (wonderful) combined with 'bar' (threshold standard). If you set a goal of 10 pushups and hit 10 pushups, that's wonderbar. Anything beyond is bonus. The wonderbar is your established standard; reaching it is cause for celebration, not just exceeding it.",
+      "definitionDialect": "An expression selebrating hitting a wondrous, amazing level—even if it's just the standard bar you set for yourself. From Deutsche 'wunderbar' (wonderful) kombined with 'bar' (threshold standard). If you set a goal of 10 pushups and hit 10 pushups, that's wonderbar. Anything beyond is bonus. The wonderbar is your established standard; reaching it is kause for selebration, not just ekseeding it.",
+      "usageExamples": [
+        {
+          "context": "Exercise goals",
+          "example": "I hit my three 5-minute sprints today—wonderbar! The extra sprint was bonus.",
+          "translation": "Celebrating meeting the established standard, with anything extra as bonus."
+        },
+        {
+          "context": "Academic context",
+          "example": "A flat A is the wonderbar. A+ is bonus excellence. A- is below the bar.",
+          "translation": "The standard defines what counts as 'wonderful' achievement."
+        },
+        {
+          "context": "Raising standards",
+          "example": "I'm making three 6-minute sprints my new wonderbar—pushing the standard up.",
+          "translation": "Once you consistently hit a level, it can become your new wonderbar."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Some parents and grandparents push for A+ as the wonderbar standard. This can be appropriate in some contexts but may create unhealthy pressure in others. The wonderbar should be achievable with dedicated effort.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "German 'wunderbar' (wonderful) + English 'bar' (threshold/standard). The double meaning celebrates both the wonder of achievement and the importance of having a defined bar to reach.",
+      "pronunciation": "/ˈwʌndərˌbɑr/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Grades as Example:**\n- **A**: Wonderbar (the standard of excellence)\n- **A+**: Bonus excellence beyond wonderbar\n- **A-**: The bar (minimum acceptable)\n- **Below A-**: Below the bar\n\nGrades can only be fractionally differentiated—they're not final final. Sometimes grandstudents beat the odds and show exceptional merit in other ways in their lives."
+    },
+    {
+      "id": 139,
+      "term": "grandstudent",
+      "letter": "G",
+      "definitionStandard": "A student who is climbing the generations and becoming more sage, climbing beyond their chronological age with the help of their whole family and Family tree. Students who are saging—actively cultivating wisdom through reading, philosophy, ethical practice—reach 'grandstudent' status. The counterpart to grandparent; grandstudents look ahead to being parents and grandparents themselves and work to reverse synthesize their lives in stable stages.",
+      "definitionDialect": "A student who is klimbing the generations and bekoming more sage, klimbing beyond their kronologikal age with the help of their whole family⁵ and Family⁵ tree. Students who are saging—aktively kultivating wisdom thru reading, filosofy, ethikal praktise—reach 'grandstudent' status. The kounterpart to grandparent; grandstudents look ahead to being parents and grandparents themselves and work to reverse synthesize their lives in stable stages.",
+      "usageExamples": [
+        {
+          "context": "Describing an advanced student",
+          "example": "She's a grandstudent—reading philosophy at 14, already planning her life stages.",
+          "translation": "A student who demonstrates wisdom beyond their years."
+        },
+        {
+          "context": "Educational organization",
+          "example": "The GGSTA (Grandparent-Grandstudent-Teacher Association) brings together those who want to coordinate on education.",
+          "translation": "Grandstudents and grandparents working together in educational settings."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake"],
+          "note": "Many grandparents would love to be an active part of their grandstudents' educations but are currently excluded from conversation and participation in schooling. GGSTA-style organizations could help bridge this gap.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Grand (as in grandmaster, grandparent) + student. Inspired by 'grandmaster' in chess—a status earned through demonstrated mastery. The 'grand' prefix indicates advancement beyond the typical student level.",
+      "pronunciation": "/ˈɡrændˌstuːdənt/",
+      "crossReferences": [126],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Sage vs Age Connection:**\n\nGrandstudent status relates to the sage vs age principle—wisdom (sage) can be cultivated at any age through deliberate practice. Grandstudents are youth actively walking the path to sage.\n\n**Reverse Synth:**\n\nGrandstudents work to reverse synthesize their lives—looking ahead to future stages (parenthood, grandparenthood) and working backward to build stable foundations. They accept uncertainty in stages beyond strongly achieved intermediates while remaining ready to branch or fork if their synthesis changes.\n\n**GGSTA Proposal:**\n\nA Grandparent-Grandstudent-Teacher Association where grandparents, parents, students, and grandstudents would feel welcome and have a chance to coordinate. Currently, many grandparents who want to participate in education are excluded."
+    },
+    {
+      "id": 140,
+      "term": "wrighte",
+      "letter": "W",
+      "definitionStandard": "To wright, rite, right, and write—all at once. Among the most fundamental acts. A wrighte encompasses: constructing/crafting (wright), performing ritual/ceremony (rite), correcting toward justice (right), and inscribing/documenting (write). The spelling unifies these four homophones into a single intentional act.",
+      "definitionDialect": "To wright, rite, right, and write—all at onse. Among the most fundamental akts. A wrighte enkompasses: konstrukting/krafting (wright), performing ritual/seremony (rite), korrekting toward justise (right), and inskribing/dokumenting (write). The spelling unifies these four homophones into a single intentional akt.",
+      "usageExamples": [
+        {
+          "context": "Creative work",
+          "example": "I need to wrighte this proposal—craft it carefully, make it correct, and document it well.",
+          "translation": "Doing something with full intentionality across all dimensions."
+        },
+        {
+          "context": "Requesting feedback",
+          "example": "Re:wrighte me—share your models of religious expression, exemption, and exception.",
+          "translation": "Asking someone to help correct, craft, ritualize, and document together."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["potential_misinterpretation"],
+          "note": "Wrighte is not a typo for 'write'—it intentionally unifies four distinct but related concepts. The 'gh' spelling is deliberate, echoing 'wright' (craftsperson) and 'right' (correct).",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Unification of four English homophones: wright (craftsperson, builder), rite (ceremony), right (correct, just), and write (inscribe). The spelling 'wrighte' incorporates elements of all four.",
+      "pronunciation": "/raɪt/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 141,
+      "term": "prespousals",
+      "letter": "P",
+      "definitionStandard": "Any person whom you court. Some prespousals may become a bedmate if your religious tree, family, or personal traditions and practices allow. The stage of prespousal privacy ought to be recognized in law similar to spousal privacy, at least for those who court seriously and are evaluating each other for bonded marriage and dualindiv spousehood. Prespousal privacy encourages movement away from recreational hookup chaos toward long-term-oriented courtship culture.",
+      "definitionDialect": "Any person whom you kourt. Some prespousals may bekome a bedmate if your religious tree, family⁵ or personal traditions and praktises allow. The stage of prespousal privasy⁵ ought to be rekognized in law similar to spousal privasy⁵, at least for those who kourt seriously⁵ and are evaluating each other for bonded marriage and dualindiv spousehood. Prespousal privasy⁵ enkourages movement away from rekreational hookup kaos toward long-term-oriented kourtship kulture.",
+      "usageExamples": [
+        {
+          "context": "Describing a dating relationship",
+          "example": "She's one of my prespousals—we're courting seriously and evaluating each other for marriage.",
+          "translation": "A formal term for someone you're dating with marriage intent."
+        },
+        {
+          "context": "Legal privacy discussion",
+          "example": "Prespousal privacy should protect what we learn about each other during courtship.",
+          "translation": "Advocating for legal recognition of privacy in serious courtship."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "social_kontrakt_at_stake"],
+          "note": "There's so much you learn about another person in an increasingly intimate relationship that you shouldn't be interrogated on or release to outsiders unless an overwhelming need arises. Prespousal privacy rights would require social and legal change.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Pre- (before) + spousal (relating to spouse). Designates the courtship period before marriage, with its own dignity and privacy expectations.",
+      "pronunciation": "/priːˈspaʊzəlz/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Prespousal Privacy Etiquette:**\n\nTo formally unlock prespousal privacy, you should be either present with each other or guaranteed a chance to eventually break out of any prisoner's dilemma cooperatively through fair process.\n\n**Social Change Goal:**\n\nPrespousal privacy might motivate youth movement away from recreational hookup chaos toward something closer to long-term-oriented courtship culture—synthesizing and reverse synthesizing toward a cornerstone or early capstone Pre30 marriage.",
+      "isAdolescent": true
+    },
+    {
+      "id": 142,
+      "term": "katchy⁵",
+      "letter": "K",
+      "definitionStandard": "An utterance, mixed media, technology, or other activity or artifact that catches the thoughtful and makes them more thoughtful. Distinguished from merely 'catchy' (attention-grabbing), katchy⁵ attracts thoughtful people, promotes and achieves more considerate thoughtfulness, and—in intimate contexts—catches those who are 'y⁵' (consistently practicing the Five Whys). The superscript ⁵ indicates highest intentionality.",
+      "definitionDialect": "An utteranse, mixed media, teknology⁵, or other aktivy⁵ or artifakt that catches the thortful and makes them more thortful. Distinguished from merely 'catchy' (attention-grabbing), katchy⁵ attrakts thortful people, promotes and achieves more konsiderate thortfulness, and—in intimate kontexts—catches those who are 'y⁵' (konsistently praktising the Five Whys). The superskript ⁵ indikates highest intentionality.",
+      "usageExamples": [
+        {
+          "context": "Media creation",
+          "example": "That video on consent was truly katchy⁵—it made me think more deeply, not just grabbed my attention.",
+          "translation": "Content that promotes thoughtfulness rather than just capturing attention."
+        },
+        {
+          "context": "Technology design",
+          "example": "We need more katchy⁵ experimences—software that catches the thoughtful and deepens their thinking.",
+          "translation": "Designing technology that cultivates thoughtfulness."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "The distinction between catchy (attention-grabbing) and katchy⁵ (thought-promoting) matters. Much content is catchy but makes people less thoughtful. Katchy⁵ content does the opposite.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Catchy (attention-grabbing) + 'k' spelling (Blesséd intentionality) + superscript ⁵ (highest intentionality rating). The transformation from 'c' to 'k' signals the shift from mere attention to thoughtfulness.",
+      "pronunciation": "/ˈkætʃi faɪv/",
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 143,
+      "term": "SLGBTQ",
+      "letter": "S",
+      "definitionStandard": "Sexual orientation spectrum including Straight, Lesbian, Gay, Bisexual, Transgender, and Questioning—with Straight (S) included as a coequal part rather than a separate default. Corrects the mistake of separating LGBTQ wholly from S, which suggests straight people are above, different, or ideologically separated from the spectrum rather than somewhere on the Kinsey spectra of born and accepted sexual orientation. Pronounced with the S as 'es' (a coequal part), not as a plural suffix.",
+      "definitionDialect": "Sexual orientation spektrum inkluding Straight, Lesbian, Gay, Bisexual, Transgender, and Questioning—with Straight (S) inkluded as a koequal part rather than a separate default. Korrects the mistake of separating LGBTQ wholly from S, which suggests straight people are above, different, or ideologikally⁵ separated from the spektrum rather than somewhere on the Kinsey spektra of born and aksepted sexual orientation. Pronouced with the S as 'es' (a koequal part), not as a plural suffix.",
+      "usageExamples": [
+        {
+          "context": "Inclusive discussion",
+          "example": "We're all on the SLGBTQ spectrum—straight people aren't separate from it.",
+          "translation": "Including straight people in the orientation spectrum rather than as outsiders."
+        },
+        {
+          "context": "Pronunciation clarification",
+          "example": "It's SLGBTQ, pronounced 'es-el-gee-bee-tee-kyoo'—not 'LGBTQs' as a plural.",
+          "translation": "The S is a coequal component, not a pluralizing suffix."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "cultural_sensitivity"],
+          "note": "LGBTQ without S creates an in-group/out-group dynamic that may not serve inclusion goals. SLGBTQ (or LGBTQS) places everyone on the same spectrum, acknowledging that sexual orientation is a continuum.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "LGBTQ (Lesbian, Gay, Bisexual, Transgender, Questioning) + S (Straight). The S can be placed at the beginning (SLGBTQ) or end (LGBTQS), as long as it's pronounced as a coequal component.",
+      "pronunciation": "/ɛs ɛl dʒiː biː tiː kjuː/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Kinsey Spectra:**\n\nThe Kinsey scale recognizes that sexual orientation exists on a continuum. SLGBTQ acknowledges this by including straight (S) as part of the spectrum rather than as an unmarked default.\n\n**Pronunciation Matters:**\n\nSLGBTQ: 'es-el-gee-bee-tee-kyoo' (S as coequal)\nLGBTQS: 'el-gee-bee-tee-kyoo-es' (S as coequal)\nNOT: 'LGBTQs' (S as plural suffix, which would sound like 'LGBTQzah')"
+    },
+    {
+      "id": 144,
+      "term": "re:",
+      "letter": "R",
+      "definitionStandard": "A translocatable particle that expands to 'religious expression, exemption, and exception.' When prefixed to a word with a colon, it signals incorporation of the speaker's or listener's religious/spiritual framework. Example: 're:wrighte me' means 'wrighte me with your own good, better, best models of religious expression, exemption, and exception (at least those not too incompatible with mine).'",
+      "definitionDialect": "A translokateable partikle that expands to 'religious expression, exemption, and ekseption.' When prefixed to a word with a kolon, it signals inkorporation of the speaker's or listener's religious/spiritual framework. Example: 're:wrighte me' means 'wrighte me with your own good, better, best models of religious expression, exemption, and ekseption (at least those not too inkalmpatible with mine).'",
+      "usageExamples": [
+        {
+          "context": "Requesting holistic feedback",
+          "example": "Re:wrighte me—share your perspective including your religious framework.",
+          "translation": "Asking for feedback that incorporates the other person's spiritual/ethical foundation."
+        },
+        {
+          "context": "Collaborative creation",
+          "example": "Let's re:view this together, bringing our respective traditions.",
+          "translation": "Reviewing something while honoring both parties' religious/ethical frameworks."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity", "potential_misinterpretation"],
+          "note": "The re: particle invites religious/spiritual frameworks into conversation. This should be used when such perspectives are welcome; it may not be appropriate in strictly secular contexts.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From 're:' (regarding, in the matter of) expanded to encompass religious expression, exemption, and exception. The colon distinguishes this meaning from the Latin prefix 're-' (again).",
+      "pronunciation": "/riː/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 145,
+      "term": "rase",
+      "letter": "R",
+      "definitionStandard": "In Blesséd, 'race' is reinterpreted to mean a physical competition, industrial pursuit, or electoral contest—NOT skin color or ancestry. Your 'race' is your next 5K, your most urgent pursuit in family or work, or the political race you're supporting. Refuses to acknowledge skin- or ancestry-based interpretations. For skin tone, use skin swatch (IC codes, Pantone, or similar friction layers). For ancestry, say 'kin ancestry' or 'klan.'",
+      "definitionDialect": "In Blesséd, 'rase' is reinterpreted to mean a fysikal kalmpetition, industrial pursuit, or elektoral kontest—NOT skin kolor or ansestry. Your 'rase' is your next 5K, your most urgent pursuit in family⁵ or work, or the politikal rase you're supporting. Refuses to akknowledge skin- or ansestry-based interpretations. For skin tone, use skin swatch (IC kodes, Pantone, or similar friktion layers). For ansestry, say 'kin ansestry' or 'klan.'",
+      "usageExamples": [
+        {
+          "context": "Form filling",
+          "example": "Race: Congressional Race OH-18 (my current political focus).",
+          "translation": "Answering 'race' questions with competitive/pursuit context, not skin color."
+        },
+        {
+          "context": "Redirecting questions",
+          "example": "If you're asking about my skin, that's 'skin swatch'—Pantone 728 C. 'Race' is about what I'm racing toward.",
+          "translation": "Distinguishing race (competition) from skin tone."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["cultural_sensitivity", "potential_misinterpretation"],
+          "note": "This redefinition is intentionally provocative—refusing to validate skin-based 'race' as a meaningful category. The goal is imposing friction between sight and stereotype to reduce implicit bias.",
+          "severity": "caution"
+        }
+      ],
+      "etymology": "From English 'race' (competition, contest) with deliberate rejection of the skin-color meaning. The 's' spelling (rase) can distinguish the Blesséd meaning from standard usage.",
+      "pronunciation": "/reɪs/",
+      "crossReferences": [127],
+      "intentionalityRating": 5,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Skin Swatch Alternative:**\n\nFor skin tone questions, use the skin swatch hierarchy:\n1. Pantone color labels (most specific)\n2. CMYK/RGB values\n3. Fitzpatrick scale\n4. IC codes (Great Britain)\n\nThese provide precision without stereotyping.\n\n**Author's Example:**\n\nFor a long time, the author represented his 'race' as Congressional Race Ohio 18 (OH-18)—a diminished virtual at-large district after Ohio's population fell to 17 House seats."
+    },
+    {
+      "id": 146,
+      "term": "wheren",
+      "letter": "W",
+      "definitionStandard": "Where and when combined—with 'whereabouts/whenabouts' expressive character. An alternative to trigger and discuss spacetime planning. 'Wheren do you want to meet? Have a spacetime in mind?' Acknowledges that location and time are intertwined dimensions of scheduling.",
+      "definitionDialect": "Where and when kombined—with 'whereabouts/whenabouts' expressive kareakter. An alternative to trigger and diskuss spasetime planning. 'Wheren do you want to meet? Have a spasetime in mind?' Akknowledges that lokation and time are intertwined dimensions of scheduling.",
+      "usageExamples": [
+        {
+          "context": "Scheduling",
+          "example": "Wheren should we meet for lunch?",
+          "translation": "Asking about both location and time simultaneously."
+        },
+        {
+          "context": "Event planning",
+          "example": "What's the wheren for the conference? I need to book travel.",
+          "translation": "Requesting both place and time information in one question."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Wheren is most useful when both location and time are genuinely intertwined in the question. For queries about only location or only time, 'where' or 'when' remain appropriate.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Where + when portmanteau. Acknowledges spacetime as a unified concept for scheduling, following Einstein's recognition that space and time are interconnected.",
+      "pronunciation": "/ˈwerən/",
+      "crossReferences": [124],
+      "intentionalityRating": 3,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 147,
+      "term": "heartklot",
+      "letter": "H",
+      "definitionStandard": "A health condition related to cardiovascular clotting; also used metaphorically for emotional/relational blockages that threaten the heart of a relationship or community. The 'k' spelling signals intentional awareness of clotting risks—both physical (heart attacks, strokes) and metaphorical (communication breakdowns, trust erosion).",
+      "definitionDialect": "A health kondition related to kardiovaskular klotting; also used metaphorikally for emotional/relational blokages that threaten the heart of a relationship or kalmunity⁵. The 'k' spelling signals intentional awareness of klotting risks—both fysikal (heart attakks, strokes) and metaphorikal (kommunikation breakdowns, trust erosion).",
+      "usageExamples": [
+        {
+          "context": "Health awareness",
+          "example": "Watch for heartklot risk factors—diet, exercise, stress all matter.",
+          "translation": "Being intentionally aware of cardiovascular clotting risks."
+        },
+        {
+          "context": "Relationship metaphor",
+          "example": "There's a heartklot forming between us—we need to clear this communication blockage before it does damage.",
+          "translation": "Using the clotting metaphor for relational problems."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "tissue_at_stake"],
+          "note": "Cardiovascular clotting (heart attacks, strokes) is a leading cause of death. The term heartklot makes this risk linguistically salient, encouraging preventive awareness.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Heart + klot (clot with Blesséd 'k' spelling). The 'k' signals intentionality and awareness of clotting as both physical and metaphorical phenomenon.",
+      "pronunciation": "/ˈhɑrtˌklɒt/",
+      "intentionalityRating": 4,
+      "dateAdded": "02025-01月23",
+      "contributors": ["lifesaverlabs"]
     }
   ]
 }
