@@ -39,15 +39,15 @@ Blesséd Number System (sev, ro, han, thou, mill, bill, deka, hekto), frupidity,
 
 Also updated validator and scripts to support special character mapping (Æ→A, numerics→letters) for proper A-Z filing of entries starting with non-standard characters.
 
-✅ **COMPLETED 02025-01月01**: Added 2 policy word entries to Digital Diktionary⁵!
+✅ **COMPLETED 02026-01月01**: Added 2 policy word entries to Digital Diktionary⁵!
 **Words added (IDs 114-115)**: motorbike (motor-assisted vehicles >25 km/h classification), JKTE/JCTE (Juvenile Chronic Traumatic Encephalopathy - prodromal brain injury classification for youth collision sports).
 
-✅ **COMPLETED 02025-01月01**: Added 12 more word entries to Digital Diktionary⁵!
+✅ **COMPLETED 02026-01月01**: Added 12 more word entries to Digital Diktionary⁵!
 **Words added (IDs 116-127)**: akrasia (weakness of will), diverting (essence of funny, from Español), hunger shopping, frameshift ærror, violens (violence as lens), korporal request, konseptual parent, spasetime (scheduling face-to-face), tribe/Tribe (Dunbar layers), idiotes (civic disengagement), sage vs age (wisdom cultivation at any age), skin swatch (objective color measurement hierarchy: Pantone > CMYK/RGB > Fitzpatrick/IC).
 
-✅ **COMPLETED 02025-01月23**: Renamed Adult sektion to Adolescent (age 10+); added fokohol entry!
+✅ **COMPLETED 02026-01月23**: Renamed Adult sektion to Adolescent (age 10+); added fokohol entry!
 Changed age verification from 14 to 10 to align with puberty timing and protect the 7% of youth with early experiences. Added fokohol (faux alcohol / "f.o. alcohol") with critical harm reduction notes about ethanol's effects.
 
-✅ **COMPLETED 02025-01月23**: Added 23 entries from stubs!
+✅ **COMPLETED 02026-01月23**: Added 23 entries from stubs!
 **Words added (IDs 135-147)**: finankal (finance+calendar+calm), resisdænce (resistance as dance), Marathon/M. (gender-neutral honorific), wonderbar (celebrating hitting the standard), grandstudent (saging student), wrighte (wright+rite+right+write), prespousals (courtship stage), katchy⁵ (catches the thoughtful), SLGBTQ (straight-inclusive spectrum), re: (religious expression particle), rase (race as competition, not skin), wheren (where+when), heartklot (cardiovascular/relational clotting).
 **Phrases added (IDs 148-157)**: safeword library⁵, mortal library⁵, sekond base stop, patron reversal, fleshtime/facetime, Blesséd Number System, stubborn sexuality⁰¹, quit grit, thoughtfulness ranges, better life better death.
