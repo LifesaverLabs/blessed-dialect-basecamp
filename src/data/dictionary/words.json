@@ -2972,6 +2972,45 @@
       "intentionalityRating": 4,
       "dateAdded": "02026-01月23",
       "contributors": ["lifesaverlabs"]
+    },
+    {
+      "id": 158,
+      "term": "sukkum",
+      "letter": "S",
+      "definitionStandard": "In sex education and consent discourse: the principle that one should personally experience (or credibly suffer) something before asking a partner to do it—but only for acts in the negotiable, nontoxic range where embodied empathy is anatomically possible. Derived from 'succumb' but reframed: rather than surrender implying defeat, sukkum means willingly experiencing first to demonstrate embodied empathy. Central to FRIES consent and the golden rule applied to intimacy.",
+      "definitionDialect": "In sex æd and konsent diskourse: the prinsiple that one should personally experienss (or kredibly⁵ suffer) something before asking a partner to do it—but only for akts in the negotiable, nontoxik range where embodied empathy⁵ is anatomikally possible. Derived from 'sukkumb' but reframed: rather than surrender implying defeat, sukkum means willingly eksperiensing first to demonstrate embodied empathy⁵. Sentral to FRIES konsent and the golden rule applied to intimasy.",
+      "usageExamples": [
+        {
+          "context": "Consent education",
+          "example": "Before asking your partner for something outside vanilla norms, have you sukkumed yourself? Embodied empathy means knowing what you're asking.",
+          "translation": "Have you personally experienced what you're requesting? Understanding through experience before asking."
+        },
+        {
+          "context": "Golden rule application",
+          "example": "The sukkum principle: don't ask what you haven't suffered yourself, in the negotiable range.",
+          "translation": "Experience it yourself first before requesting it of others."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Sukkum applies ONLY to negotiable acts where personal experience is anatomically possible to share and understand. For toxic or non-negotiable acts: please don't ask at all. For acts involving anatomical gaps you can never experience empathically yourself (like life with an absent prostate), sukkum cannot apply—these require different frameworks of trust, communication, and care.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["power_dynamics"],
+          "note": "This principle integrates with FRIES consent (Freely given, Reversible, Informed, Enthusiastic, Specific). Sukkum adds another dimension for the negotiable range: the asker should have kredible⁵ personal experience before making requests in sensitive domains where such experience is possible.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From 'succumb' (Latin succumbere: to yield, lie under), reclaimed and respelled. Historically 'succumb' carried connotations of defeat or submission; sukkum reframes this as intentional embodied empathy—willingly experiencing first what one might ask of another. The 'kk' spelling signals Blesséd intentionality.",
+      "pronunciation": "/ˈsʌkəm/",
+      "crossReferences": [106, 154],
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月26",
+      "contributors": ["lifesaverlabs"],
+      "isAdolescent": true,
+      "notes": "**Scope and Limits:**\n\nSukkum applies ONLY to:\n- Negotiable acts (not toxic, not non-negotiable)\n- Nontoxic practices\n- Situations where embodied empathy is anatomically possible\n\nSukkum does NOT apply to:\n- Toxic or harmful practices—please don't ask at all\n- Non-negotiable boundaries—respect them absolutely\n- Anatomical gaps you can never experience yourself (e.g., life with an absent prostate, menstruation, pregnancy)—these require trust, communication, and care rather than the sukkum principle\n\n**Integration with FRIES Consent:**\n\nSukkum extends consent frameworks by adding embodied empathy as a prerequisite for certain asks. The FRIES model (Freely given, Reversible, Informed, Enthusiastic, Specific) remains foundational, but sukkum asks: has the requesting party truly understood through experience what they're asking?\n\n**The Golden Rule Applied:**\n\n'Do unto others as you would have them do unto you' becomes literal in the negotiable intimacy range. If you wouldn't experience it yourself, reconsider asking.\n\n**Herstory⁵ Considerations:**\n\nThis principle challenges historical asymmetries where certain acts were expected of one party without reciprocal understanding. Sukkum demands embodied empathy from all parties, regardless of historical power dynamics.\n\n**Biological/Biochemical Notes:**\n\nSome acts may have biochemical properties not fully appreciated without personal experience. The strangeness of first experience may serve species-survival functions—discouraging casual requests and ensuring asks come from genuine understanding rather than mere curiosity.\n\n**On the Negotiable Range:**\n\nThe negotiable range has hard anatomical constitutional limits. Every conceivable argument on these boundaries has already been conceived and argued heavily⁵. Once consolidated, these ranges will be fairly⁵ difficult to disturb convincingly⁵ to the well-informed, except possibly for major biotechnological changes we can't yet imagine."
     }
   ]
 }
