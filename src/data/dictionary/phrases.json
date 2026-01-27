@@ -1046,6 +1046,43 @@
           "type": "article"
         }
       ]
+    },
+    {
+      "id": 162,
+      "term": "Moral Monopoly⁵",
+      "letter": "M",
+      "definitionStandard": "A patent holder who uses exclusivity over critical technology primarily as leverage for ethical outcomes rather than wealth extraction—attaching conditions to licensing that advance justice, safety, or care standards, while extracting only what's necessary for organizational sustainability. The opposite of 'antimoral monopolies' like EpiPen price gouging.",
+      "definitionDialect": "A patent holder who uses exklusivity over kritikal teknology primarily as leverage for ethikal outkomes rather than wealth extrakshun—attaching konditions to licensing that advance justise, safety, or kare standards, while extrakting only what's nesesary for organizational sustainability. The opposite of 'antimoral monopolies' like EpiPen prise gouging.",
+      "usageExamples": [
+        {
+          "context": "Patent licensing strategy",
+          "example": "Lifesaver Labs aims to be a moral monopolist—using safeword patent leverage to push for consent and safety standards, not to maximize profit extraction.",
+          "translation": "Using patent power to advance ethical goals rather than wealth."
+        },
+        {
+          "context": "Contrasting with antimoral monopolies",
+          "example": "Mylan's 600% EpiPen price increase was an antimoral monopoly. A moral monopolist would attach ethical licensing conditions instead of extracting maximum profit.",
+          "translation": "Antimoral monopolies extract wealth; moral monopolies leverage power for ethical outcomes."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Moral monopolists must stay calibrated to what the public will actually accept—but sometimes coercive arguments with or against institutions not participating, keeping up, or being honest may be necessary⁵. We may move from 'nudging' to 'noodging' from time to time.",
+          "severity": "info"
+        },
+        {
+          "categories": ["essential_liberty_at_stake"],
+          "note": "Religious exceptions must exist in moral monopoly licensing. The ethical imperative is to wield monopoly power for public benefit while respecting liberty of conscience.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Moral (ethical) + Monopoly (exclusive control). Reclaims 'monopoly' from purely negative connotations to describe ethical wielding of patent exclusivity.",
+      "pronunciation": "/ˈmɔrəl məˈnɑpəli/",
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "# The Moral Monopoly Framework\n\nThis document articulates a philosophy for how patent holders of critical technologies *should* behave versus how they typically *do* behave.\n\n## The Core Distinction\n\n**Economic Patent Monopoly (Antimoral)**: Using patent exclusivity to maximize profit extraction, regardless of harm to those who need the technology. The canonical examples are Mylan raising EpiPen prices from $100 to $600, and Shkreli's 5000% Daraprim increase. These are 'antimoral monopolies.'\n\n**Moral Patent Monopoly⁵**: Using patent exclusivity primarily as *leverage for ethical outcomes* rather than wealth extraction—attaching conditions to licensing that advance justice, safety, or care standards, while extracting only what's necessary for organizational sustainability.\n\n## Why This Leverage Exists\n\nWhen a patent covers something truly critical—a lifesaving drug, an essential safety technology—other institutions face a trilemma:\n\n1. License from you on your terms\n2. Design around your patent (often impossible or inferior)\n3. Petition government to exercise eminent domain\n\nThis creates enormous leverage. The question is: leverage *for what*?\n\n## The Constraints on Any Monopolist\n\nThree forces can check patent monopolies:\n\n1. **Eminent domain**: Government can seize patents for public necessity (underutilized, in this view)\n2. **Trolley Problem calculus**: When pricing becomes indefensible harm, moral and political pressure mounts\n3. **Chokehold patents**: Upstream patent holders (like fundamental CRISPR patents) could constrain downstream behavior\n\n## The Safeword Application\n\nLifesaver Labs' patent licensing strategy aims to demonstrate this model: push hard for safety and consent goals, but recognize limits—while understanding that sometimes coercive arguments may be necessary⁵ with institutions not participating, keeping up, or being honest. Specifically:\n\n- Public acceptance defines the general boundary of reasonable pressure\n- Religious exceptions must exist\n- The goal ranges from *nudging* to *noodging* depending on institutional responsiveness\n- Overreach risks patent workarounds or eminent domain invocation\n\n## The Ethical Imperative\n\nThe framework argues: if you hold monopoly power over something people genuinely need, you bear a moral obligation to wield it for public benefit rather than extraction—and to stay calibrated to what the public will actually accept, while being willing to apply necessary⁵ pressure when institutions refuse to participate honestly.\n\nThere are surprisingly few moral monopolists in the historical record. The opportunity exists for patent holders of lifesaving technologies⁵ to set a different precedent."
     }
   ]
 }

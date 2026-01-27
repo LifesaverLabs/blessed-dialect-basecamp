@@ -275,6 +275,11 @@
           "categories": ["life_at_stake", "tissue_at_stake"],
           "note": "Sleep deprivation is a very dangerous health and safety risk. It's difficult at population scale to morally justify driving under a certain number of hours of steep.",
           "severity": "critical"
+        },
+        {
+          "categories": ["tissue_at_stake"],
+          "note": "All-nighters are toxic to learning. They corrode and undermine the very thing you're seeking to attain—consolidated, steepened conscientious knowledge and wisdom. The material you 'studied' during an all-nighter won't steep properly into long-term memory.",
+          "severity": "warning"
         }
       ],
       "etymology": "Metaphorical extension from tea steeping—the process of extraction and infusion over time. Reconceptualizes sleep as active processing rather than passive rest.",
@@ -282,7 +287,7 @@
       "intentionalityRating": 4,
       "dateAdded": "02025-12月26",
       "contributors": ["lifesaverlabs"],
-      "notes": "Part of Health and Wellness vocabulary. Reframes sleep as essential cognitive processing that cannot be skipped without consequences."
+      "notes": "**Part of Health and Wellness vocabulary.** Reframes sleep as essential cognitive processing that cannot be skipped without consequences.\n\n**The All-Nighter Problem:**\n\nPulling all-nighters in school is a violation of steep. Students need to understand how toxic all-nighters are: they corrode and undermine the very thing you're seeking to attain. Knowledge and wisdom require steepening—the overnight consolidation process that transfers learning from short-term to long-term memory.\n\n**Why Steep ≠ Sleep:**\n\nThe word 'sleep' suggests passive rest. 'Steep' emphasizes that your bodybrain is actively working overnight—consolidating memories, clearing metabolic waste, restoring cognitive function. Skipping steep doesn't just make you tired; it prevents the actual learning you were trying to achieve.\n\n**Teacher/Professor Responsibility:**\n\nTeachers and professors should help students plan ahead responsibly and avoid misplanning that causes all-nighters. This means explaining and estimating how long readings, projects, and other assignments will likely take, so students can reverse synthesize and budget their time.\n\n**Time Estimates (Rules of Thumb):**\n\n- **Well-researched, well-argued writing**: At least 3 hours per page. A 10-page paper is 30+ hours of work—that cannot be done the night before.\n- **Dense technical reading (mathematics, proof-based calculus)**: May take 10x or 20x as much time per page as reading great literature, given its density⁵ and the work it takes to grok and incorporate it into your body⁵ with exact detail. It takes a very long time to learn how to read and write calculus.\n- **Organic chemistry**: A professor eventually shared it would take 2 hours a day, every day, to master organic chemistry. That guidance was very helpful.\n- **Language learning (普通话 Pǔtōnghuà / Mandarin, etc.)**: Your teacher 老师 lǎoshī needs to tell you how many hours to spend each day, every day, as a clearly labeled course requirement.\n\n**Planning Failures → Steep Violations:**\n\nIf teachers don't give clear guidelines on calibrated time to absorb and practice every page and practice problem—better consolidated in established courses than student course surveys—it can cause student planning failures that turn into all-nighters or worse: course failures caused by preventable and reguidable planning errors. Bad planning compromises learning, grades (the secondary index), and steep.\n\n**Couples and Fatigue:**\n\nCouples can help each other with fatigue by distinguishing steep from sleep together. Recognizing when your partner needs steep (active cognitive restoration) versus just sleep (rest) enables better mutual care.\n\n**The Self-Defeating Cycle:**\n\nAll-nighters create a vicious cycle: you skip steep to study more, but the unsteeped material doesn't consolidate. So you feel like you need to study more, skip more steep, and the cycle worsens. The solution is to steep properly and trust the overnight consolidation process."
     },
     {
       "id": 20,
@@ -3011,6 +3016,103 @@
       "contributors": ["lifesaverlabs"],
       "isAdolescent": true,
       "notes": "**Scope and Limits:**\n\nSukkum applies ONLY to:\n- Negotiable acts (not toxic, not non-negotiable)\n- Nontoxic practices\n- Situations where embodied empathy is anatomically possible\n\nSukkum does NOT apply to:\n- Toxic or harmful practices—please don't ask at all\n- Non-negotiable boundaries—respect them absolutely\n- Anatomical gaps you can never experience yourself (e.g., life with an absent prostate, menstruation, pregnancy)—these require trust, communication, and care rather than the sukkum principle\n\n**Integration with FRIES Consent:**\n\nSukkum extends consent frameworks by adding embodied empathy as a prerequisite for certain asks. The FRIES model (Freely given, Reversible, Informed, Enthusiastic, Specific) remains foundational, but sukkum asks: has the requesting party truly understood through experience what they're asking?\n\n**The Golden Rule Applied:**\n\n'Do unto others as you would have them do unto you' becomes literal in the negotiable intimacy range. If you wouldn't experience it yourself, reconsider asking.\n\n**Herstory⁵ Considerations:**\n\nThis principle challenges historical asymmetries where certain acts were expected of one party without reciprocal understanding. Sukkum demands embodied empathy from all parties, regardless of historical power dynamics.\n\n**Biological/Biochemical Notes:**\n\nSome acts may have biochemical properties not fully appreciated without personal experience. The strangeness of first experience may serve species-survival functions—discouraging casual requests and ensuring asks come from genuine understanding rather than mere curiosity.\n\n**On the Negotiable Range:**\n\nThe negotiable range has hard anatomical constitutional limits. Every conceivable argument on these boundaries has already been conceived and argued heavily⁵. Once consolidated, these ranges will be fairly⁵ difficult to disturb convincingly⁵ to the well-informed, except possibly for major biotechnological changes we can't yet imagine."
+    },
+    {
+      "id": 159,
+      "term": "renovator",
+      "letter": "R",
+      "definitionStandard": "One who works within existing structures and communities to improve them, rather than attempting isolated 'innovation' from outside. Emphasizes that almost all meaningful change happens through incremental renovation within established systems, not through detached innovation. Preferred over 'innovator' because it acknowledges the importance of integration, community acceptance, and conservation of valuable existing structures.",
+      "definitionDialect": "One who works within existing struktures and kalmunities⁵ to improve them, rather than attempting isolated 'innovation' from outside. Emphasizes that almost all meaningful change happens thru inkremental renovation within established systems, not thru detached innovation. Preferred over 'innovator' bekause it acknowledges the importanse of integration, kalmunity⁵ akseptanse, and konservation of valuable existing struktures.",
+      "usageExamples": [
+        {
+          "context": "Discussing change within organizations",
+          "example": "She's a renovator, not an innovator—she gained access to the school board and worked within its structure to shift youth sports away from brain-damaging activities.",
+          "translation": "She worked within the existing system to create change rather than trying to disrupt from outside."
+        },
+        {
+          "context": "Career advice",
+          "example": "Stop identifying as an innovator. Site yourself in a kalmunity⁵ as a renovator—your ideas need the scaffolding of existing structures to actually get implemented.",
+          "translation": "Integrate into existing communities rather than positioning yourself as an outsider with novel ideas."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "The 'innovator vs renovator' distinction matters because renovation requires gaining acceptance in communities with strong needs for wise, prudent, careful conservation. Misidentifying as an innovator can create dining philosopher blockades and lost time navigating unnecessary resistance.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Latin renovare (to renew, restore). Proposed as replacement for 'innovator' to shift the locus of intellectual labor back to where it belongs—closer to and within the structures where change needs to happen.",
+      "pronunciation": "/ˈrenəˌveɪtər/",
+      "intentionalityRating": 4,
+      "dateAdded": "02026-01月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Why Renovator Over Innovator:**\n\nThe emphasis on 'innovation' as some type of 'out of nowhere, non-kalmunity⁵ / non-strukturally⁵-integrated' function is a wildly poor model of what kind of incremental and disruptive innovation actually happens and how. Almost all activity⁵ called 'innovation' is best done, and almost always needs to be done, within an existing structure or kalmunity⁵. That's renovation, not isolated innovation.\n\n**The Access Problem:**\n\nGaining access to structures where you can renovate is one of the hardest challenges facing renovators who come from outside. Being understood as a renovator rather than an innovator is important to finding acceptance in kalmunities with strong needs for wise, prudent, careful conservation of resources and existing structures.\n\n**Creative Destruction Context:**\n\nRenovation hypotheses sometimes require creative destructions, especially when there's a period of demolition—like when a sporting goods store considers carefully⁵ whether and how to renovate toward exclusively supporting brain-developing youth sports and not any brain-damaging youth sports for anyone younger than a Representative (25 years old).\n\n**The Author's Experience:**\n\nSo much time was lost trying to navigate 'innovator vs renovator' discussion and dining philosopher blockades. It's easy to mistake a renovator for a chaotic, isolated innovator, and it's easy to lose sight of how important it is to site yourself in a kalmunity⁵ and structure if you fall into identifying as an innovator instead of as a renovator.\n\n**Proposal:**\n\nRelabeling innovators, innovation awards, etc. as renovators and renovation awards and kalmpetitions would help shift the locus of intellectual labor back to where it belongs—closer to and within or adjoining the structures where change needs to happen, with launch sequences and adaptance models that involve anchoring into deeply real existing systems rather than theoretical, idealized customers and customizers."
+    },
+    {
+      "id": 160,
+      "term": "First Responder",
+      "letter": "F",
+      "definitionStandard": "In Blesséd Dialekt, a true first responder arrives to handle emergencies in 90 seconds or less. Anyone arriving after 90 seconds is a second responder. This redefines emergency response to recognize that neighbors are natural first responders—they can be near you nearly everywhere at all times. Professional EMTs, firefighters, and police typically arrive as second responders, bringing pro-level skills after the critical first 90 seconds.",
+      "definitionDialect": "In Blesséd Dialekt, a true first responder arrives to handle emergensies in 90 sekonds or less. Anyone arriving after 90 sekonds is a sekond responder. This redefines emergensy response to rekkognize that naybors are natural first responders—they kan be near you nearly everywhere at all times. Professional EMTs, firefighters, and polise typikally arrive as sekond responders, bringing pro-level skills after the kritikal first 90 sekonds.",
+      "usageExamples": [
+        {
+          "context": "Emergency response training",
+          "example": "Your naybor is your first responder. The EMT arriving in 8 minutes is your second responder—by then, in cardiac arrest, you may already be gone without first responder intervention.",
+          "translation": "Neighbors who can reach you in under 90 seconds are true first responders; professional help arriving later is second response."
+        },
+        {
+          "context": "Community safety planning",
+          "example": "We need to train more naybors as first responders. The fire department will always be second responders by the 90-second definition.",
+          "translation": "Community members need emergency training since professionals can't achieve first responder timing."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake"],
+          "note": "For fulminating, explosively time-sensitive problems—cardiac arrest, elderly falls, corpsers smoking—the 90-second window is critical. Professional responders typically cannot meet this threshold, making trained neighbors essential.",
+          "severity": "critical"
+        }
+      ],
+      "etymology": "Redefinition of American Standard 'first responder' by pinning response time to 90 seconds or less. Not a demotion of professional responders, but a recognition of temporal reality in emergencies.",
+      "pronunciation": "/fɜrst rɪˈspɑndər/",
+      "crossReferences": [55],
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The 90-Second Threshold:**\n\nWe're not demoting American Standard first responders to Blesséd Dialekt second responders. We're pinning response times to 90 seconds or less. If an EMT, fire, or police officer can arrive in under 90 seconds consistently, or from time to time, each time they do they'll achieve true first responder status on that call.\n\n**Naybors as Natural First Responders:**\n\nNaybors can be near you nearly everywhere you ever are at all times. Second responders bring pro-level skills to time-sensitive emergencies as soon as they can, but they can't get there fast enough for a large range of fulminating, explosively time-sensitive problems.\n\n**See Also:**\n\nNaybor SOS (https://www.nayborsos.org)\n\n**Future Vision:**\n\nSomeday we might live in a world where everyone spends a civil service year training, among other things, to some minimal level of calmpetency in civil rights officer (police) work and emergency medical support. Maybe then our first responder naybor will almost always be both a former civil rights officer academy⁵ trainee and a Basic Former EMT.\n\n**Civigious Implications:**\n\nIt's curious wondering what life would be like in such a world. It would be civigious in ways that would be very important to observe and study⁵. No country⁵ has ever attempted that to my knowledge directly, but many are going through or have gone through the lethal military⁵ training route."
+    },
+    {
+      "id": 161,
+      "term": "EMR²",
+      "letter": "E",
+      "definitionStandard": "Electronic Metabolic Record—the proposed next layer of health data beyond the Electronic Medical Record (EMR¹). EMR² incorporates exercise, diet/nutraceipt data, steep vs. sleep data, and other sensor inputs to enable comprehensive preventive medical support. Complements rather than replaces EMR¹.",
+      "definitionDialect": "Elektronik Metabolik Rekord—the proposed next layer of health data beyond the Elektronik Medikal Rekord (EMR¹). EMR² inkorporates exersise, diet/nutraceipt data, steep vs. sleep data, and other sensor inputs to enable kalmprehenive preventive medikal support. Kalmpements rather than replases EMR¹.",
+      "usageExamples": [
+        {
+          "context": "Healthcare technology discussion",
+          "example": "The EMR¹ tells your doctor what diseases you have. The EMR² tells them how you're living—your exercise, nutrition, and steep patterns that predict future health.",
+          "translation": "Medical records show illness; metabolic records show lifestyle factors that drive health outcomes."
+        },
+        {
+          "context": "Preventive medicine",
+          "example": "Until we have EMR², preventive medicine is flying blind. We need the metabolic data layer to truly intervene before disease develops.",
+          "translation": "Comprehensive prevention requires tracking lifestyle factors, not just medical events."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "context_required"],
+          "note": "EMR² data (exercise, diet, sleep) is essential for preventive health but raises privacy concerns. The framework should empower individuals to share metabolic data with care providers while maintaining control over this sensitive information.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "EMR (Electronic Medical Record) + ² (superscript 2, indicating second layer). The ² distinguishes the metabolic layer from the traditional medical record layer (EMR¹).",
+      "pronunciation": "/iː ɛm ɑr skwɛrd/ or /iː ɛm ɑr tuː/",
+      "intentionalityRating": 4,
+      "dateAdded": "02026-01月26",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Incomplete EMR¹:**\n\nThe electronic medical record (EMR¹) is still very incomplete. There's a lot of missing information that needs to have a chance to be incorporated into comprehensive preventive medical support.\n\n**What EMR² Includes:**\n\n- Exercise data (activity levels, workout patterns)\n- Diet / nutraceipt data (nutrition tracking)\n- Steep vs. sleep data (quality sleep monitoring)\n- Other sensor and data inputs (wearables, environmental factors)\n\n**Complementary Layers:**\n\nEMR² is designed to complement and flesh out the existing Electronic Medical Record (EMR¹), not replace it. The two layers together provide a more complete picture of health—both medical events (EMR¹) and lifestyle factors (EMR²) that drive those events."
     }
   ]
 }
