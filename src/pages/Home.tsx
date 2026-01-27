@@ -6,7 +6,9 @@ import { getEntriesByDate, getPhrases } from "@/data/loader";
 import { useDialect } from "@/contexts/DialectContext";
 
 const Home = () => {
-  const latestEntries = getEntriesByDate(10);
+  // Filter out adolescent entries from Latest Additions on the main page
+  const allLatestEntries = getEntriesByDate(20); // Get more to account for filtered ones
+  const latestEntries = allLatestEntries.filter(entry => !entry.isAdolescent).slice(0, 10);
   const phraseIds = new Set(getPhrases().map((p) => p.id));
   const isPhrase = (id: number) => phraseIds.has(id);
   const { dialectMode } = useDialect();
