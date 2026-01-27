@@ -21,11 +21,11 @@ The dictionary schema now supports both American Standard and Blesséd Dialekt d
 
 Note: Original concern about self-referentiality has been addressed through the dual-definition system. Each entry can now provide clarity in both American Standard (for bootstrapping) and Blesséd Dialekt (for integrated usage).
 
-✅ KB (knowledge base ⇌ keyboard schema lock) - **COMPLETED 02024-12月12**: Keyboard Layout (KB) system implemented with versioning, known issues tracking, and integration with Knowledge Base. See [DICTIONARY_SYSTEM.md - Keyboard Layouts section](../DICTIONARY_SYSTEM.md#keyboard-layouts-kb-system)
+✅ KB (knowledge base ⇌ keyboard schema lock) - **COMPLETED 02025-12月12**: Keyboard Layout (KB) system implemented with versioning, known issues tracking, and integration with Knowledge Base. See [DICTIONARY_SYSTEM.md - Keyboard Layouts section](../DICTIONARY_SYSTEM.md#keyboard-layouts-kb-system)
 
-✅ Long Now Years: 02025 instead of 2025 - **COMPLETED 02024-12月12**: Implemented as standard date format throughout the system. See [PROMPT.md - Date Format Convention](../PROMPT.md)
+✅ Long Now Years: 02025 instead of 2025 - **COMPLETED 02025-12月12**: Implemented as standard date format throughout the system. See [PROMPT.md - Date Format Convention](../PROMPT.md)
 
-✅ Unambiguous dates (YYYYY-MM月DD format) - **COMPLETED 02024-12月12**: Adopted as standard format with 月 character for unambiguous month designation. Big-endian ordering for sortability. See [PROMPT.md](../PROMPT.md)
+✅ Unambiguous dates (YYYYY-MM月DD format) - **COMPLETED 02025-12月12**: Adopted as standard format with 月 character for unambiguous month designation. Big-endian ordering for sortability. See [PROMPT.md](../PROMPT.md)
 
 ✅ **COMPLETED 02025-12月26**: Added 26 entries to Digital Diktionary⁵!
 Semmelspan Kompleks (Semmelspan, Heedlag, Warnklok, Knowdebt, Translait), steep, hiits, devotions, kore, µdowry, krystallization, architexture, Freadom, Re:ward, Ackselerate, ackceptance, Kohlberging, Body⁵brain, Good better best, Calment line, Færtility⁵, Hæring, Flag sentinel, Speakers for the Dead, reverse synth, Highering humans.
