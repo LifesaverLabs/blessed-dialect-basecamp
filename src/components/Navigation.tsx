@@ -1,6 +1,6 @@
 import { NavLink } from "@/components/NavLink";
 import { DialectToggle } from "@/components/DialectToggle";
-import { BookOpen, MessageSquare, Info } from "lucide-react";
+import { BookOpen, MessageSquare, Info, Keyboard } from "lucide-react";
 
 export const Navigation = () => {
   return (
@@ -36,6 +36,15 @@ export const Navigation = () => {
               >
                 <MessageSquare className="w-4 h-4" />
                 <span>Forum</span>
+              </NavLink>
+
+              <NavLink
+                to="/kb"
+                className="flex items-center gap-2 text-foreground/70 hover:text-foreground transition-colors"
+                activeClassName="text-primary font-medium"
+              >
+                <Keyboard className="w-4 h-4" />
+                <span>KB</span>
               </NavLink>
 
               <NavLink
