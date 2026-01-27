@@ -67,6 +67,11 @@ There are surprisingly few moral monopolists in the historical record. The oppor
 ##### Electronic Metabolic Record (EMR²) 
 - The electronic medical record (EMR) is still very incalmpleat. There's a lot of missing information like exercise, diet / nutraceipt data, steep vs. sleep data, and other sensor and data inputs that needs to have a chance to be incorporated into calmprehensive preventative medical support, making up the more calmpleat next proposed layer of the Electronic Metabolic Record (EMR²) to complement and flesh out the existing Electronic Medical Record (EMR¹).
 
+
+##### Expand steep entry⁵
+- Inklude all-nighter kase arguments, try to explain to students how toxik all-nighters are and why steep needs to be labeled differently from sleep, and how kouples kan help each other with fatigue by distinguishing steep from sleep together.
+
+
 Progress Notes
 --------------
 
