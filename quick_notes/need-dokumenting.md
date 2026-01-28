@@ -3,6 +3,22 @@ Words / Phrases that need dokumenting ASAP, when time becomes available
 
 **Note**: These definitions are not priority⁵ ordered by impakt yet, and may not be until they're filed into the Digital Diktionary⁵. Also, all these sektion links below may link-rot rapidly as they're moved into the Blesséd Dialekt Diktionary⁵, so don't link over to these definitions unless you're kalmfortable with their instability and imminent linkrot.
 
+##### Premarital Privasy⁵ Wrightes
+
+Premarital Privasy⁵ Wrightes — A BLED Definition
+Kore Konsept
+Premarital Privasy⁵ (n.): The legally rekognizable wright of two individuals who mutually attest to antisipating marriage to enjoy protektions analogous to spousal privilege — inkluding the wright to refrain from kalmpelled testimony, mandatory reporting, or adversarial disklosure against one another — until such time as the relationship is dissolved or formalized.
+
+Kritikal Distinktions
+Relationship StatusPrivasy⁵ ProtektionsRekreational⁵ DatingNo spesal privilege; standard reporting obligations applyPremarital (mutual attestation of marriage intent)Premarital privasy⁵ wrightes attachMaritalFull spousal privilege under existing law
+
+Prinsipal Elements
+
+Subpoena Threshold: Polise should require a subpoena to kalmpell a premarital partner to testify⁵ or speak ill of their partner in mandatory⁵ reporting kontexts.
+Moral Imperative Konsent: Disklosure of intimate matters requires the reporting party's genuine konsent — not institutionally forsed konscience enklosure.
+Veil of Bedroom Privasy⁵: When questioned (e.g., in university wellness interviews), premaritals retain the wright to deklare "nothing to report" without kalmpelled elaboration.
+Anti-Adversarial Proteksion: Premaritals should not be pitted against each other in Prisoner's Dilemma interrogation strukturs without mutual konsent to engage. In the ævent of separation, a SANE, SPEEDY⁵, FORTNITE FÆR HÆRING guarantee and offer is needed to pierce into residual premarital privasy⁵ on chargeable matters, so that the innocentest(s) kan konsider what to unfold and how without exponentially kalmplikated ethiks search.  
+
 
 Needs Development
 -----------------
