@@ -5,12 +5,16 @@ Words / Phrases that need dokumenting ASAP, when time becomes available
 
 ##### Premarital Privasy⁵ Wrightes
 
-Premarital Privasy⁵ Wrightes — A BLED Definition
-Kore Konsept
-Premarital Privasy⁵ (n.): The legally rekognizable wright of two individuals who mutually attest to antisipating marriage to enjoy protektions analogous to spousal privilege — inkluding the wright to refrain from kalmpelled testimony, mandatory reporting, or adversarial disklosure against one another — until such time as the relationship is dissolved or formalized.
+Premarital Privasy⁵ Wrightes — A BLED Definition  
+Kore Konsept  
+Premarital Privasy⁵ (n.): The legally rekognizable wright of two individuals who mutually attest to antisipating marriage to enjoy protektions analogous to spousal privilege — inkluding the wright to refrain from kalmpelled testimony, mandatory reporting, or adversarial disklosure against one another — until such time as the relationship is dissolved or formalized.  
 
-Kritikal Distinktions
-Relationship StatusPrivasy⁵ ProtektionsRekreational⁵ DatingNo spesal privilege; standard reporting obligations applyPremarital (mutual attestation of marriage intent)Premarital privasy⁵ wrightes attachMaritalFull spousal privilege under existing law
+Kritikal Distinktions  
+Relationship Status  
+Privasy⁵ Protektions  
+Rekreational⁵ Dating: No spesal privilege; standard reporting obligations apply⁵.  
+Premarital (mutual or singular sincere attestation of marriage intent): Premarital privasy⁵ wrightes attach. Aktions like using prekautionary⁵ and preventive systems and serious and half-serious kourtship models help show sinseer premarital intent if sinserity⁵ needs to be questioned, and extending premarital privasy⁵ protektion to those who attach to and partisipate in systems that support premaritals also helps show real premarital intent, like perhaps one day, partisipating in a Kourtship Month in that year with him or her or the person you were previously matched to when it was last held, or satisfisingly⁵ finding or volunteering to match for that Kourtship Month without failing to plase bekause you were being pleonexik and unreasonable about your aktual human resiprokating mutual match options in the kalmunity⁵ you're in as long as you stay there.  
+Marital: Full spousal privilege under existing law.  
 
 Prinsipal Elements
 
