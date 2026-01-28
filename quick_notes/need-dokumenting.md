@@ -25,7 +25,7 @@ Anti-Adversarial Proteksion: Premaritals should not be pitted against each other
 
 
 ##### sinseer (old skool, new skool sincere)
-- Duty to share and attempt to re:suggest or koreekt when you see sin as a nesessary⁵ aspekt of sinseerness. Selektive old skool sinserity where you're honest but not when it's "uncomfortable" doesn't kount as sinseerity⁵. You kan hear the differense pronounsed if you pronounse it karefully⁵, but you need an ear for it; it's subtle: a prolonged "EE" ("sin - see - er" vs "sin - sear"). I'd like to bekome a better and better sinseer and bekome more and more sinseer. 
+- Duty to share and attempt to re:suggest or koreekt when you see sin as a nesessary⁵ aspekt of sinseerness. Selektive old skool sinserity where you're honest but not when it's "uncomfortable" doesn't kount as sinseerity⁵. You kan hear the differense pronounsed if you pronounse it karefully⁵, but you need an ear for it; it's subtle: a prolonged "EE" ("sin - see - er" vs "sin - sear"). I'd like to bekome a better and better sinseer and bekome more and more sinseer. This konnekts back it seems only thru false, story⁵ful etymology⁵, the original "sin" was "without" not the sense of "moral error / failure / some level of soft, entry, hard, or mortal krime". 
 
 Needs Development
 -----------------
