@@ -1,4 +1,4 @@
-Words / Phrases that need documenting ASAP, when time becomes available
+Words / Phrases that need dokumenting ASAP, when time becomes available
 ========================================================================
 
 **Note**: These definitions are not priority⁵ ordered by impakt yet, and may not be until they're filed into the Digital Diktionary⁵. Also, all these sektion links below may link-rot rapidly as they're moved into the Blesséd Dialekt Diktionary⁵, so don't link over to these definitions unless you're kalmfortable with their instability and imminent linkrot.
@@ -9,11 +9,14 @@ Needs Development
 - Newsletter and alerts for valuable languistic harm reductions that get proposed and adopted; it's not functional to expect people to keep polling to check the dictionary⁵; it should push out to them if they subscribe to languistic change
 - Develop a "See also" if it doesn't exist yet. I think there's a "reference" model in place, check if that meets needs and is included in word and phrase entry scripts.
 
+##### shiftéd
+- When your shift is such that your capitoal and activity⁵ choices make a different kind of sense, either shiftéd out of nesessity⁵ or shiftèd out of dysregulations. As an example, if you're ordering caffeine coffee at a café after, say, 1800 lokal, and you're on typikal steep skedules, that's not that prudent or wise of a health choice for the vast, vast majority of us the vast majority⁵ of time.  Selling coffee to someone without asking if they're shiftéd after 1800 lokal doesn't seem like a wise capitoal choice for a calmunity⁵ café; you kan hint, tip, nudge, and even noodge them toward herbal tea or other drinks that aren't kaffeinated. But if you ask, "Are you shiftéd?", and they say yes, then sell them kaffeine karingly⁵, knowing they need to stay up thru a sykle of the day that others are koördinating (in typikal human kalmunities) to be almost all asteep. I feel so guilty⁵ even now for walking into konvenience stores, repeatedly, in Shanghai staffed by naybors who kouldn't get any steep, pushed to the breaking point by their labor kontrakts, dozing between store entries, trying to support the shiftéd with the help of shiftèds in a sity⁵ that, at least at that time, hardly ever fully⁵ slept but at the expense of their own sleep, let alone their steep. The dyskoredinated konvenience store staffing system was so hard to aksept as just, but my habits were hard to change to _not_ walk in and buy something when I was hungry or needed something impulsively on the _unknown risk_ of waking a kousin and naybor up from hard-to-survive survival sleep. If I kould, I would have kapitoaled all those transaktions with a downvote knowing them to be poor kalmunity⁵ choices at the time from the moment I saw someone awake from the entering bell behind the kounter, but by that time it was too late to back out, and so the system of shiftèds being konscripted to support shiftéds and other shiftèds without, often, true and real upvoted meaningful need kontinued.
+
 
 Progress Notes
 --------------
 
-✅ **COMPLETED 02024-12月12**: Dual definition system implemented!
+✅ **COMPLETED 02025-12月12**: Dual definition system implemented!
 The dictionary schema now supports both American Standard and Blesséd Dialekt definitions side-by-side (Rosetta Stone approach), plus usage examples and harm reduction notes. See:
 - [SCHEMA_EXPANSION_SUMMARY.md](../SCHEMA_EXPANSION_SUMMARY.md)
 - [MIGRATION_GUIDE.md](../MIGRATION_GUIDE.md)
@@ -21,11 +24,11 @@ The dictionary schema now supports both American Standard and Blesséd Dialekt d
 
 Note: Original concern about self-referentiality has been addressed through the dual-definition system. Each entry can now provide clarity in both American Standard (for bootstrapping) and Blesséd Dialekt (for integrated usage).
 
-✅ KB (knowledge base ⇌ keyboard schema lock) - **COMPLETED 02024-12月12**: Keyboard Layout (KB) system implemented with versioning, known issues tracking, and integration with Knowledge Base. See [DICTIONARY_SYSTEM.md - Keyboard Layouts section](../DICTIONARY_SYSTEM.md#keyboard-layouts-kb-system)
+✅ KB (knowledge base ⇌ keyboard schema lock) - **COMPLETED 02025-12月12**: Keyboard Layout (KB) system implemented with versioning, known issues tracking, and integration with Knowledge Base. See [DICTIONARY_SYSTEM.md - Keyboard Layouts section](../DICTIONARY_SYSTEM.md#keyboard-layouts-kb-system)
 
-✅ Long Now Years: 02025 instead of 2025 - **COMPLETED 02024-12月12**: Implemented as standard date format throughout the system. See [PROMPT.md - Date Format Convention](../PROMPT.md)
+✅ Long Now Years: 02025 instead of 2025 - **COMPLETED 02025-12月12**: Implemented as standard date format throughout the system. See [PROMPT.md - Date Format Convention](../PROMPT.md)
 
-✅ Unambiguous dates (YYYYY-MM月DD format) - **COMPLETED 02024-12月12**: Adopted as standard format with 月 character for unambiguous month designation. Big-endian ordering for sortability. See [PROMPT.md](../PROMPT.md)
+✅ Unambiguous dates (YYYYY-MM月DD format) - **COMPLETED 02025-12月12**: Adopted as standard format with 月 character for unambiguous month designation. Big-endian ordering for sortability. See [PROMPT.md](../PROMPT.md)
 
 ✅ **COMPLETED 02025-12月26**: Added 26 entries to Digital Diktionary⁵!
 Semmelspan Kompleks (Semmelspan, Heedlag, Warnklok, Knowdebt, Translait), steep, hiits, devotions, kore, µdowry, krystallization, architexture, Freadom, Re:ward, Ackselerate, ackceptance, Kohlberging, Body⁵brain, Good better best, Calment line, Færtility⁵, Hæring, Flag sentinel, Speakers for the Dead, reverse synth, Highering humans.
@@ -59,3 +62,7 @@ Changed age verification from 14 to 10 to align with puberty timing and protect 
 
 ✅ **COMPLETED 02026-01月26**: Added CALM KB keyboard layout!
 Added the CALM KB Path Finder v0.05βrc1 keyboard layout file to public/keyboard-layouts/ for download. Updated keyboard-layouts.json with proper metadata, macOS installation instructions, and known issues.
+
+✅ **COMPLETED 02026-01月28**: Added KB page and capitoal entry!
+**KB Page**: Created dedicated /kb page with Keyboard ⇌ Knowledge Base philosophy, download links, installation instructions, and contribution info.
+**Word added (ID 163)**: capitoal / capitoalism⁵—economic-political framework recognizing that capital accumulation constitutes Capitol-level governance; commercial trans-actions⁵ as legislative acts.

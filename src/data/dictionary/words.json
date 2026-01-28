@@ -3113,6 +3113,49 @@
       "dateAdded": "02026-01月26",
       "contributors": ["lifesaverlabs"],
       "notes": "**The Incomplete EMR¹:**\n\nThe electronic medical record (EMR¹) is still very incomplete. There's a lot of missing information that needs to have a chance to be incorporated into comprehensive preventive medical support.\n\n**What EMR² Includes:**\n\n- Exercise data (activity levels, workout patterns)\n- Diet / nutraceipt data (nutrition tracking)\n- Steep vs. sleep data (quality sleep monitoring)\n- Other sensor and data inputs (wearables, environmental factors)\n\n**Complementary Layers:**\n\nEMR² is designed to complement and flesh out the existing Electronic Medical Record (EMR¹), not replace it. The two layers together provide a more complete picture of health—both medical events (EMR¹) and lifestyle factors (EMR²) that drive those events."
+    },
+    {
+      "id": 163,
+      "term": "capitoal / capitoalism⁵",
+      "letter": "C",
+      "definitionStandard": "An economic-political framework recognizing that the accumulation and deployment of capital constitutes Capitol-level governance; the philosophy that commercial transactions are legislative acts, and that the aggregate of market choices forms a continuous legislature more powerful than any formal governing body.",
+      "definitionDialect": "An ekonomik-politikal framework rekognizing that the akumulation and deployment of capital konstitutes Capitol-level governanse; the philosophy that kommercial trans-actions⁵ are legislative akts, and that the aggregate of market choices forms a kontinuous legislature more powerful than any formal governing body.",
+      "usageExamples": [
+        {
+          "context": "Economic philosophy discussion",
+          "example": "We speak of 'capital' and 'Capitol' as if they're unrelated—one the stuff of kommerce, the other the seat of governanse. But they're the same sound, and that homophony whispers a truth we rarely voice aloud.",
+          "translation": "The identical pronunciation of capital (wealth) and Capitol (legislature) reveals their functional unity in governance."
+        },
+        {
+          "context": "Consumer behavior as voting",
+          "example": "Every dollar you spend is a bill you pass. Every purchase, a policy. Kongress meets occasionally; the market konvenes kontinuously.",
+          "translation": "Consumer spending decisions function as continuous legislative votes, more frequent than formal democratic processes."
+        },
+        {
+          "context": "Distinguishing market participants",
+          "example": "Capitoalism rekognizes that 'kustomers' vote to preserve, while 'kustomizers' vote to kreate and destroy—we are all, daily, legislators of the world we inhabit.",
+          "translation": "Customers (preservers) and customizers (creators/destroyers) exercise different forms of market-based legislative power."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Capitoalism is a descriptive framework for understanding how economic activity functions as governance, not an endorsement of unregulated markets. The recognition that 'your spending is your voting' applies regardless of whether one views this as desirable.",
+          "severity": "info"
+        },
+        {
+          "categories": ["power_dynamics"],
+          "note": "Understanding capitoalism reveals both the power of collective consumer action and the asymmetry between those with more capital (more votes) and those with less. Currency⁵ reform could make this trans-actional voting more expressive and equitable.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From capital (wealth, resources) + Capitol (seat of legislature), exploiting the homophony to reveal their functional unity. The spelling capitoal- preserves both roots visibly.",
+      "pronunciation": "/ˌkæp.ɪˈtoʊ.əl.ɪz.əm/",
+      "crossReferences": [83],
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Homophonic Revelation:**\n\nCapital and Capitol are pronounced identically in American English. This is not coincidence—it reflects the deep truth that wealth accumulation and formal governance are functionally equivalent systems of power. Capitoalism makes this explicit.\n\n**Continuous Legislature:**\n\nCongress meets occasionally; the market convenes continuously. Every purchase is a policy vote. The aggregate of these trans-actions⁵ constitutes a legislature more powerful and more constant than any formal governing body.\n\n**Kustomers vs Kustomizers:**\n\nCapitoalism distinguishes between kustomers (who vote to preserve existing products, services, and systems) and kustomizers (who vote to create and destroy—demanding innovation, disruption, and change). Both exercise legislative power through their economic choices.\n\n**Currency⁵ Reform Potential:**\n\nWith currency⁵ reform, this trans-actional voting could become even more expressive—imagine a dynamic POS currency symbol that acts as an explicit, meaningful vote strengthener when you're pleased with how a transaction builds, rebuilds, and preserves the world. Let the signal stay strong.\n\n**See Also:**\n\ntrans-action⁵, kustomizer⁵, kustomer⁵, CALM⁵, CALM⁵UNism (the serious and super-meaningful offramp joke)"
     }
   ]
 }
