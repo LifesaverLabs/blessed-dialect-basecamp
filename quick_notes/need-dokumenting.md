@@ -24,6 +24,9 @@ Veil of Bedroom Privasy⁵: When questioned (e.g., in university wellness interv
 Anti-Adversarial Proteksion: Premaritals should not be pitted against each other in Prisoner's Dilemma interrogation strukturs without mutual konsent to engage. In the ævent of separation, a SANE, SPEEDY⁵, FORTNITE FÆR HÆRING guarantee and offer is needed to pierce into residual premarital privasy⁵ on chargeable matters, so that the innocentest(s) kan konsider what to unfold and how without exponentially kalmplikated ethiks search.  
 
 
+##### sinseer (old skool, new skool sincere)
+- Duty to share and attempt to re:suggest or koreekt when you see sin as a nesessary⁵ aspekt of sinseerness. Selektive old skool sinserity where you're honest but not when it's "uncomfortable" doesn't kount as sinseerity⁵. You kan hear the differense pronounsed if you pronounse it karefully⁵, but you need an ear for it; it's subtle: a prolonged "EE" ("sin - see - er" vs "sin - sear"). I'd like to bekome a better and better sinseer and bekome more and more sinseer. 
+
 Needs Development
 -----------------
 - Newsletter and alerts for valuable languistic harm reductions that get proposed and adopted; it's not functional to expect people to keep polling to check the dictionary⁵; it should push out to them if they subscribe to languistic change
