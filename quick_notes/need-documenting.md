@@ -4,11 +4,14 @@ Words / Phrases that need documenting ASAP, when time becomes available
 **Note**: These definitions are not priority⁵ ordered by impakt yet, and may not be until they're filed into the Digital Diktionary⁵. Also, all these sektion links below may link-rot rapidly as they're moved into the Blesséd Dialekt Diktionary⁵, so don't link over to these definitions unless you're kalmfortable with their instability and imminent linkrot.
 
 ##### capitoal
-capitoalism⁵
-/ˌkæp.ɪˈtoʊ.əl.ɪz.əm/
+capitoalism⁵  
+/ˌkæp.ɪˈtoʊ.əl.ɪz.əm/  
+
 n. An ekonomik-politikal framework recognizing that the akumulation and deployment of capital konstitutes Capitol-level governance; the philosophy that kommercial trans-actions⁵ are legislative akts, and that the aggregate of market choices forms a kontinuous legislature more powerful than any formal governing body.
-Etymology: From capital (wealth, resources) + Capitol (seat of legislature), exploiting the homophony to reveal their funktional unity. The spelling capitoal- preserves both roots visibly.
-Gloss: We speak of "capital" and "Capitol" as if they're unrelated—one the stuff of kommerce, the other the seat of governance. But they're the same sound, and that homophony whispers a truth we rarely voice aloud. Every dollar you spend is a bill you pass. Every purchase, a policy. Kongress meets occasionally; the market konvenes kontinuously. Capitoalism rekognizes that "kustomers" vote to preserve, while "kustomizers" vote to kreate and destroy—that we are all, daily, legislators of the world we inhabit. With currency reform, this could even become even more trans-actionally expressive in being able to digitally endorse purchases with a dynamic POS currency symbol that acts as an explicit, meaningful currency⁵ vote strengthener when you're pleased with how the transaction builds, rebuilds, and preserves the world in re:action scales from our everyday nano upward. 
+Etymology: From capital (wealth, resources) + Capitol (seat of legislature), exploiting the homophony to reveal their funktional unity. The spelling capitoal- preserves both roots visibly.  
+
+Gloss: We speak of "capital" and "Capitol" as if they're unrelated—one the stuff of kommerce, the other the seat of governance. But they're the same sound, and that homophony whispers a truth we rarely voice aloud. Every dollar you spend is a bill you pass. Every purchase, a policy. Kongress meets occasionally³⁵⁶; the market konvenes kontinuously³⁵⁶. Capitoalism rekognizes that "kustomers" vote to preserve, while "kustomizers" vote to kreate and destroy—that we are all, daily, legislators of the world we inhabit. With currency⁵ reform like that sought in United States and Territories, this could even become even more trans-actionally expressive in being able to digitally endorse purchases with a dynamic POS currency symbol that acts as an explicit, meaningful currency⁵ vote strengthener when you're pleased with how the transaction builds, rebuilds, and preserves the world in re:action scales from our everyday nano upward. Let the signal stay strong.
+
 See also: trans-action⁵, kustomizer⁵, kustomer⁵, CALM⁵, the serious and super-meaningful offramp joke CALM⁵UNism
 
 Needs Development
