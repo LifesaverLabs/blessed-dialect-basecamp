@@ -1,23 +1,16 @@
-Words / Phrases that need documenting ASAP, when time becomes available
+Words / Phrases that need dokumenting ASAP, when time becomes available
 ========================================================================
 
 **Note**: These definitions are not priority⁵ ordered by impakt yet, and may not be until they're filed into the Digital Diktionary⁵. Also, all these sektion links below may link-rot rapidly as they're moved into the Blesséd Dialekt Diktionary⁵, so don't link over to these definitions unless you're kalmfortable with their instability and imminent linkrot.
 
-##### capitoal
-capitoalism⁵  
-/ˌkæp.ɪˈtoʊ.əl.ɪz.əm/  
-
-n. An ekonomik-politikal framework recognizing that the akumulation and deployment of capital konstitutes Capitol-level governance; the philosophy that kommercial trans-actions⁵ are legislative akts, and that the aggregate of market choices forms a kontinuous legislature more powerful than any formal governing body.
-Etymology: From capital (wealth, resources) + Capitol (seat of legislature), exploiting the homophony to reveal their funktional unity. The spelling capitoal- preserves both roots visibly.  
-
-Gloss: We speak of "capital" and "Capitol" as if they're unrelated—one the stuff of kommerce, the other the seat of governance. But they're the same sound, and that homophony whispers a truth we rarely voice aloud. Every dollar you spend is a bill you pass. Every purchase, a policy. Kongress meets occasionally³⁵⁶; the market konvenes kontinuously³⁵⁶. Capitoalism rekognizes that "kustomers" vote to preserve, while "kustomizers" vote to kreate and destroy—that we are all, daily, legislators of the world we inhabit. With currency⁵ reform like that sought in United States and Territories, this could even become even more trans-actionally expressive in being able to digitally endorse purchases with a dynamic POS currency symbol that acts as an explicit, meaningful currency⁵ vote strengthener when you're pleased with how the transaction builds, rebuilds, and preserves the world in re:action scales from our everyday nano upward. Let the signal stay strong.
-
-See also: trans-action⁵, kustomizer⁵, kustomer⁵, CALM⁵, the serious and super-meaningful offramp joke CALM⁵UNism
 
 Needs Development
 -----------------
 - Newsletter and alerts for valuable languistic harm reductions that get proposed and adopted; it's not functional to expect people to keep polling to check the dictionary⁵; it should push out to them if they subscribe to languistic change
 - Develop a "See also" if it doesn't exist yet. I think there's a "reference" model in place, check if that meets needs and is included in word and phrase entry scripts.
+
+##### shiftéd
+- When your shift is such that your capitoal and activity⁵ choices make a different kind of sense, either shiftéd out of nesessity⁵ or shiftèd out of dysregulations. As an example, if you're ordering caffeine coffee at a café after, say, 1800 lokal, and you're on typikal steep skedules, that's not that prudent or wise of a health choice for the vast, vast majority of us the vast majority⁵ of time.  Selling coffee to someone without asking if they're shiftéd after 1800 lokal doesn't seem like a wise capitoal choice for a calmunity⁵ café; you kan hint, tip, nudge, and even noodge them toward herbal tea or other drinks that aren't kaffeinated. But if you ask, "Are you shiftéd?", and they say yes, then sell them kaffeine karingly⁵, knowing they need to stay up thru a sykle of the day that others are koördinating (in typikal human kalmunities) to be almost all asteep. I feel so guilty⁵ even now for walking into konvenience stores, repeatedly, in Shanghai staffed by naybors who kouldn't get any steep, pushed to the breaking point by their labor kontrakts, dozing between store entries, trying to support the shiftéd with the help of shiftèds in a sity⁵ that, at least at that time, hardly ever fully⁵ slept but at the expense of their own sleep, let alone their steep. The dyskoredinated konvenience store staffing system was so hard to aksept as just, but my habits were hard to change to _not_ walk in and buy something when I was hungry or needed something impulsively on the _unknown risk_ of waking a kousin and naybor up from hard-to-survive survival sleep. If I kould, I would have kapitoaled all those transaktions with a downvote knowing them to be poor kalmunity⁵ choices at the time from the moment I saw someone awake from the entering bell behind the kounter, but by that time it was too late to back out, and so the system of shiftèds being konscripted to support shiftéds and other shiftèds without, often, true and real upvoted meaningful need kontinued.
 
 
 Progress Notes
@@ -69,3 +62,7 @@ Changed age verification from 14 to 10 to align with puberty timing and protect 
 
 ✅ **COMPLETED 02026-01月26**: Added CALM KB keyboard layout!
 Added the CALM KB Path Finder v0.05βrc1 keyboard layout file to public/keyboard-layouts/ for download. Updated keyboard-layouts.json with proper metadata, macOS installation instructions, and known issues.
+
+✅ **COMPLETED 02026-01月28**: Added KB page and capitoal entry!
+**KB Page**: Created dedicated /kb page with Keyboard ⇌ Knowledge Base philosophy, download links, installation instructions, and contribution info.
+**Word added (ID 163)**: capitoal / capitoalism⁵—economic-political framework recognizing that capital accumulation constitutes Capitol-level governance; commercial trans-actions⁵ as legislative acts.
