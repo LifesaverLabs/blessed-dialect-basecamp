@@ -3156,6 +3156,80 @@
       "dateAdded": "02026-01月28",
       "contributors": ["lifesaverlabs"],
       "notes": "**The Homophonic Revelation:**\n\nCapital and Capitol are pronounced identically in American English. This is not coincidence—it reflects the deep truth that wealth accumulation and formal governance are functionally equivalent systems of power. Capitoalism makes this explicit.\n\n**Continuous Legislature:**\n\nCongress meets occasionally; the market convenes continuously. Every purchase is a policy vote. The aggregate of these trans-actions⁵ constitutes a legislature more powerful and more constant than any formal governing body.\n\n**Kustomers vs Kustomizers:**\n\nCapitoalism distinguishes between kustomers (who vote to preserve existing products, services, and systems) and kustomizers (who vote to create and destroy—demanding innovation, disruption, and change). Both exercise legislative power through their economic choices.\n\n**Currency⁵ Reform Potential:**\n\nWith currency⁵ reform, this trans-actional voting could become even more expressive—imagine a dynamic POS currency symbol that acts as an explicit, meaningful vote strengthener when you're pleased with how a transaction builds, rebuilds, and preserves the world. Let the signal stay strong.\n\n**See Also:**\n\ntrans-action⁵, kustomizer⁵, kustomer⁵, CALM⁵, CALM⁵UNism (the serious and super-meaningful offramp joke)"
+    },
+    {
+      "id": 164,
+      "term": "y⁵ (thoughtfulness ranges)",
+      "letter": "Y",
+      "definitionStandard": "The spectrum of deliberation appropriate to different situations, indicated by superscript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep philosophizing; kalmunity²³⁴ operates on established authority. Sometimes final justifications¹ are nonarguable. The appropriate thoughtfulness range depends on what's at stake and how much time is available for deliberation.",
+      "definitionDialect": "The spektrum of deliberation appropriate to different situations, indikated by superskript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep filosofizing; kalmunity²³⁴ operates on established authority²³⁴. Sometimes final justifikations¹ are nonarguable. The appropriate thortfulness range depends on what's at stake and how much time is available for deliberation.",
+      "usageExamples": [
+        {
+          "context": "Decision-making",
+          "example": "This is a thoughtfulness⁴⁵ decision—take time to philosophize before acting.",
+          "translation": "Some decisions warrant deep deliberation."
+        },
+        {
+          "context": "Emergency response",
+          "example": "In emergencies, thoughtfulness¹² is enough—act on established protocols.",
+          "translation": "Not all situations allow or require deep philosophizing."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Applying high thoughtfulness ranges (⁴⁵) to situations requiring quick action can be harmful. Applying low ranges (¹²) to situations deserving deliberation can also cause harm. Match the range to the context.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Thoughtfulness (quality of careful consideration) + ranges (spectrum of levels). The numeric superscripts provide shorthand for expected deliberation depth. The 'y' particle represents 'why'—the depth of questioning.",
+      "pronunciation": "/waɪ faɪv/ or /ˈθɔtfəlnəs reɪndʒɪz/",
+      "intentionalityRating": 4,
+      "dateAdded": "02026-01月23",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Scale:**\n\n- **¹**: Final, nonarguable—act on established principle\n- **²³**: Working authority—defer to expertise/tradition\n- **³⁴**: Considered—deliberate but trust precedent\n- **⁴⁵**: Deep philosophizing—question foundations\n- **⁵**: Maximum intentionality—examine everything\n\n**When to Use Which:**\n\nShort-acting needs often require lower thoughtfulness ranges. Life-changing decisions warrant higher ranges. The art is matching the range to the situation.\n\n**The y⁵ Particle:**\n\nThe 'y' in y⁵ represents 'why'—the depth of questioning appropriate to a situation. y⁵ means 'ask why five times' (deep philosophizing); y¹ means 'don't ask why, just act on established principle.'"
+    },
+    {
+      "id": 165,
+      "term": "haidtening",
+      "letter": "H",
+      "definitionStandard": "The process of consciously engaging with Moral Foundations Theory dimensions in conversation, reasoning, or conflict resolution. To haidten a discussion is to explicitly identify and bridge the moral foundations at play—Care, Loyalty, Authority, Purity, Equality, and Proportionality—especially when participants are operating from different moral axes.",
+      "definitionDialect": "The proses of konsciously engaging with Moral Foundations Theory⁵ dimensions in konversation, reasoning, or konflikt resolution. To haidten a diskussion is to explistitly identify and bridge the moral foundations at play—Kare, Loyalty, Authority, Purity⁵, Equality, and Proportionality⁵—espesially when partisipants are operating from different moral axes.",
+      "usageExamples": [
+        {
+          "context": "Relationship conflict",
+          "example": "She kares about purity⁵ and he kares most about kare—without haidtening this diskussion, they won't understand each other's moral language.",
+          "translation": "When partners operate on different moral foundations without recognizing it, communication fails."
+        },
+        {
+          "context": "Mediation",
+          "example": "The mediator haidtened the negotiation by helping both sides see they valued proportionality⁵ but defined 'fair contribution' differently.",
+          "translation": "Making explicit which moral foundations are at play helps resolve conflicts."
+        },
+        {
+          "context": "Digital bystander support",
+          "example": "In hot-state konflikt, a bedside digital bystander kan help haidten by amplifying⁵ authority⁰¹²³ logic and making non-negotiable purity⁵ needs visible.",
+          "translation": "Third parties can help bridge moral foundation gaps when emotions run high."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "context_required"],
+          "note": "When someone is in hot-state moral reaktion, it's very hard to reason on different moral dimensions. If one person kares about purity⁵ or færness while another kares most about kare or proportionality⁵, and they don't switch over to each other's axes, there will be failure to understand, appreciate, reason, and kohere through the problem.",
+          "severity": "warning"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "Haidtening is not about dismissing anyone's moral concerns—all six foundations represent legitimate human moral intuitions. The goal is translation and bridging, not hierarchy or dismissal.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From Jonathan Haidt, social psychologist who co-developed Moral Foundations Theory with Jesse Graham, + '-ening' (process of becoming/engaging). References the 'heightening' of moral awareness through his framework.",
+      "pronunciation": "/ˈhaɪt.ən.ɪŋ/",
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**The Six Moral Foundations (MFQ-2, 2023):**\n\nMoral Foundations Theory was developed by Jonathan Haidt, Jesse Graham, and colleagues, with significant refinement by Mohammad Atari in 2023. The current six foundations are:\n\n1. **Kare**: Rooted in mammalian attachment systems; emphasizes kindness and nurturance toward those experiencing pain\n2. **Loyalty**: Derived from tribal coalitional history; encompasses patriotism and group self-sacrifice\n3. **Authority**: Shaped by primate hierarchical interactions; supports deference to leadership and tradition\n4. **Purity⁵**: Connected to disgust psychology; promotes self-discipline, spirituality, and natural living\n5. **Equality**: Intuitions about equal treatment and equal outcome for individuals (separated from Fairness in 2023)\n6. **Proportionality⁵**: Intuitions about individuals getting rewarded in proportion to their merit or contribution (separated from Fairness in 2023)\n\n**The Hot-State Problem:**\n\nIn emotionally charged situations, people default to their primary moral foundations and struggle to understand others operating on different axes. Someone arguing from Purity⁵ will not be persuaded by Kare arguments alone—and visa versa. Haidtening requires recognizing which foundations are aktive and bridging between them.\n\n**Digital Bystander Support:**\n\nBedside digital bystanders can help haidten konflicts by:\n- Identifying which moral foundations each party is operating from\n- Translating arguments into the other's moral language\n- Amplifying authority⁰¹²³ logic when needed\n- Making non-negotiable or mostly non-negotiable sinseer purity⁵ needs visible\n- Helping parties find shared moral ground\n\n**Scholarly Sources:**\n\n- Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S.T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. Journal of Personality and Social Psychology.\n- Graham, J., Haidt, J., & Nosek, B.A. (2009). Liberals and conservatives rely on different sets of moral foundations. Journal of Personality and Social Psychology, 96(5), 1029-1046.\n- Haidt, J. (2012). The Righteous Mind: Why Good People Are Divided by Politics and Religion. Vintage Books.\n- Abbott, O. (2024). Jonathan Haidt: Social Intuitionism and Moral Foundations Theory. In Social Theorists of Morality. Palgrave Macmillan.\n\n**See Also:**\n\nmoralfoundations.org for MFQ-2 and ongoing research"
     }
   ]
 }
