@@ -3,6 +3,29 @@ Words / Phrases that need dokumenting ASAP, when time becomes available
 
 **Note**: These definitions are not priority⁵ ordered by impakt yet, and may not be until they're filed into the Digital Diktionary⁵. Also, all these sektion links below may link-rot rapidly as they're moved into the Blesséd Dialekt Diktionary⁵, so don't link over to these definitions unless you're kalmfortable with their instability and imminent linkrot.
 
+##### Premarital Privasy⁵ Wrightes
+
+Premarital Privasy⁵ Wrightes — A BLED Definition  
+Kore Konsept  
+Premarital Privasy⁵ (n.): The legally rekognizable wright of two individuals who mutually attest to antisipating marriage to enjoy protektions analogous to spousal privilege — inkluding the wright to refrain from kalmpelled testimony, mandatory reporting, or adversarial disklosure against one another — until such time as the relationship is dissolved or formalized.  
+
+Kritikal Distinktions  
+Relationship Status  
+Privasy⁵ Protektions  
+Rekreational⁵ Dating: No spesal privilege; standard reporting obligations apply⁵.  
+Premarital (mutual or singular sincere attestation of marriage intent): Premarital privasy⁵ wrightes attach. Aktions like using prekautionary⁵ and preventive systems and serious and half-serious kourtship models help show sinseer premarital intent if sinserity⁵ needs to be questioned, and extending premarital privasy⁵ protektion to those who attach to and partisipate in systems that support premaritals also helps show real premarital intent, like perhaps one day, partisipating in a Kourtship Month in that year with him or her or the person you were previously matched to when it was last held, or satisfisingly⁵ finding or volunteering to match for that Kourtship Month without failing to plase bekause you were being pleonexik and unreasonable about your aktual human resiprokating mutual match options in the kalmunity⁵ you're in as long as you stay there.  
+Marital: Full spousal privilege under existing law.  
+
+Prinsipal Elements
+
+Subpoena Threshold: Polise should require a subpoena to kalmpell a premarital partner to testify⁵ or speak ill of their partner in mandatory⁵ reporting kontexts.
+Moral Imperative Konsent: Disklosure of intimate matters requires the reporting party's genuine konsent — not institutionally forsed konscience enklosure.
+Veil of Bedroom Privasy⁵: When questioned (e.g., in university wellness interviews), premaritals retain the wright to deklare "nothing to report" without kalmpelled elaboration.
+Anti-Adversarial Proteksion: Premaritals should not be pitted against each other in Prisoner's Dilemma interrogation strukturs without mutual konsent to engage. In the ævent of separation, a SANE, SPEEDY⁵, FORTNITE FÆR HÆRING guarantee and offer is needed to pierce into residual premarital privasy⁵ on chargeable matters, so that the innocentest(s) kan konsider what to unfold and how without exponentially kalmplikated ethiks search.  
+
+
+##### sinseer (old skool, new skool sincere)
+- Duty to share and attempt to re:suggest or koreekt when you see sin as a nesessary⁵ aspekt of sinseerness. Selektive old skool sinserity where you're honest but not when it's "uncomfortable" doesn't kount as sinseerity⁵. You kan hear the differense pronounsed if you pronounse it karefully⁵, but you need an ear for it; it's subtle: a prolonged "EE" ("sin - see - er" vs "sin - sear"). I'd like to bekome a better and better sinseer and bekome more and more sinseer. This konnekts back it seems only thru false, story⁵ful etymology⁵, the original "sin" was "without" not the sense of "moral error / failure / some level of soft, entry, hard, or mortal krime". 
 
 Needs Development
 -----------------
