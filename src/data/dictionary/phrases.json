@@ -971,38 +971,6 @@
       "contributors": ["lifesaverlabs"]
     },
     {
-      "id": 156,
-      "term": "thoughtfulness ranges",
-      "letter": "T",
-      "definitionStandard": "The spectrum of deliberation appropriate to different situations, indicated by superscript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep philosophizing; kalmunity²³⁴ operates on established authority. Sometimes final justifications¹ are nonarguable. The appropriate thoughtfulness range depends on what's at stake and how much time is available for deliberation.",
-      "definitionDialect": "The spektrum of deliberation appropriate to different situations, indikated by superskript numbers (¹²³⁴⁵). Kalmunity⁴⁵ requires deep filosofizing; kalmunity²³⁴ operates on established authority²³⁴. Sometimes final justifikations¹ are nonarguable. The appropriate thortfulness range depends on what's at stake and how much time is available for deliberation.",
-      "usageExamples": [
-        {
-          "context": "Decision-making",
-          "example": "This is a thoughtfulness⁴⁵ decision—take time to philosophize before acting.",
-          "translation": "Some decisions warrant deep deliberation."
-        },
-        {
-          "context": "Emergency response",
-          "example": "In emergencies, thoughtfulness¹² is enough—act on established protocols.",
-          "translation": "Not all situations allow or require deep philosophizing."
-        }
-      ],
-      "harmReductionNotes": [
-        {
-          "categories": ["context_required"],
-          "note": "Applying high thoughtfulness ranges (⁴⁵) to situations requiring quick action can be harmful. Applying low ranges (¹²) to situations deserving deliberation can also cause harm. Match the range to the context.",
-          "severity": "info"
-        }
-      ],
-      "etymology": "Thoughtfulness (quality of careful consideration) + ranges (spectrum of levels). The numeric superscripts provide shorthand for expected deliberation depth.",
-      "pronunciation": "/ˈθɔtfəlnəs reɪndʒɪz/",
-      "intentionalityRating": 4,
-      "dateAdded": "02026-01月23",
-      "contributors": ["lifesaverlabs"],
-      "notes": "**The Scale:**\n\n- **¹**: Final, nonarguable—act on established principle\n- **²³**: Working authority—defer to expertise/tradition\n- **³⁴**: Considered—deliberate but trust precedent\n- **⁴⁵**: Deep philosophizing—question foundations\n- **⁵**: Maximum intentionality—examine everything\n\n**When to Use Which:**\n\nShort-acting needs often require lower thoughtfulness ranges. Life-changing decisions warrant higher ranges. The art is matching the range to the situation."
-    },
-    {
       "id": 157,
       "term": "better life, better death",
       "letter": "B",
