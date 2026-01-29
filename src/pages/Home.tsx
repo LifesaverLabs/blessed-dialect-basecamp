@@ -68,7 +68,7 @@ const Home = () => {
 
           <div className="pt-6 border-t border-border/50 mt-2">
             <a
-              href="https://github.com/LifesaverLabs/blessed-dialect-basecamp/blob/develop/quick_notes/need-documenting.md"
+              href="https://github.com/LifesaverLabs/blessed-dialect-basecamp/blob/develop/quick_notes/need-talkumenting.md"
               target="_blank"
               rel="noopener noreferrer"
             >
