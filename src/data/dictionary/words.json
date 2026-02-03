@@ -3230,6 +3230,48 @@
       "dateAdded": "02026-01月28",
       "contributors": ["lifesaverlabs"],
       "notes": "**The Six Moral Foundations (MFQ-2, 2023):**\n\nMoral Foundations Theory was developed by Jonathan Haidt, Jesse Graham, and colleagues, with significant refinement by Mohammad Atari in 2023. The current six foundations are:\n\n1. **Kare**: Rooted in mammalian attachment systems; emphasizes kindness and nurturance toward those experiencing pain\n2. **Loyalty**: Derived from tribal coalitional history; encompasses patriotism and group self-sacrifice\n3. **Authority**: Shaped by primate hierarchical interactions; supports deference to leadership and tradition\n4. **Purity⁵**: Connected to disgust psychology; promotes self-discipline, spirituality, and natural living\n5. **Equality**: Intuitions about equal treatment and equal outcome for individuals (separated from Fairness in 2023)\n6. **Proportionality⁵**: Intuitions about individuals getting rewarded in proportion to their merit or contribution (separated from Fairness in 2023)\n\n**The Hot-State Problem:**\n\nIn emotionally charged situations, people default to their primary moral foundations and struggle to understand others operating on different axes. Someone arguing from Purity⁵ will not be persuaded by Kare arguments alone—and visa versa. Haidtening requires recognizing which foundations are aktive and bridging between them.\n\n**Digital Bystander Support:**\n\nBedside digital bystanders can help haidten konflicts by:\n- Identifying which moral foundations each party is operating from\n- Translating arguments into the other's moral language\n- Amplifying authority⁰¹²³ logic when needed\n- Making non-negotiable or mostly non-negotiable sinseer purity⁵ needs visible\n- Helping parties find shared moral ground\n\n**Scholarly Sources:**\n\n- Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S.T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. Journal of Personality and Social Psychology.\n- Graham, J., Haidt, J., & Nosek, B.A. (2009). Liberals and conservatives rely on different sets of moral foundations. Journal of Personality and Social Psychology, 96(5), 1029-1046.\n- Haidt, J. (2012). The Righteous Mind: Why Good People Are Divided by Politics and Religion. Vintage Books.\n- Abbott, O. (2024). Jonathan Haidt: Social Intuitionism and Moral Foundations Theory. In Social Theorists of Morality. Palgrave Macmillan.\n\n**See Also:**\n\nmoralfoundations.org for MFQ-2 and ongoing research"
+    },
+    {
+      "id": 166,
+      "term": "pre-kutoff",
+      "letter": "P",
+      "definitionStandard": "The state of having outdated or incomplete knowledge due to systematic information deprivation, often occurring when someone is in an ethics bubble, under a Nobody⁵ precedent, or otherwise isolated from normal media access and social feedback. References the 'knowledge cutoff' concept from AI training but applies to human knowledge states.",
+      "definitionDialect": "The state of having outdated or inkalmpleat knowledge due to systematik information deprivation, often okurring when someone is in an ethics bubble, under a Nobody⁵ presedent, or otherwise isolated from normal media aksess and sosial feedback. References the 'knowledge kutoff' koncept from AI training but applies to human knowledge states.",
+      "usageExamples": [
+        {
+          "context": "Ethics bubble isolation",
+          "example": "The Nobody⁵ presedent I'm in leaves me unsure of what's happening exaktly because my knowledge is 'pre-kutoff', and I don't have normal aksess to normal media or normally kalmpleat sosial feedback.",
+          "translation": "When isolated from information systems, one's knowledge becomes frozen at a cutoff point, creating blind spots about current events."
+        },
+        {
+          "context": "Institutional information control",
+          "example": "After months in pre-kutoff status, she emerged to discover the organization had undergone massive restructuring she knew nothing about.",
+          "translation": "Systematic information deprivation creates knowledge gaps that can be strategically exploited."
+        },
+        {
+          "context": "Recovery from isolation",
+          "example": "He's still operating pre-kutoff—someone needs to update him on the policy changes from the last six months.",
+          "translation": "Recognizing when someone lacks current information helps provide necessary context."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["essential_liberty_at_stake", "power_dynamics"],
+          "note": "Pre-kutoff states can be deliberately imposed as a form of control, isolation, or punishment. Recognizing this pattern is essential for identifying coercive dynamics and information manipulation.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["context_required"],
+          "note": "Not all pre-kutoff states are malicious—sometimes people naturally fall out of the information loop. The harm comes when the knowledge gap is exploited or when someone is systematically prevented from accessing information they need.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "From 'pre-' (before) + 'kutoff' (the point at which AI training data ends, creating a knowledge boundary). Extends the AI concept to human knowledge states, particularly those artificially imposed.",
+      "pronunciation": "/priː ˈkʌt.ɒf/",
+      "intentionalityRating": 4,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**AI Knowledge Kutoff Parallel:**\n\nLarge language models have a 'knowledge kutoff' date—the point at which their training data ends. After this date, they have no information about events. Pre-kutoff extends this concept to humans who are systematically kept from accessing current information.\n\n**Ethics Bubbles and Nobody⁵ Precedents:**\n\nPre-kutoff states often occur within ethics bubbles or under Nobody⁵ precedents where information access is controlled or restricted. The person inside the bubble may not realize how much their knowledge has diverged from current reality.\n\n**Information Asymmetry as Power:**\n\nKeeping someone pre-kutoff creates power asymmetry. Those with current information can exploit gaps in the pre-kutoff person's knowledge, manipulate narratives, or claim things have changed when they haven't (or vice versa).\n\n**Distinguishing Natural vs. Imposed:**\n\n- **Natural pre-kutoff**: Taking a social media break, being on vacation, recovering from illness\n- **Imposed pre-kutoff**: Institutional isolation, information gatekeeping, strategic exclusion from communication channels\n\n**Recovery Process:**\n\nComing out of a pre-kutoff state requires:\n1. Recognizing the knowledge gap exists\n2. Seeking reliable sources to fill in missing information\n3. Being cautious about who provides the 'catch up' narrative\n4. Verifying information independently when possible\n\n**See Also:**\n\nNobody⁵, ethics bubble, information asymmetry, knowledge control"
     }
   ]
 }
