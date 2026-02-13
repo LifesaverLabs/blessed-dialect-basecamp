@@ -70,7 +70,66 @@ Deno.serve(async (req: Request) => {
       ? `${voter_fingerprint}::${browser_fingerprint}`
       : voter_fingerprint;
 
-    // --- Try to insert vote (unique constraint catches duplicates) ---
+    // --- Check for existing vote ---
+    const { data: existingVote } = await supabaseAdmin
+      .from("proposal_votes")
+      .select("id, vote_type")
+      .eq("proposal_id", proposal_id)
+      .eq("voter_fingerprint", compositeFingerprint)
+      .maybeSingle();
+
+    if (existingVote) {
+      if (existingVote.vote_type === vote_type) {
+        // Same vote again — no change needed
+        return new Response(
+          JSON.stringify({
+            error: "Already voted",
+            message: `You've already ${vote_type === "affirm" ? "affirmed" : "dissented"} on this proposal`,
+          }),
+          { status: 409, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+        );
+      }
+
+      // --- Switch vote ---
+      const oldColumn = existingVote.vote_type === "affirm" ? "affirms" : "dissents";
+      const newColumn = vote_type === "affirm" ? "affirms" : "dissents";
+
+      // Update the vote record
+      await supabaseAdmin
+        .from("proposal_votes")
+        .update({ vote_type })
+        .eq("id", existingVote.id);
+
+      // Adjust counts: decrement old, increment new
+      const { data: proposal } = await supabaseAdmin
+        .from("proposals")
+        .select("affirms, dissents")
+        .eq("id", proposal_id)
+        .single();
+
+      if (proposal) {
+        const p = proposal as Record<string, number>;
+        await supabaseAdmin
+          .from("proposals")
+          .update({
+            [oldColumn]: Math.max(0, p[oldColumn] - 1),
+            [newColumn]: p[newColumn] + 1,
+          })
+          .eq("id", proposal_id);
+      }
+
+      // Record rate limit entry for the switch
+      await supabaseAdmin
+        .from("vote_rate_limits")
+        .insert({ ip_address: ip, proposal_id });
+
+      return new Response(
+        JSON.stringify({ success: true, switched: true }),
+        { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    // --- New vote: insert ---
     const { error: voteError } = await supabaseAdmin
       .from("proposal_votes")
       .insert({
@@ -80,18 +139,7 @@ Deno.serve(async (req: Request) => {
         browser_fingerprint: browser_fingerprint || null,
       });
 
-    if (voteError) {
-      if (voteError.code === "23505") {
-        return new Response(
-          JSON.stringify({
-            error: "Already voted",
-            message: "You've already voted on this proposal",
-          }),
-          { status: 409, headers: { ...corsHeaders, "Content-Type": "application/json" } }
-        );
-      }
-      throw voteError;
-    }
+    if (voteError) throw voteError;
 
     // --- Record rate limit entry ---
     await supabaseAdmin
