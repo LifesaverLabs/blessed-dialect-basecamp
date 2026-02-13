@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Textarea } from "@/components/ui/textarea";
 import { ThumbsUp, ThumbsDown, MessageSquare, Send } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import type { Proposal } from "@/hooks/use-forum";
 import { useKalments } from "@/hooks/use-forum";
@@ -60,26 +61,41 @@ export function ProposalCard({ proposal, onAffirm, onDissent }: ProposalCardProp
           </div>
         )}
 
-        <div className="flex items-center gap-4 pt-4 border-t border-border flex-wrap">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => onAffirm(proposal.id)}
-            className="gap-2 hover:bg-affirm/10 hover:text-affirm hover:border-affirm"
-          >
-            <ThumbsUp className="w-4 h-4" />
-            Affirm ({proposal.affirms})
-          </Button>
+        <TooltipProvider delayDuration={200}>
+          <div className="flex items-center gap-4 pt-4 border-t border-border flex-wrap">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => onAffirm(proposal.id)}
+                  className="gap-2 hover:bg-affirm/10 hover:text-affirm hover:border-affirm"
+                >
+                  <ThumbsUp className="w-4 h-4" />
+                  Affirm ({proposal.affirms})
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="max-w-[260px] text-center">
+                <p className="text-xs">Please chek that your y⁵ for affirming is represented in at least one kalment below.</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => onDissent(proposal.id)}
-            className="gap-2 hover:bg-dissent/10 hover:text-dissent hover:border-dissent"
-          >
-            <ThumbsDown className="w-4 h-4" />
-            Dissent ({proposal.dissents})
-          </Button>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => onDissent(proposal.id)}
+                  className="gap-2 hover:bg-dissent/10 hover:text-dissent hover:border-dissent"
+                >
+                  <ThumbsDown className="w-4 h-4" />
+                  Dissent ({proposal.dissents})
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="max-w-[260px] text-center">
+                <p className="text-xs">Please chek that your y⁵ for dissenting is represented in at least one kalment below.</p>
+              </TooltipContent>
+            </Tooltip>
 
           <Collapsible open={kalmentsOpen} onOpenChange={setKalmentsOpen}>
             <CollapsibleTrigger asChild>
@@ -89,7 +105,8 @@ export function ProposalCard({ proposal, onAffirm, onDissent }: ProposalCardProp
               </Button>
             </CollapsibleTrigger>
           </Collapsible>
-        </div>
+          </div>
+        </TooltipProvider>
 
         <Collapsible open={kalmentsOpen} onOpenChange={setKalmentsOpen}>
           <CollapsibleContent className="space-y-4 pt-2">
