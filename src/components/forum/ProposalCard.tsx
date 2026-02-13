@@ -8,6 +8,10 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import type { Proposal } from "@/hooks/use-forum";
 import { useKalments } from "@/hooks/use-forum";
+import { useKalmiteeRekommendations } from "@/hooks/use-kalmitee";
+import { KonfidenceScale } from "@/components/forum/KonfidenceScale";
+import { KalmiteeInput } from "@/components/forum/KalmiteeInput";
+import { useAuth } from "@/contexts/AuthContext";
 
 interface ProposalCardProps {
   proposal: Proposal;
@@ -27,6 +31,11 @@ export function ProposalCard({ proposal, onAffirm, onDissent }: ProposalCardProp
   const { kalments, loading: kalmentsLoading, addKalment } = useKalments(
     kalmentsOpen ? proposal.id : null
   );
+  const { rekommendations, averageKonfidence, submitRekommendation } =
+    useKalmiteeRekommendations(proposal.id);
+  const { user, isKalmiteeMember } = useAuth();
+
+  const myRekommendation = rekommendations.find((r) => r.member_id === user?.id);
 
   const handleSubmitKalment = async () => {
     if (!newKalment.trim()) return;
@@ -59,6 +68,18 @@ export function ProposalCard({ proposal, onAffirm, onDissent }: ProposalCardProp
               {proposal.reasoning}
             </p>
           </div>
+        )}
+
+        {averageKonfidence !== null && (
+          <KonfidenceScale value={averageKonfidence} memberCount={rekommendations.length} />
+        )}
+
+        {isKalmiteeMember && (
+          <KalmiteeInput
+            onSubmit={(k, n) => submitRekommendation(k, n, user!.id)}
+            existingKonfidence={myRekommendation?.konfidence}
+            existingNotes={myRekommendation?.notes}
+          />
         )}
 
         <TooltipProvider delayDuration={200}>

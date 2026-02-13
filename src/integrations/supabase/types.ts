@@ -14,6 +14,68 @@ export type Database = {
   }
   public: {
     Tables: {
+      kalmitee_rekommendations: {
+        Row: {
+          id: string
+          konfidence: number
+          kreated_at: string
+          member_id: string
+          notes: string | null
+          proposal_id: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          konfidence: number
+          kreated_at?: string
+          member_id: string
+          notes?: string | null
+          proposal_id: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          konfidence?: number
+          kreated_at?: string
+          member_id?: string
+          notes?: string | null
+          proposal_id?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "kalmitee_rekommendations_proposal_id_fkey"
+            columns: ["proposal_id"]
+            isOneToOne: false
+            referencedRelation: "proposals"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      profiles: {
+        Row: {
+          display_name: string
+          id: string
+          kreated_at: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          display_name?: string
+          id?: string
+          kreated_at?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          display_name?: string
+          id?: string
+          kreated_at?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       proposal_kalments: {
         Row: {
           author: string
@@ -120,6 +182,27 @@ export type Database = {
         }
         Relationships: []
       }
+      user_roles: {
+        Row: {
+          id: string
+          kreated_at: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          id?: string
+          kreated_at?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          id?: string
+          kreated_at?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
       vote_rate_limits: {
         Row: {
           id: string
@@ -154,10 +237,16 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "kalmitee_member" | "user"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -284,6 +373,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["kalmitee_member", "user"],
+    },
   },
 } as const
