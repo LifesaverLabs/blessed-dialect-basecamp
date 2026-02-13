@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { DialectProvider } from "@/contexts/DialectContext";
 import { AgeVerificationProvider } from "@/contexts/AgeVerificationContext";
+import { AuthProvider } from "@/contexts/AuthContext";
 import { AgeVerificationModal } from "@/components/AgeVerificationModal";
 import Home from "./pages/Home";
 import Dictionary from "./pages/Dictionary";
@@ -13,6 +14,7 @@ import Forum from "./pages/Forum";
 import About from "./pages/About";
 import Timeline from "./pages/Timeline";
 import KB from "./pages/KB";
+import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,22 +24,25 @@ const App = () => (
     <TooltipProvider>
       <DialectProvider>
         <AgeVerificationProvider>
-          <Toaster />
-          <Sonner />
-          <AgeVerificationModal />
-          <BrowserRouter>
-            <Navigation />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/dictionary" element={<Dictionary />} />
-              <Route path="/forum" element={<Forum />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/timeline" element={<Timeline />} />
-              <Route path="/kb" element={<KB />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </BrowserRouter>
+          <AuthProvider>
+            <Toaster />
+            <Sonner />
+            <AgeVerificationModal />
+            <BrowserRouter>
+              <Navigation />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/dictionary" element={<Dictionary />} />
+                <Route path="/forum" element={<Forum />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/timeline" element={<Timeline />} />
+                <Route path="/kb" element={<KB />} />
+                <Route path="/auth" element={<Auth />} />
+                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
+          </AuthProvider>
         </AgeVerificationProvider>
       </DialectProvider>
     </TooltipProvider>

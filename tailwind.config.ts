@@ -69,6 +69,10 @@ export default {
           DEFAULT: "hsl(var(--community))",
           foreground: "hsl(var(--community-foreground))",
         },
+        kalmitee: {
+          DEFAULT: "hsl(var(--kalmitee))",
+          foreground: "hsl(var(--kalmitee-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

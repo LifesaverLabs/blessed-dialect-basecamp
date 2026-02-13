@@ -54,6 +54,8 @@ All colors MUST be HSL.
     --dissent-foreground: 0 0% 100%;
     --community: 200 70% 55%;
     --community-foreground: 0 0% 100%;
+    --kalmitee: 270 55% 55%;
+    --kalmitee-foreground: 0 0% 100%;
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -103,6 +105,8 @@ All colors MUST be HSL.
     --dissent-foreground: 0 0% 100%;
     --community: 200 65% 50%;
     --community-foreground: 0 0% 100%;
+    --kalmitee: 270 50% 50%;
+    --kalmitee-foreground: 0 0% 100%;
   }
 }
 

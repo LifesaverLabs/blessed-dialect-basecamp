@@ -1,8 +1,12 @@
 import { NavLink } from "@/components/NavLink";
 import { DialectToggle } from "@/components/DialectToggle";
-import { BookOpen, MessageSquare, Info, Keyboard } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
+import { BookOpen, MessageSquare, Info, Keyboard, LogIn, LogOut, Shield } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const Navigation = () => {
+  const { user, isKalmiteeMember, signOut } = useAuth();
+
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-primary text-primary-foreground text-center py-1.5 text-sm font-medium">
@@ -57,6 +61,28 @@ export const Navigation = () => {
               </NavLink>
 
               <DialectToggle />
+
+              {isKalmiteeMember && (
+                <span className="flex items-center gap-1 text-xs text-kalmitee font-medium">
+                  <Shield className="w-3 h-3" /> BDLK
+                </span>
+              )}
+
+              {user ? (
+                <Button variant="ghost" size="sm" onClick={() => signOut()} className="gap-1">
+                  <LogOut className="w-4 h-4" />
+                  Sign Out
+                </Button>
+              ) : (
+                <NavLink
+                  to="/auth"
+                  className="flex items-center gap-1 text-foreground/70 hover:text-foreground transition-colors"
+                  activeClassName="text-primary font-medium"
+                >
+                  <LogIn className="w-4 h-4" />
+                  <span>Sign In</span>
+                </NavLink>
+              )}
             </div>
           </div>
         </div>
