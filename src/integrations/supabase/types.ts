@@ -14,7 +14,109 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      proposal_kalments: {
+        Row: {
+          author: string
+          id: string
+          kontent: string
+          kreated_at: string
+          proposal_id: string
+        }
+        Insert: {
+          author?: string
+          id?: string
+          kontent: string
+          kreated_at?: string
+          proposal_id: string
+        }
+        Update: {
+          author?: string
+          id?: string
+          kontent?: string
+          kreated_at?: string
+          proposal_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "proposal_kalments_proposal_id_fkey"
+            columns: ["proposal_id"]
+            isOneToOne: false
+            referencedRelation: "proposals"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      proposal_votes: {
+        Row: {
+          id: string
+          kreated_at: string
+          proposal_id: string
+          vote_type: string
+          voter_fingerprint: string
+        }
+        Insert: {
+          id?: string
+          kreated_at?: string
+          proposal_id: string
+          vote_type: string
+          voter_fingerprint: string
+        }
+        Update: {
+          id?: string
+          kreated_at?: string
+          proposal_id?: string
+          vote_type?: string
+          voter_fingerprint?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "proposal_votes_proposal_id_fkey"
+            columns: ["proposal_id"]
+            isOneToOne: false
+            referencedRelation: "proposals"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      proposals: {
+        Row: {
+          affirms: number
+          author: string
+          dissents: number
+          id: string
+          kontent: string
+          kreated_at: string
+          reasoning: string | null
+          status: string
+          titel: string
+          updated_at: string
+        }
+        Insert: {
+          affirms?: number
+          author?: string
+          dissents?: number
+          id?: string
+          kontent: string
+          kreated_at?: string
+          reasoning?: string | null
+          status?: string
+          titel: string
+          updated_at?: string
+        }
+        Update: {
+          affirms?: number
+          author?: string
+          dissents?: number
+          id?: string
+          kontent?: string
+          kreated_at?: string
+          reasoning?: string | null
+          status?: string
+          titel?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
