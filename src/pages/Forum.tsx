@@ -74,7 +74,7 @@ const Forum = () => {
     const newEntry = {
       id: Date.now(),
       title: newProposal.title.trim(),
-      author: "community_member",
+      author: "calmunity_member",
       content: newProposal.content.trim(),
       affirms: 0,
       dissents: 0,
