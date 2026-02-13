@@ -41,7 +41,7 @@ describe('Dictionary Data Integrity', () => {
       expect(word.letter).toMatch(/^[A-Z]$/);
 
       // Should have either old or new definition format
-      const hasOldFormat = word.definition !== undefined;
+      const hasOldFormat = 'definition' in word && (word as any).definition !== undefined;
       const hasNewFormat = word.definitionStandard !== undefined || word.definitionDialect !== undefined;
       expect(hasOldFormat || hasNewFormat).toBe(true);
     });
@@ -58,7 +58,7 @@ describe('Dictionary Data Integrity', () => {
       expect(phrase.letter).toMatch(/^[A-Z]$/);
 
       // Should have either old or new definition format
-      const hasOldFormat = phrase.definition !== undefined;
+      const hasOldFormat = 'definition' in phrase && (phrase as any).definition !== undefined;
       const hasNewFormat = phrase.definitionStandard !== undefined || phrase.definitionDialect !== undefined;
       expect(hasOldFormat || hasNewFormat).toBe(true);
     });

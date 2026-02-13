@@ -66,11 +66,24 @@ const Forum = () => {
   };
 
   const handleSubmitProposal = () => {
-    if (!newProposal.title || !newProposal.content) {
+    if (!newProposal.title.trim() || !newProposal.content.trim()) {
       toast.error("Please fill in both title and content");
       return;
     }
-    
+
+    const newEntry = {
+      id: Date.now(),
+      title: newProposal.title.trim(),
+      author: "community_member",
+      content: newProposal.content.trim(),
+      affirms: 0,
+      dissents: 0,
+      comments: 0,
+      status: "active",
+      reasoning: "",
+    };
+
+    setProposals((prev) => [newEntry, ...prev]);
     toast.success("Proposal submitted for community review");
     setNewProposal({ title: "", content: "" });
     setDialogOpen(false);
