@@ -136,7 +136,11 @@ export function useForum() {
       return;
     }
 
-    toast.success(voteType === "affirm" ? "Affirmed" : "Dissented");
+    if (data.switched) {
+      toast.success(`Switched vote to ${voteType}`);
+    } else {
+      toast.success(voteType === "affirm" ? "Affirmed" : "Dissented");
+    }
   };
 
   return { proposals, loading, submitProposal, vote };
