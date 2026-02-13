@@ -48,6 +48,7 @@ export type Database = {
       }
       proposal_votes: {
         Row: {
+          browser_fingerprint: string | null
           id: string
           kreated_at: string
           proposal_id: string
@@ -55,6 +56,7 @@ export type Database = {
           voter_fingerprint: string
         }
         Insert: {
+          browser_fingerprint?: string | null
           id?: string
           kreated_at?: string
           proposal_id: string
@@ -62,6 +64,7 @@ export type Database = {
           voter_fingerprint: string
         }
         Update: {
+          browser_fingerprint?: string | null
           id?: string
           kreated_at?: string
           proposal_id?: string
@@ -116,6 +119,35 @@ export type Database = {
           updated_at?: string
         }
         Relationships: []
+      }
+      vote_rate_limits: {
+        Row: {
+          id: string
+          ip_address: string
+          kreated_at: string
+          proposal_id: string
+        }
+        Insert: {
+          id?: string
+          ip_address: string
+          kreated_at?: string
+          proposal_id: string
+        }
+        Update: {
+          id?: string
+          ip_address?: string
+          kreated_at?: string
+          proposal_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "vote_rate_limits_proposal_id_fkey"
+            columns: ["proposal_id"]
+            isOneToOne: false
+            referencedRelation: "proposals"
+            referencedColumns: ["id"]
+          },
+        ]
       }
     }
     Views: {
