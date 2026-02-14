@@ -3272,6 +3272,127 @@
       "dateAdded": "02026-01月28",
       "contributors": ["lifesaverlabs"],
       "notes": "**AI Knowledge Kutoff Parallel:**\n\nLarge language models have a 'knowledge kutoff' date—the point at which their training data ends. After this date, they have no information about events. Pre-kutoff extends this concept to humans who are systematically kept from accessing current information.\n\n**Ethics Bubbles and Nobody⁵ Precedents:**\n\nPre-kutoff states often occur within ethics bubbles or under Nobody⁵ precedents where information access is controlled or restricted. The person inside the bubble may not realize how much their knowledge has diverged from current reality.\n\n**Information Asymmetry as Power:**\n\nKeeping someone pre-kutoff creates power asymmetry. Those with current information can exploit gaps in the pre-kutoff person's knowledge, manipulate narratives, or claim things have changed when they haven't (or vice versa).\n\n**Distinguishing Natural vs. Imposed:**\n\n- **Natural pre-kutoff**: Taking a social media break, being on vacation, recovering from illness\n- **Imposed pre-kutoff**: Institutional isolation, information gatekeeping, strategic exclusion from communication channels\n\n**Recovery Process:**\n\nComing out of a pre-kutoff state requires:\n1. Recognizing the knowledge gap exists\n2. Seeking reliable sources to fill in missing information\n3. Being cautious about who provides the 'catch up' narrative\n4. Verifying information independently when possible\n\n**See Also:**\n\nNobody⁵, ethics bubble, information asymmetry, knowledge control"
+    },
+    {
+      "id": 167,
+      "term": "USAT²",
+      "letter": "U",
+      "definitionStandard": "United States of America, Tribes, and Territories—a gentle shifted representation of the country's name that acknowledges tribal sovereignty and territorial inclusion without dropping 'America.' Represents the most optimal current reconception while remaining open to future alternatives like native names ('Many Nations' Home'), deontological imperatives (L²U: Love and Liberty⁵ University⁵ / Lifesaver Labs United), or other models for the next Quartermillenial.",
+      "definitionDialect": "United States of Amerka, Tribes, and Territories—a gentle shiftéd representation of the kountry⁵'s name that akknowledges tribal sovereignty and territorial inklusion without dropping 'Amerka.' Represents the most optimal kurrent rekonseption while remaining open to future alternatives like native names ('Many Nations' Home'), deontologikal imperatives (L²U: Love and Liberty⁵ University⁵ / Lifesaver Labs United), or other models for the next Quartermillenial.",
+      "usageExamples": [
+        {
+          "context": "Sovereign recognition",
+          "example": "USAT² akknowledges that tribal nations aren't just within the United States—they're konstitutive sovereigns of it.",
+          "translation": "The name change recognizes tribes as fundamental sovereign entities, not subordinate groups."
+        },
+        {
+          "context": "Future naming evolution",
+          "example": "USAT² is our gentle shift for now, but the next 250 years might bring 'Many Nations' Home' or L²U—whatever serves our Deklaration of Interdependense best.",
+          "translation": "This naming is provisional, open to evolution as ethical frameworks develop."
+        },
+        {
+          "context": "Territorial inclusion",
+          "example": "Puerto Rico, Guam, and other territories are USAT² members, not kolonies or possessions.",
+          "translation": "The ² acknowledges territories as integral parts with full dignity."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["social_kontrakt_at_stake", "context_required"],
+          "note": "USAT² is explicitly provisional—a gentle shift acknowledging current sovereignty models while remaining open to more transformative names. It's not intended to foreclose indigenous renaming or more radical reconceptions of national identity.",
+          "severity": "info"
+        },
+        {
+          "categories": ["power_dynamics"],
+          "note": "The inclusion of 'Tribes' in the name doesn't resolve ongoing sovereignty disputes, treaty violations, or colonial harms. It's a symbolic acknowledgment, not a substitute for substantive justice and self-determination.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "USA (United States of America) + T (Tribes) + ² (superscript indicating squared/elevated status for both Tribes and Territories, or alternatively indicating a second formulation/version of the national conception).",
+      "pronunciation": "/juː ɛs eɪ tiː skwɛrd/ or /juː ɛs eɪ tiː tuː/",
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Why USAT²:**\n\nThis formulation:\n- Retains 'America' (avoiding erasure of the name many identify with)\n- Explicitly includes 'Tribes' (acknowledging indigenous sovereignty)\n- Explicitly includes 'Territories' (acknowledging territorial dignity)\n- Uses ² to indicate elevation, partnership, or 'second version'\n- Remains pronounceable and recognizable\n\n**Alternative Future Names Considered:**\n\n- **Many Nations' Home**: More native-centered, acknowledges pluralism\n- **L²U (polysemik)**: Love and Liberty⁵ University⁵ / Lifesaver Labs United / Liberty⁵ and Lifespan Underwrighters—deontological/teleological imperative names emphasizing ethical aspirations\n- Other models proposed for the next 250 years of 'ethiks rases' and Quartermillenial modeling\n\n**Quartermillenial Context:**\n\nThe U.S. approaches its 250th anniversary (Quartermillenial). USAT² represents an interim ethical evolution—a 'gentle shift' rather than revolutionary renaming, while remaining open to more transformative changes.\n\n**Deklaration of Interdependense:**\n\nUSAT² aligns with 'Deklaration of Interdependense' framing—acknowledging that sovereignty is relational, not absolute. Tribes, territories, states, and federal structures are interdependent sovereigns in Hippokratikally⁵ konsensual futures.\n\n**The ² Symbol:**\n\nThe superscript ² can mean:\n1. Squared/elevated status (Tribes and Territories elevated to explicit recognition)\n2. Second formulation (USAT² as USA 2.0)\n3. Exponential relationship (sovereignty multiplied, not just added)\n\n**Provisional Nature:**\n\nThis is explicitly not the final name. It's the 'most optimal gentle shifted representation as presently konseived'—acknowledging we may adopt better models as our ethical frameworks evolve.\n\n**See Also:**\n\nkountry⁵, sovereignty, Deklaration of Interdependense, Quartermillenial, tribal sovereignty, territorial dignity"
+    },
+    {
+      "id": 168,
+      "term": "desenrascanco",
+      "letter": "D",
+      "definitionStandard": "From Portuguese—the art of improvising a solution when proper resources or planning are lacking. Not merely 'winging it' but a resourceful cultural practice of untangling yourself from any mess with ingenuity and pride. Considered an unofficial national virtue in Portugal, contrasting with German Planung (meticulous planning).",
+      "definitionDialect": "From Português—the art of improvising a solution when proper resourses or planning are lakking. Not merely 'winging it' but a resoureful kultural praktice of untangling yourself from any mess with ingenuity and pride. Konsidered an unoffisial national virtue in Portugal, kontrasting with German Planung (metikulouis planning).",
+      "usageExamples": [
+        {
+          "context": "Resourceful problem-solving",
+          "example": "We didn't have the right tools, but with some desenrascanco we got the projekt working with dukt tape and wire.",
+          "translation": "Making things work with improvised solutions when proper resources aren't available."
+        },
+        {
+          "context": "Cultural practice",
+          "example": "Portuguese desenrascanco versus German Planung—two filosofies of how to approch the unprediktable.",
+          "translation": "Contrasting cultural approaches to planning and improvisation."
+        },
+        {
+          "context": "Pride in adaptability",
+          "example": "It's not just surviving the kaos—desenrascanco is taking pride in how kreatively you untangle yourself.",
+          "translation": "The concept carries cultural pride in resourcefulness, not just pragmatic adaptation."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["context_required"],
+          "note": "Desenrascanco celebrates adaptability but shouldn't excuse systemic failure to provide proper resources. There's a difference between cultural resourcefulness and institutional neglect that forces improvisation.",
+          "severity": "info"
+        }
+      ],
+      "etymology": "Portuguese: des- (un-, reversal prefix) + en- (in) + rascar/rascas (to scratch, or colloquially a scrape/jam) + -anço (nominalizing suffix, like -ance in English). Literally 'to un-scratch yourself out of a tight spot.'",
+      "pronunciation": "/dɛ.zẽ.ʁɐʃ.ˈkɐ̃.su/ (Portuguese) or anglicized /dɛ.sɛn.ɹæs.ˈkæn.soʊ/",
+      "intentionalityRating": 3,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**Quintessentially Portuguese:**\n\nDesenrascanco is considered a defining Portuguese cultural trait—the ability to make things work without a manual and a budget, using duct tape and ingenuity. It's contrasted with German Planung (meticulous planning) as almost the philosophical opposite.\n\n**Not Just 'Winging It':**\n\nThe concept carries resourceful pride. It's not chaotic improvisation but skilled adaptation—the cultural value of being able to untangle yourself from any mess, no matter how constrained the resources.\n\n**The -anço Suffix:**\n\nThe nominalizing suffix -anço turns the verb desenrascar into an abstract quality or practice, similar to how -ance works in English (e.g., brilliance, defiance).\n\n**Cultural Pride:**\n\nThere's real pride in desenrascanco in Portuguese culture. It represents resilience, creativity, and the ability to function in imperfect conditions—a survival skill elevated to a virtue.\n\n**Connection to Preventable Guilt:**\n\nDesenrascanco relates to preventable guilt—when systems fail to provide proper resources, people must improvise. If the improvisation fails, is it entirely their fault, or is there preventable guilt in the system that forced desenrascanco instead of providing proper planning and resources?\n\n**See Also:**\n\npreventable guilt, resoursefulness, kreative adaptation"
+    },
+    {
+      "id": 169,
+      "term": "preventable guilt",
+      "letter": "P",
+      "definitionStandard": "A situation where someone is fully responsible (100% mea culpa) for an error, fault, or sin, yet there existed preventable systemic failures that could have believably blocked the wrongdoing given the person's level of intent and general character. The guilt is real, but prevention was possible through better systems, procedures, or technologies.",
+      "definitionDialect": "A situtation where someone is fully responsible (100% mea kulpa) for an error, fault, or sin, yet there existed preventable systemik failures that kould have believably bloked the wrongdoing given the person's level of intent and general kareaktor. The guilt is real, but prevention was possible thru better systems, prosedures, or teknologies.",
+      "usageExamples": [
+        {
+          "context": "Cash handling",
+          "example": "The unloked, unmonitored kashbox creates preventable guilt—yes, they're 100% responsible for mismanagement, but sivigiously-segregated funds and 0-out akounting kould have prevented it.",
+          "translation": "System design failures create conditions where wrongdoing becomes more likely, even though individuals remain responsible."
+        },
+        {
+          "context": "Zimmerman-Martin case",
+          "example": "If Zimmerman had karried a Z-M harm less (non-lethal) instead of a firearm, would Trayvon Martin be alive today⁵? That's preventable guilt extending beyond the shooter.",
+          "translation": "Technology and policy choices create preventable guilt when lethal options are provided where non-lethal alternatives could prevent deaths."
+        },
+        {
+          "context": "Jury dikta",
+          "example": "Juries kan issue dikta judgments identifying preventable guilt that extends to parties not represented in the trial—systems, institutions, or policymakers who kould have prevented harm.",
+          "translation": "Legal recognition that responsibility extends beyond the immediate actor to systemic failures."
+        }
+      ],
+      "harmReductionNotes": [
+        {
+          "categories": ["life_at_stake", "context_required"],
+          "note": "Preventable guilt doesn't excuse individual wrongdoing—mea culpa remains 100%. But it identifies where systemic changes could prevent future harms. This is especially critical when lives are at stake.",
+          "severity": "critical"
+        },
+        {
+          "categories": ["power_dynamics"],
+          "note": "Those with power to design systems bear preventable guilt when they choose designs that predictably enable harm. This includes: unlocked cash boxes for fundraising, firearms over non-lethal alternatives, delayed emergency response systems.",
+          "severity": "warning"
+        }
+      ],
+      "etymology": "Preventable (able to be stopped from happening) + guilt (responsibility for wrongdoing). The concept identifies that while guilt exists, prevention was systematically possible.",
+      "pronunciation": "/prɪˈvɛn.tə.bəl ɡɪlt/",
+      "intentionalityRating": 5,
+      "dateAdded": "02026-01月28",
+      "contributors": ["lifesaverlabs"],
+      "notes": "**100% Mea Culpa + Systemic Responsibility:**\n\nPreventable guilt doesn't reduce individual responsibility. If you mismanaged cash, you're 100% responsible. But if the system put you in an unlocked, unmonitored cashbox situation, the system bears preventable guilt for creating conditions where error was more likely.\n\n**Classic Example: Unlocked Cashbox:**\n\nHistorical social science research on bagel fundraising showed surprising rates of cash mismanagement with unlocked, unmonitored cashboxes. Some was malicious; some was poor procedural management (cash mixing in wallets, lost track of donations). Both are the individual's fault—but civigiously-segregated funds and point-of-exchange technology with 0-out accounting could have prevented it.\n\n**Zimmerman-Martin Case:**\n\nThe author's break-out moment on engineering countercharge on preventable guilt: George Zimmerman shot Trayvon Martin. If Zimmerman had carried a Z-M harm less (non-lethal weapon) instead of a firearm, would Trayvon be alive today⁵? Only Zimmerman knows exactly what happened—there's one witness alive instead of two. Preventable guilt extends to:\n- Firearm availability over non-lethal alternatives\n- Lack of Naybor SOS 0th responders who could have arrived faster (10-11 minute gap before EMS)\n- No technology to interrogate recently dying brains for witness testimony\n\n**Trayvon Martin Timeline:**\n\n- 7:17 PM: Shooting occurred\n- 7:19-7:21 PM (est.): Police arrived, performed CPR for 6 minutes\n- 7:27 PM: EMS arrived\n- 7:30 PM: Pronounced dead\n\n10-11 minute gap from shooting to EMS. Naybor SOS 0th responders could arrive in under 90 seconds, ask dying Trayvon what happened, serve as witness for those in death throes who can't bear witness later.\n\n**Jury Dikta on Preventable Guilt:**\n\nJuries can work together to identify where parties charged are not the only parties preventably responsible. Issue dikta judgments extending to other components of the world that could have helped prevent harm, even if not represented in the hearing or trial.\n\n**Finding Preventable Guilt:**\n\nThe author tries to find preventable guilt where it exists because it helps prevent huge classes and enormous numbers of innocence loss. We can imagine where, in exchange, preventable guilt exists and work to address systemic failures.\n\n**See Also:**\n\ndesenrascanco, mea kulpa, Z-M harm less, Naybor SOS, 0th responders, sivigiously-segregated, dikta"
     }
   ]
 }
