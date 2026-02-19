@@ -32,6 +32,30 @@ Deno.serve(async (req: Request) => {
       );
     }
 
+    // Validate proposal_id is a valid UUID
+    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+    if (typeof proposal_id !== "string" || !uuidRegex.test(proposal_id)) {
+      return new Response(
+        JSON.stringify({ error: "Invalid proposal_id format" }),
+        { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    // Validate fingerprint formats and lengths
+    if (typeof voter_fingerprint !== "string" || voter_fingerprint.length < 10 || voter_fingerprint.length > 100) {
+      return new Response(
+        JSON.stringify({ error: "Invalid voter_fingerprint" }),
+        { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
+    if (browser_fingerprint && (typeof browser_fingerprint !== "string" || browser_fingerprint.length > 100)) {
+      return new Response(
+        JSON.stringify({ error: "Invalid browser_fingerprint" }),
+        { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
+
     // Use service role for rate limit table access
     const supabaseAdmin = createClient(
       Deno.env.get("SUPABASE_URL")!,
